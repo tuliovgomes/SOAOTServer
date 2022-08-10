@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<houses>
+	<house name="ramses II #1" houseid="1" entryx="1000" entryy="1026" entryz="4" rent="0" townid="1" size="62" />
+	<house name="Fidelitas  #1" houseid="3434" entryx="965" entryy="1016" entryz="6" rent="0" townid="1" size="12" />
+	<house name="Fidelitas  #2" houseid="3435" entryx="965" entryy="1024" entryz="6" rent="0" townid="1" size="12" />
+	<house name="Fidelitas  #3" houseid="3436" entryx="965" entryy="1027" entryz="6" rent="0" townid="1" size="12" />
+	<house name="Fidelitas  #4" houseid="3437" entryx="967" entryy="1017" entryz="6" rent="0" townid="1" size="12" />
+	<house name="Fidelitas  #5" houseid="3438" entryx="967" entryy="1024" entryz="6" rent="0" townid="1" size="12" />
+	<house name="Fidelitas  #6" houseid="3439" entryx="967" entryy="1028" entryz="6" rent="0" townid="1" size="12" />
+	<house name="Fidelitas  #7" houseid="3440" entryx="961" entryy="1014" entryz="7" rent="0" townid="1" size="12" />
+	<house name="Fidelitas  #8" houseid="3441" entryx="965" entryy="1024" entryz="7" rent="0" townid="1" size="12" />
+	<house name="Fidelitas  #9" houseid="3442" entryx="965" entryy="1027" entryz="7" rent="0" townid="1" size="12" />
+	<house name="Fidelitas  #10" houseid="3443" entryx="967" entryy="1019" entryz="7" rent="0" townid="1" size="12" />
+	<house name="Fidelitas  #11" houseid="3444" entryx="974" entryy="1023" entryz="7" rent="0" townid="1" size="12" />
+	<house name="Fidelitas  #12" houseid="3445" entryx="967" entryy="1027" entryz="7" rent="0" townid="1" size="12" />
+	<house name="Fidelitas Village  #1" houseid="3446" entryx="968" entryy="1000" entryz="7" rent="0" townid="1" size="16" />
+	<house name="Fidelitas Village  #2" houseid="3447" entryx="965" entryy="1001" entryz="7" rent="0" townid="1" size="6" />
+	<house name="Fidelitas Village  #3" houseid="3448" entryx="964" entryy="1008" entryz="7" rent="0" townid="1" size="4" />
+	<house name="Fidelitas Village  #4" houseid="3449" entryx="968" entryy="1003" entryz="7" rent="0" townid="1" size="6" />
+	<house name="Fidelitas Village  #5" houseid="3450" entryx="970" entryy="1008" entryz="7" rent="0" townid="1" size="4" />
+	<house name="Fidelitas Village  #6" houseid="3451" entryx="968" entryy="1000" entryz="6" rent="0" townid="1" size="16" />
+	<house name="Fidelitas Village  #7" houseid="3452" entryx="965" entryy="1001" entryz="6" rent="0" townid="1" size="6" />
+	<house name="Fidelitas Village  #8" houseid="3453" entryx="968" entryy="1003" entryz="6" rent="0" townid="1" size="16" />
+	<house name="Fidelitas Village  #9" houseid="3454" entryx="968" entryy="1001" entryz="6" rent="0" townid="1" size="6" />
+	<house name="Fidelitas alphaville #1" houseid="3655" entryx="1006" entryy="985" entryz="7" rent="0" townid="1" size="26" />
+	<house name="Fidelitas alphaville #2" houseid="3656" entryx="1013" entryy="985" entryz="7" rent="0" townid="1" size="41" />
+	<house name="Fidelitas alphaville #3" houseid="3657" entryx="1004" entryy="986" entryz="7" rent="0" townid="1" size="28" />
+	<house name="Fidelitas alphaville #4" houseid="3658" entryx="1015" entryy="986" entryz="7" rent="0" townid="1" size="28" />
+	<house name="Fidelitas alphaville #5" houseid="3659" entryx="1007" entryy="992" entryz="6" rent="0" townid="1" size="16" />
+	<house name="Fidelitas alphaville #6" houseid="3660" entryx="1008" entryy="992" entryz="6" rent="0" townid="1" size="143" />
+	<house name="Fidelitas alphaville #7" houseid="3661" entryx="1008" entryy="985" entryz="6" rent="0" townid="1" size="24" />
+	<house name="Fidelitas alphaville #8" houseid="3662" entryx="1007" entryy="987" entryz="6" rent="0" townid="1" size="16" />
+	<house name="Fidelitas alphaville #9" houseid="3663" entryx="1008" entryy="984" entryz="6" rent="0" townid="1" size="58" />
+	<house name="Fidelitas alphaville #10" houseid="3664" entryx="1008" entryy="979" entryz="5" rent="0" townid="1" size="26" />
+	<house name="Fidelitas alphaville #11" houseid="3665" entryx="1009" entryy="983" entryz="5" rent="0" townid="1" size="78" />
+	<house name="Fidelitas alphaville #12" houseid="3666" entryx="1007" entryy="986" entryz="5" rent="0" townid="1" size="18" />
+	<house name="Fidelitas alphaville #13" houseid="3667" entryx="1002" entryy="986" entryz="5" rent="0" townid="1" size="18" />
+</houses>

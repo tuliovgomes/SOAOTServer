@@ -1,5 +1,5 @@
 -- Canary - Database (Schema)
-
+use soa;
 -- Table structure `server_config`
 CREATE TABLE IF NOT EXISTS `server_config` (
     `config` varchar(50) NOT NULL,

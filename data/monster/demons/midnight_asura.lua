@@ -103,7 +103,6 @@ monster.loot = {
 	{id = 3069, chance = 90}, -- necrotic rod
 	{id = 21981, chance = 80}, -- oriental shoes
 	{id = 21975, chance = 200}, -- peacock feather fan
-	{id = 8061, chance = 90}, -- skullcracker armor
 	{id = 3017, chance = 100}, -- silver brooch
 	{id = 3054, chance = 100}, -- silver amulet
 	{id = 5944, chance = 100}, -- soul orb
