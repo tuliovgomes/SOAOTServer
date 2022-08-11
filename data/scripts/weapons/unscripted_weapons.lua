@@ -1,139 +1,259 @@
 local weapons = {
 	{
 		-- gilded eldritch rod
-		itemId = 36675,
+		itemid = 36675,
 		type = WEAPON_WAND,
 		level = 250,
 		unproperly = true,
 		vocation = {
 			{"Druid", true},
-			{"Elder Druid"}
+			{"Elder Druid"},
+			{"Celtic Druid"},
+			{"Spirit Healer"},
+			{"Divine Mage"}
+		}
+	},
+	{
+		itemid = 7410,
+		type = WEAPON_WAND,
+		wandType = "ice",
+		level = 200,
+		mana = 40,
+		damage = {150, 190},
+		vocation = {
+			{"Druid", true},
+			{"Elder Druid"},
+			{"Celtic Druid"},
+			{"Spirit Healer"},
+			{"Divine Mage"}
+		}
+	},
+	{
+		itemid = 7429,
+		type = WEAPON_WAND,
+		wandType = "holy",
+		level = 170,
+		mana = 40,
+		damage = {130, 150},
+		vocation = {
+			{"Druid", true},
+			{"Elder Druid"},
+			{"Celtic Druid"},
+			{"Spirit Healer"},
+			{"Divine Mage"}
+		}
+	},
+	{
+		itemid = 7424,
+		type = WEAPON_WAND,
+		wandType = "death",
+		level = 200,
+		mana = 40,
+		damage = {150, 190},
+		vocation = {
+			{"Sorcerer", true},
+			{"Master Sorcerer"},
+			{"Archmage"},
+			{"Arcane Wizard"},
+			{"Divine Mage"}
+		}
+	},
+	{
+		itemid = 7451,
+		type = WEAPON_WAND,
+		wandType = "energy",
+		level = 100,
+		mana = 30,
+		damage = {120, 130},
+		vocation = {
+			{"Sorcerer", true},
+			{"Master Sorcerer"},
+			{"Archmage"},
+			{"Arcane Wizard"},
+			{"Divine Mage"}
 		}
 	},
 	{
 		-- eldritch rod
-		itemId = 36674,
+		itemid = 36674,
 		type = WEAPON_WAND,
 		level = 250,
 		unproperly = true,
 		vocation = {
 			{"Druid", true},
-			{"Elder Druid"}
+			{"Elder Druid"},
+			{"Celtic Druid"},
+			{"Spirit Healer"},
+			{"Divine Mage"}
 		}
 	},
 	{
 		-- gilded eldritch wand
-		itemId = 36669,
+		itemid = 36669,
 		type = WEAPON_WAND,
 		level = 250,
 		unproperly = true,
 		vocation = {
 			{"Sorcerer", true},
-			{"Master Sorcerer"}
+			{"Master Sorcerer"},
+			{"Archmage"},
+			{"Arcane Wizard"},
+			{"Divine Mage"}
 		}
 	},
 	{
 		-- eldritch wand
-		itemId = 36668,
+		itemid = 36668,
 		type = WEAPON_WAND,
 		level = 250,
 		unproperly = true,
 		vocation = {
 			{"Sorcerer", true},
-			{"Master Sorcerer"}
+			{"Master Sorcerer"},
+			{"Archmage"},
+			{"Arcane Wizard"},
+			{"Divine Mage"}
 		}
 	},
 	{
 		-- gilded eldritch bow
-		itemId = 36665,
+		itemid = 36665,
 		type = WEAPON_DISTANCE,
 		level = 250,
 		unproperly = true,
 		vocation = {
 			{"Paladin", true},
-			{"Royal Paladin"}
+			{"Royal Paladin"},
+			{"Medieval Crossbowman"},
+			{"Spartan Spearman"},
+			{"Divine Shooter"},
 		}
 	},
 	{
 		-- eldritch bow
-		itemId = 36664,
+		itemid = 36664,
 		type = WEAPON_DISTANCE,
 		level = 250,
 		unproperly = true,
 		vocation = {
 			{"Paladin", true},
-			{"Royal Paladin"}
+			{"Royal Paladin"},
+			{"Medieval Crossbowman"},
+			{"Spartan Spearman"},
+			{"Divine Shooter"},
 		}
 	},
 	{
 		-- gilded eldritch greataxe
-		itemId = 36662,
+		itemid = 36662,
 		type = WEAPON_AXE,
 		level = 270,
 		unproperly = true,
 		vocation = {
 			{"Knight", true},
-			{"Elite Knight"}
+			{"Elite Knight"},
+			{"Templar Knight"},
+			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
+			{"Divine Warrior"}
 		}
 	},
 	{
 		-- eldritch greataxe
-		itemId = 36661,
+		itemid = 36661,
 		type = WEAPON_AXE,
 		level = 270,
 		unproperly = true,
 		vocation = {
 			{"Knight", true},
-			{"Elite Knight"}
+			{"Elite Knight"},
+			{"Templar Knight"},
+			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
+			{"Divine Warrior"}
 		}
 	},
 	{
 		-- gilded eldritch warmace
-		itemId = 36660,
+		itemid = 36660,
 		type = WEAPON_CLUB,
 		level = 270,
 		unproperly = true,
 		vocation = {
 			{"Knight", true},
-			{"Elite Knight"}
+			{"Elite Knight"},
+			{"Templar Knight"},
+			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
+			{"Divine Warrior"}
 		}
 	},
 	{
 		-- eldritch warmace
-		itemId = 36659,
+		itemid = 36659,
 		type = WEAPON_CLUB,
 		level = 270,
 		unproperly = true,
 		vocation = {
 			{"Knight", true},
-			{"Elite Knight"}
+			{"Elite Knight"},
+			{"Templar Knight"},
+			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
+			{"Divine Warrior"}
 		}
 	},
 	{
 		-- gilded eldritch claymore
-		itemId = 36658,
+		itemid = 36658,
 		type = WEAPON_SWORD,
 		level = 270,
 		unproperly = true,
 		vocation = {
 			{"Knight", true},
-			{"Elite Knight"}
+			{"Elite Knight"},
+			{"Templar Knight"},
+			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
+			{"Divine Warrior"}
 		}
 	},
 	{
 		-- eldritch claymore
-		itemId = 36657,
+		itemid = 36657,
 		type = WEAPON_SWORD,
 		level = 270,
 		unproperly = true,
 		vocation = {
 			{"Knight", true},
-			{"Elite Knight"}
+			{"Elite Knight"},
+			{"Templar Knight"},
+			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
+			{"Divine Warrior"}
 		}
 	},
 	{
 		-- spectral bolt (no decay)
-		itemId = 35902,
+		itemid = 35902,
 		type = WEAPON_AMMO,
 		level = 150,
 		unproperly = true,
@@ -141,7 +261,7 @@ local weapons = {
 	},
 	{
 		-- jungle wand
-		itemId = 35522,
+		itemid = 35522,
 		type = WEAPON_WAND,
 		wandType = "earth",
 		level = 150,
@@ -149,12 +269,15 @@ local weapons = {
 		damage = {80, 100},
 		vocation = {
 			{"Sorcerer", true},
-			{"Master Sorcerer"}
+			{"Master Sorcerer"},
+			{"Archmage"},
+			{"Arcane Wizard"},
+			{"Divine Mage"}
 		}
 	},
 	{
 		-- jungle rod
-		itemId = 35521,
+		itemid = 35521,
 		type = WEAPON_WAND,
 		wandType = "ice",
 		level = 150,
@@ -162,78 +285,119 @@ local weapons = {
 		damage = {80, 100},
 		vocation = {
 			{"Druid", true},
-			{"Elder Druid"}
+			{"Elder Druid"},
+			{"Celtic Druid"},
+			{"Spirit Healer"},
+			{"Divine Mage"}
 		}
 	},
 	{
 		-- jungle bow
-		itemId = 35518,
+		itemid = 35518,
 		type = WEAPON_DISTANCE,
 		level = 150,
 		unproperly = true,
 		vocation = {
 			{"Paladin", true},
-			{"Royal Paladin"}
+			{"Royal Paladin"},
+			{"Medieval Crossbowman"},
+			{"Spartan Spearman"},
+			{"Divine Shooter"},
 		}
 	},
 	{
 		-- throwing axe
-		itemId = 35515,
+		itemid = 35515,
 		type = WEAPON_AXE,
 		level = 150,
 		unproperly = true,
 		vocation = {
 			{"Knight", true},
-			{"Elite Knight"}
+			{"Elite Knight"},
+			{"Templar Knight"},
+			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
+			{"Divine Warrior"}
 		}
 	},
 	{
 		-- jungle flail
-		itemId = 35514,
+		itemid = 35514,
 		type = WEAPON_CLUB,
 		level = 150,
 		unproperly = true,
 		vocation = {
 			{"Knight", true},
-			{"Elite Knight"}
+			{"Elite Knight"},
+			{"Templar Knight"},
+			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
+			{"Divine Warrior"}
 		}
 	},
 	{
 		-- lion longsword
-		itemId = 34155,
+		itemid = 34155,
 		type = WEAPON_SWORD,
 		level = 270,
 		unproperly = true,
 		vocation = {
 			{"Knight", true},
-			{"Elite Knight"}
+			{"Elite Knight"},
+			{"Templar Knight"},
+			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
+			{"Divine Warrior"}
 		}
 	},
 	{
 		-- lion hammer
-		itemId = 34254,
+		itemid = 34254,
 		type = WEAPON_CLUB,
 		level = 270,
 		unproperly = true,
 		vocation = {
 			{"Knight", true},
-			{"Elite Knight"}
+			{"Elite Knight"},
+			{"Templar Knight"},
+			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
+			{"Divine Warrior"}
 		}
 	},
 	{
 		-- lion axe
-		itemId = 34253,
+		itemid = 34253,
 		type = WEAPON_AXE,
 		level = 270,
 		unproperly = true,
 		vocation = {
 			{"Knight", true},
-			{"Elite Knight"}
+			{"Elite Knight"},
+			{"Templar Knight"},
+			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
+			{"Divine Warrior"}
 		}
 	},
 	{
 		-- lion wand
-		itemId = 34152,
+		itemid = 34152,
 		type = WEAPON_WAND,
 		wandType = "ice",
 		level = 220,
@@ -241,12 +405,15 @@ local weapons = {
 		damage = {89, 109},
 		vocation = {
 			{"Sorcerer", true},
-			{"Master Sorcerer"}
+			{"Master Sorcerer"},
+			{"Archmage"},
+			{"Arcane Wizard"},
+			{"Divine Mage"}
 		}
 	},
 	{
 		-- lion rod
-		itemId = 34151,
+		itemid = 34151,
 		type = WEAPON_WAND,
 		wandType = "ice",
 		level = 270,
@@ -254,23 +421,29 @@ local weapons = {
 		damage = {85, 105},
 		vocation = {
 			{"Druid", true},
-			{"Elder Druid"}
+			{"Elder Druid"},
+			{"Celtic Druid"},
+			{"Spirit Healer"},
+			{"Divine Mage"}
 		}
 	},
 	{
 		-- lion longbow
-		itemId = 34150,
+		itemid = 34150,
 		type = WEAPON_DISTANCE,
 		level = 270,
 		unproperly = true,
 		vocation = {
 			{"Paladin", true},
-			{"Royal Paladin"}
+			{"Royal Paladin"},
+			{"Medieval Crossbowman"},
+			{"Spartan Spearman"},
+			{"Divine Shooter"},
 		}
 	},
 	{
 		-- soulhexer rod
-		itemId = 34091,
+		itemid = 34091,
 		type = WEAPON_WAND,
 		wandType = "ice",
 		level = 400,
@@ -278,12 +451,15 @@ local weapons = {
 		damage = {98, 118},
 		vocation = {
 			{"Druid", true},
-			{"Elder Druid"}
+			{"Elder Druid"},
+			{"Celtic Druid"},
+			{"Spirit Healer"},
+			{"Divine Mage"}
 		}
 	},
 	{
 		-- soultainter wand
-		itemId = 34090,
+		itemid = 34090,
 		type = WEAPON_WAND,
 		wandType = "death",
 		level = 400,
@@ -291,95 +467,146 @@ local weapons = {
 		damage = {100, 120},
 		vocation = {
 			{"Sorcerer", true},
-			{"Master Sorcerer"}
+			{"Master Sorcerer"},
+			{"Archmage"},
+			{"Arcane Wizard"},
+			{"Divine Mage"}
 		}
 	},
 	{
 		-- soulpiercer crossbow
-		itemId = 34089,
+		itemid = 34089,
 		type = WEAPON_DISTANCE,
 		level = 400,
 		unproperly = true,
 		vocation = {
 			{"Paladin", true},
-			{"Royal Paladin"}
+			{"Royal Paladin"},
+			{"Medieval Crossbowman"},
+			{"Spartan Spearman"},
+			{"Divine Shooter"},
 		}
 	},
 	{
 		-- soulbleeder bow
-		itemId = 34088,
+		itemid = 34088,
 		type = WEAPON_DISTANCE,
 		level = 400,
 		unproperly = true,
 		vocation = {
 			{"Paladin", true},
-			{"Royal Paladin"}
+			{"Royal Paladin"},
+			{"Medieval Crossbowman"},
+			{"Spartan Spearman"},
+			{"Divine Shooter"},
 		}
 	},
 	{
 		-- soulmaimer club
-		itemId = 34087,
+		itemid = 34087,
 		type = WEAPON_CLUB,
 		level = 400,
 		unproperly = true,
 		vocation = {
 			{"Knight", true},
-			{"Elite Knight"}
+			{"Elite Knight"},
+			{"Templar Knight"},
+			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
+			{"Divine Warrior"}
 		}
 	},
 	{
 		-- soulcrusher club
-		itemId = 34086,
+		itemid = 34086,
 		type = WEAPON_CLUB,
 		level = 400,
 		unproperly = true,
 		vocation = {
 			{"Knight", true},
-			{"Elite Knight"}
+			{"Elite Knight"},
+			{"Templar Knight"},
+			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
+			{"Divine Warrior"}
 		}
 	},
 	{
 		-- souleater axe
-		itemId = 34085,
+		itemid = 34085,
 		type = WEAPON_AXE,
 		level = 400,
 		unproperly = true,
 		vocation = {
 			{"Knight", true},
-			{"Elite Knight"}
+			{"Elite Knight"},
+			{"Templar Knight"},
+			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
+			{"Divine Warrior"}
 		}
 	},
 	{
 		-- soulbiter axe
-		itemId = 34084,
+		itemid = 34084,
 		type = WEAPON_AXE,
 		level = 400,
 		unproperly = true,
 		vocation = {
 			{"Knight", true},
-			{"Elite Knight"}
+			{"Elite Knight"},
+			{"Templar Knight"},
+			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
+			{"Divine Warrior"}
 		}
 	},
 	{
 		-- soulshredder sword
-		itemId = 34083,
+		itemid = 34083,
 		type = WEAPON_SWORD,
 		level = 400,
 		unproperly = true,
 		vocation = {
 			{"Knight", true},
-			{"Elite Knight"}
+			{"Elite Knight"},
+			{"Templar Knight"},
+			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
+			{"Divine Warrior"}
 		}
 	},
 	{
 		-- soulcutter sword
-		itemId = 34082,
+		itemid = 34082,
 		type = WEAPON_SWORD,
 		level = 400,
 		unproperly = true,
 		vocation = {
 			{"Knight", true},
-			{"Elite Knight"}
+			{"Elite Knight"},
+			{"Templar Knight"},
+			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
+			{"Divine Warrior"}
 		}
 	},
 	{
@@ -390,7 +617,14 @@ local weapons = {
 		unproperly = true,
 		vocation = {
 			{"Knight", true},
-			{"Elite Knight"}
+			{"Elite Knight"},
+			{"Templar Knight"},
+			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
+			{"Divine Warrior"}
 		}
 	},
 	{
@@ -406,7 +640,14 @@ local weapons = {
 		unproperly = true,
 		vocation = {
 			{"Knight", true},
-			{"Elite Knight"}
+			{"Elite Knight"},
+			{"Templar Knight"},
+			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
+			{"Divine Warrior"}
 		}
 	},
 	{
@@ -417,7 +658,10 @@ local weapons = {
 		unproperly = true,
 		vocation = {
 			{"Paladin", true},
-			{"Royal Paladin"}
+			{"Royal Paladin"},
+			{"Medieval Crossbowman"},
+			{"Spartan Spearman"},
+			{"Divine Shooter"},
 		}
 	},
 	{
@@ -428,7 +672,14 @@ local weapons = {
 		unproperly = true,
 		vocation = {
 			{"Knight", true},
-			{"Elite Knight"}
+			{"Elite Knight"},
+			{"Templar Knight"},
+			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
+			{"Divine Warrior"}
 		}
 	},
 	{
@@ -441,7 +692,10 @@ local weapons = {
 		damage = {70, 110},
 		vocation = {
 			{"Druid", true},
-			{"Elder Druid"}
+			{"Elder Druid"},
+			{"Celtic Druid"},
+			{"Spirit Healer"},
+			{"Divine Mage"}
 		}
 	},
 	{
@@ -454,7 +708,10 @@ local weapons = {
 		damage = {94, 100},
 		vocation = {
 			{"Sorcerer", true},
-			{"Master Sorcerer"}
+			{"Master Sorcerer"},
+			{"Archmage"},
+			{"Arcane Wizard"},
+			{"Divine Mage"}
 		}
 	},
 	{
@@ -465,7 +722,14 @@ local weapons = {
 		unproperly = true,
 		vocation = {
 			{"Knight", true},
-			{"Elite Knight"}
+			{"Elite Knight"},
+			{"Templar Knight"},
+			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
+			{"Divine Warrior"}
 		}
 	},
 	{
@@ -476,7 +740,14 @@ local weapons = {
 		unproperly = true,
 		vocation = {
 			{"Knight", true},
-			{"Elite Knight"}
+			{"Elite Knight"},
+			{"Templar Knight"},
+			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
+			{"Divine Warrior"}
 		}
 	},
 	{
@@ -487,7 +758,14 @@ local weapons = {
 		unproperly = true,
 		vocation = {
 			{"Knight", true},
-			{"Elite Knight"}
+			{"Elite Knight"},
+			{"Templar Knight"},
+			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
+			{"Divine Warrior"}
 		}
 	},
 	{
@@ -498,7 +776,10 @@ local weapons = {
 		unproperly = true,
 		vocation = {
 			{"Paladin", true},
-			{"Royal Paladin"}
+			{"Royal Paladin"},
+			{"Medieval Crossbowman"},
+			{"Spartan Spearman"},
+			{"Divine Shooter"},
 		}
 	},
 	{
@@ -518,7 +799,12 @@ local weapons = {
 			{"Sorcerer", true},
 			{"Druid", true, true},
 			{"Master Sorcerer"},
-			{"Elder Druid"}
+			{"Archmage"},
+			{"Arcane Wizard"},
+			{"Elder Druid"},
+			{"Celtic Druid"},
+			{"Spirit Healer"},
+			{"Divine Mage"}
 		}
 	},
 	{
@@ -529,7 +815,14 @@ local weapons = {
 		unproperly = true,
 		vocation = {
 			{"Knight", true},
-			{"Elite Knight"}
+			{"Elite Knight"},
+			{"Templar Knight"},
+			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
+			{"Divine Warrior"}
 		}
 	},
 	{
@@ -540,7 +833,14 @@ local weapons = {
 		unproperly = true,
 		vocation = {
 			{"Knight", true},
-			{"Elite Knight"}
+			{"Elite Knight"},
+			{"Templar Knight"},
+			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
+			{"Divine Warrior"}
 		}
 	},
 	{
@@ -551,7 +851,14 @@ local weapons = {
 		unproperly = true,
 		vocation = {
 			{"Knight", true},
-			{"Elite Knight"}
+			{"Elite Knight"},
+			{"Templar Knight"},
+			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
+			{"Divine Warrior"}
 		}
 	},
 	{
@@ -562,7 +869,10 @@ local weapons = {
 		unproperly = true,
 		vocation = {
 			{"Paladin", true},
-			{"Royal Paladin"}
+			{"Royal Paladin"},
+			{"Medieval Crossbowman"},
+			{"Spartan Spearman"},
+			{"Divine Shooter"},
 		}
 	},
 	{
@@ -635,7 +945,12 @@ local weapons = {
 			{"Sorcerer", true},
 			{"Druid", true, true},
 			{"Master Sorcerer"},
-			{"Elder Druid"}
+			{"Archmage"},
+			{"Arcane Wizard"},
+			{"Elder Druid"},
+			{"Celtic Druid"},
+			{"Spirit Healer"},
+			{"Divine Mage"}
 		}
 	},
 	{
@@ -650,7 +965,12 @@ local weapons = {
 			{"Sorcerer", true},
 			{"Druid", true, true},
 			{"Master Sorcerer"},
-			{"Elder Druid"}
+			{"Archmage"},
+			{"Arcane Wizard"},
+			{"Elder Druid"},
+			{"Celtic Druid"},
+			{"Spirit Healer"},
+			{"Divine Mage"}
 		}
 	},
 	{
@@ -661,7 +981,14 @@ local weapons = {
 		unproperly = true,
 		vocation = {
 			{"Knight", true},
-			{"Elite Knight"}
+			{"Elite Knight"},
+			{"Templar Knight"},
+			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
+			{"Divine Warrior"}
 		}
 	},
 	{
@@ -672,7 +999,14 @@ local weapons = {
 		unproperly = true,
 		vocation = {
 			{"Knight", true},
-			{"Elite Knight"}
+			{"Elite Knight"},
+			{"Templar Knight"},
+			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
+			{"Divine Warrior"}
 		}
 	},
 	{
@@ -683,7 +1017,14 @@ local weapons = {
 		unproperly = true,
 		vocation = {
 			{"Knight", true},
-			{"Elite Knight"}
+			{"Elite Knight"},
+			{"Templar Knight"},
+			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
+			{"Divine Warrior"}
 		}
 	},
 	{
@@ -694,7 +1035,10 @@ local weapons = {
 		unproperly = true,
 		vocation = {
 			{"Paladin", true},
-			{"Royal Paladin"}
+			{"Royal Paladin"},
+			{"Medieval Crossbowman"},
+			{"Spartan Spearman"},
+			{"Divine Shooter"},
 		}
 	},
 	{
@@ -707,7 +1051,10 @@ local weapons = {
 		damage = {86, 102},
 		vocation = {
 			{"Sorcerer", true},
-			{"Master Sorcerer"}
+			{"Master Sorcerer"},
+			{"Archmage"},
+			{"Arcane Wizard"},
+			{"Divine Mage"}
 		}
 	},
 	{
@@ -720,7 +1067,10 @@ local weapons = {
 		damage = {87, 101},
 		vocation = {
 			{"Druid", true},
-			{"Elder Druid"}
+			{"Elder Druid"},
+			{"Celtic Druid"},
+			{"Spirit Healer"},
+			{"Divine Mage"}
 		}
 	},
 	{
@@ -731,7 +1081,14 @@ local weapons = {
 		unproperly = true,
 		vocation = {
 			{"Knight", true},
-			{"Elite Knight"}
+			{"Elite Knight"},
+			{"Templar Knight"},
+			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
+			{"Divine Warrior"}
 		}
 	},
 	{
@@ -754,7 +1111,10 @@ local weapons = {
 		damage = {80, 110},
 		vocation = {
 			{"Druid", true},
-			{"Elder Druid"}
+			{"Elder Druid"},
+			{"Celtic Druid"},
+			{"Spirit Healer"},
+			{"Divine Mage"}
 		}
 	},
 	{
@@ -767,7 +1127,10 @@ local weapons = {
 		damage = {80, 110},
 		vocation = {
 			{"Sorcerer", true},
-			{"Master Sorcerer"}
+			{"Master Sorcerer"},
+			{"Archmage"},
+			{"Arcane Wizard"},
+			{"Divine Mage"}
 		}
 	},
 	{
@@ -778,7 +1141,10 @@ local weapons = {
 		unproperly = true,
 		vocation = {
 			{"Paladin", true},
-			{"Royal Paladin"}
+			{"Royal Paladin"},
+			{"Medieval Crossbowman"},
+			{"Spartan Spearman"},
+			{"Divine Shooter"},
 		}
 	},
 	{
@@ -789,7 +1155,10 @@ local weapons = {
 		unproperly = true,
 		vocation = {
 			{"Paladin", true},
-			{"Royal Paladin"}
+			{"Royal Paladin"},
+			{"Medieval Crossbowman"},
+			{"Spartan Spearman"},
+			{"Divine Shooter"},
 		}
 	},
 	{
@@ -800,7 +1169,14 @@ local weapons = {
 		unproperly = true,
 		vocation = {
 			{"Knight", true},
-			{"Elite Knight"}
+			{"Elite Knight"},
+			{"Templar Knight"},
+			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
+			{"Divine Warrior"}
 		}
 	},
 	{
@@ -811,7 +1187,14 @@ local weapons = {
 		unproperly = true,
 		vocation = {
 			{"Knight", true},
-			{"Elite Knight"}
+			{"Elite Knight"},
+			{"Templar Knight"},
+			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
+			{"Divine Warrior"}
 		}
 	},
 	{
@@ -822,7 +1205,14 @@ local weapons = {
 		unproperly = true,
 		vocation = {
 			{"Knight", true},
-			{"Elite Knight"}
+			{"Elite Knight"},
+			{"Templar Knight"},
+			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
+			{"Divine Warrior"}
 		}
 	},
 	{
@@ -833,7 +1223,14 @@ local weapons = {
 		unproperly = true,
 		vocation = {
 			{"Knight", true},
-			{"Elite Knight"}
+			{"Elite Knight"},
+			{"Templar Knight"},
+			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
+			{"Divine Warrior"}
 		}
 	},
 	{
@@ -844,7 +1241,14 @@ local weapons = {
 		unproperly = true,
 		vocation = {
 			{"Knight", true},
-			{"Elite Knight"}
+			{"Elite Knight"},
+			{"Templar Knight"},
+			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
+			{"Divine Warrior"}
 		}
 	},
 	{
@@ -855,7 +1259,14 @@ local weapons = {
 		unproperly = true,
 		vocation = {
 			{"Knight", true},
-			{"Elite Knight"}
+			{"Elite Knight"},
+			{"Templar Knight"},
+			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
+			{"Divine Warrior"}
 		}
 	},
 	{
@@ -1438,16 +1849,18 @@ local weapons = {
 		damage = {80, 100},
 		vocation = {
 			{"Sorcerer", true},
-			{"Master Sorcerer"}
+			{"Master Sorcerer"},
+			{"Archmage"},
+			{"Arcane Wizard"},
+			{"Divine Mage"}
 		}
 	},
 	{
 		-- royal star
 		itemid = 25759,
 		type = WEAPON_DISTANCE,
-		level = 120,
+		level = 800,
 		unproperly = true,
-		breakchance = 30
 	},
 	{
 		-- spectral bolt
@@ -1455,15 +1868,13 @@ local weapons = {
 		type = WEAPON_AMMO,
 		level = 150,
 		unproperly = true,
-		action = "removecount"
 	},
 	{
 		-- leaf star
 		itemid = 25735,
 		type = WEAPON_DISTANCE,
-		level = 60,
+		level = 400,
 		unproperly = true,
-		breakchance = 40
 	},
 	{
 		-- dream blossom staff
@@ -1477,7 +1888,12 @@ local weapons = {
 			{"Sorcerer", true},
 			{"Druid", true, true},
 			{"Master Sorcerer"},
-			{"Elder Druid"}
+			{"Archmage"},
+			{"Arcane Wizard"},
+			{"Elder Druid"},
+			{"Celtic Druid"},
+			{"Spirit Healer"},
+			{"Divine Mage"}
 		}
 	},
 	{
@@ -1490,7 +1906,10 @@ local weapons = {
 		damage = {70, 105},
 		vocation = {
 			{"Druid", true},
-			{"Elder Druid"}
+			{"Elder Druid"},
+			{"Celtic Druid"},
+			{"Spirit Healer"},
+			{"Divine Mage"}
 		}
 	},
 	{
@@ -1503,7 +1922,10 @@ local weapons = {
 		damage = {70, 105},
 		vocation = {
 			{"Sorcerer", true},
-			{"Master Sorcerer"}
+			{"Master Sorcerer"},
+			{"Archmage"},
+			{"Arcane Wizard"},
+			{"Divine Mage"}
 		}
 	},
 	{
@@ -1514,7 +1936,10 @@ local weapons = {
 		unproperly = true,
 		vocation = {
 			{"Paladin", true},
-			{"Royal Paladin"}
+			{"Royal Paladin"},
+			{"Medieval Crossbowman"},
+			{"Spartan Spearman"},
+			{"Divine Shooter"},
 		}
 	},
 	{
@@ -1525,7 +1950,10 @@ local weapons = {
 		unproperly = true,
 		vocation = {
 			{"Paladin", true},
-			{"Royal Paladin"}
+			{"Royal Paladin"},
+			{"Medieval Crossbowman"},
+			{"Spartan Spearman"},
+			{"Divine Shooter"},
 		}
 	},
 	{
@@ -1536,7 +1964,14 @@ local weapons = {
 		unproperly = true,
 		vocation = {
 			{"Knight", true},
-			{"Elite Knight"}
+			{"Elite Knight"},
+			{"Templar Knight"},
+			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
+			{"Divine Warrior"}
 		}
 	},
 	{
@@ -1547,7 +1982,14 @@ local weapons = {
 		unproperly = true,
 		vocation = {
 			{"Knight", true},
-			{"Elite Knight"}
+			{"Elite Knight"},
+			{"Templar Knight"},
+			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
+			{"Divine Warrior"}
 		}
 	},
 	{
@@ -1558,7 +2000,14 @@ local weapons = {
 		unproperly = true,
 		vocation = {
 			{"Knight", true},
-			{"Elite Knight"}
+			{"Elite Knight"},
+			{"Templar Knight"},
+			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
+			{"Divine Warrior"}
 		}
 	},
 	{
@@ -1569,7 +2018,14 @@ local weapons = {
 		unproperly = true,
 		vocation = {
 			{"Knight", true},
-			{"Elite Knight"}
+			{"Elite Knight"},
+			{"Templar Knight"},
+			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
+			{"Divine Warrior"}
 		}
 	},
 	{
@@ -1580,7 +2036,14 @@ local weapons = {
 		unproperly = true,
 		vocation = {
 			{"Knight", true},
-			{"Elite Knight"}
+			{"Elite Knight"},
+			{"Templar Knight"},
+			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
+			{"Divine Warrior"}
 		}
 	},
 	{
@@ -1591,7 +2054,14 @@ local weapons = {
 		unproperly = true,
 		vocation = {
 			{"Knight", true},
-			{"Elite Knight"}
+			{"Elite Knight"},
+			{"Templar Knight"},
+			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
+			{"Divine Warrior"}
 		}
 	},
 	{
@@ -1604,7 +2074,10 @@ local weapons = {
 		damage = {70, 105},
 		vocation = {
 			{"Druid", true},
-			{"Elder Druid"}
+			{"Elder Druid"},
+			{"Celtic Druid"},
+			{"Spirit Healer"},
+			{"Divine Mage"}
 		}
 	},
 	{
@@ -1617,7 +2090,10 @@ local weapons = {
 		damage = {70, 105},
 		vocation = {
 			{"Sorcerer", true},
-			{"Master Sorcerer"}
+			{"Master Sorcerer"},
+			{"Archmage"},
+			{"Arcane Wizard"},
+			{"Divine Mage"}
 		}
 	},
 	{
@@ -1628,7 +2104,10 @@ local weapons = {
 		unproperly = true,
 		vocation = {
 			{"Paladin", true},
-			{"Royal Paladin"}
+			{"Royal Paladin"},
+			{"Medieval Crossbowman"},
+			{"Spartan Spearman"},
+			{"Divine Shooter"},
 		}
 	},
 	{
@@ -1639,7 +2118,10 @@ local weapons = {
 		unproperly = true,
 		vocation = {
 			{"Paladin", true},
-			{"Royal Paladin"}
+			{"Royal Paladin"},
+			{"Medieval Crossbowman"},
+			{"Spartan Spearman"},
+			{"Divine Shooter"},
 		}
 	},
 	{
@@ -1650,7 +2132,14 @@ local weapons = {
 		unproperly = true,
 		vocation = {
 			{"Knight", true},
-			{"Elite Knight"}
+			{"Elite Knight"},
+			{"Templar Knight"},
+			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
+			{"Divine Warrior"}
 		}
 	},
 	{
@@ -1661,7 +2150,14 @@ local weapons = {
 		unproperly = true,
 		vocation = {
 			{"Knight", true},
-			{"Elite Knight"}
+			{"Elite Knight"},
+			{"Templar Knight"},
+			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
+			{"Divine Warrior"}
 		}
 	},
 	{
@@ -1672,7 +2168,14 @@ local weapons = {
 		unproperly = true,
 		vocation = {
 			{"Knight", true},
-			{"Elite Knight"}
+			{"Elite Knight"},
+			{"Templar Knight"},
+			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
+			{"Divine Warrior"}
 		}
 	},
 	{
@@ -1683,7 +2186,14 @@ local weapons = {
 		unproperly = true,
 		vocation = {
 			{"Knight", true},
-			{"Elite Knight"}
+			{"Elite Knight"},
+			{"Templar Knight"},
+			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
+			{"Divine Warrior"}
 		}
 	},
 	{
@@ -1694,7 +2204,14 @@ local weapons = {
 		unproperly = true,
 		vocation = {
 			{"Knight", true},
-			{"Elite Knight"}
+			{"Elite Knight"},
+			{"Templar Knight"},
+			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
+			{"Divine Warrior"}
 		}
 	},
 	{
@@ -1705,7 +2222,14 @@ local weapons = {
 		unproperly = true,
 		vocation = {
 			{"Knight", true},
-			{"Elite Knight"}
+			{"Elite Knight"},
+			{"Templar Knight"},
+			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
+			{"Divine Warrior"}
 		}
 	},
 	{
@@ -1718,7 +2242,10 @@ local weapons = {
 		damage = {70, 105},
 		vocation = {
 			{"Druid", true},
-			{"Elder Druid"}
+			{"Elder Druid"},
+			{"Celtic Druid"},
+			{"Spirit Healer"},
+			{"Divine Mage"}
 		}
 	},
 	{
@@ -1731,7 +2258,10 @@ local weapons = {
 		damage = {70, 105},
 		vocation = {
 			{"Sorcerer", true},
-			{"Master Sorcerer"}
+			{"Master Sorcerer"},
+			{"Archmage"},
+			{"Arcane Wizard"},
+			{"Divine Mage"}
 		}
 	},
 	{
@@ -1742,7 +2272,10 @@ local weapons = {
 		unproperly = true,
 		vocation = {
 			{"Paladin", true},
-			{"Royal Paladin"}
+			{"Royal Paladin"},
+			{"Medieval Crossbowman"},
+			{"Spartan Spearman"},
+			{"Divine Shooter"},
 		}
 	},
 	{
@@ -1753,7 +2286,10 @@ local weapons = {
 		unproperly = true,
 		vocation = {
 			{"Paladin", true},
-			{"Royal Paladin"}
+			{"Royal Paladin"},
+			{"Medieval Crossbowman"},
+			{"Spartan Spearman"},
+			{"Divine Shooter"},
 		}
 	},
 	{
@@ -1764,7 +2300,14 @@ local weapons = {
 		unproperly = true,
 		vocation = {
 			{"Knight", true},
-			{"Elite Knight"}
+			{"Elite Knight"},
+			{"Templar Knight"},
+			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
+			{"Divine Warrior"}
 		}
 	},
 	{
@@ -1775,7 +2318,14 @@ local weapons = {
 		unproperly = true,
 		vocation = {
 			{"Knight", true},
-			{"Elite Knight"}
+			{"Elite Knight"},
+			{"Templar Knight"},
+			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
+			{"Divine Warrior"}
 		}
 	},
 	{
@@ -1786,7 +2336,14 @@ local weapons = {
 		unproperly = true,
 		vocation = {
 			{"Knight", true},
-			{"Elite Knight"}
+			{"Elite Knight"},
+			{"Templar Knight"},
+			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
+			{"Divine Warrior"}
 		}
 	},
 	{
@@ -1797,7 +2354,14 @@ local weapons = {
 		unproperly = true,
 		vocation = {
 			{"Knight", true},
-			{"Elite Knight"}
+			{"Elite Knight"},
+			{"Templar Knight"},
+			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
+			{"Divine Warrior"}
 		}
 	},
 	{
@@ -1808,7 +2372,14 @@ local weapons = {
 		unproperly = true,
 		vocation = {
 			{"Knight", true},
-			{"Elite Knight"}
+			{"Elite Knight"},
+			{"Templar Knight"},
+			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
+			{"Divine Warrior"}
 		}
 	},
 	{
@@ -1819,7 +2390,14 @@ local weapons = {
 		unproperly = true,
 		vocation = {
 			{"Knight", true},
-			{"Elite Knight"}
+			{"Elite Knight"},
+			{"Templar Knight"},
+			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
+			{"Divine Warrior"}
 		}
 	},
 	{
@@ -1830,7 +2408,10 @@ local weapons = {
 		unproperly = true,
 		vocation = {
 			{"Paladin", true},
-			{"Royal Paladin"}
+			{"Royal Paladin"},
+			{"Medieval Crossbowman"},
+			{"Spartan Spearman"},
+			{"Divine Shooter"},
 		}
 	},
 	{
@@ -1841,7 +2422,10 @@ local weapons = {
 		unproperly = true,
 		vocation = {
 			{"Paladin", true},
-			{"Royal Paladin"}
+			{"Royal Paladin"},
+			{"Medieval Crossbowman"},
+			{"Spartan Spearman"},
+			{"Divine Shooter"},
 		}
 	},
 	{
@@ -1854,7 +2438,10 @@ local weapons = {
 		damage = {80, 110},
 		vocation = {
 			{"Sorcerer", true},
-			{"Master Sorcerer"}
+			{"Master Sorcerer"},
+			{"Archmage"},
+			{"Arcane Wizard"},
+			{"Divine Mage"}
 		}
 	},
 	{
@@ -1867,7 +2454,10 @@ local weapons = {
 		damage = {65, 95},
 		vocation = {
 			{"Sorcerer", true},
-			{"Master Sorcerer"}
+			{"Master Sorcerer"},
+			{"Archmage"},
+			{"Arcane Wizard"},
+			{"Divine Mage"}
 		}
 	},
 	{
@@ -1915,7 +2505,10 @@ local weapons = {
 		damage = {56, 74},
 		vocation = {
 			{"Druid", true},
-			{"Elder Druid"}
+			{"Elder Druid"},
+			{"Celtic Druid"},
+			{"Spirit Healer"},
+			{"Divine Mage"}
 		}
 	},
 	{
@@ -1948,7 +2541,10 @@ local weapons = {
 		damage = {4, 8},
 		vocation = {
 			{"Druid", true},
-			{"Elder Druid"}
+			{"Elder Druid"},
+			{"Celtic Druid"},
+			{"Spirit Healer"},
+			{"Divine Mage"}
 		}
 	},
 	{
@@ -1961,7 +2557,10 @@ local weapons = {
 		damage = {4, 8},
 		vocation = {
 			{"Sorcerer", true},
-			{"Master Sorcerer"}
+			{"Master Sorcerer"},
+			{"Archmage"},
+			{"Arcane Wizard"},
+			{"Divine Mage"}
 		}
 	},
 	{
@@ -1979,7 +2578,14 @@ local weapons = {
 		unproperly = true,
 		vocation = {
 			{"Knight", true},
-			{"Elite Knight"}
+			{"Elite Knight"},
+			{"Templar Knight"},
+			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
+			{"Divine Warrior"}
 		}
 	},
 	{
@@ -1990,7 +2596,14 @@ local weapons = {
 		unproperly = true,
 		vocation = {
 			{"Knight", true},
-			{"Elite Knight"}
+			{"Elite Knight"},
+			{"Templar Knight"},
+			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
+			{"Divine Warrior"}
 		}
 	},
 	{
@@ -2002,7 +2615,14 @@ local weapons = {
 		action = "removecharge",
 		vocation = {
 			{"Knight", true},
-			{"Elite Knight"}
+			{"Elite Knight"},
+			{"Templar Knight"},
+			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
+			{"Divine Warrior"}
 		}
 	},
 	{
@@ -2063,7 +2683,10 @@ local weapons = {
 		unproperly = true,
 		vocation = {
 			{"Paladin", true},
-			{"Royal Paladin"}
+			{"Royal Paladin"},
+			{"Medieval Crossbowman"},
+			{"Spartan Spearman"},
+			{"Divine Shooter"},
 		}
 	},
 	{
@@ -2074,7 +2697,10 @@ local weapons = {
 		unproperly = true,
 		vocation = {
 			{"Paladin", true},
-			{"Royal Paladin"}
+			{"Royal Paladin"},
+			{"Medieval Crossbowman"},
+			{"Spartan Spearman"},
+			{"Divine Shooter"},
 		}
 	},
 	{
@@ -2085,7 +2711,10 @@ local weapons = {
 		unproperly = true,
 		vocation = {
 			{"Paladin", true},
-			{"Royal Paladin"}
+			{"Royal Paladin"},
+			{"Medieval Crossbowman"},
+			{"Spartan Spearman"},
+			{"Divine Shooter"},
 		}
 	},
 	{
@@ -2096,7 +2725,10 @@ local weapons = {
 		unproperly = true,
 		vocation = {
 			{"Paladin", true},
-			{"Royal Paladin"}
+			{"Royal Paladin"},
+			{"Medieval Crossbowman"},
+			{"Spartan Spearman"},
+			{"Divine Shooter"},
 		}
 	},
 	{
@@ -2107,7 +2739,10 @@ local weapons = {
 		unproperly = true,
 		vocation = {
 			{"Paladin", true},
-			{"Royal Paladin"}
+			{"Royal Paladin"},
+			{"Medieval Crossbowman"},
+			{"Spartan Spearman"},
+			{"Divine Shooter"},
 		}
 	},
 	{
@@ -2118,7 +2753,10 @@ local weapons = {
 		unproperly = true,
 		vocation = {
 			{"Paladin", true},
-			{"Royal Paladin"}
+			{"Royal Paladin"},
+			{"Medieval Crossbowman"},
+			{"Spartan Spearman"},
+			{"Divine Shooter"},
 		}
 	},
 	{
@@ -2129,7 +2767,14 @@ local weapons = {
 		unproperly = true,
 		vocation = {
 			{"Knight", true},
-			{"Elite Knight"}
+			{"Elite Knight"},
+			{"Templar Knight"},
+			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
+			{"Divine Warrior"}
 		}
 	},
 	{
@@ -2140,7 +2785,14 @@ local weapons = {
 		unproperly = true,
 		vocation = {
 			{"Knight", true},
-			{"Elite Knight"}
+			{"Elite Knight"},
+			{"Templar Knight"},
+			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
+			{"Divine Warrior"}
 		}
 	},
 	{
@@ -2151,7 +2803,14 @@ local weapons = {
 		unproperly = true,
 		vocation = {
 			{"Knight", true},
-			{"Elite Knight"}
+			{"Elite Knight"},
+			{"Templar Knight"},
+			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
+			{"Divine Warrior"}
 		}
 	},
 	{
@@ -2162,7 +2821,14 @@ local weapons = {
 		unproperly = true,
 		vocation = {
 			{"Knight", true},
-			{"Elite Knight"}
+			{"Elite Knight"},
+			{"Templar Knight"},
+			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
+			{"Divine Warrior"}
 		}
 	},
 	{
@@ -2173,7 +2839,14 @@ local weapons = {
 		unproperly = true,
 		vocation = {
 			{"Knight", true},
-			{"Elite Knight"}
+			{"Elite Knight"},
+			{"Templar Knight"},
+			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
+			{"Divine Warrior"}
 		}
 	},
 	{
@@ -2184,7 +2857,14 @@ local weapons = {
 		unproperly = true,
 		vocation = {
 			{"Knight", true},
-			{"Elite Knight"}
+			{"Elite Knight"},
+			{"Templar Knight"},
+			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
+			{"Divine Warrior"}
 		}
 	},
 	{
@@ -2195,7 +2875,14 @@ local weapons = {
 		unproperly = true,
 		vocation = {
 			{"Knight", true},
-			{"Elite Knight"}
+			{"Elite Knight"},
+			{"Templar Knight"},
+			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
+			{"Divine Warrior"}
 		}
 	},
 	{
@@ -2206,7 +2893,14 @@ local weapons = {
 		unproperly = true,
 		vocation = {
 			{"Knight", true},
-			{"Elite Knight"}
+			{"Elite Knight"},
+			{"Templar Knight"},
+			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
+			{"Divine Warrior"}
 		}
 	},
 	{
@@ -2217,7 +2911,14 @@ local weapons = {
 		unproperly = true,
 		vocation = {
 			{"Knight", true},
-			{"Elite Knight"}
+			{"Elite Knight"},
+			{"Templar Knight"},
+			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
+			{"Divine Warrior"}
 		}
 	},
 	{
@@ -2228,7 +2929,14 @@ local weapons = {
 		unproperly = true,
 		vocation = {
 			{"Knight", true},
-			{"Elite Knight"}
+			{"Elite Knight"},
+			{"Templar Knight"},
+			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
+			{"Divine Warrior"}
 		}
 	},
 	{
@@ -2239,7 +2947,14 @@ local weapons = {
 		unproperly = true,
 		vocation = {
 			{"Knight", true},
-			{"Elite Knight"}
+			{"Elite Knight"},
+			{"Templar Knight"},
+			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
+			{"Divine Warrior"}
 		}
 	},
 	{
@@ -2250,7 +2965,14 @@ local weapons = {
 		unproperly = true,
 		vocation = {
 			{"Knight", true},
-			{"Elite Knight"}
+			{"Elite Knight"},
+			{"Templar Knight"},
+			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
+			{"Divine Warrior"}
 		}
 	},
 	{
@@ -2261,7 +2983,14 @@ local weapons = {
 		unproperly = true,
 		vocation = {
 			{"Knight", true},
-			{"Elite Knight"}
+			{"Elite Knight"},
+			{"Templar Knight"},
+			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
+			{"Divine Warrior"}
 		}
 	},
 	{
@@ -2272,7 +3001,14 @@ local weapons = {
 		unproperly = true,
 		vocation = {
 			{"Knight", true},
-			{"Elite Knight"}
+			{"Elite Knight"},
+			{"Templar Knight"},
+			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
+			{"Divine Warrior"}
 		}
 	},
 	{
@@ -2283,7 +3019,14 @@ local weapons = {
 		unproperly = true,
 		vocation = {
 			{"Knight", true},
-			{"Elite Knight"}
+			{"Elite Knight"},
+			{"Templar Knight"},
+			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
+			{"Divine Warrior"}
 		}
 	},
 	{
@@ -2294,7 +3037,14 @@ local weapons = {
 		unproperly = true,
 		vocation = {
 			{"Knight", true},
-			{"Elite Knight"}
+			{"Elite Knight"},
+			{"Templar Knight"},
+			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
+			{"Divine Warrior"}
 		}
 	},
 	{
@@ -2305,7 +3055,14 @@ local weapons = {
 		unproperly = true,
 		vocation = {
 			{"Knight", true},
-			{"Elite Knight"}
+			{"Elite Knight"},
+			{"Templar Knight"},
+			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
+			{"Divine Warrior"}
 		}
 	},
 	{
@@ -2316,7 +3073,14 @@ local weapons = {
 		unproperly = true,
 		vocation = {
 			{"Knight", true},
-			{"Elite Knight"}
+			{"Elite Knight"},
+			{"Templar Knight"},
+			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
+			{"Divine Warrior"}
 		}
 	},
 	{
@@ -2333,7 +3097,10 @@ local weapons = {
 		unproperly = true,
 		vocation = {
 			{"Paladin", true},
-			{"Royal Paladin"}
+			{"Royal Paladin"},
+			{"Medieval Crossbowman"},
+			{"Spartan Spearman"},
+			{"Divine Shooter"},
 		}
 	},
 	{
@@ -2351,7 +3118,14 @@ local weapons = {
 		unproperly = true,
 		vocation = {
 			{"Knight", true},
-			{"Elite Knight"}
+			{"Elite Knight"},
+			{"Templar Knight"},
+			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
+			{"Divine Warrior"}
 		}
 	},
 	{
@@ -2418,7 +3192,10 @@ local weapons = {
 		unproperly = true,
 		vocation = {
 			{"Paladin", true},
-			{"Royal Paladin"}
+			{"Royal Paladin"},
+			{"Medieval Crossbowman"},
+			{"Spartan Spearman"},
+			{"Divine Shooter"},
 		}
 	},
 	{
@@ -2429,7 +3206,10 @@ local weapons = {
 		unproperly = true,
 		vocation = {
 			{"Paladin", true},
-			{"Royal Paladin"}
+			{"Royal Paladin"},
+			{"Medieval Crossbowman"},
+			{"Spartan Spearman"},
+			{"Divine Shooter"},
 		}
 	},
 	{
@@ -2487,7 +3267,10 @@ local weapons = {
 		damage = {75, 95},
 		vocation = {
 			{"Druid", true},
-			{"Elder Druid"}
+			{"Elder Druid"},
+			{"Celtic Druid"},
+			{"Spirit Healer"},
+			{"Divine Mage"}
 		}
 	},
 	{
@@ -2500,7 +3283,10 @@ local weapons = {
 		damage = {75, 95},
 		vocation = {
 			{"Druid", true},
-			{"Elder Druid"}
+			{"Elder Druid"},
+			{"Celtic Druid"},
+			{"Spirit Healer"},
+			{"Divine Mage"}
 		}
 	},
 	{
@@ -2510,10 +3296,13 @@ local weapons = {
 		wandType = "fire",
 		level = 65,
 		mana = 17,
-		damage = {75, 95},
+		damage = {750000, 900000},
 		vocation = {
 			{"Sorcerer", true},
-			{"Master Sorcerer"}
+			{"Master Sorcerer"},
+			{"Archmage"},
+			{"Arcane Wizard"},
+			{"Divine Mage"}
 		}
 	},
 	{
@@ -2526,7 +3315,10 @@ local weapons = {
 		damage = {75, 95},
 		vocation = {
 			{"Sorcerer", true},
-			{"Master Sorcerer"}
+			{"Master Sorcerer"},
+			{"Archmage"},
+			{"Arcane Wizard"},
+			{"Divine Mage"}
 		}
 	},
 	{
@@ -2551,7 +3343,10 @@ local weapons = {
 		unproperly = true,
 		vocation = {
 			{"Paladin", true},
-			{"Royal Paladin"}
+			{"Royal Paladin"},
+			{"Medieval Crossbowman"},
+			{"Spartan Spearman"},
+			{"Divine Shooter"},
 		}
 	},
 	{
@@ -2585,7 +3380,10 @@ local weapons = {
 		unproperly = true,
 		vocation = {
 			{"Paladin", true},
-			{"Royal Paladin"}
+			{"Royal Paladin"},
+			{"Medieval Crossbowman"},
+			{"Spartan Spearman"},
+			{"Divine Shooter"},
 		}
 	},
 	{
@@ -2596,7 +3394,10 @@ local weapons = {
 		unproperly = true,
 		vocation = {
 			{"Paladin", true},
-			{"Royal Paladin"}
+			{"Royal Paladin"},
+			{"Medieval Crossbowman"},
+			{"Spartan Spearman"},
+			{"Divine Shooter"},
 		}
 	},
 	{
@@ -2651,7 +3452,10 @@ local weapons = {
 		damage = {56, 74},
 		vocation = {
 			{"Sorcerer", true},
-			{"Master Sorcerer"}
+			{"Master Sorcerer"},
+			{"Archmage"},
+			{"Arcane Wizard"},
+			{"Divine Mage"}
 		}
 	},
 	{
@@ -2662,7 +3466,10 @@ local weapons = {
 		unproperly = true,
 		vocation = {
 			{"Paladin", true},
-			{"Royal Paladin"}
+			{"Royal Paladin"},
+			{"Medieval Crossbowman"},
+			{"Spartan Spearman"},
+			{"Divine Shooter"},
 		}
 	},
 	{
@@ -2675,7 +3482,10 @@ local weapons = {
 		damage = {56, 74},
 		vocation = {
 			{"Druid", true},
-			{"Elder Druid"}
+			{"Elder Druid"},
+			{"Celtic Druid"},
+			{"Spirit Healer"},
+			{"Divine Mage"}
 		}
 	},
 	{
@@ -2707,7 +3517,10 @@ local weapons = {
 		damage = {44, 62},
 		vocation = {
 			{"Sorcerer", true},
-			{"Master Sorcerer"}
+			{"Master Sorcerer"},
+			{"Archmage"},
+			{"Arcane Wizard"},
+			{"Divine Mage"}
 		}
 	},
 	{
@@ -2732,7 +3545,14 @@ local weapons = {
 		unproperly = true,
 		vocation = {
 			{"Knight", true},
-			{"Elite Knight"}
+			{"Elite Knight"},
+			{"Templar Knight"},
+			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
+			{"Divine Warrior"}
 		}
 	},
 	{
@@ -2750,7 +3570,14 @@ local weapons = {
 		unproperly = true,
 		vocation = {
 			{"Knight", true},
-			{"Elite Knight"}
+			{"Elite Knight"},
+			{"Templar Knight"},
+			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
+			{"Divine Warrior"}
 		}
 	},
 	{
@@ -2761,7 +3588,14 @@ local weapons = {
 		unproperly = true,
 		vocation = {
 			{"Knight", true},
-			{"Elite Knight"}
+			{"Elite Knight"},
+			{"Templar Knight"},
+			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
+			{"Divine Warrior"}
 		}
 	},
 	{
@@ -2779,7 +3613,14 @@ local weapons = {
 		unproperly = true,
 		vocation = {
 			{"Knight", true},
-			{"Elite Knight"}
+			{"Elite Knight"},
+			{"Templar Knight"},
+			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
+			{"Divine Warrior"}
 		}
 	},
 	{
@@ -2842,7 +3683,14 @@ local weapons = {
 		unproperly = true,
 		vocation = {
 			{"Knight", true},
-			{"Elite Knight"}
+			{"Elite Knight"},
+			{"Templar Knight"},
+			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
+			{"Divine Warrior"}
 		}
 	},
 	{
@@ -2867,7 +3715,14 @@ local weapons = {
 		unproperly = true,
 		vocation = {
 			{"Knight", true},
-			{"Elite Knight"}
+			{"Elite Knight"},
+			{"Templar Knight"},
+			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
+			{"Divine Warrior"}
 		}
 	},
 	{
@@ -2892,7 +3747,14 @@ local weapons = {
 		unproperly = true,
 		vocation = {
 			{"Knight", true},
-			{"Elite Knight"}
+			{"Elite Knight"},
+			{"Templar Knight"},
+			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
+			{"Divine Warrior"}
 		}
 	},
 	{
@@ -2906,7 +3768,7 @@ local weapons = {
 		-- hellforged axe
 		itemid = 8096,
 		type = WEAPON_AXE,
-		level = 110,
+		level = 200,
 		unproperly = true
 	},
 	{
@@ -2919,7 +3781,10 @@ local weapons = {
 		damage = {56, 74},
 		vocation = {
 			{"Sorcerer", true},
-			{"Master Sorcerer"}
+			{"Master Sorcerer"},
+			{"Archmage"},
+			{"Arcane Wizard"},
+			{"Divine Mage"}
 		}
 	},
 	{
@@ -2932,7 +3797,10 @@ local weapons = {
 		damage = {23, 37},
 		vocation = {
 			{"Sorcerer", true},
-			{"Master Sorcerer"}
+			{"Master Sorcerer"},
+			{"Archmage"},
+			{"Arcane Wizard"},
+			{"Divine Mage"}
 		}
 	},
 	{
@@ -2945,7 +3813,10 @@ local weapons = {
 		damage = {56, 74},
 		vocation = {
 			{"Sorcerer", true},
-			{"Master Sorcerer"}
+			{"Master Sorcerer"},
+			{"Archmage"},
+			{"Arcane Wizard"},
+			{"Divine Mage"}
 		}
 	},
 	{
@@ -2958,7 +3829,10 @@ local weapons = {
 		damage = {56, 74},
 		vocation = {
 			{"Druid", true},
-			{"Elder Druid"}
+			{"Elder Druid"},
+			{"Celtic Druid"},
+			{"Spirit Healer"},
+			{"Divine Mage"}
 		}
 	},
 	{
@@ -2971,7 +3845,10 @@ local weapons = {
 		damage = {23, 37},
 		vocation = {
 			{"Druid", true},
-			{"Elder Druid"}
+			{"Elder Druid"},
+			{"Celtic Druid"},
+			{"Spirit Healer"},
+			{"Divine Mage"}
 		}
 	},
 	{
@@ -2984,7 +3861,10 @@ local weapons = {
 		damage = {56, 74},
 		vocation = {
 			{"Druid", true},
-			{"Elder Druid"}
+			{"Elder Druid"},
+			{"Celtic Druid"},
+			{"Spirit Healer"},
+			{"Divine Mage"}
 		}
 	},
 	{
@@ -2995,7 +3875,10 @@ local weapons = {
 		unproperly = true,
 		vocation = {
 			{"Paladin", true},
-			{"Royal Paladin"}
+			{"Royal Paladin"},
+			{"Medieval Crossbowman"},
+			{"Spartan Spearman"},
+			{"Divine Shooter"},
 		}
 	},
 	{
@@ -3006,7 +3889,10 @@ local weapons = {
 		unproperly = true,
 		vocation = {
 			{"Paladin", true},
-			{"Royal Paladin"}
+			{"Royal Paladin"},
+			{"Medieval Crossbowman"},
+			{"Spartan Spearman"},
+			{"Divine Shooter"},
 		}
 	},
 	{
@@ -3017,7 +3903,10 @@ local weapons = {
 		unproperly = true,
 		vocation = {
 			{"Paladin", true},
-			{"Royal Paladin"}
+			{"Royal Paladin"},
+			{"Medieval Crossbowman"},
+			{"Spartan Spearman"},
+			{"Divine Shooter"},
 		}
 	},
 	{
@@ -3028,7 +3917,10 @@ local weapons = {
 		unproperly = true,
 		vocation = {
 			{"Paladin", true},
-			{"Royal Paladin"}
+			{"Royal Paladin"},
+			{"Medieval Crossbowman"},
+			{"Spartan Spearman"},
+			{"Divine Shooter"},
 		}
 	},
 	{
@@ -3039,7 +3931,10 @@ local weapons = {
 		unproperly = true,
 		vocation = {
 			{"Paladin", true},
-			{"Royal Paladin"}
+			{"Royal Paladin"},
+			{"Medieval Crossbowman"},
+			{"Spartan Spearman"},
+			{"Divine Shooter"},
 		}
 	},
 	{
@@ -3050,7 +3945,10 @@ local weapons = {
 		unproperly = true,
 		vocation = {
 			{"Paladin", true},
-			{"Royal Paladin"}
+			{"Royal Paladin"},
+			{"Medieval Crossbowman"},
+			{"Spartan Spearman"},
+			{"Divine Shooter"},
 		}
 	},
 	{
@@ -3061,7 +3959,10 @@ local weapons = {
 		unproperly = true,
 		vocation = {
 			{"Paladin", true},
-			{"Royal Paladin"}
+			{"Royal Paladin"},
+			{"Medieval Crossbowman"},
+			{"Spartan Spearman"},
+			{"Divine Shooter"},
 		}
 	},
 	{
@@ -3072,7 +3973,10 @@ local weapons = {
 		unproperly = true,
 		vocation = {
 			{"Paladin", true},
-			{"Royal Paladin"}
+			{"Royal Paladin"},
+			{"Medieval Crossbowman"},
+			{"Spartan Spearman"},
+			{"Divine Shooter"},
 		}
 	},
 	{
@@ -3083,7 +3987,10 @@ local weapons = {
 		unproperly = true,
 		vocation = {
 			{"Paladin", true},
-			{"Royal Paladin"}
+			{"Royal Paladin"},
+			{"Medieval Crossbowman"},
+			{"Spartan Spearman"},
+			{"Divine Shooter"},
 		}
 	},
 	{
@@ -3094,7 +4001,10 @@ local weapons = {
 		unproperly = true,
 		vocation = {
 			{"Paladin", true},
-			{"Royal Paladin"}
+			{"Royal Paladin"},
+			{"Medieval Crossbowman"},
+			{"Spartan Spearman"},
+			{"Divine Shooter"},
 		}
 	},
 	{
@@ -3121,7 +4031,14 @@ local weapons = {
 		action = "removecharge",
 		vocation = {
 			{"Knight", true},
-			{"Elite Knight"}
+			{"Elite Knight"},
+			{"Templar Knight"},
+			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
+			{"Divine Warrior"}
 		}
 	},
 	{
@@ -3165,7 +4082,14 @@ local weapons = {
 		action = "removecharge",
 		vocation = {
 			{"Knight", true},
-			{"Elite Knight"}
+			{"Elite Knight"},
+			{"Templar Knight"},
+			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
+			{"Divine Warrior"}
 		}
 	},
 	{
@@ -3177,7 +4101,14 @@ local weapons = {
 		action = "removecharge",
 		vocation = {
 			{"Knight", true},
-			{"Elite Knight"}
+			{"Elite Knight"},
+			{"Templar Knight"},
+			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
+			{"Divine Warrior"}
 		}
 	},
 	{
@@ -3213,7 +4144,14 @@ local weapons = {
 		action = "removecharge",
 		vocation = {
 			{"Knight", true},
-			{"Elite Knight"}
+			{"Elite Knight"},
+			{"Templar Knight"},
+			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
+			{"Divine Warrior"}
 		}
 	},
 	{
@@ -3225,7 +4163,14 @@ local weapons = {
 		action = "removecharge",
 		vocation = {
 			{"Knight", true},
-			{"Elite Knight"}
+			{"Elite Knight"},
+			{"Templar Knight"},
+			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
+			{"Divine Warrior"}
 		}
 	},
 	{
@@ -3259,7 +4204,14 @@ local weapons = {
 		action = "removecharge",
 		vocation = {
 			{"Knight", true},
-			{"Elite Knight"}
+			{"Elite Knight"},
+			{"Templar Knight"},
+			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
+			{"Divine Warrior"}
 		}
 	},
 	{
@@ -3303,7 +4255,14 @@ local weapons = {
 		action = "removecharge",
 		vocation = {
 			{"Knight", true},
-			{"Elite Knight"}
+			{"Elite Knight"},
+			{"Templar Knight"},
+			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
+			{"Divine Warrior"}
 		}
 	},
 	{
@@ -3315,7 +4274,14 @@ local weapons = {
 		action = "removecharge",
 		vocation = {
 			{"Knight", true},
-			{"Elite Knight"}
+			{"Elite Knight"},
+			{"Templar Knight"},
+			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
+			{"Divine Warrior"}
 		}
 	},
 	{
@@ -3351,7 +4317,14 @@ local weapons = {
 		action = "removecharge",
 		vocation = {
 			{"Knight", true},
-			{"Elite Knight"}
+			{"Elite Knight"},
+			{"Templar Knight"},
+			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
+			{"Divine Warrior"}
 		}
 	},
 	{
@@ -3363,7 +4336,14 @@ local weapons = {
 		action = "removecharge",
 		vocation = {
 			{"Knight", true},
-			{"Elite Knight"}
+			{"Elite Knight"},
+			{"Templar Knight"},
+			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
+			{"Divine Warrior"}
 		}
 	},
 	{
@@ -3429,7 +4409,14 @@ local weapons = {
 		action = "removecharge",
 		vocation = {
 			{"Knight", true},
-			{"Elite Knight"}
+			{"Elite Knight"},
+			{"Templar Knight"},
+			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
+			{"Divine Warrior"}
 		}
 	},
 	{
@@ -3473,7 +4460,14 @@ local weapons = {
 		action = "removecharge",
 		vocation = {
 			{"Knight", true},
-			{"Elite Knight"}
+			{"Elite Knight"},
+			{"Templar Knight"},
+			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
+			{"Divine Warrior"}
 		}
 	},
 	{
@@ -3485,7 +4479,14 @@ local weapons = {
 		action = "removecharge",
 		vocation = {
 			{"Knight", true},
-			{"Elite Knight"}
+			{"Elite Knight"},
+			{"Templar Knight"},
+			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
+			{"Divine Warrior"}
 		}
 	},
 	{
@@ -3521,7 +4522,14 @@ local weapons = {
 		action = "removecharge",
 		vocation = {
 			{"Knight", true},
-			{"Elite Knight"}
+			{"Elite Knight"},
+			{"Templar Knight"},
+			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
+			{"Divine Warrior"}
 		}
 	},
 	{
@@ -3533,7 +4541,14 @@ local weapons = {
 		action = "removecharge",
 		vocation = {
 			{"Knight", true},
-			{"Elite Knight"}
+			{"Elite Knight"},
+			{"Templar Knight"},
+			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
+			{"Divine Warrior"}
 		}
 	},
 	{
@@ -3567,7 +4582,14 @@ local weapons = {
 		action = "removecharge",
 		vocation = {
 			{"Knight", true},
-			{"Elite Knight"}
+			{"Elite Knight"},
+			{"Templar Knight"},
+			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
+			{"Divine Warrior"}
 		}
 	},
 	{
@@ -3611,7 +4633,14 @@ local weapons = {
 		action = "removecharge",
 		vocation = {
 			{"Knight", true},
-			{"Elite Knight"}
+			{"Elite Knight"},
+			{"Templar Knight"},
+			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
+			{"Divine Warrior"}
 		}
 	},
 	{
@@ -3623,7 +4652,14 @@ local weapons = {
 		action = "removecharge",
 		vocation = {
 			{"Knight", true},
-			{"Elite Knight"}
+			{"Elite Knight"},
+			{"Templar Knight"},
+			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
+			{"Divine Warrior"}
 		}
 	},
 	{
@@ -3659,7 +4695,14 @@ local weapons = {
 		action = "removecharge",
 		vocation = {
 			{"Knight", true},
-			{"Elite Knight"}
+			{"Elite Knight"},
+			{"Templar Knight"},
+			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
+			{"Divine Warrior"}
 		}
 	},
 	{
@@ -3671,7 +4714,14 @@ local weapons = {
 		action = "removecharge",
 		vocation = {
 			{"Knight", true},
-			{"Elite Knight"}
+			{"Elite Knight"},
+			{"Templar Knight"},
+			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
+			{"Divine Warrior"}
 		}
 	},
 	{
@@ -3718,7 +4768,14 @@ local weapons = {
 		unproperly = true,
 		vocation = {
 			{"Knight", true},
-			{"Elite Knight"}
+			{"Elite Knight"},
+			{"Templar Knight"},
+			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
+			{"Divine Warrior"}
 		}
 	},
 	{
@@ -3729,7 +4786,14 @@ local weapons = {
 		unproperly = true,
 		vocation = {
 			{"Knight", true},
-			{"Elite Knight"}
+			{"Elite Knight"},
+			{"Templar Knight"},
+			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
+			{"Divine Warrior"}
 		}
 	},
 	{
@@ -3740,15 +4804,15 @@ local weapons = {
 		unproperly = true,
 		vocation = {
 			{"Knight", true},
-			{"Elite Knight"}
+			{"Elite Knight"},
+			{"Templar Knight"},
+			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
+			{"Divine Warrior"}
 		}
-	},
-	{
-		-- shadow sceptre
-		itemid = 7451,
-		type = WEAPON_CLUB,
-		level = 35,
-		unproperly = true
 	},
 	{
 		-- hammer of prophecy
@@ -3758,7 +4822,14 @@ local weapons = {
 		unproperly = true,
 		vocation = {
 			{"Knight", true},
-			{"Elite Knight"}
+			{"Elite Knight"},
+			{"Templar Knight"},
+			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
+			{"Divine Warrior"}
 		}
 	},
 	{
@@ -3769,7 +4840,14 @@ local weapons = {
 		unproperly = true,
 		vocation = {
 			{"Knight", true},
-			{"Elite Knight"}
+			{"Elite Knight"},
+			{"Templar Knight"},
+			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
+			{"Divine Warrior"}
 		}
 	},
 	{
@@ -3792,7 +4870,14 @@ local weapons = {
 		unproperly = true,
 		vocation = {
 			{"Knight", true},
-			{"Elite Knight"}
+			{"Elite Knight"},
+			{"Templar Knight"},
+			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
+			{"Divine Warrior"}
 		}
 	},
 	{
@@ -3806,7 +4891,7 @@ local weapons = {
 		-- royal axe
 		itemid = 7434,
 		type = WEAPON_AXE,
-		level = 75,
+		level = 150,
 		unproperly = true
 	},
 	{
@@ -3838,13 +4923,6 @@ local weapons = {
 		unproperly = true
 	},
 	{
-		-- blessed sceptre
-		itemid = 7429,
-		type = WEAPON_CLUB,
-		level = 75,
-		unproperly = true
-	},
-	{
 		-- bonebreaker
 		itemid = 7428,
 		type = WEAPON_CLUB,
@@ -3852,7 +4930,14 @@ local weapons = {
 		unproperly = true,
 		vocation = {
 			{"Knight", true},
-			{"Elite Knight"}
+			{"Elite Knight"},
+			{"Templar Knight"},
+			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
+			{"Divine Warrior"}
 		}
 	},
 	{
@@ -3877,13 +4962,6 @@ local weapons = {
 		unproperly = true
 	},
 	{
-		-- lunar staff
-		itemid = 7424,
-		type = WEAPON_CLUB,
-		level = 30,
-		unproperly = true
-	},
-	{
 		-- skullcrusher
 		itemid = 7423,
 		type = WEAPON_CLUB,
@@ -3891,7 +4969,14 @@ local weapons = {
 		unproperly = true,
 		vocation = {
 			{"Knight", true},
-			{"Elite Knight"}
+			{"Elite Knight"},
+			{"Templar Knight"},
+			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
+			{"Divine Warrior"}
 		}
 	},
 	{
@@ -3954,22 +5039,36 @@ local weapons = {
 		-- abyss hammer
 		itemid = 7414,
 		type = WEAPON_CLUB,
-		level = 60,
+		level = 200,
 		unproperly = true,
 		vocation = {
 			{"Knight", true},
-			{"Elite Knight"}
+			{"Elite Knight"},
+			{"Templar Knight"},
+			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
+			{"Divine Warrior"}
 		}
 	},
 	{
 		-- titan axe
 		itemid = 7413,
 		type = WEAPON_AXE,
-		level = 40,
+		level = 150,
 		unproperly = true,
 		vocation = {
 			{"Knight", true},
-			{"Elite Knight"}
+			{"Elite Knight"},
+			{"Templar Knight"},
+			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
+			{"Divine Warrior"}
 		}
 	},
 	{
@@ -3984,13 +5083,6 @@ local weapons = {
 		itemid = 7411,
 		type = WEAPON_AXE,
 		level = 50,
-		unproperly = true
-	},
-	{
-		-- queen's sceptre
-		itemid = 7410,
-		type = WEAPON_CLUB,
-		level = 55,
 		unproperly = true
 	},
 	{
@@ -4015,7 +5107,14 @@ local weapons = {
 		unproperly = true,
 		vocation = {
 			{"Knight", true},
-			{"Elite Knight"}
+			{"Elite Knight"},
+			{"Templar Knight"},
+			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
+			{"Divine Warrior"}
 		}
 	},
 	{
@@ -4026,7 +5125,14 @@ local weapons = {
 		unproperly = true,
 		vocation = {
 			{"Knight", true},
-			{"Elite Knight"}
+			{"Elite Knight"},
+			{"Templar Knight"},
+			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
+			{"Divine Warrior"}
 		}
 	},
 	{
@@ -4037,7 +5143,14 @@ local weapons = {
 		unproperly = true,
 		vocation = {
 			{"Knight", true},
-			{"Elite Knight"}
+			{"Elite Knight"},
+			{"Templar Knight"},
+			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
+			{"Divine Warrior"}
 		}
 	},
 	{
@@ -4055,7 +5168,14 @@ local weapons = {
 		unproperly = true,
 		vocation = {
 			{"Knight", true},
-			{"Elite Knight"}
+			{"Elite Knight"},
+			{"Templar Knight"},
+			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
+			{"Divine Warrior"}
 		}
 	},
 	{
@@ -4066,7 +5186,14 @@ local weapons = {
 		unproperly = true,
 		vocation = {
 			{"Knight", true},
-			{"Elite Knight"}
+			{"Elite Knight"},
+			{"Templar Knight"},
+			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
+			{"Divine Warrior"}
 		}
 	},
 	{
@@ -4084,7 +5211,14 @@ local weapons = {
 		unproperly = true,
 		vocation = {
 			{"Knight", true},
-			{"Elite Knight"}
+			{"Elite Knight"},
+			{"Templar Knight"},
+			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
+			{"Divine Warrior"}
 		}
 	},
 	{
@@ -4123,7 +5257,14 @@ local weapons = {
 		unproperly = true,
 		vocation = {
 			{"Knight", true},
-			{"Elite Knight"}
+			{"Elite Knight"},
+			{"Templar Knight"},
+			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
+			{"Divine Warrior"}
 		}
 	},
 	{
@@ -4155,7 +5296,14 @@ local weapons = {
 		unproperly = true,
 		vocation = {
 			{"Knight", true},
-			{"Elite Knight"}
+			{"Elite Knight"},
+			{"Templar Knight"},
+			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
+			{"Divine Warrior"}
 		}
 	},
 	{
@@ -4173,7 +5321,14 @@ local weapons = {
 		unproperly = true,
 		vocation = {
 			{"Knight", true},
-			{"Elite Knight"}
+			{"Elite Knight"},
+			{"Templar Knight"},
+			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
+			{"Divine Warrior"}
 		}
 	},
 	{
@@ -4187,9 +5342,8 @@ local weapons = {
 		-- royal spear
 		itemid = 7378,
 		type = WEAPON_DISTANCE,
-		level = 25,
+		level = 40,
 		unproperly = true,
-		breakchance = 3
 	},
 	{
 		-- assassin star
@@ -4239,7 +5393,14 @@ local weapons = {
 		unproperly = true,
 		vocation = {
 			{"Knight", true},
-			{"Elite Knight"}
+			{"Elite Knight"},
+			{"Templar Knight"},
+			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
+			{"Divine Warrior"}
 		}
 	},
 	{
@@ -4258,7 +5419,14 @@ local weapons = {
 		unproperly = true,
 		vocation = {
 			{"Knight", true},
-			{"Elite Knight"}
+			{"Elite Knight"},
+			{"Templar Knight"},
+			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
+			{"Divine Warrior"}
 		}
 	},
 	{
@@ -4274,7 +5442,10 @@ local weapons = {
 		unproperly = true,
 		vocation = {
 			{"Paladin", true},
-			{"Royal Paladin"}
+			{"Royal Paladin"},
+			{"Medieval Crossbowman"},
+			{"Spartan Spearman"},
+			{"Divine Shooter"},
 		}
 	},
 	{
@@ -4288,7 +5459,13 @@ local weapons = {
 		type = WEAPON_DISTANCE,
 		level = 20,
 		unproperly = true,
-		breakchance = 6
+	},
+	{
+		-- hunting spear
+		itemid = 3313,
+		type = WEAPON_DISTANCE,
+		level = 200,
+		unproperly = true,
 	},
 	{
 		-- ripper lance
@@ -4357,7 +5534,14 @@ local weapons = {
 		unproperly = true,
 		vocation = {
 			{"Knight", true},
-			{"Elite Knight"}
+			{"Elite Knight"},
+			{"Templar Knight"},
+			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
+			{"Divine Warrior"}
 		}
 	},
 	{
@@ -4375,7 +5559,14 @@ local weapons = {
 		unproperly = true,
 		vocation = {
 			{"Knight", true},
-			{"Elite Knight"}
+			{"Elite Knight"},
+			{"Templar Knight"},
+			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
+			{"Divine Warrior"}
 		}
 	},
 	{
@@ -4408,7 +5599,14 @@ local weapons = {
 		unproperly = true,
 		vocation = {
 			{"Knight", true},
-			{"Elite Knight"}
+			{"Elite Knight"},
+			{"Templar Knight"},
+			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
+			{"Divine Warrior"}
 		}
 	},
 	{
@@ -4433,7 +5631,14 @@ local weapons = {
 		unproperly = true,
 		vocation = {
 			{"Knight", true},
-			{"Elite Knight"}
+			{"Elite Knight"},
+			{"Templar Knight"},
+			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
+			{"Divine Warrior"}
 		}
 	},
 	{
@@ -4444,7 +5649,14 @@ local weapons = {
 		unproperly = true,
 		vocation = {
 			{"Knight", true},
-			{"Elite Knight"}
+			{"Elite Knight"},
+			{"Templar Knight"},
+			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
+			{"Divine Warrior"}
 		}
 	},
 	{
@@ -4465,7 +5677,14 @@ local weapons = {
 		unproperly = true,
 		vocation = {
 			{"Knight", true},
-			{"Elite Knight"}
+			{"Elite Knight"},
+			{"Templar Knight"},
+			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
+			{"Divine Warrior"}
 		}
 	},
 	{
@@ -4559,13 +5778,6 @@ local weapons = {
 		unproperly = true
 	},
 	{
-		-- obsidian lance
-		itemid = 3313,
-		type = WEAPON_AXE,
-		level = 20,
-		unproperly = true
-	},
-	{
 		-- silver mace
 		itemid = 3312,
 		type = WEAPON_CLUB,
@@ -4624,7 +5836,14 @@ local weapons = {
 		unproperly = true,
 		vocation = {
 			{"Knight", true},
-			{"Elite Knight"}
+			{"Elite Knight"},
+			{"Templar Knight"},
+			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
+			{"Divine Warrior"}
 		}
 	},
 	{
@@ -4640,7 +5859,14 @@ local weapons = {
 		type = WEAPON_SWORD,
 		vocation = {
 			{"Knight", true},
-			{"Elite Knight"}
+			{"Elite Knight"},
+			{"Templar Knight"},
+			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
+			{"Divine Warrior"}
 		}
 	},
 	{
@@ -4672,7 +5898,14 @@ local weapons = {
 		unproperly = true,
 		vocation = {
 			{"Knight", true},
-			{"Elite Knight"}
+			{"Elite Knight"},
+			{"Templar Knight"},
+			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
+			{"Divine Warrior"}
 		}
 	},
 	{
@@ -4742,7 +5975,14 @@ local weapons = {
 		action = "removecharge",
 		vocation = {
 			{"Knight", true},
-			{"Elite Knight"}
+			{"Elite Knight"},
+			{"Templar Knight"},
+			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
+			{"Divine Warrior"}
 		}
 	},
 	{
@@ -4763,7 +6003,14 @@ local weapons = {
 		unproperly = true,
 		vocation = {
 			{"Knight", true},
-			{"Elite Knight"}
+			{"Elite Knight"},
+			{"Templar Knight"},
+			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
+			{"Divine Warrior"}
 		}
 	},
 	{
@@ -4781,7 +6028,14 @@ local weapons = {
 		unproperly = true,
 		vocation = {
 			{"Knight", true},
-			{"Elite Knight"}
+			{"Elite Knight"},
+			{"Templar Knight"},
+			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
+			{"Divine Warrior"}
 		}
 	},
 	{
@@ -4792,7 +6046,14 @@ local weapons = {
 		unproperly = true,
 		vocation = {
 			{"Knight", true},
-			{"Elite Knight"}
+			{"Elite Knight"},
+			{"Templar Knight"},
+			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
+			{"Divine Warrior"}
 		}
 	},
 	{
@@ -4814,7 +6075,14 @@ local weapons = {
 		unproperly = true,
 		vocation = {
 			{"Knight", true},
-			{"Elite Knight"}
+			{"Elite Knight"},
+			{"Templar Knight"},
+			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
+			{"Divine Warrior"}
 		}
 	},
 	{
@@ -4866,7 +6134,14 @@ local weapons = {
 		unproperly = true,
 		vocation = {
 			{"Knight", true},
-			{"Elite Knight"}
+			{"Elite Knight"},
+			{"Templar Knight"},
+			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
+			{"Divine Warrior"}
 		}
 	},
 	{
@@ -4877,7 +6152,14 @@ local weapons = {
 		unproperly = true,
 		vocation = {
 			{"Knight", true},
-			{"Elite Knight"}
+			{"Elite Knight"},
+			{"Templar Knight"},
+			{"Chaos Knight"},
+			{"Miner"},
+			{"Blacksmith"},
+			{"Weaponsmith"},
+			{"Artisan Weaponsmith"},
+			{"Divine Warrior"}
 		}
 	},
 	{
@@ -4900,7 +6182,10 @@ local weapons = {
 		damage = {13, 25},
 		vocation = {
 			{"Sorcerer", true},
-			{"Master Sorcerer"}
+			{"Master Sorcerer"},
+			{"Archmage"},
+			{"Arcane Wizard"},
+			{"Divine Mage"}
 		}
 	},
 	{
@@ -4913,7 +6198,10 @@ local weapons = {
 		damage = {8, 18},
 		vocation = {
 			{"Sorcerer", true},
-			{"Master Sorcerer"}
+			{"Master Sorcerer"},
+			{"Archmage"},
+			{"Arcane Wizard"},
+			{"Divine Mage"}
 		}
 	},
 	{
@@ -4926,7 +6214,10 @@ local weapons = {
 		damage = {37, 53},
 		vocation = {
 			{"Sorcerer", true},
-			{"Master Sorcerer"}
+			{"Master Sorcerer"},
+			{"Archmage"},
+			{"Arcane Wizard"},
+			{"Divine Mage"}
 		}
 	},
 	{
@@ -4939,7 +6230,10 @@ local weapons = {
 		damage = {23, 37},
 		vocation = {
 			{"Sorcerer", true},
-			{"Master Sorcerer"}
+			{"Master Sorcerer"},
+			{"Archmage"},
+			{"Arcane Wizard"},
+			{"Divine Mage"}
 		}
 	},
 	{
@@ -4952,7 +6246,10 @@ local weapons = {
 		damage = {56, 74},
 		vocation = {
 			{"Sorcerer", true},
-			{"Master Sorcerer"}
+			{"Master Sorcerer"},
+			{"Archmage"},
+			{"Arcane Wizard"},
+			{"Divine Mage"}
 		}
 	},
 	{
@@ -4965,7 +6262,10 @@ local weapons = {
 		damage = {13, 25},
 		vocation = {
 			{"Druid", true},
-			{"Elder Druid"}
+			{"Elder Druid"},
+			{"Celtic Druid"},
+			{"Spirit Healer"},
+			{"Divine Mage"}
 		}
 	},
 	{
@@ -4978,7 +6278,10 @@ local weapons = {
 		damage = {23, 37},
 		vocation = {
 			{"Druid", true},
-			{"Elder Druid"}
+			{"Elder Druid"},
+			{"Celtic Druid"},
+			{"Spirit Healer"},
+			{"Divine Mage"}
 		}
 	},
 	{
@@ -4991,7 +6294,10 @@ local weapons = {
 		damage = {56, 74},
 		vocation = {
 			{"Druid", true},
-			{"Elder Druid"}
+			{"Elder Druid"},
+			{"Celtic Druid"},
+			{"Spirit Healer"},
+			{"Divine Mage"}
 		}
 	},
 	{
@@ -5004,7 +6310,10 @@ local weapons = {
 		damage = {8, 18},
 		vocation = {
 			{"Druid", true},
-			{"Elder Druid"}
+			{"Elder Druid"},
+			{"Celtic Druid"},
+			{"Spirit Healer"},
+			{"Divine Mage"}
 		}
 	},
 	{
@@ -5017,7 +6326,10 @@ local weapons = {
 		damage = {37, 53},
 		vocation = {
 			{"Druid", true},
-			{"Elder Druid"}
+			{"Elder Druid"},
+			{"Celtic Druid"},
+			{"Spirit Healer"},
+			{"Divine Mage"}
 		}
 	},
 	{

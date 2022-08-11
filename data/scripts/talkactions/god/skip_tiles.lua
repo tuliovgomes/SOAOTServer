@@ -5,12 +5,7 @@ function skipTiles.onSay(player, words, param)
 		return true
 	end
 
-	if param == "" then
-		player:sendCancelMessage("Command param required.")
-		return false
-	end
-
-	local steps = tonumber(param)
+	local steps = tonumber(param) or 1
 	if not steps then
 		return false
 	end

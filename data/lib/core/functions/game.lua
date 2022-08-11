@@ -8,6 +8,15 @@ function getGlobalStorageValueDB(key)
     return -1
 end
 
+function getGlobalStorageValue(key)
+	return Game.getStorageValue(key) or -1
+end
+
+function setGlobalStorageValue(key, value)
+	Game.setStorageValue(key, value)
+	return true
+end
+
 function setGlobalStorageValueDB(key, value)
     db.query("INSERT INTO `global_storage` (`key`, `value`) VALUES (".. key ..", ".. value ..") ON DUPLICATE KEY UPDATE `value` = ".. value)
 end
