@@ -91,11 +91,6 @@ monster.defenses = {
 	armor = 24
 }
 
-monster.maxSummons = 5
-monster.summons = {
-	{name = "Hellfire Fighter", chance = 50, interval = 1000}
-}
-
 monster.loot = {
 	{name = "small ruby", chance = 50000, maxCount = 40},
 	{name = "small diamond", chance = 50000, maxCount = 36},

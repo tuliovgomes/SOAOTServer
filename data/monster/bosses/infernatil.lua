@@ -57,13 +57,6 @@ monster.light = {
 	color = 0
 }
 
-monster.summon = {
-	maxSummons = 4,
-	summons = {
-		{name = "hellfire fighter", chance = 8, interval = 1000, count = 3}
-	}
-}
-
 monster.voices = {
 	interval = 5000,
 	chance = 10,

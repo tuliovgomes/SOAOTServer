@@ -1,12 +1,10 @@
 local combat = Combat()
-combat:setParameter(COMBAT_PARAM_TYPE, COMBAT_HOLYDAMAGE)
-combat:setParameter(COMBAT_PARAM_EFFECT, CONST_ME_HOLYDAMAGE)
-combat:setParameter(COMBAT_PARAM_EFFECT, CONST_ME_HOLYAREA)
-combat:setParameter(COMBAT_PARAM_DISTANCEEFFECT, CONST_ANI_HOLY)
-
+combat:setParameter(COMBAT_PARAM_TYPE, COMBAT_FIREDAMAGE)
+combat:setParameter(COMBAT_PARAM_EFFECT, CONST_ME_FIREAREA)
+combat:setParameter(COMBAT_PARAM_DISTANCEEFFECT, CONST_ANI_FIRE)
 function onGetFormulaValues(player, level, maglevel)
-	local min = (level / 5) + (maglevel *  4.3) + 48
-	local max = (level / 5) + (maglevel * 7.4) + 64
+	local min = (level / 5) + (maglevel *  4.3) + 51
+	local max = (level / 5) + (maglevel * 7.4) + 68
 	return -min, -max
 end
 
@@ -19,12 +17,12 @@ function rune.onCastSpell(creature, var, isHotkey)
 end
 
 rune:group("attack")
-rune:name("holy missile rune")
-rune:runeId(3182)
+rune:name("Diamond Dust Rune")
+rune:level(80)
+rune:magicLevel(28)
+rune:runeId(3163)
+rune:charges(3)
 rune:allowFarUse(true)
-rune:charges(5)
-rune:level(27)
-rune:magicLevel(101)
 rune:cooldown(2 * 1000)
 rune:groupCooldown(2 * 1000)
 rune:needTarget(true)
