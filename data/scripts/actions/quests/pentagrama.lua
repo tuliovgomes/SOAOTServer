@@ -1,24 +1,20 @@
 local config = {
 	duration = 5, -- time till reset, in minutes
-	level_req = 100, -- minimum level to do quest
+	level_req = 1, -- minimum level to do quest
 	min_players = 0, -- minimum players to join quest
 	lever_id = 2772, -- id of lever before pulled
 }
 
 local player_positions = {
-	[1] = {fromPos = Position(1015, 1084, 6), toPos = Position(1075, 1101, 7)},
-	[2] = {fromPos = Position(1014, 1084, 6), toPos = Position(1076, 1101, 7)},
-	[3] = {fromPos = Position(1013, 1084, 6), toPos = Position(1077, 1101, 7)},
-	[4] = {fromPos = Position(1012, 1084, 6), toPos = Position(1078, 1101, 7)}
+	[1] = {fromPos = Position(1012, 1161, 7), toPos = Position(1080, 1157, 7)},
+	[2] = {fromPos = Position(1013, 1161, 7), toPos = Position(1080, 1157, 7)},
+	[3] = {fromPos = Position(1014, 1161, 7), toPos = Position(1080, 1157, 7)},
+	[4] = {fromPos = Position(1015, 1161, 7), toPos = Position(1080, 1157, 7)}
 }
 
 local monsters = {
-	[1] = {pos = Position(1075, 1099, 7), name = "Demon"},
-	[2] = {pos = Position(1077, 1099, 7), name = "Demon"},
-	[3] = {pos = Position(1079, 1101, 7), name = "Demon"},
-	[4] = {pos = Position(1080, 1101, 7), name = "Demon"},
-	[5] = {pos = Position(1076, 1103, 7), name = "Demon"},
-	[6] = {pos = Position(1078, 1103, 7), name = "Demon"}
+	[1] = {pos = Position(1079, 1147, 7), name = "Gothmog"},
+	[2] = {pos = Position(1079, 1153, 7), name = "Gothmog"},
 }
 
 function doResetAnnihilator(uid)
@@ -117,5 +113,5 @@ function annihilator.onUse(player, item, fromPosition, target, toPosition, isHot
 	return true
 end
 
-annihilator:aid(30015)
+annihilator:aid(30016)
 annihilator:register()

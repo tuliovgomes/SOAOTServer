@@ -91,16 +91,11 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = 2160, chance = 100000, maxCount = 5},
-	{id = 2091, chance = 10000},
-	{id = 2150, chance = 5515, maxCount = 20},
-	{id = 2393, chance = 5000},
-	{id = 1987, chance = 100000, child = {
-			{id = 2472, chance = 1300},
-			{id = 2522, chance = 1000},
-			{id = 2493, chance = 2000}
-		}
-	}
+	{name = "platinum coin", minCount = 1, maxCount = 5, chance = 100000},
+	{name = "crystal coin", minCount = 1, maxCount = 5, chance = 50000},
+	{name = "supreme health potion", minCount = 10, maxCount = 80, chance = 45000},
+	{name = "ultimate mana potion", minCount = 10, maxCount = 60, chance = 42000},
+	{name = "ultimate spirit potion", minCount = 0, maxCount = 88, chance = 42000},
 }
 
 mType:register(monster)
