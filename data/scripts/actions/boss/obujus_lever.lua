@@ -5,7 +5,8 @@ local setting = {
 	boss2Position = {x = 1243, y = 1308, z = 9},
 	boss3Position = {x = 1227, y = 1312, z = 9},
 	kickPosition = {x = 1147, y = 1401, z = 9},
-	playerTeleport = {x = 1232, y = 1317, z = 9}
+	playerTeleport = {x = 1232, y = 1317, z = 9},
+	playerLevel = 800
 }
 
 local ObujusLever = Action()
@@ -35,6 +36,10 @@ function ObujusLever.onUse(creature, item, fromPosition, target, toPosition, isH
 	end
 			for i, player in ipairs(players) do
 
+					if player:getLevel() < setting.playerLevel then
+						player:sendCancelMessage("you don't have enough level, you need level ".. setting.playerLevel .." to fight with this boss", cid)
+						return true
+					end
 					if player:getStorageValue(setting.storage) > os.time() then
 						player:sendCancelMessage("you can only enter once a day.", cid)
 						return true

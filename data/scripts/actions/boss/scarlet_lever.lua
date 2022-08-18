@@ -4,7 +4,8 @@ local setting = {
 	Pillar1pos = {x = 33361, y = 31316, z = 9},
 	bossPosition = {x = 905, y = 988, z = 6},
 	kickPosition = {x = 904, y = 1001, z = 6},
-	playerTeleport = {x = 904, y = 994, z = 6}
+	playerTeleport = {x = 904, y = 994, z = 6},
+	playerLevel = 350
 }
 
 local scarlettLever = Action()
@@ -31,7 +32,10 @@ function scarlettLever.onUse(creature, item, fromPosition, target, toPosition, i
 			players[#players+1] = player1
 	end
 			for i, player in ipairs(players) do
-
+					if player:getLevel() < setting.playerLevel then
+						player:sendCancelMessage("you don't have enough level, you need level ".. setting.playerLevel .." to fight with this boss", cid)
+						return true
+					end
 					if player:getStorageValue(setting.storage) > os.time() then
 						player:sendCancelMessage("you can only enter once a day.", cid)
 						return true

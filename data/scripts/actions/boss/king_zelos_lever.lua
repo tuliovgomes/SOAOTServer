@@ -1,30 +1,30 @@
 local setting = {
-	centerRoom = {x = 905, y = 988, z = 6},
-	storage = 57600,
-	Pillar1pos = {x = 33361, y = 31316, z = 9},
-	bossPosition = {x = 905, y = 988, z = 6},
-	kickPosition = {x = 904, y = 1001, z = 6},
-	playerTeleport = {x = 904, y = 994, z = 6}
+	centerRoom = {x = 786, y = 847, z = 14},
+	storage = 57700,
+	bossPosition = {x = 786, y = 845, z = 14},
+	kickPosition = {x = 740, y = 845, z = 14},
+	playerTeleport = {x = 776, y = 845, z = 14},
+	playerLevel=1000
 }
 
-local scarlettLever = Action()
+local kingzelosLever = Action()
 
 -- Start Script
-function scarlettLever.onUse(creature, item, fromPosition, target, toPosition, isHotkey)
-	if item.itemid == 5057 and item.actionid == 57600 then
-	local clearScarlettRoom = Game.getSpectators(Position(setting.centerRoom), false, false,  7, 7, 6, 6)
-	for index, spectatorcheckface in ipairs(clearScarlettRoom) do
+function kingzelosLever.onUse(creature, item, fromPosition, target, toPosition, isHotkey)
+	if item.itemid == 2772 and item.actionid == 57700 then
+	local clearkingzelosRoom = Game.getSpectators(Position(setting.centerRoom), false, false,  10, 10, 10, 10)
+	for index, spectatorcheckface in ipairs(clearkingzelosRoom) do
 			if spectatorcheckface:isPlayer() then
 					creature:sendTextMessage(MESSAGE_EVENT_ADVANCE, "Someone is fighting against the boss! You need wait awhile.")
 					return false
 			end
 	end
-	for index, removeScarlett in ipairs(clearScarlettRoom) do
-			if (removeScarlett:isMonster()) then
-					removeScarlett:remove()
+	for index, removekingzelos in ipairs(clearkingzelosRoom) do
+			if (removekingzelos:isMonster()) then
+					removekingzelos:remove()
 			end
 	end
-			Game.createMonster("Scarlett Etzel", setting.bossPosition, false, true)
+			Game.createMonster("King Zelos", setting.bossPosition, false, true)
 	local players = {}
 	for i = 0, 4 do
 			local player1 = Tile({x = (Position(item:getPosition()).x), y = Position(item:getPosition()).y + i, z = Position(item:getPosition()).z}):getTopCreature()
@@ -32,6 +32,10 @@ function scarlettLever.onUse(creature, item, fromPosition, target, toPosition, i
 	end
 			for i, player in ipairs(players) do
 
+					if player:getLevel() < setting.playerLevel then
+						player:sendCancelMessage("you don't have enough level, you need level ".. setting.playerLevel .." to fight with this boss", cid)
+						return true
+					end
 					if player:getStorageValue(setting.storage) > os.time() then
 						player:sendCancelMessage("you can only enter once a day.", cid)
 						return true
@@ -43,9 +47,9 @@ function scarlettLever.onUse(creature, item, fromPosition, target, toPosition, i
 					setPlayerStorageValue(player,setting.storage, os.time() + 20 * 60 * 60)
 					player:sendTextMessage(MESSAGE_EVENT_ADVANCE, 'You have 20 minute(s) to defeat the boss.')
 							addEvent(function()
-									local spectatorsScarlett = Game.getSpectators(Position(setting.centerRoom), false, false, 7, 7, 6, 6)
-											for u = 1, #spectatorsScarlett, 1 do
-													if spectatorsScarlett[U]:isPlayer() and (spectatorsScarlett[U]:getName() == player:getName()) then
+									local spectatorskingzelos = Game.getSpectators(Position(setting.centerRoom), false, false,  10, 10, 10, 10)
+											for u = 1, #spectatorskingzelos, 1 do
+													if spectatorskingzelos[U]:isPlayer() and (spectatorskingzelos[U]:getName() == player:getName()) then
 															player:teleportTo(Position(setting.kickPosition))
 															player:getPosition():sendMagicEffect(CONST_ME_TELEPORT)
 															player:sendTextMessage(MESSAGE_EVENT_ADVANCE, 'Time is over.')
@@ -57,5 +61,5 @@ function scarlettLever.onUse(creature, item, fromPosition, target, toPosition, i
 	return true
 end
 
-scarlettLever:aid(57601)
-scarlettLever:register()
+kingzelosLever:aid(57700)
+kingzelosLever:register()
