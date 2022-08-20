@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("World Devourer")
 local monster = {}
 
 monster.description = "World Devourer"
-monster.experience = 77700
+monster.experience = 212000
 monster.outfit = {
 	lookType = 875,
 	lookHead = 82,
@@ -13,8 +13,8 @@ monster.outfit = {
 	lookMount = 0
 }
 
-monster.health = 25000
-monster.maxHealth = 25000
+monster.health = 390000
+monster.maxHealth = 390000
 monster.race = "venom"
 monster.corpse = 0
 monster.speed = 450

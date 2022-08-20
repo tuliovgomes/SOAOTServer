@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("Eradicator")
 local monster = {}
 
 monster.description = "Eradicator"
-monster.experience = 50000
+monster.experience = 182000
 monster.outfit = {
 	lookType = 875,
 	lookHead = 79,
@@ -13,8 +13,8 @@ monster.outfit = {
 	lookMount = 0
 }
 
-monster.health = 290000
-monster.maxHealth = 290000
+monster.health = 270000
+monster.maxHealth = 270000
 monster.race = "venom"
 monster.corpse = 23564
 monster.speed = 450
