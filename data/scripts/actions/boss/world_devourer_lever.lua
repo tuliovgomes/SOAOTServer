@@ -7,7 +7,7 @@ local setting = {
 	bossPosition4 = {x = 1090, y = 1360, z = 7},
 	kickPosition = {x = 1118, y = 1429, z = 7},
 	playerTeleport = {x = 1095, y = 1394, z = 7},
-	playerLevel=0
+	playerLevel=800
 }
 
 local worldDevourerLever = Action()
