@@ -114,7 +114,7 @@ monster.loot = {
 			{id = 2678, chance = 2000, maxCount = 3, description = "coconut"},
 			{id = 2148, chance = 1000, maxCount = 100, description = "gold coin"},
 			{id = 2151, chance = 1200, maxCount = 4, description = "talon"},
-			{id = 5903, chance = 8000, description = "ferumbras' hat"},
+			{id = 5903, chance = 800, description = "ferumbras' hat"},
 			{id = 2149, chance = 1500, maxCount = 3, description = "small emerald"},
 			{id = 2171, chance = 3000, description = "platinum amulet"},
 			{id = 2415, chance = 4000, description = "great axe"}

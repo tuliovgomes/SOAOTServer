@@ -2545,9 +2545,6 @@
 	<monster centerx="826" centery="1230" centerz="6" radius="1">
 		<monster name="Lizard Templar" x="0" y="0" z="6" spawntime="90" />
 	</monster>
-	<monster centerx="834" centery="1230" centerz="6" radius="1">
-		<monster name="Cobra" x="0" y="0" z="6" spawntime="90" />
-	</monster>
 	<monster centerx="1339" centery="1231" centerz="6" radius="3">
 		<monster name="True Midnight Asura" x="0" y="-2" z="6" spawntime="60" />
 		<monster name="True Frost Flower Asura" x="-1" y="2" z="6" spawntime="60" />
@@ -2806,9 +2803,6 @@
 	</monster>
 	<monster centerx="835" centery="1285" centerz="6" radius="1">
 		<monster name="Lizard Templar" x="0" y="0" z="6" spawntime="90" />
-	</monster>
-	<monster centerx="875" centery="1286" centerz="6" radius="1">
-		<monster name="Dragon Hatchling" x="0" y="0" z="6" spawntime="90" />
 	</monster>
 	<monster centerx="1065" centery="1287" centerz="6" radius="1">
 		<monster name="Michael Jackson" x="0" y="0" z="6" spawntime="3600" />
@@ -6023,9 +6017,6 @@
 		<monster name="Hellhound" x="0" y="1" z="7" spawntime="60" />
 		<monster name="Hellspawn" x="1" y="3" z="7" spawntime="60" />
 	</monster>
-	<monster centerx="863" centery="1218" centerz="7" radius="1">
-		<monster name="Orc Marauder" x="0" y="0" z="7" spawntime="90" />
-	</monster>
 	<monster centerx="1387" centery="1218" centerz="7" radius="3">
 		<monster name="True Dawnfire Asura" x="-1" y="2" z="7" spawntime="60" />
 		<monster name="True Frost Flower Asura" x="3" y="2" z="7" spawntime="60" />
@@ -6039,9 +6030,6 @@
 	<monster centerx="1400" centery="1221" centerz="7" radius="3">
 		<monster name="True Frost Flower Asura" x="-3" y="-1" z="7" spawntime="60" />
 		<monster name="True Dawnfire Asura" x="0" y="0" z="7" spawntime="60" />
-	</monster>
-	<monster centerx="874" centery="1224" centerz="7" radius="1">
-		<monster name="Orc Marauder" x="0" y="0" z="7" spawntime="90" />
 	</monster>
 	<monster centerx="1339" centery="1224" centerz="7" radius="3">
 		<monster name="True Midnight Asura" x="1" y="3" z="7" spawntime="60" />
@@ -6182,9 +6170,6 @@
 	<monster centerx="815" centery="1255" centerz="7" radius="1">
 		<monster name="Lizard Templar" x="0" y="0" z="7" spawntime="90" />
 	</monster>
-	<monster centerx="862" centery="1255" centerz="7" radius="1">
-		<monster name="Cobra" x="0" y="0" z="7" spawntime="90" />
-	</monster>
 	<monster centerx="1248" centery="1255" centerz="7" radius="1">
 		<monster name="Many Faces" x="0" y="0" z="7" spawntime="60" />
 	</monster>
@@ -6199,9 +6184,6 @@
 	</monster>
 	<monster centerx="857" centery="1257" centerz="7" radius="1">
 		<monster name="Lizard Sentinel" x="0" y="0" z="7" spawntime="90" />
-	</monster>
-	<monster centerx="843" centery="1258" centerz="7" radius="1">
-		<monster name="Cobra" x="0" y="0" z="7" spawntime="90" />
 	</monster>
 	<monster centerx="1275" centery="1259" centerz="7" radius="1">
 		<monster name="Many Faces" x="0" y="0" z="7" spawntime="60" />
@@ -6281,9 +6263,6 @@
 	<monster centerx="865" centery="1274" centerz="7" radius="1">
 		<monster name="Lizard Snakecharmer" x="0" y="0" z="7" spawntime="90" />
 	</monster>
-	<monster centerx="867" centery="1276" centerz="7" radius="1">
-		<monster name="Cobra" x="0" y="0" z="7" spawntime="90" />
-	</monster>
 	<monster centerx="816" centery="1277" centerz="7" radius="1">
 		<monster name="Lizard Sentinel" x="0" y="0" z="7" spawntime="90" />
 	</monster>
@@ -6298,9 +6277,6 @@
 	</monster>
 	<monster centerx="867" centery="1280" centerz="7" radius="1">
 		<monster name="Lizard Sentinel" x="0" y="0" z="7" spawntime="90" />
-	</monster>
-	<monster centerx="871" centery="1282" centerz="7" radius="1">
-		<monster name="Cobra" x="0" y="0" z="7" spawntime="90" />
 	</monster>
 	<monster centerx="858" centery="1283" centerz="7" radius="1">
 		<monster name="Lizard Snakecharmer" x="0" y="0" z="7" spawntime="90" />
@@ -6341,9 +6317,6 @@
 	<monster centerx="874" centery="1303" centerz="7" radius="1">
 		<monster name="Lizard Legionnaire" x="0" y="0" z="7" spawntime="90" />
 	</monster>
-	<monster centerx="865" centery="1306" centerz="7" radius="1">
-		<monster name="Dragon Hatchling" x="0" y="0" z="7" spawntime="90" />
-	</monster>
 	<monster centerx="885" centery="1306" centerz="7" radius="1">
 		<monster name="Lizard Dragon Priest" x="0" y="0" z="7" spawntime="90" />
 	</monster>
@@ -6373,9 +6346,6 @@
 	</monster>
 	<monster centerx="870" centery="1328" centerz="7" radius="1">
 		<monster name="Lizard Legionnaire" x="0" y="0" z="7" spawntime="90" />
-	</monster>
-	<monster centerx="881" centery="1330" centerz="7" radius="1">
-		<monster name="Dragon Hatchling" x="0" y="0" z="7" spawntime="90" />
 	</monster>
 	<monster centerx="892" centery="1330" centerz="7" radius="1">
 		<monster name="Lizard Dragon Priest" x="0" y="0" z="7" spawntime="90" />

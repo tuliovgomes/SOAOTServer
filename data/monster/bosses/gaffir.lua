@@ -57,13 +57,6 @@ monster.light = {
 	color = 0
 }
 
-monster.summon = {
-	maxSummons = 1,
-	summons = {
-		{name = "Black Cobra", chance = 10, interval = 2000, count = 1}
-	}
-}
-
 monster.voices = {
 	interval = 5000,
 	chance = 10,
