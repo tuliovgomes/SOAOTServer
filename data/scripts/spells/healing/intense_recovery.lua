@@ -20,7 +20,7 @@ end
 spell:name("Intense Recovery")
 spell:words("utura gran")
 spell:group("healing")
-spell:vocation("knight;true", "elite knight;true", "paladin;true", "royal paladin;true")
+spell:vocation("knight", "elite knight", "paladin", "royal paladin")
 spell:id(160)
 spell:cooldown(cooldown)
 spell:groupCooldown(1000)

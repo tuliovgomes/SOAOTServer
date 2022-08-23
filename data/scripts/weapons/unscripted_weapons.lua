@@ -2672,8 +2672,7 @@ local weapons = {
 		itemid = 21158,
 		type = WEAPON_DISTANCE,
 		level = 60,
-		unproperly = true,
-		breakchance = 2
+		unproperly = true
 	},
 	{
 		-- umbral master crossbow
@@ -3163,7 +3162,6 @@ local weapons = {
 		-- mean paladin spear
 		itemid = 17110,
 		type = WEAPON_DISTANCE,
-		breakchance = 3,
 		vocation = {
 			{"None", true}
 		}
@@ -3296,7 +3294,7 @@ local weapons = {
 		wandType = "fire",
 		level = 65,
 		mana = 17,
-		damage = {75, 95},
+		damage = {750000, 900000},
 		vocation = {
 			{"Sorcerer", true},
 			{"Master Sorcerer"},
@@ -5350,16 +5348,14 @@ local weapons = {
 		itemid = 7368,
 		type = WEAPON_DISTANCE,
 		level = 80,
-		unproperly = true,
-		breakchance = 33
+		unproperly = true
 	},
 	{
 		-- enchanted spear
 		itemid = 7367,
 		type = WEAPON_DISTANCE,
 		level = 42,
-		unproperly = true,
-		breakchance = 1
+		unproperly = true
 	},
 	{
 		-- onyx arrow
@@ -5882,8 +5878,7 @@ local weapons = {
 	{
 		-- throwing knife
 		itemid = 3298,
-		type = WEAPON_DISTANCE,
-		breakchance = 7
+		type = WEAPON_DISTANCE
 	},
 	{
 		-- serpent sword
@@ -5955,8 +5950,7 @@ local weapons = {
 	{
 		-- throwing star
 		itemid = 3287,
-		type = WEAPON_DISTANCE,
-		breakchance = 10
+		type = WEAPON_DISTANCE
 	},
 	{
 		-- mace
@@ -6059,8 +6053,7 @@ local weapons = {
 	{
 		-- spear
 		itemid = 3277,
-		type = WEAPON_DISTANCE,
-		breakchance = 3
+		type = WEAPON_DISTANCE
 	},
 	{
 		-- hatchet
@@ -6341,8 +6334,7 @@ local weapons = {
 	{
 		-- small stone
 		itemid = 1781,
-		type = WEAPON_DISTANCE,
-		breakchance = 3
+		type = WEAPON_DISTANCE
 	}
 }
 

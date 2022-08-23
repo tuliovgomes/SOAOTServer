@@ -327,11 +327,11 @@
 	<item fromid="240" toid="252" name="linen"/>
 	<item fromid="253" toid="265" article="a" name="tent"/>
 	<item id="266" article="a" name="health potion">
-		<attribute key="weight" value="270"/>
+		<attribute key="weight" value="170"/>
 	</item>
 	<item id="267" name="linen"/>
 	<item id="268" article="a" name="mana potion">
-		<attribute key="weight" value="270"/>
+		<attribute key="weight" value="170"/>
 	</item>
 	<item id="269" article="a" name="dead dragon hatchling">
 		<attribute key="containerSize" value="30"/>

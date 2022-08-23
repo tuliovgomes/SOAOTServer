@@ -17,7 +17,7 @@ bullseye:setParameter(CONDITION_PARAM_BUFF_SPELL, true)
 
 local setting = {
 	[236] = {
-		health = {250, 350},
+		health = {500, 600},
 		vocations = {
 			VOCATION.BASE_ID.KNIGHT,
 			VOCATION.BASE_ID.PALADIN
@@ -27,7 +27,7 @@ local setting = {
 		description = "Only knights and paladins of level 50 or above may drink this fluid."
 	},
 	[237] = {
-		mana = {115, 185},
+		mana = {215, 385},
 		vocations = {
 			VOCATION.BASE_ID.SORCERER,
 			VOCATION.BASE_ID.DRUID,
@@ -38,7 +38,7 @@ local setting = {
 		description = "Only sorcerers, druids and paladins of level 50 or above may drink this fluid."
 	},
 	[238] = {
-		mana = {150, 250},
+		mana = {550, 785},
 		vocations = {
 			VOCATION.BASE_ID.SORCERER,
 			VOCATION.BASE_ID.DRUID
@@ -48,7 +48,7 @@ local setting = {
 		description = "Only druids and sorcerers of level 80 or above may drink this fluid."
 	},
 	[239] = {
-		health = {425, 575},
+		health = {525, 675},
 		vocations = {
 			VOCATION.BASE_ID.KNIGHT
 		},
@@ -57,11 +57,11 @@ local setting = {
 		description = "Only knights of level 80 or above may drink this fluid."
 	},
 	[266] = {
-		health = {125, 175},
+		health = {225, 375},
 		flask = 285
 	},
 	[268] = {
-		mana = {75, 125},
+		mana = {205, 325},
 		flask = 285
 	},
 	[6558] = {
@@ -96,7 +96,7 @@ local setting = {
 		description = "Only paladins may drink this potion.", text = "You feel more accurate."
 	},
 	[7642] = {
-		health = {250, 350}, mana = {100, 200},
+		health = {350, 550}, mana = {200, 400},
 		vocations = {
 			VOCATION.BASE_ID.PALADIN
 		},
@@ -105,7 +105,7 @@ local setting = {
 		description = "Only paladins of level 80 or above may drink this fluid."
 	},
 	[7643] = {
-		health = {650, 850},
+		health = {850, 1250},
 		vocations = {
 			VOCATION.BASE_ID.KNIGHT
 		},
@@ -118,11 +118,11 @@ local setting = {
 		flask = 285
 	},
 	[7876] = {
-		health = {60, 90},
+		health = {160, 190},
 		flask = 285
 	},
 	[23373] = {
-		mana = {425, 575},
+		mana = {825, 1275},
 		vocations = {
 			VOCATION.BASE_ID.SORCERER,
 			VOCATION.BASE_ID.DRUID
@@ -132,7 +132,7 @@ local setting = {
 		description = "Only druids and sorcerers of level 130 or above may drink this fluid."
 	},
 	[23374] = {
-		health = {420, 580}, mana = {250, 350},
+		health = {820, 980}, mana = {550, 950},
 		vocations = {
 			VOCATION.BASE_ID.PALADIN
 		},
@@ -141,7 +141,7 @@ local setting = {
 		description = "Only paladins of level 130 or above may drink this fluid."
 	},
 	[23375] = {
-		health = {875, 1125},
+		health = {1875, 2125},
 		vocations = {
 			VOCATION.BASE_ID.KNIGHT
 		},

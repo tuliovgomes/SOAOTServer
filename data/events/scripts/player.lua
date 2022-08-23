@@ -98,12 +98,6 @@ function Player:onLookInShop(itemType, count)
 end
 
 function Player:onMoveItem(item, count, fromPosition, toPosition, fromCylinder, toCylinder)
-	-- No move items with actionID = 100
-	if item:getActionId() == NOT_MOVEABLE_ACTION then
-		self:sendCancelMessage(RETURNVALUE_NOTPOSSIBLE)
-		return false
-	end
-
 	if toPosition.x ~= CONTAINER_POSITION then
 		return true
 	end
@@ -130,10 +124,122 @@ function Player:onMoveItem(item, count, fromPosition, toPosition, fromCylinder, 
 		end
 	end
 
-	-- Execute event function from reward boss lib
-	self:executeRewardEvents(item, toPosition)
+	-- No move items with actionID = 100
+	if item:getActionId() == NOT_MOVEABLE_ACTION then
+		self:sendCancelMessage(RETURNVALUE_NOTPOSSIBLE)
+		return false
+	end
+
+	-- No move if item count > 20 items
+	local tile = Tile(toPosition)
+	if tile and tile:getItemCount() > 20 then
+		self:sendCancelMessage(RETURNVALUE_NOTPOSSIBLE)
+		return false
+	end
+
+	-- No move parcel very heavy
+	if CONTAINER_WEIGHT_CHECK and ItemType(item:getId()):isContainer()
+	and item:getWeight() > CONTAINER_WEIGHT_MAX then
+		self:sendCancelMessage("Your cannot move this item too heavy.")
+		return false
+	end
+
+	-- Players cannot throw items on teleports
+	if blockTeleportTrashing and toPosition.x ~= CONTAINER_POSITION then
+		local thing = Tile(toPosition):getItemByType(ITEM_TYPE_TELEPORT)
+		if thing then
+			self:sendCancelMessage(RETURNVALUE_NOTPOSSIBLE)
+			self:getPosition():sendMagicEffect(CONST_ME_POFF)
+			return false
+		end
+	end
+
+	-- SSA exhaust
+	local exhaust = { }
+	if toPosition.x == CONTAINER_POSITION and toPosition.y == CONST_SLOT_NECKLACE
+	and item:getId() == ITEM_STONE_SKIN_AMULET then
+		local pid = self:getId()
+		if exhaust[pid] then
+			self:sendCancelMessage(RETURNVALUE_YOUAREEXHAUSTED)
+			return false
+		else
+			exhaust[pid] = true
+			addEvent(function() exhaust[pid] = false end, 2000, pid)
+			return true
+		end
+	end
+
+	-- Store Inbox
+	local containerIdFrom = fromPosition.y - 64
+	local containerFrom = self:getContainerById(containerIdFrom)
+	if (containerFrom) then
+		if (containerFrom:getId() == ITEM_STORE_INBOX
+		and toPosition.y >= 1 and toPosition.y <= 11 and toPosition.y ~= 3) then
+			self:sendCancelMessage(RETURNVALUE_CONTAINERNOTENOUGHROOM)
+			return false
+		end
+	end
+
+	local containerTo = self:getContainerById(toPosition.y-64)
+	if (containerTo) then
+		if (containerTo:getId() == ITEM_STORE_INBOX) or (containerTo:getParent():isContainer() and containerTo:getParent():getId() == ITEM_STORE_INBOX and containerTo:getId() ~= ITEM_GOLD_POUCH) then
+			self:sendCancelMessage(RETURNVALUE_CONTAINERNOTENOUGHROOM)
+			return false
+		end
+		-- Gold Pouch
+		if (containerTo:getId() == ITEM_GOLD_POUCH) then
+			if (not (item:getId() == ITEM_CRYSTAL_COIN or item:getId() == ITEM_PLATINUM_COIN
+			or item:getId() == ITEM_GOLD_COIN)) then
+				self:sendCancelMessage("You can move only money to this container.")
+				return false
+			end
+		end
+	end
+
+	-- Reward System
+	if toPosition.x == CONTAINER_POSITION then
+		local containerId = toPosition.y - 64
+		local container = self:getContainerById(containerId)
+		if not container then
+			return true
+		end
+
+		-- Do not let the player insert items into either the Reward Container or the Reward Chest
+		local itemId = container:getId()
+		if itemId == ITEM_REWARD_CONTAINER or itemId == ITEM_REWARD_CHEST then
+			self:sendCancelMessage(RETURNVALUE_NOTPOSSIBLE)
+			return false
+		end
+
+		-- The player also shouldn't be able to insert items into the boss corpse
+		local tileCorpse = Tile(container:getPosition())
+		for index, value in ipairs(tileCorpse:getItems() or { }) do
+			if value:getAttribute(ITEM_ATTRIBUTE_CORPSEOWNER) == 2^31 - 1 and value:getName() == container:getName() then
+				self:sendCancelMessage(RETURNVALUE_NOTPOSSIBLE)
+				return false
+			end
+		end
+	end
+
+	-- Do not let the player move the boss corpse.
+	if item:getAttribute(ITEM_ATTRIBUTE_CORPSEOWNER) == 2^31 - 1 then
+		self:sendCancelMessage(RETURNVALUE_NOTPOSSIBLE)
+		return false
+	end
+
+	-- Players cannot throw items on reward chest
+	local tileChest = Tile(toPosition)
+	if tileChest and tileChest:getItemById(ITEM_REWARD_CHEST) then
+		self:sendCancelMessage(RETURNVALUE_NOTPOSSIBLE)
+		self:getPosition():sendMagicEffect(CONST_ME_POFF)
+		return false
+	end
 
 	return true
+end
+
+function Player:onStorageUpdate(key, value, oldValue, currentFrameTime)
+	self:updateStorage(key, value, oldValue, currentFrameTime)
 end
 
 function Player:onItemMoved(item, count, fromPosition, toPosition, fromCylinder, toCylinder)
@@ -220,10 +326,6 @@ function Player:onTurn(direction)
 end
 
 function Player:onTradeRequest(target, item)
-	-- No trade items with actionID = 100
-	if item:getActionId() == NOT_MOVEABLE_ACTION then
-		return false
-	end
 	return true
 end
 
@@ -263,52 +365,15 @@ local function useStamina(player)
 			staminaMinutes = 0
 		end
 		nextUseStaminaTime[playerId] = currentTime + 120
-		player:removePreyStamina(120)
 	else
 		staminaMinutes = staminaMinutes - 1
 		nextUseStaminaTime[playerId] = currentTime + 60
-		player:removePreyStamina(60)
 	end
 	player:setStamina(staminaMinutes)
 end
 
-local function useStaminaXpBoost(player)
-	if not player then
-		return false
-	end
-
-	local staminaMinutes = player:getExpBoostStamina() / 60
-	if staminaMinutes == 0 then
-		return
-	end
-
-	local playerId = player:getId()
-	if not playerId then
-		return false
-	end
-
-	local currentTime = os.time()
-	local timePassed = currentTime - nextUseXpStamina[playerId]
-	if timePassed <= 0 then
-		return
-	end
-
-	if timePassed > 60 then
-		if staminaMinutes > 2 then
-			staminaMinutes = staminaMinutes - 2
-		else
-			staminaMinutes = 0
-		end
-		nextUseXpStamina[playerId] = currentTime + 120
-	else
-		staminaMinutes = staminaMinutes - 1
-		nextUseXpStamina[playerId] = currentTime + 60
-	end
-	player:setExpBoostStamina(staminaMinutes * 60)
-end
-
-function Player:onGainExperience(target, exp, rawExp)
-	if not target or target:isPlayer() then
+function Player:onGainExperience(source, exp, rawExp)
+	if not source or source:isPlayer() then
 		return exp
 	end
 
@@ -320,49 +385,15 @@ function Player:onGainExperience(target, exp, rawExp)
 	end
 
 	-- Experience Stage Multiplier
-	local expStage = getRateFromTable(experienceStages, self:getLevel(), configManager.getNumber(configKeys.RATE_EXPERIENCE))
+	local expStage = getRateFromTable(experienceStages, self:getLevel(), configManager.getNumber(configKeys.RATE_EXP))
+	exp = exp * expStage
+	baseExp = rawExp * expStage
 
-	-- Event scheduler
-	if SCHEDULE_EXP_RATE ~= 100 then
-		expStage = math.max(0, (expStage * SCHEDULE_EXP_RATE)/100)
-	end
-
-	-- Store Bonus
-	useStaminaXpBoost(self) -- Use store boost stamina
-
-	local Boost = self:getExpBoostStamina()
-	local stillHasBoost = Boost > 0
-	local storeXpBoostAmount = stillHasBoost and self:getStoreXpBoost() or 0
-
-	self:setStoreXpBoost(storeXpBoostAmount)
-
-	-- Stamina Bonus
-	local staminaBoost = 1
+	-- Stamina modifier
 	if configManager.getBoolean(configKeys.STAMINA_SYSTEM) then
-		useStamina(self)
-		local staminaMinutes = self:getStamina()
-			if staminaMinutes > 2340 and self:isPremium() then
-				staminaBoost = 1.5
-			elseif staminaMinutes <= 840 then
-				staminaBoost = 0.5 --TODO destroy loot of people with 840- stamina
-			end
-		self:setStaminaXpBoost(staminaBoost * 100)
+		exp = exp * 1.5
+		return exp
 	end
-
-	-- Boosted creature
-	if target:getName():lower() == (Game.getBoostedCreature()):lower() then
-		exp = exp * 2
-	end
-
-	-- Prey system
-	if configManager.getBoolean(configKeys.PREY_ENABLED) then
-		local monsterType = target:getType()
-		if monsterType and monsterType:raceId() > 0 then
-			exp = math.ceil((exp * self:getPreyExperiencePercentage(monsterType:raceId())) / 100)
-		end
-	end
-
-	return math.max((exp * expStage + (exp * (storeXpBoostAmount/100))) * staminaBoost)
 end
 
 function Player:onLoseExperience(exp)
@@ -374,24 +405,10 @@ function Player:onGainSkillTries(skill, tries)
 		return tries
 	end
 
-	-- Event scheduler skill rate
-	local STAGES_DEFAULT = skillsStages or nil
-	local SKILL_DEFAULT = self:getSkillLevel(skill)
-	local RATE_DEFAULT = configManager.getNumber(configKeys.RATE_SKILL)
-
-	if(skill == SKILL_MAGLEVEL) then -- Magic Level
-		STAGES_DEFAULT = magicLevelStages or nil
-		SKILL_DEFAULT = self:getBaseMagicLevel()
-		RATE_DEFAULT = configManager.getNumber(configKeys.RATE_MAGIC)
+	if skill == SKILL_MAGLEVEL then
+		return tries * configManager.getNumber(configKeys.RATE_MAGIC)
 	end
-
-	skillOrMagicRate = getRateFromTable(STAGES_DEFAULT, SKILL_DEFAULT, RATE_DEFAULT)
-
-	if SCHEDULE_SKILL_RATE ~= 100 then
-		skillOrMagicRate = math.max(0, (skillOrMagicRate * SCHEDULE_SKILL_RATE) / 100)
-	end
-
-	return tries / 100 * (skillOrMagicRate * 100)
+	return tries * configManager.getNumber(configKeys.RATE_SKILL)
 end
 
 function Player:onChangeZone(zone)
