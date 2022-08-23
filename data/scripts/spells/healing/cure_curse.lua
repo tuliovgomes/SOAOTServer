@@ -12,7 +12,7 @@ end
 spell:name("Cure Curse")
 spell:words("exana mort")
 spell:group("healing")
-spell:vocation("paladin;true", "royal paladin;true")
+spell:vocation("paladin", "royal paladin")
 spell:id(147)
 spell:cooldown(6000)
 spell:groupCooldown(1000)

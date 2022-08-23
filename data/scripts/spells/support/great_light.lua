@@ -17,7 +17,7 @@ end
 spell:name("Great Light")
 spell:words("utevo gran lux")
 spell:group("support")
-spell:vocation("druid;true", "elder druid;true", "knight;true", "elite knight;true", "paladin;true", "royal paladin;true", "sorcerer;true", "master sorcerer;true")
+spell:vocation("druid", "elder druid", "knight", "elite knight", "paladin", "royal paladin", "sorcerer", "master sorcerer")
 spell:id(11)
 spell:cooldown(2 * 1000)
 spell:groupCooldown(2 * 1000)

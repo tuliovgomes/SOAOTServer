@@ -21,7 +21,7 @@ end
 spell:name("Bruise Bane")
 spell:words("exura infir ico")
 spell:group("healing")
-spell:vocation("knight;true", "elite knight;true")
+spell:vocation("knight", "elite knight")
 spell:id(170)
 spell:cooldown(1000)
 spell:groupCooldown(1000)
