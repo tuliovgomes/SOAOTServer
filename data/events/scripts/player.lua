@@ -392,7 +392,8 @@ function Player:onGainExperience(source, exp, rawExp)
 	-- Stamina modifier
 	if configManager.getBoolean(configKeys.STAMINA_SYSTEM) then
 		exp = exp * 1.5
-	return exp
+		return exp
+	end
 end
 
 function Player:onLoseExperience(exp)
