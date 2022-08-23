@@ -4676,6 +4676,7 @@
 		<monster name="Falcon Paladin" x="-5" y="0" z="7" spawntime="60" />
 		<monster name="Many Faces" x="13" y="0" z="7" spawntime="60" />
 		<monster name="Tiamat" x="-18" y="4" z="7" spawntime="60" direction="2" />
+		<monster name="Gazer Spectre" x="-15" y="4" z="7" spawntime="60" direction="2" />
 		<monster name="terminator" x="-12" y="4" z="7" spawntime="60" direction="2" />
 		<monster name="Deathling Spellsinger" x="-9" y="4" z="7" spawntime="60" direction="2" />
 		<monster name="Allukard" x="-6" y="4" z="7" spawntime="60" direction="2" />
@@ -4686,11 +4687,10 @@
 		<monster name="Lizard Dragon Priest" x="18" y="4" z="7" spawntime="90" direction="2" />
 		<monster name="Reality Reaver" x="-15" y="11" z="7" spawntime="60" />
 		<monster name="Ice serpente" x="-12" y="11" z="7" spawntime="3600" />
-		<monster name="Gazer Spectre" x="-9" y="11" z="7" spawntime="60" />
+		<monster name="Werelioness" x="-9" y="11" z="7" spawntime="60" />
 		<monster name="Cobra Assassin" x="-6" y="11" z="7" spawntime="60" />
-		<monster name="Kongra" x="6" y="11" z="7" spawntime="90" />
-		<monster name="Fury" x="9" y="11" z="7" spawntime="60" />
-		<monster name="Werelioness" x="12" y="11" z="7" spawntime="60" />
+		<monster name="Kongra" x="9" y="11" z="7" spawntime="90" />
+		<monster name="Fury" x="12" y="11" z="7" spawntime="60" />
 		<monster name="Chaos Draco" x="15" y="11" z="7" spawntime="1416285440" />
 		<monster name="High Elf" x="18" y="11" z="7" spawntime="60" />
 	</monster>
@@ -6902,6 +6902,55 @@
 	</monster>
 	<monster centerx="1407" centery="868" centerz="8" radius="1">
 		<monster name="Bat" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+<monster centerx="989" centery="956" centerz="8" radius="2">
+		<monster name="Carrion Worm" x="-1" y="-1" z="8" spawntime="90" />
+	</monster>
+	<monster centerx="969" centery="963" centerz="8" radius="2">
+		<monster name="Carrion Worm" x="0" y="-1" z="8" spawntime="90" />
+	</monster>
+	<monster centerx="978" centery="969" centerz="8" radius="6">
+		<monster name="Carrion Worm" x="-3" y="-6" z="8" spawntime="90" />
+		<monster name="Carrion Worm" x="0" y="-6" z="8" spawntime="90" />
+		<monster name="Carrion Worm" x="-4" y="-4" z="8" spawntime="90" />
+		<monster name="Rotworm" x="6" y="-3" z="8" spawntime="90" />
+		<monster name="Carrion Worm" x="-4" y="-1" z="8" spawntime="90" />
+		<monster name="Carrion Worm" x="6" y="0" z="8" spawntime="90" />
+		<monster name="Carrion Worm" x="-6" y="6" z="8" spawntime="90" />
+	</monster>
+	<monster centerx="993" centery="969" centerz="8" radius="2">
+		<monster name="Carrion Worm" x="0" y="-1" z="8" spawntime="90" />
+		<monster name="Carrion Worm" x="-1" y="2" z="8" spawntime="90" />
+	</monster>
+	<monster centerx="992" centery="982" centerz="8" radius="3">
+		<monster name="Rotworm" x="-2" y="-2" z="8" spawntime="90" />
+		<monster name="Rotworm" x="-2" y="1" z="8" spawntime="90" />
+		<monster name="Rotworm" x="2" y="1" z="8" spawntime="90" />
+	</monster>
+	<monster centerx="971" centery="989" centerz="8" radius="2">
+		<monster name="Rotworm" x="2" y="-1" z="8" spawntime="90" />
+	</monster>
+	<monster centerx="985" centery="993" centerz="8" radius="3">
+		<monster name="Carrion Worm" x="0" y="-3" z="8" spawntime="90" />
+		<monster name="Carrion Worm" x="3" y="-1" z="8" spawntime="90" />
+		<monster name="Carrion Worm" x="2" y="0" z="8" spawntime="90" />
+		<monster name="Carrion Worm" x="-1" y="1" z="8" spawntime="90" />
+	</monster>
+	<monster centerx="970" centery="996" centerz="8" radius="3">
+		<monster name="Carrion Worm" x="-2" y="-2" z="8" spawntime="90" />
+		<monster name="Carrion Worm" x="2" y="-1" z="8" spawntime="90" />
+		<monster name="Carrion Worm" x="1" y="2" z="8" spawntime="90" />
+	</monster>
+	<monster centerx="993" centery="1001" centerz="8" radius="2">
+		<monster name="Carrion Worm" x="1" y="0" z="8" spawntime="90" />
+	</monster>
+	<monster centerx="983" centery="1009" centerz="8" radius="2">
+		<monster name="Carrion Worm" x="0" y="-2" z="8" spawntime="90" />
+		<monster name="Rotworm" x="1" y="1" z="8" spawntime="90" />
+	</monster>
+	<monster centerx="974" centery="1014" centerz="8" radius="2">
+		<monster name="Carrion Worm" x="-1" y="0" z="8" spawntime="90" />
+		<monster name="Rotworm" x="2" y="1" z="8" spawntime="90" />
 	</monster>
 	<monster centerx="1518" centery="1015" centerz="8" radius="3">
 		<monster name="Betrayed Wraith" x="-2" y="3" z="8" spawntime="90" />
