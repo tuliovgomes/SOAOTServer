@@ -4689,6 +4689,7 @@
 		<monster name="Ice serpente" x="-12" y="11" z="7" spawntime="3600" />
 		<monster name="Werelioness" x="-9" y="11" z="7" spawntime="60" />
 		<monster name="Cobra Assassin" x="-6" y="11" z="7" spawntime="60" />
+		<monster name="Rotworm" x="6" y="11" z="7" spawntime="90" />
 		<monster name="Kongra" x="9" y="11" z="7" spawntime="90" />
 		<monster name="Fury" x="12" y="11" z="7" spawntime="60" />
 		<monster name="Chaos Draco" x="15" y="11" z="7" spawntime="1416285440" />
