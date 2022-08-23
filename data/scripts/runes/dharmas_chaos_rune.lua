@@ -20,7 +20,7 @@ end
 rune:group("attack")
 rune:name("Dharmas Chaos Rune")
 rune:level(120)
-rune:magicLevel(48)
+rune:magicLevel(80)
 rune:runeId(3150)
 rune:charges(3)
 rune:allowFarUse(true)
