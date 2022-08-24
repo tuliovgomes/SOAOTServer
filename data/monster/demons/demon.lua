@@ -102,29 +102,23 @@ monster.loot = {
 	{id = 6499, chance = 14630}, -- demonic essence
 	{id = 3034, chance = 3430}, -- talon
 	{id = 3035, chance = 90540, maxCount = 8}, -- platinum coin
-	{id = 3048, chance = 1890}, -- might ring
-	{id = 3049, chance = 2170}, -- stealth ring
 	{id = 3055, chance = 680}, -- platinum amulet
 	{id = 3060, chance = 2854}, -- orb
 	{id = 3063, chance = 1050}, -- gold ring
 	{id = 3098, chance = 1990}, -- ring of healing
 	{id = 3281, chance = 1980}, -- giant sword
-	{id = 3284, chance = 1550}, -- ice rapier
-	{id = 3306, chance = 1440}, -- golden sickle
 	{id = 3320, chance = 4030}, -- fire axe
 	{id = 3356, chance = 1180}, -- devil helmet
-	{id = 3364, chance = 440}, -- golden legs
-	{id = 3366, chance = 130}, -- magic plate armor
 	{id = 3414, chance = 480}, -- mastermind shield
 	{id = 3420, chance = 740}, -- demon shield
-	{id = 3731, chance = 19660, maxCount = 6}, -- fire mushroom
-	{id = 5954, chance = 14920}, -- demon horn
+	{id = 3387, chance = 740}, -- demon helmet
+	{id = 3388, chance = 740}, -- demon armor
+	{id = 3389, chance = 740}, -- demon legs
+	{id = 3731, chance = 19660, maxCount = 20}, -- fire mushroom
 	{id = 7368, chance = 12550, maxCount = 10}, -- assassin star
 	{id = 7382, chance = 70}, -- demonrage sword
 	{id = 7393, chance = 90}, -- demon trophy
 	{id = 238, chance = 22220, maxCount = 3}, -- great mana potion
-	{id = 7643, chance = 19540, maxCount = 3}, -- ultimate health potion
-	{id = 7642, chance = 18510, maxCount = 3} -- great spirit potion
 }
 
 monster.attacks = {
