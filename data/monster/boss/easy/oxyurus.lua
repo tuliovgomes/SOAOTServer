@@ -75,6 +75,7 @@ monster.loot = {
 	{name = "terra mantle", chance = 870},
 	{name = "terra legs", chance = 420},
 	{name = "terra amulet", chance = 4060},
+	{name = "hunting horn", chance = 4060},
 	{name = "ultimate health potion", chance = 9290, maxCount = 20},
 }
 

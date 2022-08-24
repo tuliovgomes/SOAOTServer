@@ -98,6 +98,7 @@ monster.defenses = {
 monster.loot = {
 	{name = "golden legs", chance = 804},
 	{name = "golden helmet", chance = 703},
+	{name = "scorpion sceptre", chance = 303},
 	{name = "golden boots", chance = 902},
 	{name = "great shield", chance = 1001},
 	{name = "golden armor", chance = 1001},

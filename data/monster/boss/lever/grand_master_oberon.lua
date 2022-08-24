@@ -118,6 +118,7 @@ monster.light = {
 
 monster.loot = {
 	{name = "Grant of Arms", chance = 600, maxCount = 1},
+	{name = "library ticket", chance = 1600, maxCount = 1},
 	{name = "Falcon Battleaxe", chance = 130, maxCount = 1},
 	{name = "Falcon Bow", chance = 110, maxCount = 1},
 	{name = "Falcon Circlet", chance = 100, maxCount = 1},

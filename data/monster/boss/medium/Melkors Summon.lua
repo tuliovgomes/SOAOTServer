@@ -97,6 +97,7 @@ monster.loot = {
 	{name = "magic plate armor", chance = 1001},
 	{name = "pharaoh sword", chance = 1800},
 	{name = "amulet of loss", chance = 1900},
+	{name = "crackling egg", chance = 1900},
 }
 
 mType.onThink = function(monster, interval)

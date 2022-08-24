@@ -80,6 +80,7 @@ monster.loot = {
 	{name = "urmahlullu's mane", chance = 6000},
 	{name = "urmahlullu's paw", chance = 6000},
 	{name = "urmahlullu's tail", chance = 6000},
+	{name = "Lion's Heart", chance = 6000},
 	{name = "tagralt blade", chance = 500},
 	{name = "winged boots", chance = 500},
 	{name = "energy bar", chance = 93000},

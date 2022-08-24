@@ -72,6 +72,7 @@ monster.loot = {
 	{name = "ornate chestplate", chance = 650, unique = true},
 	{name = "ornate legs", chance = 740},
 	{name = "ornate mace", chance = 1500},
+	{name = "slug drug", chance = 1500},
 	{name = "ornate shield", chance = 1400}
 }
 

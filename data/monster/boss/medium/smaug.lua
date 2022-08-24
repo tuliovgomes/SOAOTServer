@@ -114,6 +114,7 @@ monster.loot = {
 	{name = "demonrage sword", chance = 7500},
 	{name = "dreaded cleaver", chance = 2500},
 	{name = "butcher's axe", chance = 1500},
+	{name = "leather whip", chance = 3500},
 }
 
 mType.onThink = function(monster, interval)

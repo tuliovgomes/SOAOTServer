@@ -113,6 +113,7 @@ monster.loot = {
 	{name = "strong mana potion", chance = 4930, maxCount = 70},
 	{name = "angelic axe", chance = 1420},
 	{name = "muck rod", chance = 1640},
+	{name = "sweet smelling bait", chance = 1020},
 	{name = "mushroom backpack", chance = 3020}
 }
 

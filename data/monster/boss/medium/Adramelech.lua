@@ -101,6 +101,7 @@ monster.loot = {
 	{name = "demon shield", chance = 2000},
 	{name = "steel boots", chance = 3000},
 	{name = "mastermind shield", chance = 1500},
+	{name = "decorative ribbon", chance = 1500},
 }
 
 mType.onThink = function(monster, interval)
