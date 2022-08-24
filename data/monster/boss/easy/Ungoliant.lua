@@ -89,11 +89,6 @@ monster.defenses = {
 	{name ="speed", interval = 1000, chance = 6, speed = {min = 290, max = 290}, duration = 20000}
 }
 
-monster.maxSummons = 4
-monster.summons = {
-	{name = "laracna", chance = 20, interval = 1000, max = 4}
-}
-
 monster.loot = {
 	{name = "terra boots", chance = 1350},
 	{name = "terra hood", chance = 1600},
