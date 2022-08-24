@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("Ferumbras")
 local monster = {}
 
 monster.description = "Ferumbras"
-monster.experience = 12000
+monster.experience = 15000
 monster.outfit = {
 	lookType = 229,
 	lookHead = 0,
@@ -118,8 +118,8 @@ monster.loot = {
 	{id = 7422, chance = 8000}, -- jade hammer
 	{id = 3035, chance = 8000, maxCount = 58}, -- platinum coin
 	{id = 7423, chance = 8000}, -- skullcrusher
-	{id = 5944, chance = 8000, maxCount = 9} -- soul orb
-	{id = 21186, chance = 8000} -- mount
+	{id = 5944, chance = 8000, maxCount = 9}, -- soul orb
+	{id = 21186, chance = 8000}, -- mount
 }
 
 monster.attacks = {
