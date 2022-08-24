@@ -17031,29 +17031,25 @@
 		<attribute key="duration" value="60"/>
 		<attribute key="decayTo" value="0"/>
 	</item>
-	<item id="8119" article="a" name="dead rotworm queen">
-
+	<item id="8119" article="a" name="dead Oxyurus">
 		<attribute key="duration" value="10"/>
 		<attribute key="decayTo" value="8120"/>
-		<attribute key="containersize" value="8"/>
+		<attribute key="containersize" value="1"/>
 		<attribute key="weight" value="50000"/>
 	</item>
-	<item id="8120" article="a" name="dead rotworm queen">
-
+	<item id="8120" article="a" name="dead Oxyurus">
 		<attribute key="duration" value="300"/>
 		<attribute key="decayTo" value="8121"/>
-		<attribute key="containersize" value="10"/>
+		<attribute key="containersize" value="1"/>
 		<attribute key="weight" value="40000"/>
 	</item>
-	<item id="8121" article="a" name="dead rotworm queen">
-
+	<item id="8121" article="a" name="dead Oxyurus">
 		<attribute key="duration" value="300"/>
 		<attribute key="decayTo" value="8122"/>
-		<attribute key="containersize" value="10"/>
+		<attribute key="containersize" value="1"/>
 		<attribute key="weight" value="30000"/>
 	</item>
-	<item id="8122" article="a" name="dead rotworm queen">
-
+	<item id="8122" article="a" name="dead Oxyurus">
 		<attribute key="duration" value="60"/>
 		<attribute key="decayTo" value="0"/>
 		<attribute key="weight" value="20000"/>
