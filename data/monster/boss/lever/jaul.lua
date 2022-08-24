@@ -66,7 +66,7 @@ monster.voices = {
 
 monster.loot = {
 	{name = "deepling axe", chance = 1500},
-	{name = "depth calcei", chance = 1100},
+	{name = "depth calcei", chance = 1100, unique = true},
 	{id = 13995, chance = 1400}, -- depth galea
 	{name = "depth lorica", chance = 800},
 	{name = "ornate chestplate", chance = 650, unique = true},

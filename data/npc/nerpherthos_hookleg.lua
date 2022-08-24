@@ -47,6 +47,8 @@ npcConfig.shop = {
 	{ itemName = "plate legs", clientId = 3557, sell = 2000},
 	{ itemName = "terra legs", clientId = 812, sell = 13000},
 	{ itemName = "valar kilt", clientId = 8863, sell = 500000},
+	{ itemName = "falcon greaves", clientId = 28720, sell = 800000},
+	{ itemName = "ornate legs", clientId = 13999, sell = 700000},
 	{ itemName = "zenit legs", clientId = 10387, sell = 45000},
 	{ itemName = "aghanim legs", clientId = 822, buy = 86000},
 	{ itemName = "dwarven legs", clientId = 3398, buy = 10000},

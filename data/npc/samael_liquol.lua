@@ -26,14 +26,16 @@ npcConfig.flags = {
 
 -- Npc shop
 npcConfig.shop = {
-	{ itemName = "health potion", clientId = 266, buy = 50 },
-	{ itemName = "mana potion", clientId = 268, buy = 56 },
-	{ itemName = "strong health potion", clientId = 236, buy = 115 },
-	{ itemName = "strong mana potion", clientId = 237, buy = 93 },
-	{ itemName = "supreme health potion", clientId = 23375, buy = 625 },
-	{ itemName = "ultimate health potion", clientId = 7643, buy = 438 },
-	{ itemName = "ultimate mana potion", clientId = 23373, buy = 379 },
-	{ itemName = "ultimate spirit potion", clientId = 23374, buy = 438 },
+	{ itemName = "health potion", clientId = 266, buy = 50, sell = 25 },
+	{ itemName = "mana potion", clientId = 268, buy = 56, sell = 26 },
+	{ itemName = "strong health potion", clientId = 236, buy = 115, sell = 50 },
+	{ itemName = "strong mana potion", clientId = 237, buy = 93, sell = 43 },
+	{ itemName = "greate health potion", clientId = 239, buy = 280, sell = 140 },
+	{ itemName = "greate mana potion", clientId = 238, buy = 268, sell = 130 },
+	{ itemName = "ultimate health potion", clientId = 7643, buy = 438, sell = 238 },
+	{ itemName = "ultimate mana potion", clientId = 23373, buy = 379, sell = 190 },
+	{ itemName = "ultimate spirit potion", clientId = 23374, buy = 538, sell = 280 },
+	{ itemName = "supreme health potion", clientId = 23375, sell = 300 },
 }
 
 -- On buy npc shop message

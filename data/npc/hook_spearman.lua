@@ -44,8 +44,13 @@ npcConfig.shop = {
 	{ itemName = "jungle quiver", clientId = 35524,  sell = 200000, buy = 2000000 },
 	{ itemName = "eldritch quiver", clientId = 35524, sell = 400000, buy = 4000000 },
 	{ itemName = "aiglos", clientId = 3313, sell = 100000 },
+	{ itemName = "arbalest", clientId = 5803, sell = 80000 },
 	{ itemName = "leaf star", clientId = 25735, sell = 50000 },
 	{ itemName = "royal star", clientId = 25759, sell = 80000 },
+	{ itemName = "falcon bow", clientId = 28718, sell = 800000 },
+	{ itemName = "cobra crossbow", clientId = 30393, sell = 600000 },
+	{ itemName = "mycological bow", clientId = 16164, sell = 50000 },
+	{ itemName = "hunting spear", clientId = 3347, sell = 40000 },
 	{ itemName = "diamond arrow", clientId = 25757, sell = 60000 },
 	{ itemName = "spectral bolt", clientId = 25758, sell = 60000 },
 }
