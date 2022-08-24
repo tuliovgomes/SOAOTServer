@@ -4,8 +4,8 @@ combat:setParameter(COMBAT_PARAM_EFFECT, CONST_ME_ENERGYAREA)
 combat:setParameter(COMBAT_PARAM_DISTANCEEFFECT, CONST_ANI_ENERGY)
 
 function onGetFormulaValues(player, level, maglevel)
-	local min = (level / 5) + (maglevel * 4.5) + 35
-	local max = (level / 5) + (maglevel * 7.3) + 55
+	local min = (level / 5) + (maglevel * 2.8) + 16
+	local max = (level / 5) + (maglevel * 4.4) + 28
 	return -min, -max
 end
 
@@ -17,18 +17,18 @@ function spell.onCastSpell(creature, var)
 	return combat:execute(creature, var)
 end
 
-spell:group("attack", "ultimatestrikes")
-spell:id(155)
-spell:name("Ultimate Energy Strike")
-spell:words("exori max vis")
-spell:level(100)
-spell:mana(100)
+spell:group("attack", "special")
+spell:id(151)
+spell:name("Strong Energy Strike")
+spell:words("exori gran vis")
+spell:level(80)
+spell:mana(60)
 spell:isPremium(true)
 spell:range(3)
 spell:needCasterTargetOrDirection(true)
 spell:blockWalls(true)
-spell:cooldown(30 * 1000)
-spell:groupCooldown(2 * 1000, 30 * 1000)
+spell:cooldown(3 * 1000)
+spell:groupCooldown(2 * 1000, 2 * 1000)
 spell:needLearn(false)
 spell:vocation("sorcerer", "master sorcerer")
 spell:register()

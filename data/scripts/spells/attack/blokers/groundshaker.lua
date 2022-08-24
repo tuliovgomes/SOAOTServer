@@ -6,7 +6,7 @@ combat:setParameter(COMBAT_PARAM_USECHARGES, 1)
 combat:setArea(createCombatArea(AREA_CIRCLE3X3))
 
 function onGetFormulaValues(player, skill, attack, factor)
-	local level = player:getLevel()	
+	local level = player:getLevel()
 	local min = (level / 5) + (skill + attack) * 0.5
 	local max = (level / 5) + (skill + attack) * 1.1
 	return -min * 1.28, -max * 1.28 -- TODO : Use New Real Formula instead of an %
@@ -28,7 +28,7 @@ spell:level(33)
 spell:mana(160)
 spell:isPremium(true)
 spell:needWeapon(true)
-spell:cooldown(8 * 1000)
+spell:cooldown(3 * 1000)
 spell:groupCooldown(2 * 1000)
 spell:needLearn(false)
 spell:vocation("knight;", "elite knight;", "Templar Knight;", "Chaos Knight;", "Miner;", "Blacksmith;", "Weaponsmith;", "Artisan Weaponsmith;", "Divine Warrior;")

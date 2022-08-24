@@ -1,7 +1,7 @@
 local combat = Combat()
 combat:setParameter(COMBAT_PARAM_TYPE, COMBAT_PHYSICALDAMAGE)
 combat:setParameter(COMBAT_PARAM_DISTANCEEFFECT, CONST_ANI_INFERNALBOLT)
-combat:setFormula(COMBAT_FORMULA_LEVELMAGIC, -2, -15, -2, -20)
+combat:setFormula(COMBAT_FORMULA_LEVELMAGIC, -2, -12, -2, -18)
 
 local function executeCombat(cid, variant)
     local creature = Creature(cid)
@@ -25,7 +25,7 @@ spell:vocation("paladin;", "royal paladin;", "Medieval Crossbowman;", "Spartan S
 spell:id(124)
 spell:cooldown(1 * 1000)
 spell:groupCooldown(2 * 1000)
-spell:level(35)
+spell:level(80)
 spell:manaPercent(9)
 spell:needTarget(true)
 spell:range(7)

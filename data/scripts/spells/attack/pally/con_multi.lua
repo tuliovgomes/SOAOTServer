@@ -25,7 +25,7 @@ spell:vocation("paladin;", "royal paladin;", "Medieval Crossbowman;", "Spartan S
 spell:id(124)
 spell:cooldown(2 * 1000)
 spell:groupCooldown(3 * 1000)
-spell:level(200)
+spell:level(600)
 spell:manaPercent(20)
 spell:needTarget(true)
 spell:range(7)
