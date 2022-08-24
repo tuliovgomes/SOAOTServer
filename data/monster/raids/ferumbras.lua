@@ -118,7 +118,7 @@ monster.loot = {
 	{id = 7422, chance = 8000}, -- jade hammer
 	{id = 3035, chance = 8000, maxCount = 58}, -- platinum coin
 	{id = 7423, chance = 8000}, -- skullcrusher
-	{id = 5944, chance = 8000, maxCount = 9} -- soul orb
+	{id = 5944, chance = 8000, maxCount = 9}, -- soul orb
 }
 
 monster.attacks = {
