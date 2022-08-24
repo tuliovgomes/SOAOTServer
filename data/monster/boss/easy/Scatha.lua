@@ -3,7 +3,7 @@ local monster = {}
 
 monster.name = "Scatha"
 monster.description = "scatha"
-monster.experience = 40000
+monster.experience = 10000
 monster.outfit = {
 	lookType = 248,
 	lookHead = 0,
@@ -14,8 +14,8 @@ monster.outfit = {
 	lookMount = 0
 }
 
-monster.health = 40000
-monster.maxHealth = 40000
+monster.health = 18000
+monster.maxHealth = 18000
 monster.runHealth = 300
 monster.race = "undead"
 monster.corpse = 7091
@@ -33,7 +33,7 @@ monster.flags = {
 	summonable = true,
 	convinceable = true,
 	illusionable = false,
-	boss = false,
+	rewardBoss = true,
 	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = true,
@@ -96,18 +96,34 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = 2152, chance = 100000, maxCount = 100},
-	{id = 2396, chance = 99444},
-	{id = 7407, chance = 2000},
-	{id = 2536, chance = 2400},
-	{id = 1987, chance = 100000, child = {
-			{id = 2152, chance = 100000},
-			{id = 2150, chance = 5000, maxCount = 3},
-			{id = 7898, chance = 2300},
-			{id = 7895, chance = 3011},
-			{id = 6132, chance = 1300}
-		}
-	}
+	{name = "blue robe", chance = 1600},
+	{name = "aghanim robe", chance = 1970},
+	{name = "aghanim boots", chance = 1880},
+	{name = "winged boots", chance = 102},
+	{name = "aghanim legs", chance = 1600},
+	{name = "aghanim mask", chance = 1800},
+	{name = "sapphire hammer", chance = 1300},
+	{name = "glacial rod", chance = 2150},
+	{name = "crystalline armor", chance = 1250}
 }
+
+mType.onThink = function(monster, interval)
+end
+
+mType.onAppear = function(monster, creature)
+	if monster:getType():isRewardBoss() then
+		monster:setReward(true)
+	end
+end
+
+mType.onDisappear = function(monster, creature)
+end
+
+mType.onMove = function(monster, creature, fromPosition, toPosition)
+end
+
+mType.onSay = function(monster, creature, type, message)
+end
+
 
 mType:register(monster)

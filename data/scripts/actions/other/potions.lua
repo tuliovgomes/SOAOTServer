@@ -18,27 +18,16 @@ bullseye:setParameter(CONDITION_PARAM_BUFF_SPELL, true)
 local setting = {
 	[236] = {
 		health = {500, 600},
-		vocations = {
-			VOCATION.BASE_ID.KNIGHT,
-			VOCATION.BASE_ID.PALADIN
-		},
 		level = 50,
-		flask = 283,
-		description = "Only knights and paladins of level 50 or above may drink this fluid."
+		flask = 283
 	},
 	[237] = {
-		mana = {215, 385},
-		vocations = {
-			VOCATION.BASE_ID.SORCERER,
-			VOCATION.BASE_ID.DRUID,
-			VOCATION.BASE_ID.PALADIN
-		},
+		mana = {315, 685},
 		level = 50,
-		flask = 283,
-		description = "Only sorcerers, druids and paladins of level 50 or above may drink this fluid."
+		flask = 283
 	},
 	[238] = {
-		mana = {550, 785},
+		mana = {650, 885},
 		vocations = {
 			VOCATION.BASE_ID.SORCERER,
 			VOCATION.BASE_ID.DRUID
@@ -48,7 +37,7 @@ local setting = {
 		description = "Only druids and sorcerers of level 80 or above may drink this fluid."
 	},
 	[239] = {
-		health = {525, 675},
+		health = {625, 775},
 		vocations = {
 			VOCATION.BASE_ID.KNIGHT
 		},
@@ -96,7 +85,7 @@ local setting = {
 		description = "Only paladins may drink this potion.", text = "You feel more accurate."
 	},
 	[7642] = {
-		health = {350, 550}, mana = {200, 400},
+		health = {450, 650}, mana = {350, 600},
 		vocations = {
 			VOCATION.BASE_ID.PALADIN
 		},
@@ -122,7 +111,7 @@ local setting = {
 		flask = 285
 	},
 	[23373] = {
-		mana = {825, 1275},
+		mana = {825, 1375},
 		vocations = {
 			VOCATION.BASE_ID.SORCERER,
 			VOCATION.BASE_ID.DRUID

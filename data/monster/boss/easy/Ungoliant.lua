@@ -3,7 +3,7 @@ local monster = {}
 
 monster.name = "Ungoliant"
 monster.description = "Ungoliant"
-monster.experience = 80000
+monster.experience = 20000
 monster.outfit = {
 	lookType = 38,
 	lookHead = 0,
@@ -33,7 +33,7 @@ monster.flags = {
 	summonable = false,
 	convinceable = false,
 	illusionable = false,
-	boss = false,
+	rewardBoss = true,
 	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = true,
@@ -95,18 +95,43 @@ monster.summons = {
 }
 
 monster.loot = {
-	{id = 2152, chance = 100000, maxCount = 70},
-	{id = 2493, chance = 1},
-	{id = 2348, chance = 1},
-	{id = 2536, chance = 10400},
-	{id = 1987, chance = 100000, child = {
-			{id = 2152, chance = 100000, maxCount = 50},
-			{id = 2152, chance = 5000, maxCount = 20},
-			{id = 8880, chance = 3300},
-			{id = 8882, chance = 6011},
-			{id = 2195, chance = 6300}
-		}
-	}
+	{name = "terra boots", chance = 1350},
+	{name = "terra hood", chance = 1600},
+	{name = "diamond sceptre", chance = 1600},
+	{name = "terra mantle", chance = 1250},
+	{name = "terra legs", chance = 1250},
+	{name = "terra amulet", chance = 1500},
+	{name = "knight armor", chance = 1840},
+	{name = "medusa shield", chance = 3040},
+	{name = "ultimate health potion", chance = 9290, maxCount = 80},
+	{name = "gold coin", chance = 100000, maxCount = 200},
+	{name = "platinum coin", chance = 999900, maxCount = 60},
+	{name = "mushroom pie", chance = 17130, maxCount = 30},
+	{name = "great mana potion", chance = 4960, maxCount = 80},
+	{name = "great health potion", chance = 4950, maxCount = 90},
+	{name = "strong mana potion", chance = 4930, maxCount = 70},
+	{name = "angelic axe", chance = 1420},
+	{name = "muck rod", chance = 1640},
+	{name = "mushroom backpack", chance = 3020},
+	{name = "mycological bow", chance = 840}
 }
+
+mType.onThink = function(monster, interval)
+end
+
+mType.onAppear = function(monster, creature)
+	if monster:getType():isRewardBoss() then
+		monster:setReward(true)
+	end
+end
+
+mType.onDisappear = function(monster, creature)
+end
+
+mType.onMove = function(monster, creature, fromPosition, toPosition)
+end
+
+mType.onSay = function(monster, creature, type, message)
+end
 
 mType:register(monster)

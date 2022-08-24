@@ -1,9 +1,9 @@
-local mType = Game.createMonsterType("o necromancer")
+local mType = Game.createMonsterType("The Necromancer")
 local monster = {}
 
 monster.name = "The Necromancer"
-monster.description = "O Necromancer"
-monster.experience = 90000
+monster.description = "The Necromancer"
+monster.experience = 60000
 monster.outfit = {
 	lookType = 9,
 	lookHead = 0,
@@ -33,7 +33,7 @@ monster.flags = {
 	summonable = false,
 	convinceable = false,
 	illusionable = false,
-	boss = false,
+	rewardBoss = true,
 	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = true,
@@ -103,30 +103,34 @@ monster.summons = {
 }
 
 monster.loot = {
-	{id = 2663, chance = 45000},
-	{id = 2138, chance = 1500},
-	{id = 2495, chance = 1900},
-	{id = 2493, chance = 1800},
-	{id = 2494, chance = 1000},
-	{id = 8865, chance = 1300},
-	{id = 2640, chance = 1200},
-	{id = 2514, chance = 1000},
-	{id = 7407, chance = 1500},
-	{id = 7451, chance = 3500},
-	{id = 2365, chance = 100000, child = {
-			{id = 2152, chance = 4200, maxCount = 25},
-			{id = 2152, chance = 2200, maxCount = 25},
-			{id = 2144, chance = 3500, maxCount = 15},
-			{id = 5930, chance = 2000, maxCount = 10},
-			{id = 4863, chance = 3000},
-			{id = 2804, chance = 35000, maxCount = 3},
-			{id = 5944, chance = 4500},
-			{id = 6433, chance = 1500},
-			{id = 2197, chance = 2000},
-			{id = 2197, chance = 2000},
-			{id = 5809, chance = 1400}
-		}
-	}
+	{name = "necromancer shield", chance = 801},
+	{name = "demon helmet", chance = 1900},
+	{name = "demon armor", chance = 1702},
+	{name = "demon legs", chance = 1600},
+	{name = "demon shield", chance = 2000},
+	{name = "mastermind shield", chance = 1500},
+	{name = "winged boots", chance = 1800},
+	{name = "winged helmet", chance = 1800},
+	{name = "amulet of loss", chance = 2100},
 }
+
+mType.onThink = function(monster, interval)
+end
+
+mType.onAppear = function(monster, creature)
+	if monster:getType():isRewardBoss() then
+		monster:setReward(true)
+	end
+end
+
+mType.onDisappear = function(monster, creature)
+end
+
+mType.onMove = function(monster, creature, fromPosition, toPosition)
+end
+
+mType.onSay = function(monster, creature, type, message)
+end
+
 
 mType:register(monster)

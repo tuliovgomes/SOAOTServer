@@ -3,7 +3,7 @@ local monster = {}
 
 monster.name = "Azazel"
 monster.description = "Azazel"
-monster.experience = 150000
+monster.experience = 70000
 monster.outfit = {
 	lookType = 334,
 	lookHead = 0,
@@ -97,10 +97,10 @@ monster.defenses = {
 monster.loot = {
 	{name = "dragon ham", chance = 25000, maxCount = 100},
 	{name = "dragon ham", chance = 25000, maxCount = 100},
-	{name = "zenit cuirass", chance = 507},
-	{name = "zenit legs", chance = 507},
-	{name = "zenit helmet", chance = 507},
-	{name = "zenit shoes", chance = 507}
+	{name = "zenit cuirass", chance = 2507},
+	{name = "zenit legs", chance = 2507},
+	{name = "zenit helmet", chance = 2507},
+	{name = "zenit shoes", chance = 2507}
 }
 
 mType.onThink = function(monster, interval)

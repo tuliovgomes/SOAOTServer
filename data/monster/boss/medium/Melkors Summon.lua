@@ -3,7 +3,7 @@ local monster = {}
 
 monster.name = "Melkors Summon"
 monster.description = "a Melkors Summon"
-monster.experience = 189000
+monster.experience = 69000
 monster.outfit = {
 	lookType = 244,
 	lookHead = 0,
@@ -33,7 +33,7 @@ monster.flags = {
 	summonable = false,
 	convinceable = false,
 	illusionable = true,
-	boss = false,
+	rewardBoss = true,
 	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = true,
@@ -92,18 +92,29 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = 2148, chance = 100000, maxCount = 100},
-	{id = 2152, chance = 80000, maxCount = 10},
-	{id = 2666, chance = 1100, maxCount = 80},
-	{id = 9774, chance = 550},
-	{id = 8906, chance = 350},
-	{id = 1987, chance = 100000, child = {
-			{id = 2514, chance = 800},
-			{id = 11296, chance = 600},
-			{id = 7901, chance = 900},
-			{id = 7730, chance = 700}
-		}
-	}
+	{name = "Zenit helmet", chance = 1004},
+	{name = "Valar kilt", chance = 802},
+	{name = "magic plate armor", chance = 1001},
+	{name = "pharaoh sword", chance = 1800},
+	{name = "amulet of loss", chance = 1900},
 }
+
+mType.onThink = function(monster, interval)
+end
+
+mType.onAppear = function(monster, creature)
+	if monster:getType():isRewardBoss() then
+		monster:setReward(true)
+	end
+end
+
+mType.onDisappear = function(monster, creature)
+end
+
+mType.onMove = function(monster, creature, fromPosition, toPosition)
+end
+
+mType.onSay = function(monster, creature, type, message)
+end
 
 mType:register(monster)

@@ -3,7 +3,7 @@ local monster = {}
 
 monster.name = "Eddie"
 monster.description = "a Eddie"
-monster.experience = 3100
+monster.experience = 19100
 monster.outfit = {
 	lookType = 84,
 	lookHead = 20,
@@ -33,7 +33,7 @@ monster.flags = {
 	summonable = false,
 	convinceable = false,
 	illusionable = false,
-	boss = false,
+	rewardBoss = true,
 	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = true,
@@ -103,18 +103,33 @@ monster.summons = {
 }
 
 monster.loot = {
-	{id = 2148, chance = 100000, maxCount = 100},
-	{id = 2493, chance = 1444},
-	{id = 2348, chance = 1},
-	{id = 2520, chance = 2400},
-	{id = 1987, chance = 100000, child = {
-			{id = 2148, chance = 100000, maxCount = 70},
-			{id = 2150, chance = 5000, maxCount = 3},
-			{id = 2494, chance = 2300},
-			{id = 11302, chance = 1011},
-			{id = 2495, chance = 1300}
-		}
-	}
+	{name = "great shield", chance = 1201},
+	{name = "demon helmet", chance = 1900},
+	{name = "demon armor", chance = 1702},
+	{name = "demon legs", chance = 1600},
+	{name = "demon shield", chance = 2000},
+	{name = "mastermind shield", chance = 1500},
+	{name = "winged boots", chance = 1800},
+	{name = "winged helmet", chance = 1800},
+	{name = "amulet of loss", chance = 2100},
 }
+
+mType.onThink = function(monster, interval)
+end
+
+mType.onAppear = function(monster, creature)
+	if monster:getType():isRewardBoss() then
+		monster:setReward(true)
+	end
+end
+
+mType.onDisappear = function(monster, creature)
+end
+
+mType.onMove = function(monster, creature, fromPosition, toPosition)
+end
+
+mType.onSay = function(monster, creature, type, message)
+end
 
 mType:register(monster)

@@ -3,7 +3,7 @@ local monster = {}
 
 monster.name = "Son of Ancalagon"
 monster.description = "Son of Ancalagon"
-monster.experience = 30000
+monster.experience = 10000
 monster.outfit = {
 	lookType = 239,
 	lookHead = 0,
@@ -14,8 +14,8 @@ monster.outfit = {
 	lookMount = 0
 }
 
-monster.health = 30000
-monster.maxHealth = 30000
+monster.health = 15000
+monster.maxHealth = 15000
 monster.runHealth = 300
 monster.race = "blood"
 monster.corpse = 6302
@@ -92,21 +92,16 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = 2148, chance = 1000, maxCount = 67},
-	{id = 2173, chance = 2000, maxCount = 67},
-	{id = 2672, chance = 2000, maxCount = 3},
-	{id = 2547, chance = 1670, maxCount = 3},
-	{id = 2647, chance = 2000},
-	{id = 7408, chance = 2000},
-	{id = 1987, chance = 100000, child = {
-			{id = 2127, chance = 1808},
-			{id = 2655, chance = 4000, maxCount = 67},
-			{id = 2195, chance = 3000, maxCount = 67},
-			{id = 2474, chance = 2000, maxCount = 67},
-			{id = 2187, chance = 1110},
-			{id = 2146, chance = 1000, maxCount = 10}
-		}
-	}
+	{name = "amulet of loss", chance = 3400},
+	{name = "wand of everblazing", chance = 2900},
+	{name = "terra rod", chance = 24000, maxCount = 3},
+	{name = "winged helmet", chance = 1800},
+	{name = "platinum coin", chance = 100000, maxCount = 90},
+	{name = "small amethyst", chance = 33500, maxCount = 20},
+	{name = "small ruby", chance = 33500, maxCount = 50},
+	{name = "small sapphire", chance = 33500},
+	{name = "small topaz", chance = 33500},
+	{name = "small diamond", chance = 33500},
 }
 
 mType:register(monster)

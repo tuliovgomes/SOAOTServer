@@ -33,7 +33,7 @@ monster.flags = {
 	summonable = false,
 	convinceable = false,
 	illusionable = true,
-	boss = false,
+	rewardBoss = true,
 	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = true,
@@ -98,18 +98,39 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = 11237, chance = 100000, description = "bp", child = {
-			{id = 2123, chance = 3300, description = "rots"},
-			{id = 2091, chance = 2000, description = "gkey"},
-			{id = 2646, chance = 1200, description = "golden boots"},
-			{id = 8889, chance = 1400, description = "Khel Thuzads Skin"},
-			{id = 2523, chance = 900, description = "blessed shield"},
-			{id = 11296, chance = 820, description = "zenit helmet"},
-			{id = 11298, chance = 1803, description = "Zenit Legs"},
-			{id = 11295, chance = 1802, description = "Zenit cuirass"},
-			{id = 8907, chance = 1801, description = "permafrost shield"}
-		}
-	}
+	{name = "cerberus shield", chance = 1600},
+	{name = "permafrost shield", chance = 1200},
+	{name = "blessed shield", chance = 1200},
+	{name = "boots of haste", chance = 14000},
+	{name = "demon shield", chance = 15500},
+	{name = "thunder hammer", chance = 3500},
+	{name = "nightmare blade", chance = 9500},
+	{name = "demonrage sword", chance = 7500},
+	{name = "dreaded cleaver", chance = 2500},
+	{name = "butcher's axe", chance = 1500},
+	{name = "Zenit helmet", chance = 1004},
+	{name = "Valar kilt", chance = 802},
+	{name = "magic plate armor", chance = 1001},
+	{name = "amulet of loss", chance = 1900},
 }
+
+mType.onThink = function(monster, interval)
+end
+
+mType.onAppear = function(monster, creature)
+	if monster:getType():isRewardBoss() then
+		monster:setReward(true)
+	end
+end
+
+mType.onDisappear = function(monster, creature)
+end
+
+mType.onMove = function(monster, creature, fromPosition, toPosition)
+end
+
+mType.onSay = function(monster, creature, type, message)
+end
+
 
 mType:register(monster)

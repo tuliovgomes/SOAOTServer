@@ -3,7 +3,7 @@ local monster = {}
 
 monster.name = "Khel Thuzad"
 monster.description = "Khel Thuzad"
-monster.experience = 150000
+monster.experience = 80000
 monster.outfit = {
 	lookType = 287,
 	lookHead = 0,
@@ -33,7 +33,7 @@ monster.flags = {
 	summonable = false,
 	convinceable = false,
 	illusionable = false,
-	boss = false,
+	rewardBoss = true,
 	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = true,
@@ -96,14 +96,30 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = 2148, chance = 1, maxCount = 93},
-	{id = 2152, chance = 50000, maxCount = 5},
-	{id = 8889, chance = 1000},
-	{id = 2216, chance = 1},
-	{id = 6132, chance = 1680},
-	{id = 2514, chance = 1300},
-	{id = 5741, chance = 8300},
-	{id = 9777, chance = 830}
+	{name = "great shield", chance = 1201},
+	{name = "khel thuzad skin", chance = 900},
+	{name = "zenit cuirass", chance = 1600},
+	{name = "Valar kilt", chance = 802},
+	{name = "aiglos", chance = 605},
 }
+
+mType.onThink = function(monster, interval)
+end
+
+mType.onAppear = function(monster, creature)
+	if monster:getType():isRewardBoss() then
+		monster:setReward(true)
+	end
+end
+
+mType.onDisappear = function(monster, creature)
+end
+
+mType.onMove = function(monster, creature, fromPosition, toPosition)
+end
+
+mType.onSay = function(monster, creature, type, message)
+end
+
 
 mType:register(monster)

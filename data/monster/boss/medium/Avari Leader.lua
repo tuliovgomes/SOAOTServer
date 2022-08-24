@@ -3,7 +3,7 @@ local monster = {}
 
 monster.name = "Avari Leader"
 monster.description = "Avari Leader"
-monster.experience = 60000
+monster.experience = 40000
 monster.outfit = {
 	lookType = 63,
 	lookHead = 20,
@@ -33,7 +33,7 @@ monster.flags = {
 	summonable = false,
 	convinceable = false,
 	illusionable = false,
-	boss = false,
+	rewardBoss = true,
 	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = true,
@@ -97,17 +97,28 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = 2152, chance = 100000, maxCount = 100},
-	{id = 2474, chance = 1444},
-	{id = 2505, chance = 1800},
-	{id = 1987, chance = 100000, child = {
-			{id = 2152, chance = 100000, maxCount = 100},
-			{id = 2152, chance = 100000, maxCount = 100},
-			{id = 2470, chance = 800},
-			{id = 2507, chance = 1900},
-			{id = 7893, chance = 1300}
-		}
-	}
+	{name = "golden legs", chance = 804},
+	{name = "great shield", chance = 1001},
+	{name = "amulet of loss", chance = 10000},
 }
+
+mType.onThink = function(monster, interval)
+end
+
+mType.onAppear = function(monster, creature)
+	if monster:getType():isRewardBoss() then
+		monster:setReward(true)
+	end
+end
+
+mType.onDisappear = function(monster, creature)
+end
+
+mType.onMove = function(monster, creature, fromPosition, toPosition)
+end
+
+mType.onSay = function(monster, creature, type, message)
+end
+
 
 mType:register(monster)

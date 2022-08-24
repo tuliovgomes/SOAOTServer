@@ -3,7 +3,7 @@ local monster = {}
 
 monster.name = "Ice Of Eru Iluvatar"
 monster.description = "Ice Of Eru Iluvatar"
-monster.experience = 1000000
+monster.experience = 71000
 monster.outfit = {
 	lookType = 11,
 	lookHead = 0,
@@ -33,7 +33,7 @@ monster.flags = {
 	summonable = false,
 	convinceable = false,
 	illusionable = false,
-	boss = false,
+	rewardBoss = true,
 	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = true,
@@ -96,22 +96,34 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = 2145, chance = 500},
-	{id = 7902, chance = 2900},
-	{id = 8887, chance = 800},
-	{id = 8878, chance = 3500},
-	{id = 7730, chance = 1500},
-	{id = 7892, chance = 2600},
-	{id = 7893, chance = 1500},
-	{id = 2396, chance = 4000},
-	{id = 2445, chance = 2200},
-	{id = 2542, chance = 2500},
-	{id = 1987, chance = 100000, child = {
-			{id = 2148, chance = 45000, maxCount = 98},
-			{id = 2148, chance = 45000, maxCount = 98},
-			{id = 2146, chance = 500}
-		}
-	}
+	{name = "small emerald", chance = 50000, maxCount = 40},
+	{name = "small sapphire", chance = 50000, maxCount = 36},
+	{name = "blue legs", chance = 1500},
+	{name = "frozen plate", chance = 702},
+	{name = "winged boots", chance = 702},
+	{name = "aghanim legs", chance = 1600},
+	{name = "aghanim boots", chance = 1800},
+	{name = "aghanim robe", chance = 1800},
+	{name = "aghanim mask", chance = 1800},
+	{name = "vibrant egg", chance = 3800},
 }
+
+mType.onThink = function(monster, interval)
+end
+
+mType.onAppear = function(monster, creature)
+	if monster:getType():isRewardBoss() then
+		monster:setReward(true)
+	end
+end
+
+mType.onDisappear = function(monster, creature)
+end
+
+mType.onMove = function(monster, creature, fromPosition, toPosition)
+end
+
+mType.onSay = function(monster, creature, type, message)
+end
 
 mType:register(monster)

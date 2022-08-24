@@ -3,7 +3,7 @@ local monster = {}
 
 monster.name = "Ancalagon"
 monster.description = "ancalagon"
-monster.experience = 60000
+monster.experience = 35000
 monster.outfit = {
 	lookType = 231,
 	lookHead = 0,
@@ -33,7 +33,7 @@ monster.flags = {
 	summonable = false,
 	convinceable = false,
 	illusionable = true,
-	boss = false,
+	rewardBoss = true,
 	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = true,
@@ -102,21 +102,35 @@ monster.summons = {
 }
 
 monster.loot = {
-	{id = 2152, chance = 100000, maxCount = 100},
-	{id = 2152, chance = 100000, maxCount = 100},
-	{id = 2152, chance = 100000, maxCount = 100},
-	{id = 2493, chance = 300},
-	{id = 5741, chance = 1367},
-	{id = 2646, chance = 800},
-	{id = 1987, chance = 100000, child = {
-			{id = 2152, chance = 100000},
-			{id = 2150, chance = 5000, maxCount = 3},
-			{id = 7894, chance = 1838},
-			{id = 2520, chance = 900},
-			{id = 7898, chance = 800},
-			{id = 2408, chance = 1444}
-		}
-	}
+	{name = "great shield", chance = 1001},
+	{name = "golden armor", chance = 1001},
+	{name = "demon shield", chance = 2000},
+	{name = "steel boots", chance = 3000},
+	{name = "golden boots", chance = 800},
+	{name = "platinum coin", minCount = 10, maxCount = 300, chance = 10000},
+	{name = "crystal coin", minCount = 2, maxCount = 15, chance = 5000},
+	{name = "supreme health potion", minCount = 10, maxCount = 80, chance = 45000},
+	{name = "ultimate mana potion", minCount = 10, maxCount = 60, chance = 42000},
+	{name = "ultimate spirit potion", minCount = 0, maxCount = 88, chance = 42000},
 }
+
+mType.onThink = function(monster, interval)
+end
+
+mType.onAppear = function(monster, creature)
+	if monster:getType():isRewardBoss() then
+		monster:setReward(true)
+	end
+end
+
+mType.onDisappear = function(monster, creature)
+end
+
+mType.onMove = function(monster, creature, fromPosition, toPosition)
+end
+
+mType.onSay = function(monster, creature, type, message)
+end
+
 
 mType:register(monster)

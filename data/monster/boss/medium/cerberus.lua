@@ -3,7 +3,7 @@ local monster = {}
 
 monster.name = "Cerberus"
 monster.description = "Cerberus"
-monster.experience = 210000
+monster.experience = 720000
 monster.outfit = {
 	lookType = 240,
 	lookHead = 0,
@@ -33,7 +33,7 @@ monster.flags = {
 	summonable = false,
 	convinceable = false,
 	illusionable = true,
-	boss = false,
+	rewardBoss = true,
 	ignoreSpawnBlock = false,
 	pushable = false,
 	canPushItems = true,
@@ -93,18 +93,43 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = 2152, chance = 100000, maxCount = 50},
-	{id = 5944, chance = 5555},
-	{id = 2173, chance = 738},
-	{id = 2671, chance = 1, maxCount = 8},
-	{id = 2230, chance = 25000},
-	{id = 6500, chance = 72000},
-	{id = 2365, chance = 50000, child = {
-			{id = 7388, chance = 901},
-			{id = 8906, chance = 800},
-			{id = 7382, chance = 1200}
-		}
-	}
+	{name = "boots of haste", chance = 14000},
+	{name = "fire axe", chance = 17000},
+	{name = "giant sword", chance = 12500},
+	{name = "giant ruby", chance = 31500},
+	{name = "giant sapphire", chance = 31500},
+	{name = "giant emerald", chance = 31500},
+	{name = "ice rapier", chance = 27500},
+	{name = "magic plate armor", chance = 13000},
+	{name = "mastermind shield", chance = 17500},
+	{name = "purple tome", chance = 12600},
+	{name = "ring of the sky", chance = 13500},
+	{name = "silver dagger", chance = 15500},
+	{name = "skull staff", chance = 25000},
+	{name = "talon", chance = 14000, maxCount = 27},
+	{name = "teddy bear", chance = 10500},
+	{name = "dragon robe", chance = 4500},
+	{name = "molten plate", chance = 4500},
+	{name = "cerberus shield", chance = 906},
+	{name = "thunder hammer", chance = 3500}
 }
+
+mType.onThink = function(monster, interval)
+end
+
+mType.onAppear = function(monster, creature)
+	if monster:getType():isRewardBoss() then
+		monster:setReward(true)
+	end
+end
+
+mType.onDisappear = function(monster, creature)
+end
+
+mType.onMove = function(monster, creature, fromPosition, toPosition)
+end
+
+mType.onSay = function(monster, creature, type, message)
+end
 
 mType:register(monster)
