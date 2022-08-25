@@ -18,6 +18,7 @@ local config = {
 	{itemid = 19136, mountid = 39},
 	{itemid = 28791, mountid = 126},
 	{itemid = 21186, mountid = 43},
+	{itemid = 12543, mountid = 50},
 }
 
 function mount.onUse(player, item, fromPosition, target, toPosition, isHotkey)

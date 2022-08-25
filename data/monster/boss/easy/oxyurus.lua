@@ -13,8 +13,8 @@ monster.outfit = {
 	lookMount = 0
 }
 
-monster.health = 5005
-monster.maxHealth = 5005
+monster.health = 3005
+monster.maxHealth = 3005
 monster.race = "blood"
 monster.corpse = 8119
 monster.speed = 126
@@ -66,22 +66,25 @@ monster.loot = {
 	{name = "gold coin", chance = 50000, maxCount = 190},
 	{name = "small emerald", chance = 3770, maxCount = 20},
 	{name = "platinum coin", chance = 74810, maxCount = 600},
-	{name = "knight armor", chance = 1840},
+	{name = "knight armor", chance = 3840},
 	{name = "pharaoh sword", chance = 840},
 	{name = "medusa shield", chance = 3040},
 	{name = "great mana potion", chance = 10000, maxCount = 20},
 	{name = "strong health potion", chance = 5790, maxCount = 200},
 	{name = "strong mana potion", chance = 5980, maxCount = 200},
-	{name = "terra mantle", chance = 870},
-	{name = "terra legs", chance = 420},
+	{name = "terra mantle", chance = 1370},
+	{name = "terra legs", chance = 1220},
+	{name = "dragon scale mail", chance = 970},
+	{name = "dragon scale helmet", chance = 970},
+	{name = "dragon scale legs", chance = 970},
 	{name = "terra amulet", chance = 4060},
-	{name = "hunting horn", chance = 4060},
+	{name = "hunting horn", chance = 50060},
 	{name = "ultimate health potion", chance = 9290, maxCount = 20},
 }
 
 monster.attacks = {
 	{name ="melee", interval = 2000, chance = 100, minDamage = -50, maxDamage = -120},
-	{name ="combat", interval = 2000, chance = 15, type = COMBAT_EARTHDAMAGE, minDamage = -250, maxDamage = -500, length = 8, spread = 3, effect = CONST_ME_CARNIPHILA, target = false}
+	{name ="combat", interval = 2000, chance = 15, type = COMBAT_EARTHDAMAGE, minDamage = -250, maxDamage = -300, length = 8, spread = 3, effect = CONST_ME_CARNIPHILA, target = false}
 }
 
 monster.defenses = {

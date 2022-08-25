@@ -14829,7 +14829,7 @@
 		<attribute key="shootType" value="enchantedspear"/>
 		<attribute key="maxhitchance" value="80"/>
 		<attribute key="range" value="4"/>
-		<attribute key="attack" value="38"/>
+		<attribute key="attack" value="58"/>
 		<attribute key="weight" value="2000"/>
 	</item>
 	<item id="7368" article="an" name="assassin star">
@@ -14887,7 +14887,7 @@
 		<attribute key="shootType" value="royalspear"/>
 		<attribute key="maxhitchance" value="80"/>
 		<attribute key="range" value="3"/>
-		<attribute key="attack" value="35"/>
+		<attribute key="attack" value="42"/>
 		<attribute key="weight" value="2500"/>
 	</item>
 	<item id="7379" article="a" name="brutetamer's staff">
@@ -23550,8 +23550,6 @@
 	<item id="12669" article="a" name="star ring">
 		<attribute key="description" value="If you wear it on your ring slot, it will boost your health regeneration when you're not hungry"/>
 		<attribute key="slotType" value="ring"/>
-		<attribute key="stopduration" value="1"/>
-		<attribute key="showduration" value="1"/>
 		<attribute key="showAttributes" value="1"/>
 		<attribute key="transformequipto" value="12670"/>
 		<attribute key="weight" value="80"/>
@@ -23560,8 +23558,6 @@
 	<item id="12670" article="a" name="star ring">
 		<attribute key="description" value="If you wear it on your ring slot, it will boost your health regeneration when you're not hungry"/>
 		<attribute key="slotType" value="ring"/>
-		<attribute key="showduration" value="1"/>
-		<attribute key="showAttributes" value="1"/>
 		<attribute key="duration" value="600"/>
 		<attribute key="transformdeequipto" value="12669"/>
 		<attribute key="decayTo" value="0"/>
@@ -38563,7 +38559,7 @@
 		<attribute key="maxhitchance" value="86"/>
 		<attribute key="hitchance" value="90"/>
 		<attribute key="range" value="4"/>
-		<attribute key="attack" value="48"/>
+		<attribute key="attack" value="78"/>
 		<attribute key="weight" value="200"/>
 	</item>
 	<item id="25736" name="swan feathers"/>
@@ -38622,7 +38618,7 @@
 		<attribute key="elementfire" value="2"/>
 		<attribute key="maxhitchance" value="100"/>
 		<attribute key="range" value="5"/>
-		<attribute key="attack" value="64"/>
+		<attribute key="attack" value="84"/>
 		<attribute key="weight" value="220"/>
 	</item>
 	<item id="25760" article="a" name="wand of darkness">

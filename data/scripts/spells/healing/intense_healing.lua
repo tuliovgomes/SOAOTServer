@@ -21,8 +21,7 @@ end
 spell:name("Intense Healing")
 spell:words("exura gran")
 spell:group("healing")
-spell:vocation("druid", "elder druid", "paladin", "royal paladin", "sorcerer",
-               "master sorcerer")
+spell:vocation("druid", "elder druid", "paladin", "royal paladin", "sorcerer", "master sorcerer")
 spell:id(2)
 spell:cooldown(1000)
 spell:groupCooldown(1000)

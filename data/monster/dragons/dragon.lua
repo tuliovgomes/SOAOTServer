@@ -104,7 +104,9 @@ monster.loot = {
 	{id = 3583, chance = 65500, maxCount = 3}, -- dragon ham
 	{id = 5877, chance = 1005}, -- green dragon leather
 	{id = 5920, chance = 1000}, -- green dragon scale
-	{id = 7430, chance = 110}, -- dragonbone staff
+	{id = 3386, chance = 570}, -- dragon scale mail
+	{id = 3400, chance = 170}, -- dragon scale helmet
+	{id = 3363, chance = 370}, -- dragon scale legs
 	{id = 236, chance = 1000}, -- strong health potion
 	{id = 11457, chance = 9740} -- dragon's tail
 }

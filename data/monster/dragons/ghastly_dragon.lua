@@ -101,8 +101,6 @@ monster.loot = {
 	{id = 10387, chance = 1400}, -- Zaoan legs
 	{id = 10388, chance = 1470}, -- drakinata
 	{id = 10390, chance = 100}, -- Zaoan sword
-	{id = 10392, chance = 15100}, -- twin hooks
-	{id = 10406, chance = 15020}, -- Zaoan halberd
 	{id = 10438, chance = 690}, -- spellweaver's robe
 	{id = 10449, chance = 6650}, -- ghastly dragon head
 	{id = 10450, chance = 19830}, -- undead heart

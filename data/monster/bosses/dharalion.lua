@@ -88,8 +88,7 @@ monster.loot = {
 	{name = "life crystal", chance = 13430},
 	{name = "sling herb", chance = 8960},
 	{id = 3257, chance = 7460},-- cornucopia
-	{name = "green tunic", chance = 4480},
-	{name = "royal spear", chance = 1490, maxCount = 2}
+	{name = "green tunic", chance = 4480}
 }
 
 monster.attacks = {

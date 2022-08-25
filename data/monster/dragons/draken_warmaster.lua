@@ -92,7 +92,6 @@ monster.loot = {
 	{id = 10388, chance = 860}, -- drakinata
 	{id = 10404, chance = 12010}, -- bone shoulderplate
 	{id = 10405, chance = 7000}, -- warmaster's wristguards
-	{id = 10406, chance = 7925} -- Zaoan halberd
 }
 
 monster.attacks = {

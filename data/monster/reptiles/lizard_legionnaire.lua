@@ -86,7 +86,6 @@ monster.loot = {
 	{id = 10384, chance = 870}, -- Zaoan armor
 	{id = 10386, chance = 870}, -- Zaoan shoes
 	{name = "drakinata", chance = 710},
-	{name = "zaoan halberd", chance = 960},
 	{name = "legionnaire flags", chance = 1940},
 	{name = "broken halberd", chance = 14940},
 	{name = "lizard trophy", chance = 20}

@@ -5340,7 +5340,7 @@ local weapons = {
 		-- royal spear
 		itemid = 7378,
 		type = WEAPON_DISTANCE,
-		level = 40,
+		level = 150,
 		unproperly = true,
 	},
 	{
@@ -5354,7 +5354,7 @@ local weapons = {
 		-- enchanted spear
 		itemid = 7367,
 		type = WEAPON_DISTANCE,
-		level = 42,
+		level = 150,
 		unproperly = true
 	},
 	{
@@ -5453,11 +5453,11 @@ local weapons = {
 		-- hunting spear
 		itemid = 3347,
 		type = WEAPON_DISTANCE,
-		level = 20,
+		level = 100,
 		unproperly = true,
 	},
 	{
-		-- hunting spear
+		-- aiglos
 		itemid = 3313,
 		type = WEAPON_DISTANCE,
 		level = 200,

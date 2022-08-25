@@ -95,16 +95,16 @@ monster.loot = {
 	{id = 3051, chance = 5250}, -- energy ring
 	{id = 3061, chance = 680}, -- life crystal
 	{id = 3280, chance = 290}, -- fire sword
-	{id = 3373, chance = 360}, -- strange helmet
-	{id = 3386, chance = 170}, -- dragon scale mail
-	{id = 3392, chance = 280}, -- royal helmet
+	{id = 3386, chance = 970}, -- dragon scale mail
+	{id = 3400, chance = 370}, -- dragon scale helmet
+	{id = 3363, chance = 570}, -- dragon scale legs
+	{id = 3392, chance = 1280}, -- royal helmet
 	{id = 3428, chance = 250}, -- tower shield
 	{id = 3450, chance = 6700, maxCount = 7}, -- power bolt
 	{id = 3583, chance = 80000, maxCount = 5}, -- dragon ham
 	{id = 3732, chance = 12000}, -- green mushroom
 	{id = 5882, chance = 1920}, -- red dragon scale
 	{id = 5948, chance = 1040}, -- red dragon leather
-	{id = 7378, chance = 8800, maxCount = 3}, -- royal spear
 	{id = 7399, chance = 80}, -- dragon lord trophy
 	{id = 7402, chance = 100}, -- dragon slayer
 	{id = 236, chance = 970} -- strong health potion
