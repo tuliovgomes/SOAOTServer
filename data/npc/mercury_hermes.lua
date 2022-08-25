@@ -31,6 +31,7 @@ npcConfig.shop = {
 	{ itemName = "crocodile boots", clientId = 3556, sell = 5000},
 	{ itemName = "dragon scale boots", clientId = 10201, sell = 50000},
 	{ itemName = "firewalker boots", clientId = 9018, sell = 300000},
+	{ itemName = "winged boots", clientId = 31617, sell = 100000},
 	{ itemName = "fur boots", clientId = 7457, sell = 4000},
 	{ itemName = "glacier shoes", clientId = 819, sell = 14000},
 	{ itemName = "golden boots", clientId = 3555, sell = 500000},

@@ -31,7 +31,7 @@ npcConfig.shop = {
 	{ itemName = "necromancer shield", clientId = 6432, sell = 900000},
 	{ itemName = "falcon escutcheon", clientId = 28722, sell = 1200000},
 	{ itemName = "falcon shield", clientId = 28721, sell = 400000},
-	{ itemName = "ornate shield", clientId = 28722, sell = 1100000},
+	{ itemName = "ornate shield", clientId = 14000, sell = 1100000},
 	{ itemName = "beholder shield", clientId = 3418, sell = 14000},
 	{ itemName = "cerberus shield", clientId = 8078, sell = 1000000},
 	{ itemName = "crown shield", clientId = 3419, sell = 22000},
