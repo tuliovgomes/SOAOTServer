@@ -42,6 +42,7 @@ npcConfig.shop = {
 	{ itemName = "cobra club", clientId = 30395, sell = 600000},
 	{ itemName = "glooth club", clientId = 21178, sell = 15000},
 	{ itemName = "ornate mace", clientId = 14001, sell = 315000},
+	{ itemName = "lion hammer", clientId = 34254, sell = 100000},
 	{ itemName = "skull staff", clientId = 3324, sell = 6000},
 	{ itemName = "thunder hammer", clientId = 3309, sell = 60000},
 	{ itemName = "war hammer", clientId = 3279, sell = 18000},

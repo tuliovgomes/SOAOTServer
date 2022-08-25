@@ -37,6 +37,8 @@ npcConfig.shop = {
 	{ itemName = "falcon wand", clientId = 28717, sell = 800000},
 	{ itemName = "cobra wand", clientId = 30399, sell = 600000},
 	{ itemName = "cobra rod", clientId = 30400, sell = 600000},
+	{ itemName = "lion wand", clientId = 34152, sell = 100000},
+	{ itemName = "lion rod", clientId = 34151, sell = 100000},
 	{ itemName = "saurons breath", clientId = 8082, sell = 500},
 	{ itemName = "terra rod", clientId = 3065, sell = 1000},
 	{ itemName = "wand of cosmic energy", clientId = 3073, sell = 1000},

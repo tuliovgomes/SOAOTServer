@@ -555,14 +555,27 @@ local items = {
 		-- lion spellbook
 		itemid = 34153,
 		type = "deequip",
-		slot = "shield"
+		slot = "shield",
+		level = 220,
+		vocation = {
+			{"Druid", true, true},
+			{"Sorcerer", true, true},
+			{"Master Sorcerer"},
+			{"Elder Druid"}
+		}
 	},
 	{
 		-- lion spellbook
 		itemid = 34153,
 		type = "equip",
 		slot = "shield",
-		level = 220
+		level = 220,
+		vocation = {
+			{"Druid", true, true},
+			{"Sorcerer", true, true},
+			{"Master Sorcerer"},
+			{"Elder Druid"}
+		}
 	},
 	{
 		-- lion wand
@@ -7086,14 +7099,26 @@ local items = {
 		itemid = 14769,
 		type = "equip",
 		slot = "shield",
-		level = 150
+		level = 1000,
+		vocation = {
+			{"Druid", true, true},
+			{"Sorcerer", true, true},
+			{"Master Sorcerer"},
+			{"Elder Druid"}
+		}
 	},
 	{
 		-- spellbook of ancient arcana
 		itemid = 14769,
 		type = "deequip",
 		slot = "shield",
-		level = 150
+		level = 1000,
+		vocation = {
+			{"Druid", true, true},
+			{"Sorcerer", true, true},
+			{"Master Sorcerer"},
+			{"Elder Druid"}
+		}
 	},
 	{
 		-- thorn spitter
@@ -8794,42 +8819,42 @@ local items = {
 		itemid = 8864,
 		type = "equip",
 		slot = "head",
-		level = 480
+		level = 280
 	},
 	{
 		-- yalahari mask
 		itemid = 8864,
 		type = "deequip",
 		slot = "head",
-		level = 480
+		level = 280
 	},
 	{
 		-- yalahari leg piece
 		itemid = 8863,
 		type = "equip",
 		slot = "legs",
-		level = 480
+		level = 280
 	},
 	{
 		-- yalahari leg piece
 		itemid = 8863,
 		type = "deequip",
 		slot = "legs",
-		level = 480
+		level = 280
 	},
 	{
 		-- yalahari armor
 		itemid = 8862,
 		type = "equip",
 		slot = "armor",
-		level = 480
+		level = 280
 	},
 	{
 		-- yalahari armor
 		itemid = 8862,
 		type = "deequip",
 		slot = "armor",
-		level = 480
+		level = 280
 	},
 	{
 		-- brocade bag

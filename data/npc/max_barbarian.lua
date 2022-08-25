@@ -45,6 +45,7 @@ npcConfig.shop = {
 	{ itemName = "butcher's axe", clientId = 7412, sell = 25000 },
 	{ itemName = "falcon battleaxe", clientId = 28724, sell = 800000 },
 	{ itemName = "cobra axe", clientId = 30396, sell = 600000 },
+	{ itemName = "lion axe", clientId = 34253, sell = 100000 },
 	{ itemName = "glooth axe", clientId = 21180, sell = 15000 },
 	{ itemName = "drakinata", clientId = 10388, sell = 15000 },
 	{ itemName = "stonecutter axe", clientId = 3319, sell = 60000 },

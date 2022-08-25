@@ -51,6 +51,7 @@ npcConfig.shop = {
 	{ itemName = "warrior helmet", clientId = 3369, sell = 8000 },
 	{ itemName = "winged helmet", clientId = 3368, sell = 125000 },
 	{ itemName = "Valar mask", clientId = 8864, sell = 520000 },
+	{ itemName = "lion spangenhelm", clientId = 34156, sell = 100000 },
 	{ itemName = "falcon coif", clientId = 28715, sell = 620000 },
 	{ itemName = "falcon circlet", clientId = 28714, sell = 620000 },
 	{ itemName = "galea mortis", clientId = 31582, sell = 820000 },

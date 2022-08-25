@@ -6184,6 +6184,8 @@
 	<item id="3313" article="an" name="aiglos">
 		<attribute key="weight" value="2200" />
 		<attribute key="attack" value="68" />
+		<attribute key="criticalhitdamage" value="10"/>
+		<attribute key="criticalhitchance" value="10"/>
 		<attribute key="weaponType" value="distance" />
 		<attribute key="shootType" value="huntingspear" />
 		<attribute key="maxhitchance" value="90"/>
@@ -6637,6 +6639,10 @@
 		<attribute key="slotType" value="body"/>
 		<attribute key="armor" value="14"/>
 		<attribute key="weight" value="8000"/>
+		<attribute key="lifeleechamount" value="8"/>
+		<attribute key="lifeleechchance" value="8"/>
+		<attribute key="manaleechchance" value="8"/>
+		<attribute key="manaleechchance" value="8"/>
 		<attribute key="absorbPercentIce" value="8" />
 		<attribute key="absorbPercentEarth" value="8" />
 		<attribute key="absorbPercentEnergy" value="8" />
@@ -6671,6 +6677,10 @@
 	<item id="3364" name="golden legs">
 		<attribute key="slotType" value="legs"/>
 		<attribute key="armor" value="14"/>
+		<attribute key="lifeleechamount" value="3"/>
+		<attribute key="lifeleechchance" value="3"/>
+		<attribute key="manaleechchance" value="3"/>
+		<attribute key="manaleechchance" value="3"/>
 		<attribute key="absorbpercentelements" value="10" />
 		<attribute key="weight" value="5600"/>
 	</item>
@@ -6678,6 +6688,10 @@
 		<attribute key="description" value="It's the famous Helmet of the Stars"/>
 		<attribute key="slotType" value="head"/>
 		<attribute key="armor" value="12"/>
+		<attribute key="lifeleechamount" value="3"/>
+		<attribute key="lifeleechchance" value="3"/>
+		<attribute key="manaleechchance" value="3"/>
+		<attribute key="manaleechchance" value="3"/>
 		<attribute key="absorbPercentHoly" value="16" />
 		<attribute key="absorbPercentEnergy" value="16" />
 		<attribute key="weight" value="3200"/>
@@ -6694,6 +6708,10 @@
 		<attribute key="slotType" value="body"/>
 		<attribute key="armor" value="20"/>
 		<attribute key="absorbPercentAll" value="10" />
+		<attribute key="lifeleechamount" value="4"/>
+		<attribute key="lifeleechchance" value="4"/>
+		<attribute key="manaleechchance" value="4"/>
+		<attribute key="manaleechchance" value="4"/>
 		<attribute key="weight" value="8500"/>
 		<attribute key="imbuementslot" value="2">
 			<attribute key="life leech" value="3"/>
@@ -7206,6 +7224,12 @@
 		<attribute key="weaponType" value="shield"/>
 		<attribute key="defense" value="38"/>
 		<attribute key="absorbPercentAll" value="5" />
+		<attribute key="lifeleechamount" value="5"/>
+		<attribute key="lifeleechchance" value="5"/>
+		<attribute key="manaleechchance" value="5"/>
+		<attribute key="manaleechchance" value="5"/>
+		<attribute key="criticalhitdamage" value="5"/>
+		<attribute key="criticalhitchance" value="5"/>
 		<attribute key="weight" value="8400"/>
 		<attribute key="imbuementslot" value="1">
 			<attribute key="elemental protection death" value="3"/>
@@ -7222,6 +7246,12 @@
 		<attribute key="weaponType" value="shield"/>
 		<attribute key="defense" value="40"/>
 		<attribute key="absorbPercentAll" value="6" />
+		<attribute key="lifeleechamount" value="6"/>
+		<attribute key="lifeleechchance" value="6"/>
+		<attribute key="manaleechchance" value="6"/>
+		<attribute key="manaleechchance" value="6"/>
+		<attribute key="criticalhitdamage" value="6"/>
+		<attribute key="criticalhitchance" value="6"/>
 		<attribute key="weight" value="6800"/>
 	</item>
 	<item id="3424" article="an" name="ornamented shield">
@@ -7695,6 +7725,10 @@
 		<attribute key="slotType" value="feet"/>
 		<attribute key="showAttributes" value="1"/>
 		<attribute key="manaticks" value="2000"/>
+		<attribute key="lifeleechamount" value="3"/>
+		<attribute key="lifeleechchance" value="3"/>
+		<attribute key="manaleechchance" value="3"/>
+		<attribute key="manaleechchance" value="3"/>
 		<attribute key="managain" value="20"/>
 		<attribute key="healthticks" value="2000"/>
 		<attribute key="healthgain" value="8"/>
@@ -7743,6 +7777,10 @@
 		<attribute key="slotType" value="feet"/>
 		<attribute key="armor" value="4"/>
 		<attribute key="weight" value="3100"/>
+		<attribute key="lifeleechamount" value="3"/>
+		<attribute key="lifeleechchance" value="3"/>
+		<attribute key="manaleechchance" value="3"/>
+		<attribute key="manaleechchance" value="3"/>
 		<attribute key="absorbPercentAll" value="3" />
 		<attribute key="imbuementslot" value="1">
 			<attribute key="increase speed" value="3"/>
@@ -13187,6 +13225,10 @@
 	<item id="6299" article="a" name="khel thuzad ring">
 		<attribute key="slotType" value="ring"/>
 		<attribute key="absorbPercentAll" value="1" />
+		<attribute key="lifeleechamount" value="1"/>
+		<attribute key="lifeleechchance" value="1"/>
+		<attribute key="manaleechchance" value="1"/>
+		<attribute key="manaleechchance" value="1"/>
 		<attribute key="armor" value="5"/>
 		<attribute key="transformequipto" value="6300"/>
 		<attribute key="weight" value="80"/>
@@ -13194,6 +13236,10 @@
 	<item id="6300" article="a" name="khel thuzad ring">
 		<attribute key="slotType" value="ring"/>
 		<attribute key="absorbPercentAll" value="1" />
+		<attribute key="lifeleechamount" value="1"/>
+		<attribute key="lifeleechchance" value="1"/>
+		<attribute key="manaleechchance" value="1"/>
+		<attribute key="manaleechchance" value="1"/>
 		<attribute key="healthGain" value="10" />
 		<attribute key="healthTicks" value="5000" />
 		<attribute key="manaGain" value="5" />
@@ -13620,6 +13666,12 @@
 		<attribute key="defense" value="45"/>
 		<attribute key="weight" value="3200"/>
 		<attribute key="absorbPercentAll" value="7" />
+		<attribute key="lifeleechamount" value="7"/>
+		<attribute key="lifeleechchance" value="7"/>
+		<attribute key="manaleechchance" value="7"/>
+		<attribute key="manaleechchance" value="7"/>
+		<attribute key="criticalhitdamage" value="7"/>
+		<attribute key="criticalhitchance" value="7"/>
 		<attribute key="imbuementslot" value="1">
 			<attribute key="elemental protection death" value="3"/>
 			<attribute key="elemental protection earth" value="3"/>
@@ -17777,6 +17829,10 @@
 	<item id="8862" article="a" name="valar plate">
 		<attribute key="slotType" value="body"/>
 		<attribute key="armor" value="21"/>
+		<attribute key="lifeleechamount" value="5"/>
+		<attribute key="lifeleechchance" value="5"/>
+		<attribute key="manaleechchance" value="5"/>
+		<attribute key="manaleechchance" value="5"/>
 		<attribute key="weight" value="7000"/>
 		<attribute key="absorbPercentAll" value="6" />
 		<attribute key="skillClub" value="4" />
@@ -17787,6 +17843,10 @@
 	<item id="8863" article="a" name="valar kilt">
 		<attribute key="slotType" value="legs"/>
 		<attribute key="absorbpercentmagic" value="6" />
+		<attribute key="lifeleechamount" value="5"/>
+		<attribute key="lifeleechchance" value="5"/>
+		<attribute key="manaleechchance" value="5"/>
+		<attribute key="manaleechchance" value="5"/>
 		<attribute key="skilldist" value="2"/>
 		<attribute key="armor" value="8"/>
 		<attribute key="weight" value="6500"/>
@@ -17795,6 +17855,10 @@
 		<attribute key="slotType" value="head"/>
 		<attribute key="magicpoints" value="6"/>
 		<attribute key="absorbpercentelements" value="6" />
+		<attribute key="lifeleechamount" value="5"/>
+		<attribute key="lifeleechchance" value="5"/>
+		<attribute key="manaleechchance" value="5"/>
+		<attribute key="manaleechchance" value="5"/>
 		<attribute key="armor" value="15"/>
 		<attribute key="manaGain" value="25" />
 		<attribute key="manaTicks" value="5000" />
@@ -18199,6 +18263,10 @@
 	<item id="9018" article="a" name="firewalker boots">
 		<attribute key="slotType" value="feet"/>
 		<attribute key="absorbPercentAll" value="5" />
+		<attribute key="lifeleechamount" value="5"/>
+		<attribute key="lifeleechchance" value="5"/>
+		<attribute key="manaleechchance" value="5"/>
+		<attribute key="manaleechchance" value="5"/>
 		<attribute key="speed" value="80" />
 		<attribute key="healthGain" value="10" />
 		<attribute key="healthTicks" value="5000" />
@@ -24693,6 +24761,10 @@
 	<item id="13993" article="an" name="ornate chestplate">
 		<attribute key="slotType" value="body"/>
 		<attribute key="absorbpercentall" value="4"/>
+		<attribute key="absorbpercentphysical" value="15"/>
+		<attribute key="absorbpercentice" value="15"/>
+		<attribute key="lifeleechamount" value="15"/>
+		<attribute key="lifeleechchance" value="15"/>
 		<attribute key="skillshield" value="8"/>
 		<attribute key="armor" value="23"/>
 		<attribute key="weight" value="15600"/>
@@ -24709,6 +24781,10 @@
 	<item id="13994" article="a" name="depth lorica">
 		<attribute key="slotType" value="body"/>
 		<attribute key="absorbpercentall" value="4"/>
+		<attribute key="absorbpercentphysical" value="15"/>
+		<attribute key="absorbpercentice" value="15"/>
+		<attribute key="lifeleechamount" value="15"/>
+		<attribute key="lifeleechchance" value="15"/>
 		<attribute key="skilldist" value="8"/>
 		<attribute key="armor" value="23"/>
 		<attribute key="weight" value="14500"/>
@@ -24724,18 +24800,30 @@
 	<item id="13995" article="a" name="depth galea">
 		<attribute key="slotType" value="head"/>
 		<attribute key="absorbpercentall" value="5"/>
+		<attribute key="absorbpercentphysical" value="15"/>
+		<attribute key="absorbpercentice" value="15"/>
+		<attribute key="lifeleechamount" value="15"/>
+		<attribute key="lifeleechchance" value="15"/>
 		<attribute key="armor" value="12"/>
 		<attribute key="weight" value="4600"/>
 	</item>
 	<item id="13996" article="a" name="depth ocrea">
 		<attribute key="slotType" value="legs"/>
 		<attribute key="absorbpercentall" value="5"/>
+		<attribute key="absorbpercentphysical" value="15"/>
+		<attribute key="absorbpercentice" value="15"/>
+		<attribute key="lifeleechamount" value="15"/>
+		<attribute key="lifeleechchance" value="15"/>
 		<attribute key="armor" value="12"/>
 		<attribute key="weight" value="4800"/>
 	</item>
 	<item id="13997" article="a" name="depth calcei">
 		<attribute key="slotType" value="feet"/>
 		<attribute key="absorbpercentall" value="5"/>
+		<attribute key="absorbpercentphysical" value="15"/>
+		<attribute key="absorbpercentice" value="15"/>
+		<attribute key="lifeleechamount" value="15"/>
+		<attribute key="lifeleechchance" value="15"/>
 		<attribute key="armor" value="4"/>
 		<attribute key="weight" value="3700"/>
 		<attribute key="imbuementslot" value="1">
@@ -24768,6 +24856,12 @@
 		<attribute key="weaponType" value="shield"/>
 		<attribute key="showAttributes" value="1"/>
 		<attribute key="absorbpercentall" value="7"/>
+		<attribute key="absorbpercentphysical" value="15"/>
+		<attribute key="absorbpercentice" value="15"/>
+		<attribute key="lifeleechamount" value="15"/>
+		<attribute key="lifeleechchance" value="15"/>
+		<attribute key="criticalhitdamage" value="15"/>
+		<attribute key="criticalhitchance" value="15"/>
 		<attribute key="defense" value="46"/>
 		<attribute key="weight" value="7100"/>
 		<attribute key="imbuementslot" value="1">
@@ -24785,6 +24879,8 @@
 		<attribute key="attack" value="49"/>
 		<attribute key="defense" value="24"/>
 		<attribute key="weight" value="14900"/>
+		<attribute key="criticalhitdamage" value="25"/>
+		<attribute key="criticalhitchance" value="25"/>
 		<attribute key="imbuementslot" value="2">
 			<attribute key="elemental damage" value="3"/>
 			<attribute key="life leech" value="3"/>
@@ -25477,9 +25573,15 @@
 		<attribute key="description" value="It shows your spells and can also shield against attacks when worn"/>
 		<attribute key="weaponType" value="shield"/>
 		<attribute key="showAttributes" value="1"/>
-		<attribute key="absorbpercentdeath" value="5"/>
+		<attribute key="absorbpercentall" value="15"/>
+		<attribute key="absorbpercentphysical" value="20"/>
+		<attribute key="absorbpercentice" value="20"/>
+		<attribute key="lifeleechamount" value="20"/>
+		<attribute key="lifeleechchance" value="20"/>
+		<attribute key="criticalhitdamage" value="20"/>
+		<attribute key="criticalhitchance" value="20"/>
 		<attribute key="magicpoints" value="4"/>
-		<attribute key="defense" value="19"/>
+		<attribute key="defense" value="49"/>
 		<attribute key="weight" value="2500"/>
 	</item>
 	<item fromid="14770" toid="14801" name="crystal floor"/>
@@ -42645,6 +42747,10 @@
 	<item id="28719" article="a" name="falcon plate">
 		<attribute key="slotType" value="body"/>
 		<attribute key="absorbpercentall" value="10"/>
+		<attribute key="lifeleechamount" value="10"/>
+		<attribute key="lifeleechchance" value="10"/>
+		<attribute key="manaleechchance" value="10"/>
+		<attribute key="manaleechchance" value="10"/>
 		<attribute key="armor" value="25"/>
 		<attribute key="weight" value="18800"/>
 		<attribute key="imbuementslot" value="2">
@@ -42660,6 +42766,10 @@
 	<item id="28720" name="falcon greaves">
 		<attribute key="slotType" value="legs"/>
 		<attribute key="absorbpercentall" value="9"/>
+		<attribute key="lifeleechamount" value="9"/>
+		<attribute key="lifeleechchance" value="9"/>
+		<attribute key="manaleechchance" value="9"/>
+		<attribute key="manaleechchance" value="9"/>
 		<attribute key="maxhitpointspercent" value="110" />
 		<attribute key="description" value="+10% of life." />
 		<attribute key="armor" value="15"/>
@@ -42684,6 +42794,12 @@
 	<item id="28722" article="a" name="falcon escutcheon">
 		<attribute key="weaponType" value="shield"/>
 		<attribute key="absorbpercentall" value="8"/>
+		<attribute key="lifeleechamount" value="8"/>
+		<attribute key="lifeleechchance" value="8"/>
+		<attribute key="manaleechchance" value="8"/>
+		<attribute key="manaleechchance" value="8"/>
+		<attribute key="criticalhitdamage" value="8"/>
+		<attribute key="criticalhitchance" value="8"/>
 		<attribute key="defense" value="48"/>
 		<attribute key="weight" value="6000"/>
 		<attribute key="imbuementslot" value="1">
@@ -45326,6 +45442,10 @@
 		<attribute key="slotType" value="feet"/>
 		<attribute key="showAttributes" value="1"/>
 		<attribute key="absorbpercentall" value="6"/>
+		<attribute key="lifeleechamount" value="16"/>
+		<attribute key="lifeleechchance" value="16"/>
+		<attribute key="manaleechchance" value="16"/>
+		<attribute key="manaleechchance" value="16"/>
 		<attribute key="armor" value="6"/>
 		<attribute key="weight" value="900"/>
 		<attribute key="imbuementslot" value="1">
@@ -45337,6 +45457,8 @@
 		<attribute key="skillclub" value="2"/>
 		<attribute key="attack" value="8"/>
 		<attribute key="extradef" value="2"/>
+		<attribute key="criticalhitdamage" value="15"/>
+		<attribute key="criticalhitchance" value="15"/>
 		<attribute key="defense" value="29"/>
 		<attribute key="weight" value="2500"/>
 		<attribute key="imbuementslot" value="2">
@@ -45351,6 +45473,8 @@
 		<attribute key="skillaxe" value="2"/>
 		<attribute key="attack" value="8"/>
 		<attribute key="extradef" value="2"/>
+		<attribute key="criticalhitdamage" value="15"/>
+		<attribute key="criticalhitchance" value="15"/>
 		<attribute key="defense" value="29"/>
 		<attribute key="weight" value="4000"/>
 		<attribute key="imbuementslot" value="2">
@@ -45364,6 +45488,10 @@
 		<attribute key="slotType" value="head"/>
 		<attribute key="showAttributes" value="1"/>
 		<attribute key="absorbpercentall" value="4"/>
+		<attribute key="lifeleechamount" value="4"/>
+		<attribute key="lifeleechchance" value="4"/>
+		<attribute key="manaleechchance" value="4"/>
+		<attribute key="manaleechchance" value="4"/>
 		<attribute key="skillshield" value="3"/>
 		<attribute key="skilldist" value="3"/>
 		<attribute key="skillclub" value="3"/>
@@ -45386,6 +45514,8 @@
 		<attribute key="skillsword" value="3"/>
 		<attribute key="attack" value="52"/>
 		<attribute key="extradef" value="2"/>
+		<attribute key="criticalhitdamage" value="15"/>
+		<attribute key="criticalhitchance" value="15"/>
 		<attribute key="defense" value="31"/>
 		<attribute key="weight" value="6300"/>
 		<attribute key="imbuementslot" value="2">
@@ -45399,6 +45529,8 @@
 	<item id="30399" name="cobra wand">
 		<attribute key="weaponType" value="wand"/>
 		<attribute key="magicpoints" value="2"/>
+		<attribute key="criticalhitdamage" value="15"/>
+		<attribute key="criticalhitchance" value="15"/>
 		<attribute key="range" value="4"/>
 		<attribute key="weight" value="1900"/>
 		<attribute key="imbuementslot" value="2">
@@ -45410,6 +45542,8 @@
 	<item id="30400" name="cobra rod">
 		<attribute key="weaponType" value="wand"/>
 		<attribute key="magicpoints" value="2"/>
+		<attribute key="criticalhitdamage" value="15"/>
+		<attribute key="criticalhitchance" value="15"/>
 		<attribute key="range" value="5"/>
 		<attribute key="weight" value="2500"/>
 		<attribute key="imbuementslot" value="2">
@@ -46851,6 +46985,10 @@
 	<item id="31582" article="a" name="galea mortis">
 		<attribute key="slotType" value="head"/>
 		<attribute key="absorbpercentall" value="7"/>
+		<attribute key="absorbpercentphysical" value="6"/>
+		<attribute key="absorbpercentice" value="6"/>
+		<attribute key="lifeleechamount" value="6"/>
+		<attribute key="lifeleechchance" value="6"/>
 		<attribute key="armor" value="16"/>
 		<attribute key="weight" value="2300"/>
 		<attribute key="imbuementslot" value="2">
@@ -47038,6 +47176,10 @@
 		<attribute key="description" value="The bearer of this amulet will command the gaze, the resilience and deadliness of the cobra. Yet what firmly has its place in the heart of its wearer, the cobra will conceal"/>
 		<attribute key="slotType" value="necklace"/>
 		<attribute key="absorbpercentall" value="4"/>
+		<attribute key="absorbpercentphysical" value="14"/>
+		<attribute key="absorbpercentice" value="14"/>
+		<attribute key="lifeleechamount" value="14"/>
+		<attribute key="lifeleechchance" value="14"/>
 		<attribute key="armor" value="6"/>
 		<attribute key="weight" value="530"/>
 	</item>
@@ -50657,6 +50799,8 @@
 		<attribute key="ammotype" value="arrow"/>
 		<attribute key="loottype" value="distance"/>
 		<attribute key="absorbpercentice" value="5"/>
+		<attribute key="criticalhitdamage" value="10"/>
+		<attribute key="criticalhitchance" value="10"/>
 		<attribute key="skilldist" value="2"/>
 		<attribute key="hitchance" value="4"/>
 		<attribute key="range" value="6"/>
@@ -50675,7 +50819,7 @@
 		<attribute key="shootType" value="smallice"/>
 		<attribute key="loottype" value="wand"/>
 		<attribute key="magicpoints" value="2"/>
-		<attribute key="criticalhitdamage" value="35"/>
+		<attribute key="criticalhitdamage" value="10"/>
 		<attribute key="criticalhitchance" value="10"/>
 		<attribute key="range" value="5"/>
 		<attribute key="weight" value="2600"/>
@@ -50690,8 +50834,8 @@
 		<attribute key="shootType" value="smallice"/>
 		<attribute key="loottype" value="wand"/>
 		<attribute key="magicpoints" value="2"/>
-		<attribute key="lifeleechamount" value="18"/>
-		<attribute key="lifeleechchance" value="100"/>
+		<attribute key="criticalhitdamage" value="10"/>
+		<attribute key="criticalhitchance" value="10"/>
 		<attribute key="range" value="4"/>
 		<attribute key="weight" value="2100"/>
 		<attribute key="imbuementslot" value="2">
@@ -50703,9 +50847,15 @@
 	<item id="34153" article="a" name="lion spellbook">
 		<attribute key="weaponType" value="shield"/>
 		<attribute key="loottype" value="shield"/>
-		<attribute key="absorbpercentphysical" value="3"/>
-		<attribute key="absorbpercentice" value="7"/>
-		<attribute key="magicpoints" value="4"/>
+		<attribute key="absorbpercentphysical" value="15"/>
+		<attribute key="absorbpercentice" value="15"/>
+		<attribute key="lifeleechamount" value="15"/>
+		<attribute key="lifeleechchance" value="15"/>
+		<attribute key="manaleechchance" value="15"/>
+		<attribute key="manaleechchance" value="15"/>
+		<attribute key="criticalhitdamage" value="15"/>
+		<attribute key="criticalhitchance" value="15"/>
+		<attribute key="magicpoints" value="8"/>
 		<attribute key="defense" value="20"/>
 		<attribute key="weight" value="2500"/>
 		<attribute key="imbuementslot" value="1">
@@ -50721,8 +50871,12 @@
 	<item id="34154" article="a" name="lion shield">
 		<attribute key="weaponType" value="shield"/>
 		<attribute key="loottype" value="shield"/>
-		<attribute key="absorbpercentphysical" value="7"/>
+		<attribute key="absorbpercentphysical" value="10"/>
 		<attribute key="absorbpercentpoison" value="10"/>
+		<attribute key="lifeleechamount" value="10"/>
+		<attribute key="lifeleechchance" value="10"/>
+		<attribute key="manaleechchance" value="10"/>
+		<attribute key="manaleechchance" value="10"/>
 		<attribute key="defense" value="39"/>
 		<attribute key="weight" value="6500"/>
 		<attribute key="imbuementslot" value="1">
@@ -50740,6 +50894,8 @@
 		<attribute key="loottype" value="sword"/>
 		<attribute key="elementearth" value="44"/>
 		<attribute key="skillsword" value="3"/>
+		<attribute key="criticalhitdamage" value="35"/>
+		<attribute key="criticalhitchance" value="10"/>
 		<attribute key="attack" value="8"/>
 		<attribute key="extradef" value="2"/>
 		<attribute key="defense" value="31"/>
@@ -50755,10 +50911,10 @@
 	<item id="34156" article="a" name="lion spangenhelm">
 		<attribute key="slotType" value="head"/>
 		<attribute key="loottype" value="helmet"/>
-		<attribute key="absorbpercentphysical" value="3"/>
-		<attribute key="absorbpercentpoison" value="5"/>
+		<attribute key="absorbpercentphysical" value="10"/>
+		<attribute key="absorbpercentpoison" value="25"/>
 		<attribute key="skilldist" value="2"/>
-		<attribute key="armor" value="7"/>
+		<attribute key="armor" value="15"/>
 		<attribute key="weight" value="3000"/>
 		<attribute key="imbuementslot" value="2">
 			<attribute key="mana leech" value="3"/>
@@ -50772,11 +50928,11 @@
 	<item id="34157" article="a" name="lion plate">
 		<attribute key="slotType" value="body"/>
 		<attribute key="loottype" value="armor"/>
-		<attribute key="absorbpercentphysical" value="6"/>
-		<attribute key="skillclub" value="3"/>
-		<attribute key="skillaxe" value="3"/>
-		<attribute key="skillsword" value="3"/>
-		<attribute key="armor" value="17"/>
+		<attribute key="absorbpercentphysical" value="25"/>
+		<attribute key="skillclub" value="10"/>
+		<attribute key="skillaxe" value="10"/>
+		<attribute key="skillsword" value="10"/>
+		<attribute key="armor" value="25"/>
 		<attribute key="weight" value="15000"/>
 		<attribute key="imbuementslot" value="2">
 			<attribute key="life leech" value="3"/>
@@ -50793,8 +50949,10 @@
 		<attribute key="slotType" value="necklace"/>
 		<attribute key="loottype" value="amulet"/>
 		<attribute key="showAttributes" value="1"/>
-		<attribute key="absorbpercentphysical" value="3"/>
-		<attribute key="absorbpercentice" value="7"/>
+		<attribute key="absorbpercentphysical" value="10"/>
+		<attribute key="absorbpercentice" value="10"/>
+		<attribute key="lifeleechamount" value="10"/>
+		<attribute key="lifeleechchance" value="10"/>
 		<attribute key="armor" value="3"/>
 		<attribute key="weight" value="520"/>
 	</item>
@@ -51106,6 +51264,8 @@
 		<attribute key="weaponType" value="axe"/>
 		<attribute key="loottype" value="axe"/>
 		<attribute key="elementearth" value="44"/>
+		<attribute key="criticalhitdamage" value="10"/>
+		<attribute key="criticalhitchance" value="10"/>
 		<attribute key="skillaxe" value="3"/>
 		<attribute key="attack" value="8"/>
 		<attribute key="extradef" value="2"/>
@@ -51123,6 +51283,8 @@
 		<attribute key="weaponType" value="club"/>
 		<attribute key="loottype" value="club"/>
 		<attribute key="elementearth" value="44"/>
+		<attribute key="criticalhitdamage" value="10"/>
+		<attribute key="criticalhitchance" value="10"/>
 		<attribute key="skillclub" value="3"/>
 		<attribute key="attack" value="8"/>
 		<attribute key="extradef" value="2"/>

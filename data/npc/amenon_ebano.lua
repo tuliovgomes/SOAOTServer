@@ -41,6 +41,7 @@ npcConfig.shop = {
 	{ itemName = "divine plate", clientId = 8057, sell = 160000},
 	{ itemName = "falcon plate", clientId = 28719, sell = 800000},
 	{ itemName = "ornate chestplate", clientId = 13993, sell = 500000},
+	{ itemName = "lion plate", clientId = 34157, sell = 100000},
 	{ itemName = "depth lorica", clientId = 13994, sell = 700000},
 	{ itemName = "toga mortis", clientId = 31583, sell = 100000},
 	{ itemName = "dwarven armor", clientId = 3397, sell = 8000},

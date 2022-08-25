@@ -50,6 +50,7 @@ npcConfig.shop = {
 	{ itemName = "leaf star", clientId = 25735, sell = 400000 },
 	{ itemName = "royal star", clientId = 25759, sell = 800000 },
 	{ itemName = "falcon bow", clientId = 28718, sell = 800000 },
+	{ itemName = "lion longbow", clientId = 34150, sell = 100000 },
 	{ itemName = "cobra crossbow", clientId = 30393, sell = 600000 },
 	{ itemName = "mycological bow", clientId = 16164, sell = 50000 },
 	{ itemName = "hunting spear", clientId = 3347, sell = 40000 },
