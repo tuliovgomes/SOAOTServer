@@ -91,11 +91,11 @@ monster.defenses = {
 
 monster.loot = {
 	{id = 6529, chance = 900},
-	{name = "great shield", chance = 1201},
-	{name = "demon helmet", chance = 900},
-	{name = "demon armor", chance = 702},
-	{name = "demon legs", chance = 600},
-	{name = "winged boots", chance = 1800},
+	{name = "great shield", chance = 601},
+	{name = "demon helmet", chance = 1200},
+	{name = "demon armor", chance = 1302},
+	{name = "demon legs", chance = 1200},
+	{name = "winged boots", chance = 1200},
 	{name = "winged helmet", chance = 1800},
 	{name = "amulet of loss", chance = 2100},
 }

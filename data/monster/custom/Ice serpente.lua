@@ -96,9 +96,9 @@ monster.defenses = {
 monster.loot = {
 	{name = "small emerald", chance = 50000, maxCount = 40},
 	{name = "small sapphire", chance = 50000, maxCount = 36},
-	{name = "blue legs", chance = 1500},
-	{name = "frozen plate", chance = 702},
-	{name = "winged boots", chance = 702},
+	{name = "blue legs", chance = 1000},
+	{name = "frozen plate", chance = 602},
+	{name = "winged boots", chance = 402},
 	{name = "aghanim legs", chance = 1600},
 	{name = "aghanim boots", chance = 1800},
 	{name = "aghanim robe", chance = 1800},

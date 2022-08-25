@@ -101,7 +101,7 @@ monster.loot = {
 	{name = "strong mana potion", chance = 2500, maxCount = 80},
 	{name = "small diamond", chance = 4000},
 	{name = "pharaoh sword", chance = 1800},
-	{name = "valar kilt", chance = 900},
+	{name = "valar kilt", chance = 600},
 }
 
 mType:register(monster)

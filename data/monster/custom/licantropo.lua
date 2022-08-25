@@ -100,7 +100,7 @@ monster.summons = {
 
 monster.loot = {
 	{name = "golden armor", chance = 1600},
-	{name = "great shield", chance = 1001},
+	{name = "great shield", chance = 301},
 	{name = "gandalf ring", chance = 1200},
 	{name = "magic steel helmet", chance = 1702},
 	{name = "winged boots", chance = 1200},

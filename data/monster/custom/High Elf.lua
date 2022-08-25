@@ -94,27 +94,20 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{id = 2815, chance = 31000},
 	{name = "aghanim legs", chance = 2100},
 	{name = "gold coin", chance = 37000, maxCount = 47},
 	{name = "yellow gem", chance = 50},
 	{name = "aghanim robe", chance = 970},
-	{name = "wand of cosmic energy", chance = 1160},
 	{name = "elven amulet", chance = 1999},
 	{name = "blank rune", chance = 18000},
 	{name = "arrow", chance = 6000, maxCount = 3},
-	{id = 3509, chance = 1000},
 	{name = "aghanim mask", chance = 950},
 	{name = "green tunic", chance = 7000},
-	{name = "melon", chance = 22000},
 	{name = "bread", chance = 14000},
 	{name = "aghanim boots", chance = 880},
-	{name = "sling herb", chance = 5000},
-	{name = "elvish bow", chance = 2100},
 	{name = "strong mana potion", chance = 3000},
 	{name = "health potion", chance = 4000},
 	{name = "elvish talisman", chance = 10000},
-	{name = "elven astral observer", chance = 7710}
 }
 
 mType:register(monster)

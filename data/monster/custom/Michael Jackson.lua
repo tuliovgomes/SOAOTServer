@@ -91,13 +91,13 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{name = "golden boots", chance = 900},
-	{name = "great shield", chance = 1001},
-	{name = "zenit helmet", chance = 900},
-	{name = "Valar kilt", chance = 702},
-	{name = "necromancer shield", chance = 600},
+	{name = "golden boots", chance = 700},
+	{name = "great shield", chance = 801},
+	{name = "zenit helmet", chance = 1200},
+	{name = "Valar kilt", chance = 602},
+	{name = "necromancer shield", chance = 300},
 	{name = "pharaoh sword", chance = 1800},
-	{name = "amulet of loss", chance = 100},
+	{name = "amulet of loss", chance = 1900},
 }
 
 mType:register(monster)

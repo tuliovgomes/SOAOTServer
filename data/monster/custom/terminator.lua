@@ -110,7 +110,7 @@ monster.loot = {
 
 monster.loot = {
 	{id = 6529, chance = 1200},
-	{name = "great shield", chance = 1001},
+	{name = "great shield", chance = 901},
 	{name = "magic plate armor", chance = 900},
 	{name = "golden legs", chance = 902},
 }

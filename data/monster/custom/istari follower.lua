@@ -105,7 +105,7 @@ monster.loot = {
 	{name = "small ruby", chance = 50000, maxCount = 40},
 	{name = "small diamond", chance = 50000, maxCount = 36},
 	{id = 9019, chance = 200},
-	{name = "magic plate armor", chance = 1001},
+	{name = "magic plate armor", chance = 701},
 	{name = "valar mask", chance = 100},
 	{name = "Valar kilt", chance = 302},
 	{name = "valar plate", chance = 250},
