@@ -6540,6 +6540,8 @@
 	<item id="3347" article="a" name="hunting spear">
 		<attribute key="weaponType" value="distance"/>
 		<attribute key="shootType" value="huntingspear"/>
+		<attribute key="criticalhitdamage" value="3"/>
+		<attribute key="criticalhitchance" value="3"/>
 		<attribute key="maxhitchance" value="80"/>
 		<attribute key="range" value="3"/>
 		<attribute key="attack" value="32"/>
@@ -6641,7 +6643,7 @@
 		<attribute key="weight" value="8000"/>
 		<attribute key="lifeleechamount" value="8"/>
 		<attribute key="lifeleechchance" value="8"/>
-		<attribute key="manaleechchance" value="8"/>
+		<attribute key="manaleechamount" value="8"/>
 		<attribute key="manaleechchance" value="8"/>
 		<attribute key="absorbPercentIce" value="8" />
 		<attribute key="absorbPercentEarth" value="8" />
@@ -6679,7 +6681,7 @@
 		<attribute key="armor" value="14"/>
 		<attribute key="lifeleechamount" value="3"/>
 		<attribute key="lifeleechchance" value="3"/>
-		<attribute key="manaleechchance" value="3"/>
+		<attribute key="manaleechamount" value="3"/>
 		<attribute key="manaleechchance" value="3"/>
 		<attribute key="absorbpercentelements" value="10" />
 		<attribute key="weight" value="5600"/>
@@ -6690,7 +6692,7 @@
 		<attribute key="armor" value="12"/>
 		<attribute key="lifeleechamount" value="3"/>
 		<attribute key="lifeleechchance" value="3"/>
-		<attribute key="manaleechchance" value="3"/>
+		<attribute key="manaleechamount" value="3"/>
 		<attribute key="manaleechchance" value="3"/>
 		<attribute key="absorbPercentHoly" value="16" />
 		<attribute key="absorbPercentEnergy" value="16" />
@@ -6710,7 +6712,7 @@
 		<attribute key="absorbPercentAll" value="10" />
 		<attribute key="lifeleechamount" value="4"/>
 		<attribute key="lifeleechchance" value="4"/>
-		<attribute key="manaleechchance" value="4"/>
+		<attribute key="manaleechamount" value="4"/>
 		<attribute key="manaleechchance" value="4"/>
 		<attribute key="weight" value="8500"/>
 		<attribute key="imbuementslot" value="2">
@@ -7226,7 +7228,7 @@
 		<attribute key="absorbPercentAll" value="5" />
 		<attribute key="lifeleechamount" value="5"/>
 		<attribute key="lifeleechchance" value="5"/>
-		<attribute key="manaleechchance" value="5"/>
+		<attribute key="manaleechamount" value="5"/>
 		<attribute key="manaleechchance" value="5"/>
 		<attribute key="criticalhitdamage" value="5"/>
 		<attribute key="criticalhitchance" value="5"/>
@@ -7248,7 +7250,7 @@
 		<attribute key="absorbPercentAll" value="6" />
 		<attribute key="lifeleechamount" value="6"/>
 		<attribute key="lifeleechchance" value="6"/>
-		<attribute key="manaleechchance" value="6"/>
+		<attribute key="manaleechamount" value="6"/>
 		<attribute key="manaleechchance" value="6"/>
 		<attribute key="criticalhitdamage" value="6"/>
 		<attribute key="criticalhitchance" value="6"/>
@@ -7727,7 +7729,7 @@
 		<attribute key="manaticks" value="2000"/>
 		<attribute key="lifeleechamount" value="3"/>
 		<attribute key="lifeleechchance" value="3"/>
-		<attribute key="manaleechchance" value="3"/>
+		<attribute key="manaleechamount" value="3"/>
 		<attribute key="manaleechchance" value="3"/>
 		<attribute key="managain" value="20"/>
 		<attribute key="healthticks" value="2000"/>
@@ -7779,7 +7781,7 @@
 		<attribute key="weight" value="3100"/>
 		<attribute key="lifeleechamount" value="3"/>
 		<attribute key="lifeleechchance" value="3"/>
-		<attribute key="manaleechchance" value="3"/>
+		<attribute key="manaleechamount" value="3"/>
 		<attribute key="manaleechchance" value="3"/>
 		<attribute key="absorbPercentAll" value="3" />
 		<attribute key="imbuementslot" value="1">
@@ -13227,7 +13229,7 @@
 		<attribute key="absorbPercentAll" value="1" />
 		<attribute key="lifeleechamount" value="1"/>
 		<attribute key="lifeleechchance" value="1"/>
-		<attribute key="manaleechchance" value="1"/>
+		<attribute key="manaleechamount" value="1"/>
 		<attribute key="manaleechchance" value="1"/>
 		<attribute key="armor" value="5"/>
 		<attribute key="transformequipto" value="6300"/>
@@ -13238,7 +13240,7 @@
 		<attribute key="absorbPercentAll" value="1" />
 		<attribute key="lifeleechamount" value="1"/>
 		<attribute key="lifeleechchance" value="1"/>
-		<attribute key="manaleechchance" value="1"/>
+		<attribute key="manaleechamount" value="1"/>
 		<attribute key="manaleechchance" value="1"/>
 		<attribute key="healthGain" value="10" />
 		<attribute key="healthTicks" value="5000" />
@@ -13668,7 +13670,7 @@
 		<attribute key="absorbPercentAll" value="7" />
 		<attribute key="lifeleechamount" value="7"/>
 		<attribute key="lifeleechchance" value="7"/>
-		<attribute key="manaleechchance" value="7"/>
+		<attribute key="manaleechamount" value="7"/>
 		<attribute key="manaleechchance" value="7"/>
 		<attribute key="criticalhitdamage" value="7"/>
 		<attribute key="criticalhitchance" value="7"/>
@@ -14879,6 +14881,8 @@
 	<item id="7367" article="an" name="enchanted spear">
 		<attribute key="weaponType" value="distance"/>
 		<attribute key="shootType" value="enchantedspear"/>
+		<attribute key="criticalhitdamage" value="8"/>
+		<attribute key="criticalhitchance" value="8"/>
 		<attribute key="maxhitchance" value="80"/>
 		<attribute key="range" value="4"/>
 		<attribute key="attack" value="58"/>
@@ -14938,6 +14942,8 @@
 		<attribute key="weaponType" value="distance"/>
 		<attribute key="shootType" value="royalspear"/>
 		<attribute key="maxhitchance" value="80"/>
+		<attribute key="criticalhitdamage" value="5"/>
+		<attribute key="criticalhitchance" value="5"/>
 		<attribute key="range" value="3"/>
 		<attribute key="attack" value="42"/>
 		<attribute key="weight" value="2500"/>
@@ -17831,7 +17837,7 @@
 		<attribute key="armor" value="21"/>
 		<attribute key="lifeleechamount" value="5"/>
 		<attribute key="lifeleechchance" value="5"/>
-		<attribute key="manaleechchance" value="5"/>
+		<attribute key="manaleechamount" value="5"/>
 		<attribute key="manaleechchance" value="5"/>
 		<attribute key="weight" value="7000"/>
 		<attribute key="absorbPercentAll" value="6" />
@@ -17845,7 +17851,7 @@
 		<attribute key="absorbpercentmagic" value="6" />
 		<attribute key="lifeleechamount" value="5"/>
 		<attribute key="lifeleechchance" value="5"/>
-		<attribute key="manaleechchance" value="5"/>
+		<attribute key="manaleechamount" value="5"/>
 		<attribute key="manaleechchance" value="5"/>
 		<attribute key="skilldist" value="2"/>
 		<attribute key="armor" value="8"/>
@@ -17857,7 +17863,7 @@
 		<attribute key="absorbpercentelements" value="6" />
 		<attribute key="lifeleechamount" value="5"/>
 		<attribute key="lifeleechchance" value="5"/>
-		<attribute key="manaleechchance" value="5"/>
+		<attribute key="manaleechamount" value="5"/>
 		<attribute key="manaleechchance" value="5"/>
 		<attribute key="armor" value="15"/>
 		<attribute key="manaGain" value="25" />
@@ -18265,7 +18271,7 @@
 		<attribute key="absorbPercentAll" value="5" />
 		<attribute key="lifeleechamount" value="5"/>
 		<attribute key="lifeleechchance" value="5"/>
-		<attribute key="manaleechchance" value="5"/>
+		<attribute key="manaleechamount" value="5"/>
 		<attribute key="manaleechchance" value="5"/>
 		<attribute key="speed" value="80" />
 		<attribute key="healthGain" value="10" />
@@ -26747,6 +26753,8 @@
 		<attribute key="weaponType" value="distance"/>
 		<attribute key="slotType" value="two-handed"/>
 		<attribute key="ammotype" value="arrow"/>
+		<attribute key="criticalhitdamage" value="10"/>
+		<attribute key="criticalhitchance" value="10"/>
 		<attribute key="hitchance" value="4"/>
 		<attribute key="range" value="6"/>
 		<attribute key="attack" value="4"/>
@@ -36087,6 +36095,8 @@
 		<attribute key="description" value="The golden starfish's arms are sharp as razor blades"/>
 		<attribute key="weaponType" value="distance"/>
 		<attribute key="shootType" value="holy"/>
+		<attribute key="criticalhitdamage" value="25"/>
+		<attribute key="criticalhitchance" value="25"/>
 		<attribute key="maxhitchance" value="100"/>
 		<attribute key="range" value="4"/>
 		<attribute key="attack" value="250"/>
@@ -38658,6 +38668,8 @@
 		<attribute key="weaponType" value="distance"/>
 		<attribute key="shootType" value="leafstar"/>
 		<attribute key="elementearth" value="2"/>
+		<attribute key="criticalhitdamage" value="12"/>
+		<attribute key="criticalhitchance" value="12"/>
 		<attribute key="maxhitchance" value="86"/>
 		<attribute key="hitchance" value="90"/>
 		<attribute key="range" value="4"/>
@@ -38701,6 +38713,8 @@
 	<item id="25757" article="a" name="diamond arrow">
 		<attribute key="ammotype" value="arrow"/>
 		<attribute key="attack" value="37"/>
+		<attribute key="criticalhitdamage" value="8"/>
+		<attribute key="criticalhitchance" value="8"/>
 		<attribute key="maxhitchance" value="100"/>
 		<attribute key="loottype" value="ammo" />
 		<attribute key="slotType" value="ammo"/>
@@ -38711,6 +38725,8 @@
 		<attribute key="weaponType" value="ammunition"/>
 		<attribute key="slotType" value="ammo"/>
 		<attribute key="ammotype" value="bolt"/>
+		<attribute key="criticalhitdamage" value="8"/>
+		<attribute key="criticalhitchance" value="8"/>
 		<attribute key="shootType" value="spectralbolt"/>
 		<attribute key="maxhitchance" value="100"/>
 		<attribute key="weight" value="90"/>
@@ -38718,6 +38734,8 @@
 	<item id="25759" article="a" name="royal star">
 		<attribute key="shootType" value="royalstar"/>
 		<attribute key="elementfire" value="2"/>
+		<attribute key="criticalhitdamage" value="18"/>
+		<attribute key="criticalhitchance" value="18"/>
 		<attribute key="maxhitchance" value="100"/>
 		<attribute key="range" value="5"/>
 		<attribute key="attack" value="84"/>
@@ -42685,7 +42703,7 @@
 		<attribute key="absorbpercentall" value="10"/>
 		<attribute key="lifeleechamount" value="10"/>
 		<attribute key="lifeleechchance" value="10"/>
-		<attribute key="manaleechchance" value="10"/>
+		<attribute key="manaleechamount" value="10"/>
 		<attribute key="manaleechchance" value="10"/>
 		<attribute key="skillshield" value="5"/>
 		<attribute key="skilldist" value="5"/>
@@ -42760,7 +42778,7 @@
 		<attribute key="absorbpercentall" value="10"/>
 		<attribute key="lifeleechamount" value="10"/>
 		<attribute key="lifeleechchance" value="10"/>
-		<attribute key="manaleechchance" value="10"/>
+		<attribute key="manaleechamount" value="10"/>
 		<attribute key="manaleechchance" value="10"/>
 		<attribute key="armor" value="25"/>
 		<attribute key="weight" value="18800"/>
@@ -42779,7 +42797,7 @@
 		<attribute key="absorbpercentall" value="9"/>
 		<attribute key="lifeleechamount" value="9"/>
 		<attribute key="lifeleechchance" value="9"/>
-		<attribute key="manaleechchance" value="9"/>
+		<attribute key="manaleechamount" value="9"/>
 		<attribute key="manaleechchance" value="9"/>
 		<attribute key="maxhitpointspercent" value="110" />
 		<attribute key="description" value="+10% of life." />
@@ -42807,7 +42825,7 @@
 		<attribute key="absorbpercentall" value="8"/>
 		<attribute key="lifeleechamount" value="8"/>
 		<attribute key="lifeleechchance" value="8"/>
-		<attribute key="manaleechchance" value="8"/>
+		<attribute key="manaleechamount" value="8"/>
 		<attribute key="manaleechchance" value="8"/>
 		<attribute key="criticalhitdamage" value="8"/>
 		<attribute key="criticalhitchance" value="8"/>
@@ -45446,6 +45464,8 @@
 		<attribute key="slotType" value="two-handed"/>
 		<attribute key="skilldist" value="2"/>
 		<attribute key="range" value="6"/>
+		<attribute key="criticalhitdamage" value="15"/>
+		<attribute key="criticalhitchance" value="15"/>
 		<attribute key="weight" value="4000"/>
 		<attribute key="imbuementslot" value="2">
 			<attribute key="elemental damage" value="3"/>
@@ -45461,7 +45481,7 @@
 		<attribute key="absorbpercentall" value="6"/>
 		<attribute key="lifeleechamount" value="16"/>
 		<attribute key="lifeleechchance" value="16"/>
-		<attribute key="manaleechchance" value="16"/>
+		<attribute key="manaleechamount" value="16"/>
 		<attribute key="manaleechchance" value="16"/>
 		<attribute key="armor" value="6"/>
 		<attribute key="weight" value="900"/>
@@ -45507,7 +45527,7 @@
 		<attribute key="absorbpercentall" value="4"/>
 		<attribute key="lifeleechamount" value="4"/>
 		<attribute key="lifeleechchance" value="4"/>
-		<attribute key="manaleechchance" value="4"/>
+		<attribute key="manaleechamount" value="4"/>
 		<attribute key="manaleechchance" value="4"/>
 		<attribute key="skillshield" value="3"/>
 		<attribute key="skilldist" value="3"/>
@@ -46985,9 +47005,11 @@
 		<attribute key="weaponType" value="distance"/>
 		<attribute key="slotType" value="two-handed"/>
 		<attribute key="ammotype" value="arrow"/>
-		<attribute key="absorbpercentdeath" value="4"/>
-		<attribute key="skilldist" value="4"/>
-		<attribute key="hitchance" value="4"/>
+		<attribute key="absorbpercentdeath" value="6"/>
+		<attribute key="skilldist" value="6"/>
+		<attribute key="hitchance" value="6"/>
+		<attribute key="criticalhitdamage" value="20"/>
+		<attribute key="criticalhitchance" value="20"/>
 		<attribute key="range" value="6"/>
 		<attribute key="attack" value="6"/>
 		<attribute key="weight" value="4700"/>
@@ -50870,7 +50892,7 @@
 		<attribute key="absorbpercentice" value="15"/>
 		<attribute key="lifeleechamount" value="15"/>
 		<attribute key="lifeleechchance" value="15"/>
-		<attribute key="manaleechchance" value="15"/>
+		<attribute key="manaleechamount" value="15"/>
 		<attribute key="manaleechchance" value="15"/>
 		<attribute key="criticalhitdamage" value="15"/>
 		<attribute key="criticalhitchance" value="15"/>
@@ -50894,7 +50916,7 @@
 		<attribute key="absorbpercentpoison" value="10"/>
 		<attribute key="lifeleechamount" value="10"/>
 		<attribute key="lifeleechchance" value="10"/>
-		<attribute key="manaleechchance" value="10"/>
+		<attribute key="manaleechamount" value="10"/>
 		<attribute key="manaleechchance" value="10"/>
 		<attribute key="defense" value="39"/>
 		<attribute key="weight" value="6500"/>
@@ -51884,6 +51906,8 @@
 	</item>
 	<item id="35524" article="a" name="jungle quiver">
 		<attribute key="containersize" value="8"/>
+		<attribute key="manaleechamount" value="10"/>
+		<attribute key="manaleechchance" value="10"/>
 		<attribute key="weight" value="1800"/>
 	</item>
 	<item id="35562" article="a" name="quiver">
@@ -52658,6 +52682,8 @@
 	<item id="36666" article="a" name="eldritch quiver">
 		<attribute key="containersize" value="8"/>
 		<attribute key="weight" value="2200"/>
+		<attribute key="manaleechamount" value="12"/>
+		<attribute key="manaleechchance" value="12"/>
 	</item>
 	<item id="36667" article="a" name="eldritch breeches">
 		<attribute key="slotType" value="legs"/>
