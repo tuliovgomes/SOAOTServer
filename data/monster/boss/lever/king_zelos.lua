@@ -63,11 +63,12 @@ monster.loot = {
 	{id = 23529, chance = 12000}, -- ring of blue plasma
 	{id = 23533, chance = 12000}, -- ring of red plasma
 	{name = "mortal mace", chance = 1300},
-	{name = "royal star", maxCount = 1, chance = 800},
+	{name = "royal star", maxCount = 1, chance = 800, unique = true},
 	{name = "golden hyaena pendant", chance = 1100},
-	{name = "bow of cataclysm", chance = 600},
-	{name = "galea mortis", chance = 550},
-	{name = "toga mortis", chance = 500},
+	{name = "bow of cataclysm", chance = 600, unique = true},
+	{name = "galea mortis", chance = 550, unique = true},
+	{name = "toga mortis", chance = 500, unique = true},
+	{name = "spellbook of ancient arcana", chance = 1, unique = true},
 }
 
 monster.attacks = {

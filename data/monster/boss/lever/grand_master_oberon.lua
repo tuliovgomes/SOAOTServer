@@ -117,20 +117,20 @@ monster.light = {
 }
 
 monster.loot = {
-	{name = "Grant of Arms", chance = 600, maxCount = 1},
-	{name = "library ticket", chance = 1600, maxCount = 1},
-	{name = "Falcon Battleaxe", chance = 130, maxCount = 1},
-	{name = "Falcon Bow", chance = 110, maxCount = 1},
-	{name = "Falcon Circlet", chance = 100, maxCount = 1},
-	{name = "Falcon Coif", chance = 100, maxCount = 1},
-	{name = "Falcon Longsword", chance = 120, maxCount = 1},
-	{name = "Falcon Mace", chance = 140, maxCount = 1},
-	{name = "Falcon Rod", chance = 110, maxCount = 1},
-	{name = "Falcon Bow", chance = 100, maxCount = 1},
-	{name = "Falcon wand", chance = 110, maxCount = 1},
-	{name = "Falcon Shield", chance = 100, maxCount = 1},
-	{name = "Falcon Greaves", chance = 90, maxCount = 1},
-	{name = "Falcon Plate", chance = 100, maxCount = 1},
+	{name = "Grant of Arms", chance = 600, maxCount = 1, unique = true},
+	{name = "library ticket", chance = 1600, maxCount = 1, unique = true},
+	{name = "Falcon Battleaxe", chance = 130, maxCount = 1, unique = true},
+	{name = "Falcon Bow", chance = 110, maxCount = 1, unique = true},
+	{name = "Falcon Circlet", chance = 100, maxCount = 1, unique = true},
+	{name = "Falcon Coif", chance = 100, maxCount = 1, unique = true},
+	{name = "Falcon Longsword", chance = 120, maxCount = 1, unique = true},
+	{name = "Falcon Mace", chance = 140, maxCount = 1, unique = true},
+	{name = "Falcon Rod", chance = 110, maxCount = 1, unique = true},
+	{name = "Falcon Bow", chance = 100, maxCount = 1, unique = true},
+	{name = "Falcon wand", chance = 110, maxCount = 1, unique = true},
+	{name = "Falcon Shield", chance = 100, maxCount = 1, unique = true},
+	{name = "Falcon Greaves", chance = 90, maxCount = 1, unique = true},
+	{name = "Falcon Plate", chance = 100, maxCount = 1, unique = true},
 }
 
 monster.attacks = {

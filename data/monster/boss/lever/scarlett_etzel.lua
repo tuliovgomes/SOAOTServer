@@ -95,7 +95,8 @@ monster.loot = {
 	{name = "cobra rod", chance = 650},
 	{name = "cobra sword", chance = 650},
 	{name = "cobra wand", chance = 650},
-	{name = "cobra amulet", chance = 350}
+	{name = "cobra amulet", chance = 350, unique = true},
+	{name = "cobra boots", chance = 350, unique = true},
 }
 
 monster.attacks = {
