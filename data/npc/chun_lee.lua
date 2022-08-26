@@ -1,4 +1,4 @@
-local npcName = "Rick Harrison"
+local npcName = "Chun Lee"
 
 local npcType = Game.createNpcType(npcName)
 local npcConfig = {}
@@ -12,13 +12,15 @@ npcConfig.walkInterval = 2000
 npcConfig.walkRadius = 0
 
 npcConfig.outfit = {
-	lookType = 873,
-	lookHead = 83,
-	lookBody = 25,
-	lookLegs = 34,
+	lookType = 1211,
+	lookHead = 0,
+	lookBody = 0,
+	lookLegs = 0,
 	lookFeet = 0,
 	lookAddons = 2,
 }
+
+
 
 npcConfig.flags = {
 	floorchange = false
@@ -26,15 +28,26 @@ npcConfig.flags = {
 
 -- Npc shop
 npcConfig.shop = {
-	{clientId = 10311, buy = 11000},
-	{clientId = 11444, buy = 12000},
-	{clientId = 22728, buy = 13000},
-	{clientId = 9685, buy = 14000},
-	{clientId = 9633, buy = 15000},
-	{clientId = 9663, buy = 21000},
-	{clientId = 11492, buy = 22000},
-	{clientId = 20200, buy = 23000},
-	{clientId = 22730, buy = 25000},
+	{ itemName = "exercise axe", clientId = 28553, buy = 100000, count = 2000 },
+	{ itemName = "exercise bow", clientId = 28555, buy = 100000, count = 2000 },
+	{ itemName = "exercise club", clientId = 28554, buy = 100000, count = 2000 },
+	{ itemName = "exercise sword", clientId = 28552, buy = 100000, count = 2000 },
+	{ itemName = "exercise rod", clientId = 28556, buy = 100000, count = 2000 },
+	{ itemName = "exercise wand", clientId = 28557, buy = 100000, count = 2000 },
+
+	{ itemName = "durable exercise axe", clientId = 35280, buy = 800000, count = 5800 },
+	{ itemName = "durable exercise bow", clientId = 35282, buy = 800000, count = 5800 },
+	{ itemName = "durable exercise club", clientId = 35281, buy = 800000, count = 5800 },
+	{ itemName = "durable exercise sword", clientId = 35279, buy = 800000, count = 5800 },
+	{ itemName = "durable exercise rod", clientId = 35283, buy = 800000, count = 5800 },
+	{ itemName = "durable exercise wand", clientId = 35284, buy = 800000, count = 5800 },
+
+	{ itemName = "lasting exercise axe", clientId = 35286, buy = 8000000, count = 34400 },
+	{ itemName = "lasting exercise bow", clientId = 35288, buy = 8000000, count = 34400 },
+	{ itemName = "lasting exercise club", clientId = 35287, buy = 800000, count = 34400 },
+	{ itemName = "lasting exercise sword", clientId = 35285, buy = 8000000, count = 34400 },
+	{ itemName = "lasting exercise rod", clientId = 35289, buy = 8000000, count = 34400 },
+	{ itemName = "lasting exercise wand", clientId = 35290, buy = 8000000, count = 34400 },
 }
 
 -- On buy npc shop message
