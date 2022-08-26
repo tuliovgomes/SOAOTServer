@@ -1,6 +1,7 @@
 local login = CreatureEvent("PlayerLogin")
 
 function login.onLogin(player)
+	player:sendTextMessage(MESSAGE_LOGIN,"Use !spells to see all your magics. \n Use !commands to see all your commands." )
 	local loginStr = "Welcome to " .. configManager.getString(configKeys.SERVER_NAME) .. "!"
 	if player:getLastLoginSaved() <= 0 then
 		loginStr = loginStr .. " Please choose your outfit."
