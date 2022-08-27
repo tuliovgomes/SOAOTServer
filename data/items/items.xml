@@ -5251,7 +5251,7 @@
 		<attribute key="charges" value="2"/>
 		<attribute key="weight" value="105"/>
 	</item>
-	<item fromid="3150" toid="3151" article="a" name="spell rune">
+	<item fromid="3150" toid="3151" article="a" name="Dharmas of Chaos">
 		<attribute key="type" value="rune"/>
 		<attribute key="weight" value="120"/>
 	</item>
@@ -5437,7 +5437,7 @@
 		<attribute key="charges" value="2"/>
 		<attribute key="weight" value="105"/>
 	</item>
-	<item fromid="3193" toid="3194" article="a" name="spell rune">
+	<item fromid="3193" toid="3194" article="a" name="Fire Missile Rune">
 		<attribute key="type" value="rune"/>
 		<attribute key="runespellname" value="Fire Missile Rune"/>
 		<attribute key="charges" value="3"/>
