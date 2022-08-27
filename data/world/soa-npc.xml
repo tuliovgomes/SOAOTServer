@@ -1,5 +1,11 @@
 <?xml version="1.0"?>
 <npcs>
+	<npc centerx="1001" centery="1024" centerz="5" radius="1">
+		<npc name="Chun Lee" x="0" y="0" z="5" spawntime="60" />
+	</npc>
+	<npc centerx="991" centery="976" centerz="7" radius="1">
+		<npc name="Older Pharaoh" x="0" y="0" z="7" spawntime="60" />
+	</npc>
 	<npc centerx="999" centery="1019" centerz="6" radius="1">
 		<npc name="Seemedorr Sfit" x="0" y="0" z="6" spawntime="60" direction="3" />
 	</npc>
@@ -8,24 +14,6 @@
 	</npc>
 	<npc centerx="1002" centery="1026" centerz="6" radius="1">
 		<npc name="Rick Harrison" x="0" y="0" z="6" spawntime="60" />
-	</npc>
-	<npc centerx="918" centery="868" centerz="7" radius="1">
-		<npc name="Bowman Legolas" x="0" y="0" z="7" spawntime="60" />
-	</npc>
-	<npc centerx="959" centery="868" centerz="7" radius="1">
-		<npc name="Severus Snape" x="0" y="0" z="7" spawntime="60" />
-	</npc>
-	<npc centerx="887" centery="871" centerz="7" radius="1">
-		<npc name="Nivadellir Ironside" x="0" y="0" z="7" spawntime="60" />
-	</npc>
-	<npc centerx="1001" centery="1024" centerz="5" radius="1">
-		<npc name="Chun Lee" x="0" y="0" z="7" spawntime="60" />
-	</npc>
-	<npc centerx="956" centery="899" centerz="7" radius="1">
-		<npc name="Merlin Celtic" x="0" y="0" z="7" spawntime="60" />
-	</npc>
-	<npc centerx="896" centery="902" centerz="7" radius="1">
-		<npc name="Jacques DeMolay" x="0" y="0" z="7" spawntime="60" />
 	</npc>
 	<npc centerx="992" centery="1010" centerz="7" radius="1">
 		<npc name="Hook Spearman" x="0" y="0" z="7" spawntime="60" direction="2" />

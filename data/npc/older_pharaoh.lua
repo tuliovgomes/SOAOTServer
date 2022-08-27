@@ -1,4 +1,4 @@
-local internalNpcName = "Bowman Legolas"
+local internalNpcName = "Older Pharaoh"
 local npcType = Game.createNpcType(internalNpcName)
 local npcConfig = {}
 
@@ -45,11 +45,12 @@ npcType.onCloseChannel = function(npc, creature)
 	npcHandler:onCloseChannel(npc, creature)
 end
 
-local promotion = keywordHandler:addKeyword({'promotion'}, StdModule.say, {npcHandler = npcHandler, text = 'Do you want to be promoted in your vocation?'})
-promotion:addChildKeyword({'yes'}, StdModule.promotePlayer, {npcHandler = npcHandler, type = 3})
-promotion:addChildKeyword({''}, StdModule.say, {npcHandler = npcHandler, text = 'Ok, whatever.', reset = true})
+-- Promotion
+local promoteKeyword = keywordHandler:addKeyword({'promotion'}, StdModule.say, {npcHandler = npcHandler, text = 'Do you want to be promoted in your vocation for 20000 gold?'})
+	promoteKeyword:addChildKeyword({'yes'}, StdModule.promotePlayer, {npcHandler = npcHandler, level = 20, cost = 20000})
+	promoteKeyword:addChildKeyword({''}, StdModule.say, {npcHandler = npcHandler, text = 'Ok, whatever.', reset = true})
 
-npcHandler:setMessage(MESSAGE_GREET,'I\'m a Grand bowman Master of the older`s archers and i can promote your vocation if you have merit, level and money! the promotion parameters by level is 35, 101 and 400 just say me {promotion}')
+npcHandler:setMessage(MESSAGE_GREET, 'I am the oldest in the world of anarchy, I master all arts, forge, fighting and magic and I can teach you are you ready? {promotion}')
 npcHandler:setMessage(MESSAGE_FAREWELL, 'Good bye, |PLAYERNAME|!')
 npcHandler:setMessage(MESSAGE_WALKAWAY, 'Good bye, |PLAYERNAME|!')
 
