@@ -5358,6 +5358,12 @@ local weapons = {
 		unproperly = true
 	},
 	{
+		-- enchanted spear
+		itemid = 22870,
+		type = WEAPON_DISTANCE,
+		unproperly = true
+	},
+	{
 		-- onyx arrow
 		itemid = 7365,
 		type = WEAPON_AMMO,

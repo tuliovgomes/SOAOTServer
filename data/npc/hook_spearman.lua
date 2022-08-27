@@ -30,7 +30,6 @@ npcConfig.shop = {
 	{ itemName = "crossbow", clientId = 3349, buy = 500, sell = 160 },
 	{ itemName = "royal spear", clientId = 7378, sell = 30000 },
 	{ itemName = "enchanted spear", clientId = 7367, sell = 40000 },
-	{ itemName = "throwing star of Sula", clientId = 22870, sell = 4000000 },
 	{ itemName = "spear", clientId = 3277, buy = 10 },
 	{ itemName = "arrow", clientId = 3447, buy = 3 },
 	{ itemName = "crystalline arrow", clientId = 15793, buy = 300 },

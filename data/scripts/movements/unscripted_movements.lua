@@ -11807,6 +11807,18 @@ local items = {
 		slot = "hand"
 	},
 	{
+		-- assassin star
+		itemid = 22870,
+		type = "equip",
+		slot = "hand"
+	},
+	{
+		-- assassin star
+		itemid = 22870,
+		type = "deequip",
+		slot = "hand"
+	},
+	{
 		-- enchanted spear
 		itemid = 7367,
 		type = "equip",
