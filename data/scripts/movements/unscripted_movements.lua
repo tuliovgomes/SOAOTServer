@@ -1105,16 +1105,14 @@ local items = {
 		-- winged boots
 		itemid = 31617,
 		type = "equip",
-		slot = "feet",
-		level = 220,
+		slot = "feet"
 
 	},
 	{
 		-- winged boots
 		itemid = 31617,
 		type = "deequip",
-		slot = "feet",
-		level = 220
+		slot = "feet"
 	},
 	{
 		-- blister ring

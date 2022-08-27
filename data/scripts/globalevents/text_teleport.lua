@@ -2,14 +2,12 @@ local positions = {
     ["HUNTS"] = Position(987, 975, 7),
     ["FIDELITAS"] = Position(1085, 1039, 7),
     ["NPCS"] = Position(1084, 1039, 7),
-    ["PROMOTIONS"] = Position(1088, 1025, 7),
 }
 
 local positionsVip = {
     ["HUNTS FREE"] = Position(1085, 1025, 7),
     ["FIDELITAS"] = Position(1087, 1025, 7),
     ["NPCS"] = Position(1086, 1025, 7),
-    ["PROMOTIONS"] = Position(1086, 1039, 7),
 }
 
 
