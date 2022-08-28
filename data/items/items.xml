@@ -5954,6 +5954,8 @@
 		<attribute key="description" value="It's the Sword of Valor"/>
 		<attribute key="weaponType" value="sword"/>
 		<attribute key="attack" value="48"/>
+		<attribute key="criticalhitdamage" value="10"/>
+		<attribute key="criticalhitchance" value="10"/>
 		<attribute key="extradef" value="3"/>
 		<attribute key="defense" value="35"/>
 		<attribute key="weight" value="4200"/>
@@ -6135,6 +6137,8 @@
 		<attribute key="description" value="It is blessed by the gods of Tibia"/>
 		<attribute key="weaponType" value="club"/>
 		<attribute key="attack" value="49"/>
+		<attribute key="criticalhitdamage" value="10"/>
+		<attribute key="criticalhitchance" value="10"/>
 		<attribute key="extradef" value="1"/>
 		<attribute key="defense" value="35"/>
 		<attribute key="weight" value="12500"/>
@@ -6250,6 +6254,8 @@
 		<attribute key="description" value="You feel the power of this mighty axe"/>
 		<attribute key="weaponType" value="axe"/>
 		<attribute key="attack" value="50"/>
+		<attribute key="criticalhitdamage" value="10"/>
+		<attribute key="criticalhitchance" value="10"/>
 		<attribute key="extradef" value="3"/>
 		<attribute key="defense" value="30"/>
 		<attribute key="weight" value="9900"/>
@@ -42837,7 +42843,6 @@
 	</item>
 	<item id="28723" article="a" name="falcon longsword">
 		<attribute key="weaponType" value="sword"/>
-		<attribute key="slotType" value="two-handed"/>
 		<attribute key="absorbpercentpoison" value="10"/>
 		<attribute key="criticalhitdamage" value="15"/>
 		<attribute key="criticalhitchance" value="15"/>
