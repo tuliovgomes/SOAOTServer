@@ -7,11 +7,11 @@ combat:setParameter(COMBAT_PARAM_DISTANCEEFFECT, CONST_ANI_WEAPONTYPE)
 combat:setArea(createCombatArea(AREA_SQUARE1X1))
 
 function onGetFormulaValues(player, skill, attack, factor)
-	local level = player:getLevel()
-	local min = (level / 1) + (skill + attack) / 2
-	local max = (level / 1) + skill + attack
-	return -min * 3.60, -max * 3.80 -- TODO : Use New Real Formula instead of an %
+	local skillTotal = skill * attack
+	local levelTotal = player:getLevel() / 2
+	return -(((skillTotal * 0.17) + 13) + (levelTotal)) * 1.28, -(((skillTotal * 0.20) + 34) + (levelTotal)) * 1.50 -- TODO : Use New Real Formula instead of an %
 end
+
 
 local spell = Spell("instant")
 

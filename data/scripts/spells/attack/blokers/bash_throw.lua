@@ -6,10 +6,9 @@ combat:setParameter(COMBAT_PARAM_EFFECT, CONST_ME_STUN)
 combat:setParameter(COMBAT_PARAM_DISTANCEEFFECT, CONST_ANI_WEAPONTYPE)
 
 function onGetFormulaValues(player, skill, attack, factor)
-	local level = player:getLevel()
-	local min = (level / 2) + (skill + attack) / 2
-	local max = (level / 2) + skill + attack
-	return -min * 2.60, -max * 2.80 -- TODO : Use New Real Formula instead of an %
+	local skillTotal = skill * attack
+	local levelTotal = player:getLevel() / 3
+	return -(((skillTotal * 0.17) + 13) + (levelTotal)) * 1.28, -(((skillTotal * 0.20) + 34) + (levelTotal)) * 1.30 -- TODO : Use New Real Formula instead of an %
 end
 
 local condition = createConditionObject(CONDITION_PARALYZE)
