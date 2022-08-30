@@ -51,6 +51,8 @@ npcConfig.shop = {
 	{ itemName = "falcon bow", clientId = 28718, sell = 800000 },
 	{ itemName = "lion longbow", clientId = 34150, sell = 100000 },
 	{ itemName = "cobra crossbow", clientId = 30393, sell = 600000 },
+	{ itemName = "rift bow", clientId = 22866, sell = 100000 },
+	{ itemName = "rift crossbow", clientId = 22867, sell = 100000 },
 	{ itemName = "bow of cataclysm", clientId = 31581, sell = 1000000 },
 	{ itemName = "throwing star of Sula", clientId = 22870, sell = 5000000 },
 	{ itemName = "mycological bow", clientId = 16164, sell = 50000 },

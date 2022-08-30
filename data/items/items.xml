@@ -16984,6 +16984,8 @@
 		<attribute key="attack" value="49"/>
 		<attribute key="extradef" value="3"/>
 		<attribute key="defense" value="33"/>
+		<attribute key="criticalhitdamage" value="8"/>
+		<attribute key="criticalhitchance" value="8"/>
 		<attribute key="weight" value="4100"/>
 		<attribute key="imbuementslot" value="2">
 			<attribute key="elemental damage" value="3"/>

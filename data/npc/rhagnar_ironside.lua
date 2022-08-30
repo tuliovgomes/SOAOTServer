@@ -32,6 +32,7 @@ npcConfig.shop = {
 	{ itemName = "chaos mace", clientId = 7427, sell = 9000},
 	{ itemName = "crystal mace", clientId = 3333, sell = 10000},
 	{ itemName = "diamond sceptre", clientId = 7387, sell = 16000},
+	{ itemName = "amber staff", clientId = 7426, sell = 36000},
 	{ itemName = "The Grond Hammer", clientId = 7415, sell = 100000},
 	{ itemName = "hammer of wrath", clientId = 3332, sell = 30000},
 	{ itemName = "heavy mace", clientId = 3340, sell = 35000},

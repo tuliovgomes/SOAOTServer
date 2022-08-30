@@ -32,6 +32,7 @@ npcConfig.shop = {
 	{ itemName = "dragon lance", clientId = 3302, sell = 22000 },
 	{ itemName = "dramborleg", clientId = 7413, sell = 100000 },
 	{ itemName = "dreaded cleaver", clientId = 7419, sell = 25000 },
+	{ itemName = "reaper's axe", clientId = 7420, sell = 25000 },
 	{ itemName = "hellforged axe", clientId = 8096, sell = 150000 },
 	{ itemName = "dwarven axe", clientId = 3323, sell = 1400 },
 	{ itemName = "fire axe", clientId = 3320, sell = 10000 },
