@@ -4,7 +4,7 @@ local setting = {
 	bossPosition = {x = 786, y = 845, z = 14},
 	kickPosition = {x = 740, y = 845, z = 14},
 	playerTeleport = {x = 776, y = 845, z = 14},
-	playerLevel=1000
+	playerLevel=600
 }
 
 local kingzelosLever = Action()

@@ -6,7 +6,7 @@ local setting = {
 	boss3Position = {x = 1227, y = 1312, z = 9},
 	kickPosition = {x = 1147, y = 1401, z = 9},
 	playerTeleport = {x = 1232, y = 1317, z = 9},
-	playerLevel = 800
+	playerLevel = 700
 }
 
 local ObujusLever = Action()

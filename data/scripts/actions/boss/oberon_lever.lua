@@ -5,7 +5,7 @@ local setting = {
 	bossPosition = {x = 849, y = 1164, z = 9},
 	kickPosition = {x = 849, y = 1188, z = 9},
 	playerTeleport = {x = 853, y = 1167, z = 9},
-	playerLevel=600
+	playerLevel=400
 }
 
 local oberonLever = Action()

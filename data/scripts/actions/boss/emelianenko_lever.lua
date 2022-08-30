@@ -1,33 +1,32 @@
 local setting = {
-	centerRoom = {x = 905, y = 988, z = 6},
-	storage = 57600,
-	Pillar1pos = {x = 33361, y = 31316, z = 9},
-	bossPosition = {x = 905, y = 988, z = 6},
-	kickPosition = {x = 904, y = 1001, z = 6},
-	playerTeleport = {x = 904, y = 994, z = 6},
-	playerLevel = 250
+	centerRoom = {x = 1044, y = 976, z = 7},
+	storage = 58836,
+	bossPosition = {x = 1044, y = 978, z = 7},
+	kickPosition = {x = 983, y = 991, z = 7},
+	playerTeleport = {x = 1050, y = 978, z = 7},
+	playerLevel = 200
 }
 
-local scarlettLever = Action()
+local emelianenkoLever = Action()
 
 -- Start Script
-function scarlettLever.onUse(creature, item, fromPosition, target, toPosition, isHotkey)
-	if item.itemid == 5057 and item.actionid == 57600 then
-	local clearScarlettRoom = Game.getSpectators(Position(setting.centerRoom), false, false,  7, 7, 6, 6)
-	for index, spectatorcheckface in ipairs(clearScarlettRoom) do
+function emelianenkoLever.onUse(creature, item, fromPosition, target, toPosition, isHotkey)
+	if item.itemid == 8836 and item.actionid == 58836 then
+	local clearemelianenkoRoom = Game.getSpectators(Position(setting.centerRoom), false, false,  7, 7, 6, 6)
+	for index, spectatorcheckface in ipairs(clearemelianenkoRoom) do
 			if spectatorcheckface:isPlayer() then
 					creature:sendTextMessage(MESSAGE_EVENT_ADVANCE, "Someone is fighting against the boss! You need wait awhile.")
 					return false
 			end
 	end
-	for index, removeScarlett in ipairs(clearScarlettRoom) do
-			if (removeScarlett:isMonster()) then
-					removeScarlett:remove()
+	for index, removeemelianenko in ipairs(clearemelianenkoRoom) do
+			if (removeemelianenko:isMonster()) then
+					removeemelianenko:remove()
 			end
 	end
-			Game.createMonster("Scarlett Etzel", setting.bossPosition, false, true)
+			Game.createMonster("Emelianenko", setting.bossPosition, false, true)
 	local players = {}
-	for i = 0, 4 do
+	for i = 0, 3 do
 			local player1 = Tile({x = (Position(item:getPosition()).x), y = Position(item:getPosition()).y + i, z = Position(item:getPosition()).z}):getTopCreature()
 			players[#players+1] = player1
 	end
@@ -47,9 +46,9 @@ function scarlettLever.onUse(creature, item, fromPosition, target, toPosition, i
 					setPlayerStorageValue(player,setting.storage, os.time() + 20 * 60 * 60)
 					player:sendTextMessage(MESSAGE_EVENT_ADVANCE, 'You have 20 minute(s) to defeat the boss.')
 							addEvent(function()
-									local spectatorsScarlett = Game.getSpectators(Position(setting.centerRoom), false, false, 7, 7, 6, 6)
-											for u = 1, #spectatorsScarlett, 1 do
-													if spectatorsScarlett[U]:isPlayer() and (spectatorsScarlett[U]:getName() == player:getName()) then
+									local spectatorsemelianenko = Game.getSpectators(Position(setting.centerRoom), false, false, 7, 7, 6, 6)
+											for u = 1, #spectatorsemelianenko, 1 do
+													if spectatorsemelianenko[U]:isPlayer() and (spectatorsemelianenko[U]:getName() == player:getName()) then
 															player:teleportTo(Position(setting.kickPosition))
 															player:getPosition():sendMagicEffect(CONST_ME_TELEPORT)
 															player:sendTextMessage(MESSAGE_EVENT_ADVANCE, 'Time is over.')
@@ -61,5 +60,5 @@ function scarlettLever.onUse(creature, item, fromPosition, target, toPosition, i
 	return true
 end
 
-scarlettLever:aid(57600)
-scarlettLever:register()
+emelianenkoLever:aid(58836)
+emelianenkoLever:register()

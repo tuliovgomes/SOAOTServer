@@ -42,5 +42,5 @@ function quests.onUse(player, item, fromPosition, target, toPosition, isHotkey)
 	return true
 end
 
-quests:id(2472, 2480, 2481, 2482)
+quests:id(2472, 2480, 2481, 2482, 2478)
 quests:register()

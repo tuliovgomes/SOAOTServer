@@ -4,7 +4,7 @@ local setting = {
 	bossPosition = {x = 919, y = 1285, z = 10},
 	kickPosition = {x = 917, y = 1273, z = 10},
 	playerTeleport = {x = 915, y = 1282, z = 10},
-	playerLevel = 350
+	playerLevel = 450
 }
 
 local urmahlulluLever = Action()

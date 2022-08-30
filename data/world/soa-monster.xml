@@ -245,29 +245,29 @@
 		<monster name="Cobra Vizier" x="-2" y="2" z="3" spawntime="60" />
 	</monster>
 	<monster centerx="891" centery="1087" centerz="3" radius="1">
-		<monster name="shyvana" x="1" y="-1" z="3" spawntime="60" />
-		<monster name="shyvana" x="0" y="0" z="3" spawntime="60" />
+		<monster name="Sorcerer's Apparition" x="1" y="-1" z="3" spawntime="60" />
+		<monster name="Sorcerer's Apparition" x="0" y="0" z="3" spawntime="60" />
 	</monster>
 	<monster centerx="889" centery="1089" centerz="3" radius="1">
-		<monster name="shyvana" x="0" y="-1" z="3" spawntime="60" />
-		<monster name="shyvana" x="0" y="0" z="3" spawntime="60" />
-		<monster name="shyvana" x="1" y="1" z="3" spawntime="60" />
+		<monster name="Sorcerer's Apparition" x="0" y="-1" z="3" spawntime="60" />
+		<monster name="Sorcerer's Apparition" x="0" y="0" z="3" spawntime="60" />
+		<monster name="Sorcerer's Apparition" x="1" y="1" z="3" spawntime="60" />
 	</monster>
 	<monster centerx="891" centery="1091" centerz="3" radius="1">
-		<monster name="shyvana" x="0" y="0" z="3" spawntime="60" />
+		<monster name="Sorcerer's Apparition" x="0" y="0" z="3" spawntime="60" />
 	</monster>
 	<monster centerx="937" centery="1101" centerz="3" radius="1">
-		<monster name="shyvana" x="0" y="-1" z="3" spawntime="60" />
-		<monster name="shyvana" x="1" y="-1" z="3" spawntime="60" />
-		<monster name="shyvana" x="-1" y="0" z="3" spawntime="60" />
-		<monster name="shyvana" x="0" y="0" z="3" spawntime="60" />
-		<monster name="shyvana" x="1" y="0" z="3" spawntime="60" />
-		<monster name="shyvana" x="-1" y="1" z="3" spawntime="60" />
-		<monster name="shyvana" x="0" y="1" z="3" spawntime="60" />
+		<monster name="Sorcerer's Apparition" x="0" y="-1" z="3" spawntime="60" />
+		<monster name="Sorcerer's Apparition" x="1" y="-1" z="3" spawntime="60" />
+		<monster name="Sorcerer's Apparition" x="-1" y="0" z="3" spawntime="60" />
+		<monster name="Sorcerer's Apparition" x="0" y="0" z="3" spawntime="60" />
+		<monster name="Sorcerer's Apparition" x="1" y="0" z="3" spawntime="60" />
+		<monster name="Sorcerer's Apparition" x="-1" y="1" z="3" spawntime="60" />
+		<monster name="Sorcerer's Apparition" x="0" y="1" z="3" spawntime="60" />
 	</monster>
 	<monster centerx="926" centery="1120" centerz="3" radius="1">
-		<monster name="shyvana" x="-1" y="0" z="3" spawntime="60" />
-		<monster name="shyvana" x="0" y="0" z="3" spawntime="60" />
+		<monster name="Sorcerer's Apparition" x="-1" y="0" z="3" spawntime="60" />
+		<monster name="Sorcerer's Apparition" x="0" y="0" z="3" spawntime="60" />
 	</monster>
 	<monster centerx="860" centery="1166" centerz="3" radius="3">
 		<monster name="Falcon Knight" x="1" y="-2" z="3" spawntime="60" />
@@ -352,50 +352,50 @@
 		<monster name="Draken Warmaster" x="0" y="0" z="3" spawntime="90" />
 	</monster>
 	<monster centerx="681" centery="1447" centerz="3" radius="1">
-		<monster name="Allukard" x="0" y="0" z="3" spawntime="3600" />
+		<monster name="Hellhound" x="0" y="0" z="3" spawntime="60" />
 	</monster>
 	<monster centerx="680" centery="1449" centerz="3" radius="1">
 		<monster name="Chaos Draco" x="0" y="0" z="3" spawntime="3600" />
-		<monster name="Chaos Draco" x="0" y="1" z="3" spawntime="1416285440" />
-		<monster name="Chaos Draco" x="1" y="1" z="3" spawntime="1416285440" />
+		<monster name="Chaos Draco" x="0" y="1" z="3" spawntime="60" />
+		<monster name="Chaos Draco" x="1" y="1" z="3" spawntime="60" />
 	</monster>
 	<monster centerx="617" centery="1455" centerz="3" radius="1">
-		<monster name="Allukard" x="0" y="0" z="3" spawntime="3600" />
+		<monster name="Hellhound" x="0" y="0" z="3" spawntime="60" />
 	</monster>
 	<monster centerx="613" centery="1456" centerz="3" radius="1">
 		<monster name="Chaos Draco" x="0" y="0" z="3" spawntime="3600" />
-		<monster name="Chaos Draco" x="0" y="1" z="3" spawntime="1416285440" />
+		<monster name="Chaos Draco" x="0" y="1" z="3" spawntime="60" />
 	</monster>
 	<monster centerx="613" centery="1458" centerz="3" radius="1">
-		<monster name="Chaos Draco" x="0" y="0" z="3" spawntime="1416285440" />
-		<monster name="Chaos Draco" x="1" y="0" z="3" spawntime="1416285440" />
+		<monster name="Chaos Draco" x="0" y="0" z="3" spawntime="60" />
+		<monster name="Chaos Draco" x="1" y="0" z="3" spawntime="60" />
 	</monster>
 	<monster centerx="615" centery="1458" centerz="3" radius="1">
-		<monster name="Chaos Draco" x="0" y="0" z="3" spawntime="1416285440" />
+		<monster name="Chaos Draco" x="0" y="0" z="3" spawntime="60" />
 	</monster>
 	<monster centerx="648" centery="1463" centerz="3" radius="1">
-		<monster name="Allukard" x="0" y="0" z="3" spawntime="3600" />
+		<monster name="Hellhound" x="0" y="0" z="3" spawntime="60" />
 	</monster>
 	<monster centerx="643" centery="1464" centerz="3" radius="1">
-		<monster name="Allukard" x="0" y="0" z="3" spawntime="3600" />
+		<monster name="Hellhound" x="0" y="0" z="3" spawntime="60" />
 	</monster>
 	<monster centerx="646" centery="1481" centerz="3" radius="1">
-		<monster name="Allukard" x="0" y="0" z="3" spawntime="3600" />
+		<monster name="Hellhound" x="0" y="0" z="3" spawntime="60" />
 	</monster>
 	<monster centerx="646" centery="1487" centerz="3" radius="1">
-		<monster name="Allukard" x="0" y="0" z="3" spawntime="3600" />
+		<monster name="Hellhound" x="0" y="0" z="3" spawntime="60" />
 	</monster>
 	<monster centerx="646" centery="1493" centerz="3" radius="1">
-		<monster name="Allukard" x="0" y="0" z="3" spawntime="3600" />
+		<monster name="Hellhound" x="0" y="0" z="3" spawntime="60" />
 	</monster>
 	<monster centerx="646" centery="1499" centerz="3" radius="1">
-		<monster name="Allukard" x="0" y="0" z="3" spawntime="3600" />
+		<monster name="Hellhound" x="0" y="0" z="3" spawntime="60" />
 	</monster>
 	<monster centerx="633" centery="1500" centerz="3" radius="1">
-		<monster name="Allukard" x="0" y="0" z="3" spawntime="3600" />
+		<monster name="Hellhound" x="0" y="0" z="3" spawntime="60" />
 	</monster>
 	<monster centerx="637" centery="1500" centerz="3" radius="1">
-		<monster name="Allukard" x="0" y="0" z="3" spawntime="3600" />
+		<monster name="Hellhound" x="0" y="0" z="3" spawntime="60" />
 	</monster>
 	<monster centerx="1369" centery="824" centerz="4" radius="1">
 		<monster name="Usurper Knight" x="0" y="0" z="4" spawntime="60" />
@@ -549,96 +549,96 @@
 		<monster name="Cobra Vizier" x="1" y="1" z="4" spawntime="60" />
 	</monster>
 	<monster centerx="933" centery="1087" centerz="4" radius="1">
-		<monster name="shyvana" x="0" y="0" z="4" spawntime="60" />
-		<monster name="shyvana" x="0" y="1" z="4" spawntime="60" />
+		<monster name="Sorcerer's Apparition" x="0" y="0" z="4" spawntime="60" />
+		<monster name="Sorcerer's Apparition" x="0" y="1" z="4" spawntime="60" />
 	</monster>
 	<monster centerx="933" centery="1089" centerz="4" radius="1">
-		<monster name="shyvana" x="0" y="0" z="4" spawntime="60" />
+		<monster name="Sorcerer's Apparition" x="0" y="0" z="4" spawntime="60" />
 	</monster>
 	<monster centerx="892" centery="1090" centerz="4" radius="1">
-		<monster name="shyvana" x="0" y="0" z="4" spawntime="60" />
-		<monster name="shyvana" x="1" y="0" z="4" spawntime="60" />
+		<monster name="Sorcerer's Apparition" x="0" y="0" z="4" spawntime="60" />
+		<monster name="Sorcerer's Apparition" x="1" y="0" z="4" spawntime="60" />
 	</monster>
 	<monster centerx="920" centery="1095" centerz="4" radius="1">
-		<monster name="shyvana" x="0" y="0" z="4" spawntime="60" />
-		<monster name="shyvana" x="0" y="1" z="4" spawntime="60" />
-		<monster name="shyvana" x="1" y="1" z="4" spawntime="60" />
+		<monster name="Sorcerer's Apparition" x="0" y="0" z="4" spawntime="60" />
+		<monster name="Sorcerer's Apparition" x="0" y="1" z="4" spawntime="60" />
+		<monster name="Sorcerer's Apparition" x="1" y="1" z="4" spawntime="60" />
 	</monster>
 	<monster centerx="889" centery="1097" centerz="4" radius="1">
-		<monster name="shyvana" x="0" y="0" z="4" spawntime="60" />
+		<monster name="Sorcerer's Apparition" x="0" y="0" z="4" spawntime="60" />
 	</monster>
 	<monster centerx="904" centery="1097" centerz="4" radius="1">
-		<monster name="shyvana" x="1" y="-1" z="4" spawntime="60" />
-		<monster name="shyvana" x="0" y="0" z="4" spawntime="60" />
-		<monster name="shyvana" x="1" y="0" z="4" spawntime="60" />
+		<monster name="Sorcerer's Apparition" x="1" y="-1" z="4" spawntime="60" />
+		<monster name="Sorcerer's Apparition" x="0" y="0" z="4" spawntime="60" />
+		<monster name="Sorcerer's Apparition" x="1" y="0" z="4" spawntime="60" />
 	</monster>
 	<monster centerx="892" centery="1098" centerz="4" radius="1">
-		<monster name="shyvana" x="0" y="0" z="4" spawntime="60" />
+		<monster name="Sorcerer's Apparition" x="0" y="0" z="4" spawntime="60" />
 	</monster>
 	<monster centerx="888" centery="1102" centerz="4" radius="1">
-		<monster name="shyvana" x="0" y="0" z="4" spawntime="60" />
+		<monster name="Sorcerer's Apparition" x="0" y="0" z="4" spawntime="60" />
 	</monster>
 	<monster centerx="892" centery="1102" centerz="4" radius="1">
-		<monster name="shyvana" x="0" y="0" z="4" spawntime="60" />
+		<monster name="Sorcerer's Apparition" x="0" y="0" z="4" spawntime="60" />
 	</monster>
 	<monster centerx="935" centery="1103" centerz="4" radius="1">
-		<monster name="shyvana" x="0" y="0" z="4" spawntime="60" />
+		<monster name="Sorcerer's Apparition" x="0" y="0" z="4" spawntime="60" />
 	</monster>
 	<monster centerx="910" centery="1108" centerz="4" radius="1">
-		<monster name="shyvana" x="0" y="-1" z="4" spawntime="60" />
-		<monster name="shyvana" x="-1" y="0" z="4" spawntime="60" />
-		<monster name="shyvana" x="0" y="0" z="4" spawntime="60" />
-		<monster name="shyvana" x="-1" y="1" z="4" spawntime="60" />
+		<monster name="Sorcerer's Apparition" x="0" y="-1" z="4" spawntime="60" />
+		<monster name="Sorcerer's Apparition" x="-1" y="0" z="4" spawntime="60" />
+		<monster name="Sorcerer's Apparition" x="0" y="0" z="4" spawntime="60" />
+		<monster name="Sorcerer's Apparition" x="-1" y="1" z="4" spawntime="60" />
 	</monster>
 	<monster centerx="908" centery="1109" centerz="4" radius="1">
-		<monster name="shyvana" x="0" y="0" z="4" spawntime="60" />
+		<monster name="Sorcerer's Apparition" x="0" y="0" z="4" spawntime="60" />
 	</monster>
 	<monster centerx="940" centery="1113" centerz="4" radius="1">
-		<monster name="shyvana" x="0" y="0" z="4" spawntime="60" />
-		<monster name="shyvana" x="1" y="0" z="4" spawntime="60" />
+		<monster name="Sorcerer's Apparition" x="0" y="0" z="4" spawntime="60" />
+		<monster name="Sorcerer's Apparition" x="1" y="0" z="4" spawntime="60" />
 	</monster>
 	<monster centerx="942" centery="1113" centerz="4" radius="1">
-		<monster name="shyvana" x="0" y="0" z="4" spawntime="60" />
+		<monster name="Sorcerer's Apparition" x="0" y="0" z="4" spawntime="60" />
 	</monster>
 	<monster centerx="892" centery="1114" centerz="4" radius="1">
-		<monster name="shyvana" x="-1" y="-1" z="4" spawntime="60" />
-		<monster name="shyvana" x="0" y="-1" z="4" spawntime="60" />
-		<monster name="shyvana" x="-1" y="0" z="4" spawntime="60" />
-		<monster name="shyvana" x="0" y="0" z="4" spawntime="60" />
+		<monster name="Sorcerer's Apparition" x="-1" y="-1" z="4" spawntime="60" />
+		<monster name="Sorcerer's Apparition" x="0" y="-1" z="4" spawntime="60" />
+		<monster name="Sorcerer's Apparition" x="-1" y="0" z="4" spawntime="60" />
+		<monster name="Sorcerer's Apparition" x="0" y="0" z="4" spawntime="60" />
 	</monster>
 	<monster centerx="938" centery="1117" centerz="4" radius="1">
-		<monster name="shyvana" x="0" y="0" z="4" spawntime="60" />
-		<monster name="shyvana" x="1" y="0" z="4" spawntime="60" />
+		<monster name="Sorcerer's Apparition" x="0" y="0" z="4" spawntime="60" />
+		<monster name="Sorcerer's Apparition" x="1" y="0" z="4" spawntime="60" />
 	</monster>
 	<monster centerx="925" centery="1120" centerz="4" radius="1">
-		<monster name="shyvana" x="0" y="0" z="4" spawntime="60" />
-		<monster name="shyvana" x="1" y="0" z="4" spawntime="60" />
+		<monster name="Sorcerer's Apparition" x="0" y="0" z="4" spawntime="60" />
+		<monster name="Sorcerer's Apparition" x="1" y="0" z="4" spawntime="60" />
 	</monster>
 	<monster centerx="895" centery="1125" centerz="4" radius="1">
-		<monster name="shyvana" x="1" y="-1" z="4" spawntime="60" />
-		<monster name="shyvana" x="0" y="0" z="4" spawntime="60" />
+		<monster name="Sorcerer's Apparition" x="1" y="-1" z="4" spawntime="60" />
+		<monster name="Sorcerer's Apparition" x="0" y="0" z="4" spawntime="60" />
 	</monster>
 	<monster centerx="906" centery="1126" centerz="4" radius="1">
-		<monster name="shyvana" x="1" y="-1" z="4" spawntime="60" />
-		<monster name="shyvana" x="0" y="0" z="4" spawntime="60" />
+		<monster name="Sorcerer's Apparition" x="1" y="-1" z="4" spawntime="60" />
+		<monster name="Sorcerer's Apparition" x="0" y="0" z="4" spawntime="60" />
 	</monster>
 	<monster centerx="911" centery="1126" centerz="4" radius="1">
-		<monster name="shyvana" x="0" y="0" z="4" spawntime="60" />
-		<monster name="shyvana" x="0" y="1" z="4" spawntime="60" />
-		<monster name="shyvana" x="1" y="1" z="4" spawntime="60" />
+		<monster name="Sorcerer's Apparition" x="0" y="0" z="4" spawntime="60" />
+		<monster name="Sorcerer's Apparition" x="0" y="1" z="4" spawntime="60" />
+		<monster name="Sorcerer's Apparition" x="1" y="1" z="4" spawntime="60" />
 	</monster>
 	<monster centerx="917" centery="1126" centerz="4" radius="1">
-		<monster name="shyvana" x="0" y="-1" z="4" spawntime="60" />
-		<monster name="shyvana" x="0" y="0" z="4" spawntime="60" />
+		<monster name="Sorcerer's Apparition" x="0" y="-1" z="4" spawntime="60" />
+		<monster name="Sorcerer's Apparition" x="0" y="0" z="4" spawntime="60" />
 	</monster>
 	<monster centerx="943" centery="1127" centerz="4" radius="1">
-		<monster name="shyvana" x="-1" y="-1" z="4" spawntime="60" />
-		<monster name="shyvana" x="-1" y="0" z="4" spawntime="60" />
-		<monster name="shyvana" x="0" y="0" z="4" spawntime="60" />
+		<monster name="Sorcerer's Apparition" x="-1" y="-1" z="4" spawntime="60" />
+		<monster name="Sorcerer's Apparition" x="-1" y="0" z="4" spawntime="60" />
+		<monster name="Sorcerer's Apparition" x="0" y="0" z="4" spawntime="60" />
 	</monster>
 	<monster centerx="936" centery="1128" centerz="4" radius="1">
-		<monster name="shyvana" x="0" y="0" z="4" spawntime="60" />
-		<monster name="shyvana" x="0" y="1" z="4" spawntime="60" />
+		<monster name="Sorcerer's Apparition" x="0" y="0" z="4" spawntime="60" />
+		<monster name="Sorcerer's Apparition" x="0" y="1" z="4" spawntime="60" />
 	</monster>
 	<monster centerx="1225" centery="1128" centerz="4" radius="1">
 		<monster name="istari follower" x="-1" y="-1" z="4" spawntime="60" />
@@ -647,8 +647,8 @@
 		<monster name="istari follower" x="0" y="0" z="4" spawntime="60" />
 	</monster>
 	<monster centerx="940" centery="1131" centerz="4" radius="1">
-		<monster name="shyvana" x="0" y="0" z="4" spawntime="60" />
-		<monster name="shyvana" x="1" y="0" z="4" spawntime="60" />
+		<monster name="Sorcerer's Apparition" x="0" y="0" z="4" spawntime="60" />
+		<monster name="Sorcerer's Apparition" x="1" y="0" z="4" spawntime="60" />
 	</monster>
 	<monster centerx="1224" centery="1136" centerz="4" radius="1">
 		<monster name="istari follower" x="1" y="-1" z="4" spawntime="60" />
@@ -750,24 +750,24 @@
 		<monster name="Draken Spellweaver" x="0" y="0" z="4" spawntime="90" />
 	</monster>
 	<monster centerx="680" centery="1448" centerz="4" radius="1">
-		<monster name="Chaos Draco" x="-1" y="0" z="4" spawntime="1416285440" />
+		<monster name="Chaos Draco" x="-1" y="0" z="4" spawntime="60" />
 		<monster name="Chaos Draco" x="0" y="0" z="4" spawntime="3600" />
-		<monster name="Chaos Draco" x="-1" y="1" z="4" spawntime="1416285440" />
+		<monster name="Chaos Draco" x="-1" y="1" z="4" spawntime="60" />
 	</monster>
 	<monster centerx="681" centery="1450" centerz="4" radius="1">
-		<monster name="Allukard" x="0" y="0" z="4" spawntime="3600" />
+		<monster name="Hellhound" x="0" y="0" z="4" spawntime="60" />
 	</monster>
 	<monster centerx="645" centery="1459" centerz="4" radius="1">
-		<monster name="Allukard" x="0" y="0" z="4" spawntime="3600" />
+		<monster name="Hellhound" x="0" y="0" z="4" spawntime="60" />
 	</monster>
 	<monster centerx="645" centery="1464" centerz="4" radius="1">
-		<monster name="Allukard" x="0" y="0" z="4" spawntime="3600" />
+		<monster name="Hellhound" x="0" y="0" z="4" spawntime="60" />
 	</monster>
 	<monster centerx="635" centery="1500" centerz="4" radius="1">
-		<monster name="Allukard" x="0" y="0" z="4" spawntime="3600" />
+		<monster name="Hellhound" x="0" y="0" z="4" spawntime="60" />
 	</monster>
 	<monster centerx="638" centery="1500" centerz="4" radius="1">
-		<monster name="Allukard" x="0" y="0" z="4" spawntime="3600" />
+		<monster name="Hellhound" x="0" y="0" z="4" spawntime="60" />
 	</monster>
 	<monster centerx="1349" centery="832" centerz="5" radius="3">
 		<monster name="Ancient Lion Warlock" x="-1" y="-1" z="5" spawntime="60" />
@@ -944,149 +944,140 @@
 		<monster name="Cobra Assassin" x="1" y="-1" z="5" spawntime="60" />
 	</monster>
 	<monster centerx="890" centery="1089" centerz="5" radius="1">
-		<monster name="shyvana" x="1" y="-1" z="5" spawntime="60" />
-		<monster name="shyvana" x="0" y="0" z="5" spawntime="60" />
+		<monster name="Sorcerer's Apparition" x="1" y="-1" z="5" spawntime="60" />
+		<monster name="Sorcerer's Apparition" x="0" y="0" z="5" spawntime="60" />
 	</monster>
 	<monster centerx="932" centery="1089" centerz="5" radius="1">
-		<monster name="shyvana" x="1" y="-1" z="5" spawntime="60" />
-		<monster name="shyvana" x="0" y="0" z="5" spawntime="60" />
-		<monster name="shyvana" x="1" y="1" z="5" spawntime="60" />
+		<monster name="Sorcerer's Apparition" x="1" y="-1" z="5" spawntime="60" />
+		<monster name="Sorcerer's Apparition" x="0" y="0" z="5" spawntime="60" />
+		<monster name="Sorcerer's Apparition" x="1" y="1" z="5" spawntime="60" />
 	</monster>
 	<monster centerx="672" centery="1095" centerz="5" radius="1">
-		<monster name="Tiamat" x="0" y="0" z="5" spawntime="60" />
+		<monster name="Knight's Apparition" x="0" y="0" z="5" spawntime="60" />
 	</monster>
 	<monster centerx="670" centery="1096" centerz="5" radius="1">
-		<monster name="Tiamat" x="0" y="0" z="5" spawntime="60" />
+		<monster name="Knight's Apparition" x="0" y="0" z="5" spawntime="60" />
 	</monster>
 	<monster centerx="922" centery="1097" centerz="5" radius="1">
-		<monster name="shyvana" x="0" y="0" z="5" spawntime="60" />
-		<monster name="shyvana" x="-1" y="1" z="5" spawntime="60" />
-		<monster name="shyvana" x="0" y="1" z="5" spawntime="60" />
+		<monster name="Sorcerer's Apparition" x="0" y="0" z="5" spawntime="60" />
+		<monster name="Sorcerer's Apparition" x="-1" y="1" z="5" spawntime="60" />
+		<monster name="Sorcerer's Apparition" x="0" y="1" z="5" spawntime="60" />
 	</monster>
 	<monster centerx="904" centery="1098" centerz="5" radius="1">
-		<monster name="shyvana" x="-1" y="0" z="5" spawntime="60" />
-		<monster name="shyvana" x="0" y="0" z="5" spawntime="60" />
-		<monster name="shyvana" x="-1" y="1" z="5" spawntime="60" />
-		<monster name="shyvana" x="0" y="1" z="5" spawntime="60" />
-		<monster name="shyvana" x="1" y="1" z="5" spawntime="60" />
+		<monster name="Sorcerer's Apparition" x="-1" y="0" z="5" spawntime="60" />
+		<monster name="Sorcerer's Apparition" x="0" y="0" z="5" spawntime="60" />
+		<monster name="Sorcerer's Apparition" x="-1" y="1" z="5" spawntime="60" />
+		<monster name="Sorcerer's Apparition" x="0" y="1" z="5" spawntime="60" />
+		<monster name="Sorcerer's Apparition" x="1" y="1" z="5" spawntime="60" />
 	</monster>
 	<monster centerx="912" centery="1098" centerz="5" radius="1">
-		<monster name="shyvana" x="0" y="0" z="5" spawntime="60" />
-		<monster name="shyvana" x="1" y="0" z="5" spawntime="60" />
-		<monster name="shyvana" x="0" y="1" z="5" spawntime="60" />
-		<monster name="shyvana" x="1" y="1" z="5" spawntime="60" />
+		<monster name="Sorcerer's Apparition" x="0" y="0" z="5" spawntime="60" />
+		<monster name="Sorcerer's Apparition" x="1" y="0" z="5" spawntime="60" />
+		<monster name="Sorcerer's Apparition" x="0" y="1" z="5" spawntime="60" />
+		<monster name="Sorcerer's Apparition" x="1" y="1" z="5" spawntime="60" />
 	</monster>
 	<monster centerx="890" centery="1099" centerz="5" radius="1">
-		<monster name="shyvana" x="0" y="-1" z="5" spawntime="60" />
-		<monster name="shyvana" x="1" y="-1" z="5" spawntime="60" />
-		<monster name="shyvana" x="0" y="0" z="5" spawntime="60" />
-		<monster name="shyvana" x="1" y="0" z="5" spawntime="60" />
+		<monster name="Sorcerer's Apparition" x="0" y="-1" z="5" spawntime="60" />
+		<monster name="Sorcerer's Apparition" x="1" y="-1" z="5" spawntime="60" />
+		<monster name="Sorcerer's Apparition" x="0" y="0" z="5" spawntime="60" />
+		<monster name="Sorcerer's Apparition" x="1" y="0" z="5" spawntime="60" />
 	</monster>
 	<monster centerx="921" centery="1099" centerz="5" radius="1">
-		<monster name="shyvana" x="0" y="0" z="5" spawntime="60" />
+		<monster name="Sorcerer's Apparition" x="0" y="0" z="5" spawntime="60" />
 	</monster>
 	<monster centerx="934" centery="1100" centerz="5" radius="1">
-		<monster name="shyvana" x="0" y="0" z="5" spawntime="60" />
-		<monster name="shyvana" x="-1" y="1" z="5" spawntime="60" />
-		<monster name="shyvana" x="0" y="1" z="5" spawntime="60" />
-		<monster name="shyvana" x="1" y="1" z="5" spawntime="60" />
+		<monster name="Sorcerer's Apparition" x="0" y="0" z="5" spawntime="60" />
+		<monster name="Sorcerer's Apparition" x="-1" y="1" z="5" spawntime="60" />
+		<monster name="Sorcerer's Apparition" x="0" y="1" z="5" spawntime="60" />
+		<monster name="Sorcerer's Apparition" x="1" y="1" z="5" spawntime="60" />
 	</monster>
 	<monster centerx="933" centery="1102" centerz="5" radius="1">
-		<monster name="shyvana" x="0" y="0" z="5" spawntime="60" />
-		<monster name="shyvana" x="1" y="0" z="5" spawntime="60" />
+		<monster name="Sorcerer's Apparition" x="0" y="0" z="5" spawntime="60" />
+		<monster name="Sorcerer's Apparition" x="1" y="0" z="5" spawntime="60" />
 	</monster>
 	<monster centerx="913" centery="1112" centerz="5" radius="1">
-		<monster name="shyvana" x="-1" y="0" z="5" spawntime="60" />
-		<monster name="shyvana" x="0" y="0" z="5" spawntime="60" />
-		<monster name="shyvana" x="1" y="0" z="5" spawntime="60" />
+		<monster name="Sorcerer's Apparition" x="-1" y="0" z="5" spawntime="60" />
+		<monster name="Sorcerer's Apparition" x="0" y="0" z="5" spawntime="60" />
+		<monster name="Sorcerer's Apparition" x="1" y="0" z="5" spawntime="60" />
 	</monster>
 	<monster centerx="915" centery="1112" centerz="5" radius="1">
-		<monster name="shyvana" x="0" y="0" z="5" spawntime="60" />
+		<monster name="Sorcerer's Apparition" x="0" y="0" z="5" spawntime="60" />
 	</monster>
 	<monster centerx="892" centery="1113" centerz="5" radius="1">
-		<monster name="shyvana" x="0" y="0" z="5" spawntime="60" />
-		<monster name="shyvana" x="1" y="0" z="5" spawntime="60" />
-		<monster name="shyvana" x="0" y="1" z="5" spawntime="60" />
+		<monster name="Sorcerer's Apparition" x="0" y="0" z="5" spawntime="60" />
+		<monster name="Sorcerer's Apparition" x="1" y="0" z="5" spawntime="60" />
+		<monster name="Sorcerer's Apparition" x="0" y="1" z="5" spawntime="60" />
 	</monster>
 	<monster centerx="894" centery="1113" centerz="5" radius="1">
-		<monster name="shyvana" x="0" y="0" z="5" spawntime="60" />
+		<monster name="Sorcerer's Apparition" x="0" y="0" z="5" spawntime="60" />
 	</monster>
 	<monster centerx="919" centery="1115" centerz="5" radius="1">
-		<monster name="shyvana" x="0" y="0" z="5" spawntime="60" />
+		<monster name="Sorcerer's Apparition" x="0" y="0" z="5" spawntime="60" />
 	</monster>
 	<monster centerx="907" centery="1116" centerz="5" radius="1">
-		<monster name="shyvana" x="0" y="0" z="5" spawntime="60" />
+		<monster name="Sorcerer's Apparition" x="0" y="0" z="5" spawntime="60" />
 	</monster>
 	<monster centerx="938" centery="1118" centerz="5" radius="1">
-		<monster name="shyvana" x="-1" y="-1" z="5" spawntime="60" />
-		<monster name="shyvana" x="-1" y="0" z="5" spawntime="60" />
-		<monster name="shyvana" x="0" y="0" z="5" spawntime="60" />
+		<monster name="Sorcerer's Apparition" x="-1" y="-1" z="5" spawntime="60" />
+		<monster name="Sorcerer's Apparition" x="-1" y="0" z="5" spawntime="60" />
+		<monster name="Sorcerer's Apparition" x="0" y="0" z="5" spawntime="60" />
 	</monster>
 	<monster centerx="925" centery="1120" centerz="5" radius="1">
-		<monster name="shyvana" x="0" y="0" z="5" spawntime="60" />
+		<monster name="Sorcerer's Apparition" x="0" y="0" z="5" spawntime="60" />
 	</monster>
 	<monster centerx="895" centery="1126" centerz="5" radius="1">
-		<monster name="shyvana" x="0" y="0" z="5" spawntime="60" />
-		<monster name="shyvana" x="1" y="0" z="5" spawntime="60" />
-		<monster name="shyvana" x="0" y="1" z="5" spawntime="60" />
-		<monster name="shyvana" x="1" y="1" z="5" spawntime="60" />
+		<monster name="Sorcerer's Apparition" x="0" y="0" z="5" spawntime="60" />
+		<monster name="Sorcerer's Apparition" x="1" y="0" z="5" spawntime="60" />
+		<monster name="Sorcerer's Apparition" x="0" y="1" z="5" spawntime="60" />
+		<monster name="Sorcerer's Apparition" x="1" y="1" z="5" spawntime="60" />
 	</monster>
 	<monster centerx="906" centery="1126" centerz="5" radius="1">
-		<monster name="shyvana" x="0" y="0" z="5" spawntime="60" />
-		<monster name="shyvana" x="1" y="0" z="5" spawntime="60" />
+		<monster name="Sorcerer's Apparition" x="0" y="0" z="5" spawntime="60" />
+		<monster name="Sorcerer's Apparition" x="1" y="0" z="5" spawntime="60" />
 	</monster>
 	<monster centerx="910" centery="1126" centerz="5" radius="1">
-		<monster name="shyvana" x="0" y="0" z="5" spawntime="60" />
-		<monster name="shyvana" x="-1" y="1" z="5" spawntime="60" />
-		<monster name="shyvana" x="0" y="1" z="5" spawntime="60" />
-		<monster name="shyvana" x="1" y="1" z="5" spawntime="60" />
+		<monster name="Druid's Apparition" x="0" y="0" z="5" spawntime="60" />
+		<monster name="Druid's Apparition" x="-1" y="1" z="5" spawntime="60" />
+		<monster name="Druid's Apparition" x="0" y="1" z="5" spawntime="60" />
+		<monster name="Druid's Apparition" x="1" y="1" z="5" spawntime="60" />
 	</monster>
 	<monster centerx="908" centery="1127" centerz="5" radius="1">
-		<monster name="shyvana" x="0" y="-1" z="5" spawntime="60" />
-		<monster name="shyvana" x="0" y="0" z="5" spawntime="60" />
+		<monster name="Druid's Apparition" x="0" y="-1" z="5" spawntime="60" />
+		<monster name="Druid's Apparition" x="0" y="0" z="5" spawntime="60" />
 	</monster>
 	<monster centerx="912" centery="1127" centerz="5" radius="1">
-		<monster name="shyvana" x="0" y="0" z="5" spawntime="60" />
+		<monster name="Druid's Apparition" x="0" y="0" z="5" spawntime="60" />
 	</monster>
 	<monster centerx="1225" centery="1127" centerz="5" radius="1">
-		<monster name="istari follower" x="0" y="-1" z="5" spawntime="60" />
-		<monster name="istari follower" x="1" y="-1" z="5" spawntime="60" />
-		<monster name="istari follower" x="-1" y="0" z="5" spawntime="60" />
-		<monster name="Allukard" x="0" y="0" z="5" spawntime="60" />
-		<monster name="Allukard" x="1" y="0" z="5" spawntime="60" />
-		<monster name="Allukard" x="-1" y="1" z="5" spawntime="60" />
-		<monster name="Allukard" x="0" y="1" z="5" spawntime="60" />
+		<monster name="terminator" x="0" y="0" z="5" spawntime="60" />
 	</monster>
 	<monster centerx="938" centery="1129" centerz="5" radius="1">
-		<monster name="shyvana" x="0" y="0" z="5" spawntime="60" />
-		<monster name="shyvana" x="-1" y="1" z="5" spawntime="60" />
-		<monster name="shyvana" x="0" y="1" z="5" spawntime="60" />
-		<monster name="shyvana" x="1" y="1" z="5" spawntime="60" />
+		<monster name="Druid's Apparition" x="0" y="0" z="5" spawntime="60" />
+		<monster name="Druid's Apparition" x="-1" y="1" z="5" spawntime="60" />
+		<monster name="Druid's Apparition" x="0" y="1" z="5" spawntime="60" />
+		<monster name="Druid's Apparition" x="1" y="1" z="5" spawntime="60" />
 	</monster>
 	<monster centerx="938" centery="1131" centerz="5" radius="1">
-		<monster name="shyvana" x="0" y="0" z="5" spawntime="60" />
+		<monster name="Druid's Apparition" x="0" y="0" z="5" spawntime="60" />
+	</monster>
+	<monster centerx="1226" centery="1131" centerz="5" radius="2">
+		<monster name="Cerberus" x="-1" y="0" z="5" spawntime="3600" />
 	</monster>
 	<monster centerx="913" centery="1132" centerz="5" radius="1">
-		<monster name="shyvana" x="0" y="-1" z="5" spawntime="60" />
-		<monster name="shyvana" x="1" y="-1" z="5" spawntime="60" />
-		<monster name="shyvana" x="-1" y="0" z="5" spawntime="60" />
-		<monster name="shyvana" x="0" y="0" z="5" spawntime="60" />
-		<monster name="shyvana" x="1" y="0" z="5" spawntime="60" />
+		<monster name="Druid's Apparition" x="0" y="-1" z="5" spawntime="60" />
+		<monster name="Druid's Apparition" x="1" y="-1" z="5" spawntime="60" />
+		<monster name="Druid's Apparition" x="-1" y="0" z="5" spawntime="60" />
+		<monster name="Druid's Apparition" x="0" y="0" z="5" spawntime="60" />
+		<monster name="Druid's Apparition" x="1" y="0" z="5" spawntime="60" />
 	</monster>
 	<monster centerx="1221" centery="1132" centerz="5" radius="1">
 		<monster name="terminator" x="0" y="0" z="5" spawntime="60" />
-		<monster name="terminator" x="1" y="0" z="5" spawntime="60" />
 		<monster name="terminator" x="-1" y="1" z="5" spawntime="60" />
-		<monster name="terminator" x="1" y="1" z="5" spawntime="60" />
 	</monster>
 	<monster centerx="1225" centery="1137" centerz="5" radius="1">
 		<monster name="istari follower" x="-1" y="-1" z="5" spawntime="60" />
 		<monster name="istari follower" x="0" y="-1" z="5" spawntime="60" />
-		<monster name="Allukard" x="1" y="-1" z="5" spawntime="60" />
-		<monster name="Allukard" x="0" y="0" z="5" spawntime="60" />
-		<monster name="Allukard" x="1" y="0" z="5" spawntime="60" />
-		<monster name="istari follower" x="-1" y="1" z="5" spawntime="60" />
-		<monster name="Allukard" x="0" y="1" z="5" spawntime="60" />
+		<monster name="terminator" x="0" y="0" z="5" spawntime="60" />
 	</monster>
 	<monster centerx="857" centery="1167" centerz="5" radius="3">
 		<monster name="Falcon Paladin" x="0" y="3" z="5" spawntime="60" />
@@ -1303,47 +1294,47 @@
 		<monster name="Draken Spellweaver" x="0" y="0" z="5" spawntime="90" />
 	</monster>
 	<monster centerx="675" centery="1448" centerz="5" radius="1">
-		<monster name="Chaos Draco" x="0" y="-1" z="5" spawntime="1416285440" />
-		<monster name="Chaos Draco" x="0" y="0" z="5" spawntime="1416285440" />
-		<monster name="Chaos Draco" x="0" y="1" z="5" spawntime="1416285440" />
+		<monster name="Chaos Draco" x="0" y="-1" z="5" spawntime="60" />
+		<monster name="Hellhound" x="0" y="0" z="5" spawntime="60" />
+		<monster name="Chaos Draco" x="0" y="1" z="5" spawntime="60" />
 	</monster>
 	<monster centerx="675" centery="1450" centerz="5" radius="1">
 		<monster name="Chaos Draco" x="0" y="0" z="5" spawntime="3600" />
 	</monster>
 	<monster centerx="621" centery="1451" centerz="5" radius="1">
-		<monster name="Allukard" x="0" y="0" z="5" spawntime="3600" />
+		<monster name="Hellhound" x="0" y="0" z="5" spawntime="60" />
 	</monster>
 	<monster centerx="615" centery="1453" centerz="5" radius="1">
-		<monster name="Allukard" x="0" y="0" z="5" spawntime="3600" />
+		<monster name="Hellhound" x="0" y="0" z="5" spawntime="60" />
 	</monster>
 	<monster centerx="668" centery="1453" centerz="5" radius="1">
-		<monster name="Allukard" x="0" y="0" z="5" spawntime="3600" />
+		<monster name="Hellhound" x="0" y="0" z="5" spawntime="60" />
 	</monster>
 	<monster centerx="621" centery="1458" centerz="5" radius="1">
 		<monster name="Chaos Draco" x="0" y="0" z="5" spawntime="3600" />
-		<monster name="Chaos Draco" x="0" y="1" z="5" spawntime="1416285440" />
+		<monster name="Chaos Draco" x="0" y="1" z="5" spawntime="60" />
 	</monster>
 	<monster centerx="621" centery="1460" centerz="5" radius="1">
-		<monster name="Chaos Draco" x="0" y="0" z="5" spawntime="1416285440" />
-		<monster name="Chaos Draco" x="0" y="1" z="5" spawntime="1416285440" />
+		<monster name="Chaos Draco" x="0" y="0" z="5" spawntime="60" />
+		<monster name="Chaos Draco" x="0" y="1" z="5" spawntime="60" />
 	</monster>
 	<monster centerx="646" centery="1463" centerz="5" radius="1">
-		<monster name="Allukard" x="0" y="0" z="5" spawntime="3600" />
+		<monster name="Hellhound" x="0" y="0" z="5" spawntime="60" />
 	</monster>
 	<monster centerx="634" centery="1490" centerz="5" radius="1">
-		<monster name="Allukard" x="0" y="0" z="5" spawntime="3600" />
+		<monster name="Hellhound" x="0" y="0" z="5" spawntime="60" />
 	</monster>
 	<monster centerx="640" centery="1492" centerz="5" radius="1">
-		<monster name="Allukard" x="0" y="0" z="5" spawntime="3600" />
+		<monster name="Hellhound" x="0" y="0" z="5" spawntime="60" />
 	</monster>
 	<monster centerx="633" centery="1493" centerz="5" radius="1">
 		<monster name="Cerberus" x="0" y="0" z="5" spawntime="3600" />
 	</monster>
 	<monster centerx="635" centery="1495" centerz="5" radius="1">
-		<monster name="Allukard" x="0" y="0" z="5" spawntime="3600" />
+		<monster name="Hellhound" x="0" y="0" z="5" spawntime="60" />
 	</monster>
 	<monster centerx="634" centery="1499" centerz="5" radius="1">
-		<monster name="Allukard" x="0" y="0" z="5" spawntime="3600" />
+		<monster name="Hellhound" x="0" y="0" z="5" spawntime="60" />
 	</monster>
 	<monster centerx="1323" centery="823" centerz="6" radius="1">
 		<monster name="Usurper Knight" x="0" y="0" z="6" spawntime="60" />
@@ -1497,6 +1488,7 @@
 	<monster centerx="1389" centery="927" centerz="6" radius="4">
 		<monster name="Wyvern" x="0" y="-3" z="6" spawntime="60" />
 		<monster name="Wyvern" x="-2" y="-2" z="6" spawntime="90" />
+		<monster name="Son of Ancalagon" x="-1" y="-1" z="6" spawntime="3600" />
 		<monster name="Wyvern" x="2" y="0" z="6" spawntime="60" />
 		<monster name="Wyvern" x="-3" y="1" z="6" spawntime="90" />
 		<monster name="Wyvern" x="-1" y="1" z="6" spawntime="60" />
@@ -1688,7 +1680,7 @@
 		<monster name="High Elf" x="0" y="0" z="6" spawntime="60" />
 	</monster>
 	<monster centerx="676" centery="1071" centerz="6" radius="1">
-		<monster name="Tiamat" x="0" y="0" z="6" spawntime="60" />
+		<monster name="Knight's Apparition" x="0" y="0" z="6" spawntime="60" />
 	</monster>
 	<monster centerx="557" centery="1072" centerz="6" radius="1">
 		<monster name="High Elf" x="0" y="0" z="6" spawntime="60" />
@@ -1697,22 +1689,22 @@
 		<monster name="High Elf" x="0" y="0" z="6" spawntime="60" />
 	</monster>
 	<monster centerx="709" centery="1073" centerz="6" radius="1">
-		<monster name="Tiamat" x="0" y="0" z="6" spawntime="60" />
-		<monster name="Bloodboil" x="1" y="1" z="6" spawntime="60" />
+		<monster name="Knight's Apparition" x="0" y="0" z="6" spawntime="60" />
+		<monster name="Paladin's Apparition" x="1" y="1" z="6" spawntime="60" />
 	</monster>
 	<monster centerx="572" centery="1074" centerz="6" radius="1">
 		<monster name="High Elf" x="0" y="0" z="6" spawntime="60" />
 	</monster>
 	<monster centerx="695" centery="1074" centerz="6" radius="1">
-		<monster name="Bloodboil" x="0" y="0" z="6" spawntime="60" />
-		<monster name="Bloodboil" x="-1" y="1" z="6" spawntime="60" />
-		<monster name="Bloodboil" x="0" y="1" z="6" spawntime="60" />
+		<monster name="Paladin's Apparition" x="0" y="0" z="6" spawntime="60" />
+		<monster name="Paladin's Apparition" x="-1" y="1" z="6" spawntime="60" />
+		<monster name="Paladin's Apparition" x="0" y="1" z="6" spawntime="60" />
 	</monster>
 	<monster centerx="559" centery="1075" centerz="6" radius="1">
 		<monster name="High Elf" x="0" y="0" z="6" spawntime="60" />
 	</monster>
 	<monster centerx="711" centery="1075" centerz="6" radius="1">
-		<monster name="Bloodboil" x="0" y="0" z="6" spawntime="60" />
+		<monster name="Paladin's Apparition" x="0" y="0" z="6" spawntime="60" />
 	</monster>
 	<monster centerx="571" centery="1077" centerz="6" radius="1">
 		<monster name="High Elf" x="0" y="0" z="6" spawntime="60" />
@@ -1721,14 +1713,14 @@
 		<monster name="Avari Leader" x="-1" y="0" z="6" spawntime="3600" />
 	</monster>
 	<monster centerx="683" centery="1083" centerz="6" radius="1">
-		<monster name="Bloodboil" x="0" y="0" z="6" spawntime="60" />
+		<monster name="Paladin's Apparition" x="0" y="0" z="6" spawntime="60" />
 	</monster>
 	<monster centerx="729" centery="1083" centerz="6" radius="1">
-		<monster name="Bloodboil" x="-1" y="0" z="6" spawntime="60" />
-		<monster name="Bloodboil" x="0" y="0" z="6" spawntime="60" />
+		<monster name="Paladin's Apparition" x="-1" y="0" z="6" spawntime="60" />
+		<monster name="Paladin's Apparition" x="0" y="0" z="6" spawntime="60" />
 	</monster>
 	<monster centerx="680" centery="1085" centerz="6" radius="1">
-		<monster name="Tiamat" x="0" y="0" z="6" spawntime="60" />
+		<monster name="Knight's Apparition" x="0" y="0" z="6" spawntime="60" />
 	</monster>
 	<monster centerx="1013" centery="1086" centerz="6" radius="3">
 		<monster name="Fire Elemental" x="-2" y="3" z="6" spawntime="90" />
@@ -1739,26 +1731,26 @@
 		<monster name="Fire Elemental" x="2" y="3" z="6" spawntime="90" />
 	</monster>
 	<monster centerx="675" centery="1088" centerz="6" radius="1">
-		<monster name="Bloodboil" x="-1" y="0" z="6" spawntime="60" />
-		<monster name="Bloodboil" x="0" y="0" z="6" spawntime="60" />
-		<monster name="Bloodboil" x="-1" y="1" z="6" spawntime="60" />
+		<monster name="Paladin's Apparition" x="-1" y="0" z="6" spawntime="60" />
+		<monster name="Paladin's Apparition" x="0" y="0" z="6" spawntime="60" />
+		<monster name="Paladin's Apparition" x="-1" y="1" z="6" spawntime="60" />
 	</monster>
 	<monster centerx="699" centery="1088" centerz="6" radius="1">
-		<monster name="Tiamat" x="0" y="0" z="6" spawntime="60" />
+		<monster name="Knight's Apparition" x="0" y="0" z="6" spawntime="60" />
 	</monster>
 	<monster centerx="891" centery="1088" centerz="6" radius="1">
-		<monster name="shyvana" x="0" y="0" z="6" spawntime="60" />
-		<monster name="shyvana" x="1" y="0" z="6" spawntime="60" />
+		<monster name="Druid's Apparition" x="0" y="0" z="6" spawntime="60" />
+		<monster name="Druid's Apparition" x="1" y="0" z="6" spawntime="60" />
 	</monster>
 	<monster centerx="931" centery="1088" centerz="6" radius="1">
-		<monster name="shyvana" x="0" y="0" z="6" spawntime="60" />
-		<monster name="shyvana" x="1" y="1" z="6" spawntime="60" />
+		<monster name="Druid's Apparition" x="0" y="0" z="6" spawntime="60" />
+		<monster name="Druid's Apparition" x="1" y="1" z="6" spawntime="60" />
 	</monster>
 	<monster centerx="673" centery="1089" centerz="6" radius="1">
-		<monster name="Bloodboil" x="0" y="0" z="6" spawntime="60" />
+		<monster name="Paladin's Apparition" x="0" y="0" z="6" spawntime="60" />
 	</monster>
 	<monster centerx="933" centery="1090" centerz="6" radius="1">
-		<monster name="shyvana" x="0" y="0" z="6" spawntime="60" />
+		<monster name="Druid's Apparition" x="0" y="0" z="6" spawntime="60" />
 	</monster>
 	<monster centerx="1012" centery="1094" centerz="6" radius="3">
 		<monster name="Fire Elemental" x="0" y="-1" z="6" spawntime="90" />
@@ -1771,95 +1763,95 @@
 		<monster name="Demon Skeleton" x="3" y="2" z="6" spawntime="90" />
 	</monster>
 	<monster centerx="890" centery="1099" centerz="6" radius="1">
-		<monster name="shyvana" x="0" y="0" z="6" spawntime="60" />
-		<monster name="shyvana" x="1" y="1" z="6" spawntime="60" />
+		<monster name="Druid's Apparition" x="0" y="0" z="6" spawntime="60" />
+		<monster name="Druid's Apparition" x="1" y="1" z="6" spawntime="60" />
 	</monster>
 	<monster centerx="904" centery="1099" centerz="6" radius="1">
-		<monster name="shyvana" x="-1" y="0" z="6" spawntime="60" />
-		<monster name="shyvana" x="0" y="0" z="6" spawntime="60" />
-		<monster name="shyvana" x="-1" y="1" z="6" spawntime="60" />
-		<monster name="shyvana" x="0" y="1" z="6" spawntime="60" />
+		<monster name="Druid's Apparition" x="-1" y="0" z="6" spawntime="60" />
+		<monster name="Druid's Apparition" x="0" y="0" z="6" spawntime="60" />
+		<monster name="Druid's Apparition" x="-1" y="1" z="6" spawntime="60" />
+		<monster name="Druid's Apparition" x="0" y="1" z="6" spawntime="60" />
 	</monster>
 	<monster centerx="910" centery="1099" centerz="6" radius="1">
-		<monster name="shyvana" x="0" y="0" z="6" spawntime="60" />
+		<monster name="Druid's Apparition" x="0" y="0" z="6" spawntime="60" />
 	</monster>
 	<monster centerx="912" centery="1099" centerz="6" radius="1">
-		<monster name="shyvana" x="0" y="0" z="6" spawntime="60" />
+		<monster name="Druid's Apparition" x="0" y="0" z="6" spawntime="60" />
 	</monster>
 	<monster centerx="920" centery="1099" centerz="6" radius="1">
-		<monster name="shyvana" x="0" y="0" z="6" spawntime="60" />
+		<monster name="Druid's Apparition" x="0" y="0" z="6" spawntime="60" />
 	</monster>
 	<monster centerx="935" centery="1101" centerz="6" radius="1">
-		<monster name="shyvana" x="0" y="0" z="6" spawntime="60" />
-		<monster name="shyvana" x="1" y="0" z="6" spawntime="60" />
+		<monster name="Druid's Apparition" x="0" y="0" z="6" spawntime="60" />
+		<monster name="Druid's Apparition" x="1" y="0" z="6" spawntime="60" />
 	</monster>
 	<monster centerx="937" centery="1101" centerz="6" radius="1">
-		<monster name="shyvana" x="0" y="0" z="6" spawntime="60" />
+		<monster name="Druid's Apparition" x="0" y="0" z="6" spawntime="60" />
 	</monster>
 	<monster centerx="689" centery="1102" centerz="6" radius="1">
-		<monster name="Bloodboil" x="0" y="0" z="6" spawntime="60" />
+		<monster name="Paladin's Apparition" x="0" y="0" z="6" spawntime="60" />
 	</monster>
 	<monster centerx="692" centery="1102" centerz="6" radius="1">
-		<monster name="Tiamat" x="0" y="0" z="6" spawntime="60" />
+		<monster name="Knight's Apparition" x="0" y="0" z="6" spawntime="60" />
 	</monster>
 	<monster centerx="695" centery="1102" centerz="6" radius="1">
-		<monster name="Bloodboil" x="0" y="0" z="6" spawntime="60" />
+		<monster name="Paladin's Apparition" x="0" y="0" z="6" spawntime="60" />
 	</monster>
 	<monster centerx="914" centery="1102" centerz="6" radius="1">
-		<monster name="shyvana" x="-1" y="0" z="6" spawntime="60" />
-		<monster name="shyvana" x="0" y="0" z="6" spawntime="60" />
-		<monster name="shyvana" x="-1" y="1" z="6" spawntime="60" />
-		<monster name="shyvana" x="0" y="1" z="6" spawntime="60" />
+		<monster name="Druid's Apparition" x="-1" y="0" z="6" spawntime="60" />
+		<monster name="Druid's Apparition" x="0" y="0" z="6" spawntime="60" />
+		<monster name="Druid's Apparition" x="-1" y="1" z="6" spawntime="60" />
+		<monster name="Druid's Apparition" x="0" y="1" z="6" spawntime="60" />
 	</monster>
 	<monster centerx="943" centery="1102" centerz="6" radius="1">
-		<monster name="shyvana" x="-1" y="-1" z="6" spawntime="60" />
-		<monster name="shyvana" x="0" y="-1" z="6" spawntime="60" />
-		<monster name="shyvana" x="0" y="0" z="6" spawntime="60" />
-		<monster name="shyvana" x="1" y="0" z="6" spawntime="60" />
+		<monster name="Druid's Apparition" x="-1" y="-1" z="6" spawntime="60" />
+		<monster name="Druid's Apparition" x="0" y="-1" z="6" spawntime="60" />
+		<monster name="Druid's Apparition" x="0" y="0" z="6" spawntime="60" />
+		<monster name="Druid's Apparition" x="1" y="0" z="6" spawntime="60" />
 	</monster>
 	<monster centerx="945" centery="1102" centerz="6" radius="1">
-		<monster name="shyvana" x="0" y="0" z="6" spawntime="60" />
+		<monster name="Druid's Apparition" x="0" y="0" z="6" spawntime="60" />
 	</monster>
 	<monster centerx="668" centery="1103" centerz="6" radius="1">
-		<monster name="Tiamat" x="0" y="0" z="6" spawntime="60" />
+		<monster name="Knight's Apparition" x="0" y="0" z="6" spawntime="60" />
 	</monster>
 	<monster centerx="916" centery="1103" centerz="6" radius="1">
-		<monster name="shyvana" x="0" y="0" z="6" spawntime="60" />
+		<monster name="Druid's Apparition" x="0" y="0" z="6" spawntime="60" />
 	</monster>
 	<monster centerx="1007" centery="1106" centerz="6" radius="2">
 		<monster name="Demon Skeleton" x="2" y="0" z="6" spawntime="90" />
 	</monster>
 	<monster centerx="910" centery="1108" centerz="6" radius="1">
-		<monster name="shyvana" x="0" y="0" z="6" spawntime="60" />
+		<monster name="Druid's Apparition" x="0" y="0" z="6" spawntime="60" />
 	</monster>
 	<monster centerx="914" centery="1108" centerz="6" radius="1">
-		<monster name="shyvana" x="0" y="0" z="6" spawntime="60" />
+		<monster name="Druid's Apparition" x="0" y="0" z="6" spawntime="60" />
 	</monster>
 	<monster centerx="649" centery="1110" centerz="6" radius="1">
-		<monster name="Tiamat" x="0" y="0" z="6" spawntime="60" />
+		<monster name="Knight's Apparition" x="0" y="0" z="6" spawntime="60" />
 	</monster>
 	<monster centerx="732" centery="1110" centerz="6" radius="1">
-		<monster name="Bloodboil" x="0" y="0" z="6" spawntime="60" />
+		<monster name="Paladin's Apparition" x="0" y="0" z="6" spawntime="60" />
 	</monster>
 	<monster centerx="992" centery="1110" centerz="6" radius="3">
 		<monster name="Demon" x="3" y="1" z="6" spawntime="90" />
 		<monster name="Demon Skeleton" x="-2" y="2" z="6" spawntime="90" />
 	</monster>
 	<monster centerx="892" centery="1111" centerz="6" radius="1">
-		<monster name="shyvana" x="-1" y="-1" z="6" spawntime="60" />
-		<monster name="shyvana" x="0" y="-1" z="6" spawntime="60" />
-		<monster name="shyvana" x="-1" y="0" z="6" spawntime="60" />
-		<monster name="shyvana" x="0" y="0" z="6" spawntime="60" />
-		<monster name="shyvana" x="0" y="1" z="6" spawntime="60" />
+		<monster name="Druid's Apparition" x="-1" y="-1" z="6" spawntime="60" />
+		<monster name="Druid's Apparition" x="0" y="-1" z="6" spawntime="60" />
+		<monster name="Druid's Apparition" x="-1" y="0" z="6" spawntime="60" />
+		<monster name="Druid's Apparition" x="0" y="0" z="6" spawntime="60" />
+		<monster name="Druid's Apparition" x="0" y="1" z="6" spawntime="60" />
 	</monster>
 	<monster centerx="911" centery="1111" centerz="6" radius="1">
-		<monster name="shyvana" x="0" y="0" z="6" spawntime="60" />
+		<monster name="Druid's Apparition" x="0" y="0" z="6" spawntime="60" />
 	</monster>
 	<monster centerx="914" centery="1111" centerz="6" radius="1">
-		<monster name="shyvana" x="0" y="0" z="6" spawntime="60" />
+		<monster name="Druid's Apparition" x="0" y="0" z="6" spawntime="60" />
 	</monster>
 	<monster centerx="703" centery="1114" centerz="6" radius="1">
-		<monster name="Tiamat" x="0" y="0" z="6" spawntime="60" />
+		<monster name="Knight's Apparition" x="0" y="0" z="6" spawntime="60" />
 	</monster>
 	<monster centerx="1143" centery="1114" centerz="6" radius="1">
 		<monster name="Allukard" x="0" y="0" z="6" spawntime="60" />
@@ -1878,8 +1870,8 @@
 		<monster name="Dragon Lord" x="5" y="3" z="6" spawntime="90" />
 	</monster>
 	<monster centerx="925" centery="1120" centerz="6" radius="1">
-		<monster name="shyvana" x="0" y="0" z="6" spawntime="60" />
-		<monster name="shyvana" x="1" y="0" z="6" spawntime="60" />
+		<monster name="Druid's Apparition" x="0" y="0" z="6" spawntime="60" />
+		<monster name="Druid's Apparition" x="1" y="0" z="6" spawntime="60" />
 	</monster>
 	<monster centerx="988" centery="1120" centerz="6" radius="3">
 		<monster name="Demon" x="1" y="2" z="6" spawntime="90" />
@@ -1901,11 +1893,11 @@
 		<monster name="Allukard" x="1" y="0" z="6" spawntime="60" />
 	</monster>
 	<monster centerx="657" centery="1124" centerz="6" radius="1">
-		<monster name="Tiamat" x="0" y="0" z="6" spawntime="60" />
+		<monster name="Knight's Apparition" x="0" y="0" z="6" spawntime="60" />
 	</monster>
 	<monster centerx="894" centery="1124" centerz="6" radius="1">
-		<monster name="shyvana" x="0" y="0" z="6" spawntime="60" />
-		<monster name="shyvana" x="0" y="1" z="6" spawntime="60" />
+		<monster name="Druid's Apparition" x="0" y="0" z="6" spawntime="60" />
+		<monster name="Druid's Apparition" x="0" y="1" z="6" spawntime="60" />
 	</monster>
 	<monster centerx="1151" centery="1125" centerz="6" radius="1">
 		<monster name="istari follower" x="-1" y="-1" z="6" spawntime="60" />
@@ -1915,27 +1907,27 @@
 		<monster name="istari follower" x="1" y="1" z="6" spawntime="60" />
 	</monster>
 	<monster centerx="908" centery="1126" centerz="6" radius="1">
-		<monster name="shyvana" x="0" y="0" z="6" spawntime="60" />
-		<monster name="shyvana" x="1" y="0" z="6" spawntime="60" />
+		<monster name="Druid's Apparition" x="0" y="0" z="6" spawntime="60" />
+		<monster name="Druid's Apparition" x="1" y="0" z="6" spawntime="60" />
 	</monster>
 	<monster centerx="912" centery="1126" centerz="6" radius="1">
-		<monster name="shyvana" x="0" y="0" z="6" spawntime="60" />
-		<monster name="shyvana" x="1" y="0" z="6" spawntime="60" />
+		<monster name="Druid's Apparition" x="0" y="0" z="6" spawntime="60" />
+		<monster name="Druid's Apparition" x="1" y="0" z="6" spawntime="60" />
 	</monster>
 	<monster centerx="917" centery="1126" centerz="6" radius="1">
-		<monster name="shyvana" x="0" y="0" z="6" spawntime="60" />
-		<monster name="shyvana" x="1" y="0" z="6" spawntime="60" />
+		<monster name="Druid's Apparition" x="0" y="0" z="6" spawntime="60" />
+		<monster name="Druid's Apparition" x="1" y="0" z="6" spawntime="60" />
 	</monster>
 	<monster centerx="938" centery="1127" centerz="6" radius="1">
-		<monster name="shyvana" x="-1" y="0" z="6" spawntime="60" />
-		<monster name="shyvana" x="0" y="0" z="6" spawntime="60" />
-		<monster name="shyvana" x="-1" y="1" z="6" spawntime="60" />
+		<monster name="Druid's Apparition" x="-1" y="0" z="6" spawntime="60" />
+		<monster name="Druid's Apparition" x="0" y="0" z="6" spawntime="60" />
+		<monster name="Druid's Apparition" x="-1" y="1" z="6" spawntime="60" />
 	</monster>
 	<monster centerx="729" centery="1129" centerz="6" radius="1">
-		<monster name="Tiamat" x="0" y="0" z="6" spawntime="60" />
+		<monster name="Knight's Apparition" x="0" y="0" z="6" spawntime="60" />
 	</monster>
 	<monster centerx="937" centery="1129" centerz="6" radius="1">
-		<monster name="shyvana" x="0" y="0" z="6" spawntime="60" />
+		<monster name="Druid's Apparition" x="0" y="0" z="6" spawntime="60" />
 	</monster>
 	<monster centerx="1174" centery="1129" centerz="6" radius="1">
 		<monster name="istari follower" x="0" y="-1" z="6" spawntime="60" />
@@ -1959,12 +1951,12 @@
 		<monster name="terminator" x="-1" y="-1" z="6" spawntime="60" />
 		<monster name="terminator" x="1" y="-1" z="6" spawntime="60" />
 		<monster name="terminator" x="0" y="0" z="6" spawntime="60" />
-		<monster name="istari follower" x="-1" y="1" z="6" spawntime="-628915456" />
+		<monster name="istari follower" x="-1" y="1" z="6" spawntime="60" />
 		<monster name="terminator" x="1" y="1" z="6" spawntime="60" />
 	</monster>
 	<monster centerx="911" centery="1132" centerz="6" radius="1">
-		<monster name="shyvana" x="0" y="0" z="6" spawntime="60" />
-		<monster name="shyvana" x="1" y="0" z="6" spawntime="60" />
+		<monster name="Druid's Apparition" x="0" y="0" z="6" spawntime="60" />
+		<monster name="Druid's Apparition" x="1" y="0" z="6" spawntime="60" />
 	</monster>
 	<monster centerx="1222" centery="1132" centerz="6" radius="1">
 		<monster name="istari follower" x="0" y="-1" z="6" spawntime="60" />
@@ -1973,10 +1965,10 @@
 		<monster name="istari follower" x="1" y="0" z="6" spawntime="60" />
 	</monster>
 	<monster centerx="668" centery="1134" centerz="6" radius="1">
-		<monster name="Bloodboil" x="-1" y="0" z="6" spawntime="60" />
-		<monster name="Bloodboil" x="0" y="0" z="6" spawntime="60" />
-		<monster name="Bloodboil" x="-1" y="1" z="6" spawntime="60" />
-		<monster name="Bloodboil" x="0" y="1" z="6" spawntime="60" />
+		<monster name="Paladin's Apparition" x="-1" y="0" z="6" spawntime="60" />
+		<monster name="Paladin's Apparition" x="0" y="0" z="6" spawntime="60" />
+		<monster name="Paladin's Apparition" x="-1" y="1" z="6" spawntime="60" />
+		<monster name="Paladin's Apparition" x="0" y="1" z="6" spawntime="60" />
 	</monster>
 	<monster centerx="1011" centery="1134" centerz="6" radius="5">
 		<monster name="Lavahole" x="-2" y="-5" z="6" spawntime="90" />
@@ -1997,15 +1989,15 @@
 		<monster name="istari follower" x="1" y="0" z="6" spawntime="60" />
 	</monster>
 	<monster centerx="667" centery="1136" centerz="6" radius="1">
-		<monster name="Bloodboil" x="0" y="0" z="6" spawntime="60" />
-		<monster name="Bloodboil" x="1" y="0" z="6" spawntime="60" />
+		<monster name="Paladin's Apparition" x="0" y="0" z="6" spawntime="60" />
+		<monster name="Paladin's Apparition" x="1" y="0" z="6" spawntime="60" />
 	</monster>
 	<monster centerx="733" centery="1136" centerz="6" radius="1">
-		<monster name="Bloodboil" x="0" y="0" z="6" spawntime="60" />
-		<monster name="Bloodboil" x="1" y="0" z="6" spawntime="60" />
-		<monster name="Bloodboil" x="-1" y="1" z="6" spawntime="60" />
-		<monster name="Bloodboil" x="0" y="1" z="6" spawntime="60" />
-		<monster name="Bloodboil" x="1" y="1" z="6" spawntime="60" />
+		<monster name="Paladin's Apparition" x="0" y="0" z="6" spawntime="60" />
+		<monster name="Paladin's Apparition" x="1" y="0" z="6" spawntime="60" />
+		<monster name="Paladin's Apparition" x="-1" y="1" z="6" spawntime="60" />
+		<monster name="Paladin's Apparition" x="0" y="1" z="6" spawntime="60" />
+		<monster name="Paladin's Apparition" x="1" y="1" z="6" spawntime="60" />
 	</monster>
 	<monster centerx="1140" centery="1136" centerz="6" radius="1">
 		<monster name="istari follower" x="1" y="-1" z="6" spawntime="60" />
@@ -2014,10 +2006,10 @@
 		<monster name="istari follower" x="1" y="1" z="6" spawntime="60" />
 	</monster>
 	<monster centerx="713" centery="1140" centerz="6" radius="1">
-		<monster name="Bloodboil" x="-1" y="0" z="6" spawntime="60" />
-		<monster name="Bloodboil" x="0" y="0" z="6" spawntime="60" />
-		<monster name="Bloodboil" x="-1" y="1" z="6" spawntime="60" />
-		<monster name="Bloodboil" x="0" y="1" z="6" spawntime="60" />
+		<monster name="Paladin's Apparition" x="-1" y="0" z="6" spawntime="60" />
+		<monster name="Paladin's Apparition" x="0" y="0" z="6" spawntime="60" />
+		<monster name="Paladin's Apparition" x="-1" y="1" z="6" spawntime="60" />
+		<monster name="Paladin's Apparition" x="0" y="1" z="6" spawntime="60" />
 	</monster>
 	<monster centerx="1146" centery="1140" centerz="6" radius="1">
 		<monster name="Allukard" x="1" y="-1" z="6" spawntime="60" />
@@ -2037,11 +2029,11 @@
 		<monster name="istari follower" x="1" y="1" z="6" spawntime="60" />
 	</monster>
 	<monster centerx="699" centery="1149" centerz="6" radius="1">
-		<monster name="Bloodboil" x="-1" y="0" z="6" spawntime="60" />
-		<monster name="Bloodboil" x="0" y="0" z="6" spawntime="60" />
-		<monster name="Bloodboil" x="1" y="0" z="6" spawntime="60" />
-		<monster name="Bloodboil" x="0" y="1" z="6" spawntime="60" />
-		<monster name="Bloodboil" x="1" y="1" z="6" spawntime="60" />
+		<monster name="Paladin's Apparition" x="-1" y="0" z="6" spawntime="60" />
+		<monster name="Paladin's Apparition" x="0" y="0" z="6" spawntime="60" />
+		<monster name="Paladin's Apparition" x="1" y="0" z="6" spawntime="60" />
+		<monster name="Paladin's Apparition" x="0" y="1" z="6" spawntime="60" />
+		<monster name="Paladin's Apparition" x="1" y="1" z="6" spawntime="60" />
 	</monster>
 	<monster centerx="1174" centery="1150" centerz="6" radius="1">
 		<monster name="Allukard" x="1" y="-1" z="6" spawntime="60" />
@@ -2150,11 +2142,14 @@
 		<monster name="Glooth Bandit" x="-2" y="3" z="6" spawntime="60" />
 	</monster>
 	<monster centerx="1432" centery="1172" centerz="6" radius="1">
+		<monster name="Glooth Bandit" x="-1" y="-1" z="6" spawntime="60" />
 		<monster name="Glooth Bandit" x="0" y="-1" z="6" spawntime="60" />
+		<monster name="Glooth Bandit" x="1" y="-1" z="6" spawntime="60" />
 		<monster name="Glooth Bandit" x="-1" y="0" z="6" spawntime="60" />
 		<monster name="Glooth Bandit" x="0" y="0" z="6" spawntime="60" />
 		<monster name="Glooth Bandit" x="1" y="0" z="6" spawntime="60" />
 		<monster name="Glooth Bandit" x="-1" y="1" z="6" spawntime="60" />
+		<monster name="Glooth Bandit" x="0" y="1" z="6" spawntime="60" />
 		<monster name="Glooth Bandit" x="1" y="1" z="6" spawntime="60" />
 	</monster>
 	<monster centerx="1462" centery="1172" centerz="6" radius="3">
@@ -2207,6 +2202,14 @@
 	<monster centerx="909" centery="1176" centerz="6" radius="1">
 		<monster name="licantropo" x="0" y="0" z="6" spawntime="3600" />
 	</monster>
+	<monster centerx="1442" centery="1176" centerz="6" radius="1">
+		<monster name="Glooth Bandit" x="-1" y="-1" z="6" spawntime="60" />
+		<monster name="Glooth Bandit" x="1" y="-1" z="6" spawntime="60" />
+		<monster name="Glooth Brigand" x="0" y="0" z="6" spawntime="60" />
+		<monster name="Glooth Bandit" x="1" y="0" z="6" spawntime="60" />
+		<monster name="Glooth Bandit" x="0" y="1" z="6" spawntime="60" />
+		<monster name="Glooth Bandit" x="1" y="1" z="6" spawntime="60" />
+	</monster>
 	<monster centerx="921" centery="1177" centerz="6" radius="1">
 		<monster name="licantropo" x="0" y="0" z="6" spawntime="3600" />
 	</monster>
@@ -2223,10 +2226,13 @@
 		<monster name="licantropo" x="0" y="0" z="6" spawntime="3600" />
 	</monster>
 	<monster centerx="1433" centery="1178" centerz="6" radius="1">
+		<monster name="Glooth Bandit" x="-1" y="-1" z="6" spawntime="60" />
+		<monster name="Glooth Bandit" x="1" y="-1" z="6" spawntime="60" />
 		<monster name="Glooth Bandit" x="-1" y="0" z="6" spawntime="60" />
 		<monster name="Glooth Brigand" x="0" y="0" z="6" spawntime="60" />
 		<monster name="Glooth Bandit" x="1" y="0" z="6" spawntime="60" />
-		<monster name="Glooth Bomb" x="0" y="1" z="6" spawntime="60" />
+		<monster name="Glooth Bandit" x="-1" y="1" z="6" spawntime="60" />
+		<monster name="Glooth Bandit" x="0" y="1" z="6" spawntime="60" />
 		<monster name="Glooth Bandit" x="1" y="1" z="6" spawntime="60" />
 	</monster>
 	<monster centerx="932" centery="1179" centerz="6" radius="1">
@@ -2235,8 +2241,8 @@
 	<monster centerx="1462" centery="1179" centerz="6" radius="3">
 		<monster name="Glooth Brigand" x="-2" y="-3" z="6" spawntime="60" />
 		<monster name="Glooth Bandit" x="-3" y="-2" z="6" spawntime="60" />
-		<monster name="Usurper Knight" x="-2" y="2" z="6" spawntime="60" />
-		<monster name="Usurper Knight" x="1" y="2" z="6" spawntime="60" />
+		<monster name="Glooth Brigand" x="-2" y="2" z="6" spawntime="60" />
+		<monster name="Glooth Brigand" x="1" y="2" z="6" spawntime="60" />
 	</monster>
 	<monster centerx="1476" centery="1179" centerz="6" radius="3">
 		<monster name="Glooth Brigand" x="-2" y="-3" z="6" spawntime="60" />
@@ -2249,6 +2255,14 @@
 	</monster>
 	<monster centerx="924" centery="1180" centerz="6" radius="1">
 		<monster name="licantropo" x="0" y="0" z="6" spawntime="3600" />
+	</monster>
+	<monster centerx="1439" centery="1180" centerz="6" radius="1">
+		<monster name="Glooth Bandit" x="-1" y="-1" z="6" spawntime="60" />
+		<monster name="Glooth Bandit" x="1" y="-1" z="6" spawntime="60" />
+		<monster name="Glooth Brigand" x="0" y="0" z="6" spawntime="60" />
+		<monster name="Glooth Bandit" x="1" y="0" z="6" spawntime="60" />
+		<monster name="Glooth Bandit" x="0" y="1" z="6" spawntime="60" />
+		<monster name="Glooth Bandit" x="1" y="1" z="6" spawntime="60" />
 	</monster>
 	<monster centerx="1332" centery="1182" centerz="6" radius="3">
 		<monster name="True Frost Flower Asura" x="-2" y="0" z="6" spawntime="60" />
@@ -2965,20 +2979,20 @@
 		<monster name="Reality Reaver" x="-3" y="3" z="6" spawntime="60" />
 	</monster>
 	<monster centerx="665" centery="1445" centerz="6" radius="1">
-		<monster name="Chaos Draco" x="-1" y="0" z="6" spawntime="1416285440" />
+		<monster name="Chaos Draco" x="-1" y="0" z="6" spawntime="60" />
 		<monster name="Chaos Draco" x="0" y="0" z="6" spawntime="3600" />
-		<monster name="Chaos Draco" x="-1" y="1" z="6" spawntime="1416285440" />
+		<monster name="Chaos Draco" x="-1" y="1" z="6" spawntime="60" />
 	</monster>
 	<monster centerx="664" centery="1447" centerz="6" radius="1">
-		<monster name="Chaos Draco" x="0" y="0" z="6" spawntime="1416285440" />
+		<monster name="Chaos Draco" x="0" y="0" z="6" spawntime="60" />
 	</monster>
 	<monster centerx="688" centery="1448" centerz="6" radius="1">
 		<monster name="Chaos Draco" x="0" y="0" z="6" spawntime="3600" />
-		<monster name="Chaos Draco" x="0" y="1" z="6" spawntime="1416285440" />
+		<monster name="Chaos Draco" x="0" y="1" z="6" spawntime="60" />
 	</monster>
 	<monster centerx="607" centery="1451" centerz="6" radius="1">
 		<monster name="Chaos Draco" x="0" y="0" z="6" spawntime="3600" />
-		<monster name="Chaos Draco" x="0" y="1" z="6" spawntime="1416285440" />
+		<monster name="Chaos Draco" x="0" y="1" z="6" spawntime="60" />
 	</monster>
 	<monster centerx="1038" centery="1451" centerz="6" radius="3">
 		<monster name="Dread Intruder" x="3" y="-2" z="6" spawntime="60" />
@@ -3006,17 +3020,17 @@
 		<monster name="Dread Intruder" x="0" y="1" z="6" spawntime="60" />
 	</monster>
 	<monster centerx="607" centery="1454" centerz="6" radius="1">
-		<monster name="Chaos Draco" x="0" y="0" z="6" spawntime="1416285440" />
+		<monster name="Chaos Draco" x="0" y="0" z="6" spawntime="60" />
 	</monster>
 	<monster centerx="645" centery="1454" centerz="6" radius="1">
-		<monster name="Allukard" x="0" y="0" z="6" spawntime="3600" />
+		<monster name="Hellhound" x="0" y="0" z="6" spawntime="60" />
 	</monster>
 	<monster centerx="649" centery="1455" centerz="6" radius="1">
-		<monster name="Allukard" x="0" y="0" z="6" spawntime="3600" />
+		<monster name="Hellhound" x="0" y="0" z="6" spawntime="60" />
 	</monster>
 	<monster centerx="626" centery="1457" centerz="6" radius="1">
 		<monster name="Chaos Draco" x="0" y="0" z="6" spawntime="3600" />
-		<monster name="Chaos Draco" x="0" y="1" z="6" spawntime="1416285440" />
+		<monster name="Chaos Draco" x="0" y="1" z="6" spawntime="60" />
 	</monster>
 	<monster centerx="1031" centery="1458" centerz="6" radius="3">
 		<monster name="Dread Intruder" x="1" y="-3" z="6" spawntime="60" />
@@ -3050,18 +3064,18 @@
 		<monster name="Breach Brood" x="2" y="0" z="6" spawntime="60" />
 	</monster>
 	<monster centerx="626" centery="1459" centerz="6" radius="1">
-		<monster name="Chaos Draco" x="0" y="0" z="6" spawntime="1416285440" />
-		<monster name="Chaos Draco" x="0" y="1" z="6" spawntime="1416285440" />
+		<monster name="Chaos Draco" x="0" y="0" z="6" spawntime="60" />
+		<monster name="Chaos Draco" x="0" y="1" z="6" spawntime="60" />
 	</monster>
 	<monster centerx="651" centery="1460" centerz="6" radius="1">
-		<monster name="Allukard" x="0" y="0" z="6" spawntime="3600" />
+		<monster name="Hellhound" x="0" y="0" z="6" spawntime="60" />
 	</monster>
 	<monster centerx="626" centery="1461" centerz="6" radius="1">
-		<monster name="Chaos Draco" x="0" y="0" z="6" spawntime="1416285440" />
-		<monster name="Chaos Draco" x="0" y="1" z="6" spawntime="1416285440" />
+		<monster name="Chaos Draco" x="0" y="0" z="6" spawntime="60" />
+		<monster name="Chaos Draco" x="0" y="1" z="6" spawntime="60" />
 	</monster>
 	<monster centerx="644" centery="1463" centerz="6" radius="1">
-		<monster name="Allukard" x="0" y="0" z="6" spawntime="3600" />
+		<monster name="Hellhound" x="0" y="0" z="6" spawntime="60" />
 	</monster>
 	<monster centerx="1024" centery="1465" centerz="6" radius="3">
 		<monster name="Dread Intruder" x="2" y="-1" z="6" spawntime="60" />
@@ -3113,10 +3127,10 @@
 		<monster name="Breach Brood" x="1" y="3" z="6" spawntime="60" />
 	</monster>
 	<monster centerx="640" centery="1466" centerz="6" radius="1">
-		<monster name="Allukard" x="0" y="0" z="6" spawntime="3600" />
+		<monster name="Hellhound" x="0" y="0" z="6" spawntime="60" />
 	</monster>
 	<monster centerx="640" centery="1470" centerz="6" radius="1">
-		<monster name="Allukard" x="0" y="0" z="6" spawntime="3600" />
+		<monster name="Hellhound" x="0" y="0" z="6" spawntime="60" />
 	</monster>
 	<monster centerx="1031" centery="1472" centerz="6" radius="3">
 		<monster name="Breach Brood" x="2" y="-2" z="6" spawntime="60" />
@@ -3219,24 +3233,24 @@
 		<monster name="Sparkion" x="-1" y="2" z="6" spawntime="60" />
 	</monster>
 	<monster centerx="607" centery="1480" centerz="6" radius="1">
-		<monster name="Chaos Draco" x="-1" y="0" z="6" spawntime="1416285440" />
+		<monster name="Chaos Draco" x="-1" y="0" z="6" spawntime="60" />
 		<monster name="Chaos Draco" x="0" y="0" z="6" spawntime="3600" />
-		<monster name="Chaos Draco" x="-1" y="1" z="6" spawntime="1416285440" />
+		<monster name="Chaos Draco" x="-1" y="1" z="6" spawntime="60" />
 	</monster>
 	<monster centerx="606" centery="1482" centerz="6" radius="1">
-		<monster name="Chaos Draco" x="0" y="0" z="6" spawntime="1416285440" />
-		<monster name="Chaos Draco" x="0" y="1" z="6" spawntime="1416285440" />
+		<monster name="Chaos Draco" x="0" y="0" z="6" spawntime="60" />
+		<monster name="Chaos Draco" x="0" y="1" z="6" spawntime="60" />
 	</monster>
 	<monster centerx="612" centery="1482" centerz="6" radius="1">
 		<monster name="Chaos Draco" x="0" y="0" z="6" spawntime="3600" />
-		<monster name="Chaos Draco" x="0" y="1" z="6" spawntime="1416285440" />
+		<monster name="Chaos Draco" x="0" y="1" z="6" spawntime="60" />
 	</monster>
 	<monster centerx="601" centery="1483" centerz="6" radius="1">
 		<monster name="Chaos Draco" x="0" y="0" z="6" spawntime="3600" />
-		<monster name="Chaos Draco" x="0" y="1" z="6" spawntime="1416285440" />
+		<monster name="Chaos Draco" x="0" y="1" z="6" spawntime="60" />
 	</monster>
 	<monster centerx="612" centery="1484" centerz="6" radius="1">
-		<monster name="Chaos Draco" x="0" y="0" z="6" spawntime="1416285440" />
+		<monster name="Chaos Draco" x="0" y="0" z="6" spawntime="60" />
 	</monster>
 	<monster centerx="1031" centery="1486" centerz="6" radius="3">
 		<monster name="Sparkion" x="-1" y="0" z="6" spawntime="60" />
@@ -3278,14 +3292,14 @@
 	</monster>
 	<monster centerx="646" centery="1491" centerz="6" radius="1">
 		<monster name="Chaos Draco" x="0" y="0" z="6" spawntime="3600" />
-		<monster name="Chaos Draco" x="0" y="1" z="6" spawntime="1416285440" />
+		<monster name="Chaos Draco" x="0" y="1" z="6" spawntime="60" />
 	</monster>
 	<monster centerx="625" centery="1493" centerz="6" radius="1">
-		<monster name="Allukard" x="0" y="0" z="6" spawntime="3600" />
+		<monster name="Hellhound" x="0" y="0" z="6" spawntime="60" />
 	</monster>
 	<monster centerx="646" centery="1493" centerz="6" radius="1">
-		<monster name="Chaos Draco" x="0" y="0" z="6" spawntime="1416285440" />
-		<monster name="Chaos Draco" x="0" y="1" z="6" spawntime="1416285440" />
+		<monster name="Chaos Draco" x="0" y="0" z="6" spawntime="60" />
+		<monster name="Chaos Draco" x="0" y="1" z="6" spawntime="60" />
 	</monster>
 	<monster centerx="1052" centery="1493" centerz="6" radius="3">
 		<monster name="Reality Reaver" x="0" y="3" z="6" spawntime="60" />
@@ -3316,11 +3330,11 @@
 		<monster name="Reality Reaver" x="-1" y="-2" z="6" spawntime="60" />
 	</monster>
 	<monster centerx="646" centery="1495" centerz="6" radius="1">
-		<monster name="Chaos Draco" x="0" y="0" z="6" spawntime="1416285440" />
-		<monster name="Chaos Draco" x="1" y="0" z="6" spawntime="1416285440" />
+		<monster name="Chaos Draco" x="0" y="0" z="6" spawntime="60" />
+		<monster name="Chaos Draco" x="1" y="0" z="6" spawntime="60" />
 	</monster>
 	<monster centerx="624" centery="1498" centerz="6" radius="1">
-		<monster name="Allukard" x="0" y="0" z="6" spawntime="3600" />
+		<monster name="Hellhound" x="0" y="0" z="6" spawntime="60" />
 	</monster>
 	<monster centerx="1031" centery="1500" centerz="6" radius="3">
 		<monster name="Sparkion" x="3" y="0" z="6" spawntime="60" />
@@ -3944,8 +3958,8 @@
 	</monster>
 	<monster centerx="670" centery="924" centerz="7" radius="1">
 		<monster name="terminator" x="0" y="0" z="7" spawntime="60" />
-		<monster name="terminator" x="-1" y="1" z="7" spawntime="-628915200" />
-		<monster name="terminator" x="0" y="1" z="7" spawntime="-628915200" />
+		<monster name="terminator" x="-1" y="1" z="7" spawntime="60" />
+		<monster name="terminator" x="0" y="1" z="7" spawntime="60" />
 	</monster>
 	<monster centerx="1525" centery="924" centerz="7" radius="1">
 		<monster name="Ice serpente" x="0" y="0" z="7" spawntime="3600" />
@@ -3958,8 +3972,8 @@
 		<monster name="Ice serpente" x="0" y="1" z="7" spawntime="3600" />
 	</monster>
 	<monster centerx="669" centery="926" centerz="7" radius="1">
-		<monster name="terminator" x="0" y="0" z="7" spawntime="-628915200" />
-		<monster name="terminator" x="1" y="0" z="7" spawntime="-628915200" />
+		<monster name="terminator" x="0" y="0" z="7" spawntime="60" />
+		<monster name="terminator" x="1" y="0" z="7" spawntime="60" />
 	</monster>
 	<monster centerx="1517" centery="926" centerz="7" radius="1">
 		<monster name="Ice serpente" x="0" y="0" z="7" spawntime="3600" />
@@ -3994,10 +4008,10 @@
 		<monster name="terminator" x="0" y="0" z="7" spawntime="60" />
 	</monster>
 	<monster centerx="701" centery="931" centerz="7" radius="1">
-		<monster name="terminator" x="-1" y="0" z="7" spawntime="-628915200" />
+		<monster name="terminator" x="-1" y="0" z="7" spawntime="60" />
 		<monster name="terminator" x="0" y="0" z="7" spawntime="60" />
-		<monster name="terminator" x="-1" y="1" z="7" spawntime="-628915200" />
-		<monster name="terminator" x="0" y="1" z="7" spawntime="-628915200" />
+		<monster name="terminator" x="-1" y="1" z="7" spawntime="60" />
+		<monster name="terminator" x="0" y="1" z="7" spawntime="60" />
 	</monster>
 	<monster centerx="1372" centery="931" centerz="7" radius="3">
 		<monster name="Frost Dragon" x="3" y="-2" z="7" spawntime="60" />
@@ -4093,7 +4107,7 @@
 		<monster name="Ice serpente" x="2" y="1" z="7" spawntime="3600" />
 	</monster>
 	<monster centerx="676" centery="949" centerz="7" radius="1">
-		<monster name="terminator" x="0" y="0" z="7" spawntime="-628915200" />
+		<monster name="terminator" x="0" y="0" z="7" spawntime="60" />
 	</monster>
 	<monster centerx="1516" centery="949" centerz="7" radius="1">
 		<monster name="Ice serpente" x="0" y="0" z="7" spawntime="3600" />
@@ -4104,7 +4118,7 @@
 		<monster name="Ice serpente" x="2" y="2" z="7" spawntime="3600" />
 	</monster>
 	<monster centerx="676" centery="952" centerz="7" radius="1">
-		<monster name="terminator" x="0" y="-1" z="7" spawntime="-628915200" />
+		<monster name="terminator" x="0" y="-1" z="7" spawntime="60" />
 		<monster name="terminator" x="0" y="0" z="7" spawntime="60" />
 	</monster>
 	<monster centerx="1258" centery="953" centerz="7" radius="3">
@@ -4132,17 +4146,17 @@
 	</monster>
 	<monster centerx="615" centery="956" centerz="7" radius="1">
 		<monster name="terminator" x="0" y="0" z="7" spawntime="60" />
-		<monster name="terminator" x="0" y="1" z="7" spawntime="-628915200" />
+		<monster name="terminator" x="0" y="1" z="7" spawntime="60" />
 	</monster>
 	<monster centerx="1351" centery="956" centerz="7" radius="2">
 		<monster name="Frost Dragon" x="0" y="2" z="7" spawntime="60" />
 	</monster>
 	<monster centerx="643" centery="957" centerz="7" radius="1">
 		<monster name="terminator" x="0" y="0" z="7" spawntime="60" />
-		<monster name="terminator" x="-1" y="1" z="7" spawntime="-628915200" />
+		<monster name="terminator" x="-1" y="1" z="7" spawntime="60" />
 	</monster>
 	<monster centerx="615" centery="958" centerz="7" radius="1">
-		<monster name="terminator" x="0" y="0" z="7" spawntime="-628915200" />
+		<monster name="terminator" x="0" y="0" z="7" spawntime="60" />
 	</monster>
 	<monster centerx="1340" centery="958" centerz="7" radius="2">
 		<monster name="Frost Dragon" x="0" y="1" z="7" spawntime="60" />
@@ -4216,9 +4230,9 @@
 		<monster name="Cobra Scout" x="1" y="1" z="7" spawntime="60" />
 	</monster>
 	<monster centerx="633" centery="973" centerz="7" radius="1">
-		<monster name="terminator" x="-1" y="0" z="7" spawntime="-628915200" />
-		<monster name="terminator" x="0" y="0" z="7" spawntime="-628915200" />
-		<monster name="terminator" x="-1" y="1" z="7" spawntime="-628915200" />
+		<monster name="terminator" x="-1" y="0" z="7" spawntime="60" />
+		<monster name="terminator" x="0" y="0" z="7" spawntime="60" />
+		<monster name="terminator" x="-1" y="1" z="7" spawntime="60" />
 	</monster>
 	<monster centerx="1408" centery="973" centerz="7" radius="2">
 		<monster name="Frost Dragon" x="1" y="1" z="7" spawntime="60" />
@@ -4234,9 +4248,9 @@
 		<monster name="Grim Reaper" x="-2" y="3" z="7" spawntime="60" />
 	</monster>
 	<monster centerx="682" centery="975" centerz="7" radius="1">
-		<monster name="terminator" x="0" y="-1" z="7" spawntime="-628915200" />
-		<monster name="terminator" x="0" y="0" z="7" spawntime="-628915200" />
-		<monster name="terminator" x="0" y="1" z="7" spawntime="-628915200" />
+		<monster name="terminator" x="0" y="-1" z="7" spawntime="60" />
+		<monster name="terminator" x="0" y="0" z="7" spawntime="60" />
+		<monster name="terminator" x="0" y="1" z="7" spawntime="60" />
 	</monster>
 	<monster centerx="1393" centery="975" centerz="7" radius="1">
 		<monster name="Wyvern" x="1" y="-1" z="7" spawntime="60" />
@@ -4248,10 +4262,7 @@
 		<monster name="Frost Dragon" x="1" y="2" z="7" spawntime="60" />
 	</monster>
 	<monster centerx="682" centery="977" centerz="7" radius="1">
-		<monster name="terminator" x="0" y="0" z="7" spawntime="-628915200" />
-	</monster>
-	<monster centerx="1045" centery="978" centerz="7" radius="1">
-		<monster name="Emelianenko" x="-1" y="0" z="7" spawntime="27615" />
+		<monster name="terminator" x="0" y="0" z="7" spawntime="60" />
 	</monster>
 	<monster centerx="909" centery="979" centerz="7" radius="3">
 		<monster name="Cobra Assassin" x="-2" y="-1" z="7" spawntime="60" />
@@ -4285,12 +4296,12 @@
 		<monster name="Ice serpente" x="-2" y="2" z="7" spawntime="3600" />
 	</monster>
 	<monster centerx="660" centery="984" centerz="7" radius="1">
-		<monster name="terminator" x="-1" y="0" z="7" spawntime="-628915200" />
+		<monster name="terminator" x="-1" y="0" z="7" spawntime="60" />
 		<monster name="terminator" x="0" y="0" z="7" spawntime="60" />
-		<monster name="terminator" x="-1" y="1" z="7" spawntime="-628915200" />
+		<monster name="terminator" x="-1" y="1" z="7" spawntime="60" />
 	</monster>
 	<monster centerx="658" centery="985" centerz="7" radius="1">
-		<monster name="terminator" x="0" y="0" z="7" spawntime="-628915200" />
+		<monster name="terminator" x="0" y="0" z="7" spawntime="60" />
 	</monster>
 	<monster centerx="905" centery="985" centerz="7" radius="3">
 		<monster name="Cobra Assassin" x="-3" y="-1" z="7" spawntime="60" />
@@ -4334,15 +4345,15 @@
 	</monster>
 	<monster centerx="688" centery="990" centerz="7" radius="1">
 		<monster name="terminator" x="0" y="0" z="7" spawntime="60" />
-		<monster name="terminator" x="0" y="1" z="7" spawntime="-628915200" />
+		<monster name="terminator" x="0" y="1" z="7" spawntime="60" />
 	</monster>
 	<monster centerx="916" centery="993" centerz="7" radius="3">
 		<monster name="Cobra Assassin" x="3" y="1" z="7" spawntime="60" />
 	</monster>
 	<monster centerx="635" centery="995" centerz="7" radius="1">
-		<monster name="terminator" x="-1" y="0" z="7" spawntime="-628915200" />
-		<monster name="terminator" x="0" y="0" z="7" spawntime="-628915200" />
-		<monster name="terminator" x="-1" y="1" z="7" spawntime="-628915200" />
+		<monster name="terminator" x="-1" y="0" z="7" spawntime="60" />
+		<monster name="terminator" x="0" y="0" z="7" spawntime="60" />
+		<monster name="terminator" x="-1" y="1" z="7" spawntime="60" />
 	</monster>
 	<monster centerx="1258" centery="995" centerz="7" radius="3">
 		<monster name="Grim Reaper" x="1" y="1" z="7" spawntime="60" />
@@ -4358,14 +4369,14 @@
 		<monster name="terminator" x="0" y="0" z="7" spawntime="60" />
 	</monster>
 	<monster centerx="756" centery="996" centerz="7" radius="1">
-		<monster name="Aleister Crowler" x="0" y="0" z="7" spawntime="-628916736" />
-		<monster name="Aleister Crowler" x="1" y="0" z="7" spawntime="-628916736" />
-		<monster name="Aleister Crowler" x="0" y="1" z="7" spawntime="-628916736" />
-		<monster name="Aleister Crowler" x="1" y="1" z="7" spawntime="-628916736" />
+		<monster name="Knight's Apparition" x="0" y="0" z="7" spawntime="60" />
+		<monster name="Knight's Apparition" x="1" y="0" z="7" spawntime="60" />
+		<monster name="Knight's Apparition" x="0" y="1" z="7" spawntime="60" />
+		<monster name="Knight's Apparition" x="1" y="1" z="7" spawntime="60" />
 	</monster>
 	<monster centerx="758" centery="996" centerz="7" radius="1">
-		<monster name="Aleister Crowler" x="0" y="0" z="7" spawntime="-628916736" />
-		<monster name="Aleister Crowler" x="0" y="1" z="7" spawntime="-628916736" />
+		<monster name="Knight's Apparition" x="0" y="0" z="7" spawntime="60" />
+		<monster name="Knight's Apparition" x="0" y="1" z="7" spawntime="60" />
 	</monster>
 	<monster centerx="909" centery="997" centerz="7" radius="3">
 		<monster name="Cobra Scout" x="-2" y="-3" z="7" spawntime="60" />
@@ -4378,13 +4389,13 @@
 		<monster name="Cobra Assassin" x="2" y="3" z="7" spawntime="60" />
 	</monster>
 	<monster centerx="781" centery="999" centerz="7" radius="1">
-		<monster name="Aleister Crowler" x="0" y="0" z="7" spawntime="-628916736" />
-		<monster name="Aleister Crowler" x="1" y="0" z="7" spawntime="-628916736" />
-		<monster name="Aleister Crowler" x="0" y="1" z="7" spawntime="-628916736" />
-		<monster name="Aleister Crowler" x="1" y="1" z="7" spawntime="-628916736" />
+		<monster name="Knight's Apparition" x="0" y="0" z="7" spawntime="60" />
+		<monster name="Knight's Apparition" x="1" y="0" z="7" spawntime="60" />
+		<monster name="Knight's Apparition" x="0" y="1" z="7" spawntime="60" />
+		<monster name="Knight's Apparition" x="1" y="1" z="7" spawntime="60" />
 	</monster>
 	<monster centerx="783" centery="999" centerz="7" radius="1">
-		<monster name="Aleister Crowler" x="0" y="0" z="7" spawntime="60" />
+		<monster name="Knight's Apparition" x="0" y="0" z="7" spawntime="60" />
 	</monster>
 	<monster centerx="902" centery="1000" centerz="7" radius="3">
 		<monster name="Cobra Assassin" x="-3" y="3" z="7" spawntime="60" />
@@ -4396,8 +4407,8 @@
 		<monster name="Grim Reaper" x="-3" y="-1" z="7" spawntime="90" />
 	</monster>
 	<monster centerx="664" centery="1005" centerz="7" radius="1">
-		<monster name="terminator" x="0" y="0" z="7" spawntime="-628915200" />
-		<monster name="terminator" x="0" y="1" z="7" spawntime="-628915200" />
+		<monster name="terminator" x="0" y="0" z="7" spawntime="60" />
+		<monster name="terminator" x="0" y="1" z="7" spawntime="60" />
 	</monster>
 	<monster centerx="881" centery="1007" centerz="7" radius="3">
 		<monster name="Cobra Scout" x="-1" y="2" z="7" spawntime="60" />
@@ -4415,12 +4426,12 @@
 		<monster name="Cobra Scout" x="0" y="3" z="7" spawntime="60" />
 	</monster>
 	<monster centerx="664" centery="1008" centerz="7" radius="1">
-		<monster name="terminator" x="0" y="-1" z="7" spawntime="-628915200" />
+		<monster name="terminator" x="0" y="-1" z="7" spawntime="60" />
 		<monster name="terminator" x="0" y="0" z="7" spawntime="60" />
 	</monster>
 	<monster centerx="689" centery="1009" centerz="7" radius="1">
-		<monster name="terminator" x="0" y="0" z="7" spawntime="-628915200" />
-		<monster name="terminator" x="1" y="1" z="7" spawntime="-628915200" />
+		<monster name="terminator" x="0" y="0" z="7" spawntime="60" />
+		<monster name="terminator" x="1" y="1" z="7" spawntime="60" />
 	</monster>
 	<monster centerx="1216" centery="1009" centerz="7" radius="3">
 		<monster name="Demon" x="0" y="0" z="7" spawntime="90" />
@@ -4468,12 +4479,12 @@
 		<monster name="terminator" x="0" y="0" z="7" spawntime="60" />
 	</monster>
 	<monster centerx="799" centery="1011" centerz="7" radius="1">
-		<monster name="Aleister Crowler" x="-1" y="0" z="7" spawntime="-628916736" />
-		<monster name="Aleister Crowler" x="0" y="0" z="7" spawntime="-628916736" />
-		<monster name="Aleister Crowler" x="1" y="0" z="7" spawntime="-628916736" />
-		<monster name="Aleister Crowler" x="-1" y="1" z="7" spawntime="-628916736" />
-		<monster name="Aleister Crowler" x="0" y="1" z="7" spawntime="-628916736" />
-		<monster name="Aleister Crowler" x="1" y="1" z="7" spawntime="-628916736" />
+		<monster name="Knight's Apparition" x="-1" y="0" z="7" spawntime="60" />
+		<monster name="Knight's Apparition" x="0" y="0" z="7" spawntime="60" />
+		<monster name="Knight's Apparition" x="1" y="0" z="7" spawntime="60" />
+		<monster name="Knight's Apparition" x="-1" y="1" z="7" spawntime="60" />
+		<monster name="Knight's Apparition" x="0" y="1" z="7" spawntime="60" />
+		<monster name="Knight's Apparition" x="1" y="1" z="7" spawntime="60" />
 	</monster>
 	<monster centerx="901" centery="1013" centerz="7" radius="3">
 		<monster name="Cobra Scout" x="-2" y="1" z="7" spawntime="60" />
@@ -4483,8 +4494,8 @@
 		<monster name="Cobra Scout" x="3" y="1" z="7" spawntime="60" />
 	</monster>
 	<monster centerx="810" centery="1015" centerz="7" radius="1">
-		<monster name="Aleister Crowler" x="0" y="0" z="7" spawntime="-628916736" />
-		<monster name="Aleister Crowler" x="0" y="1" z="7" spawntime="-628916736" />
+		<monster name="Knight's Apparition" x="0" y="0" z="7" spawntime="60" />
+		<monster name="Knight's Apparition" x="0" y="1" z="7" spawntime="60" />
 	</monster>
 	<monster centerx="1469" centery="1015" centerz="7" radius="3">
 		<monster name="Juggernaut" x="3" y="3" z="7" spawntime="90" />
@@ -4511,7 +4522,7 @@
 		<monster name="Demon" x="3" y="-3" z="7" spawntime="60" />
 	</monster>
 	<monster centerx="810" centery="1017" centerz="7" radius="1">
-		<monster name="Aleister Crowler" x="0" y="0" z="7" spawntime="60" />
+		<monster name="Knight's Apparition" x="0" y="0" z="7" spawntime="60" />
 	</monster>
 	<monster centerx="894" centery="1019" centerz="7" radius="3">
 		<monster name="Cobra Scout" x="0" y="-2" z="7" spawntime="60" />
@@ -4570,8 +4581,8 @@
 		<monster name="Grim Reaper" x="0" y="0" z="7" spawntime="60" />
 	</monster>
 	<monster centerx="787" centery="1024" centerz="7" radius="1">
-		<monster name="Aleister Crowler" x="0" y="0" z="7" spawntime="60" />
-		<monster name="Aleister Crowler" x="1" y="0" z="7" spawntime="-628916736" />
+		<monster name="Knight's Apparition" x="0" y="0" z="7" spawntime="60" />
+		<monster name="Knight's Apparition" x="1" y="0" z="7" spawntime="60" />
 	</monster>
 	<monster centerx="1352" centery="1026" centerz="7" radius="3">
 		<monster name="Demon" x="-1" y="0" z="7" spawntime="90" />
@@ -4610,8 +4621,8 @@
 		<monster name="Ice Witch" x="10" y="15" z="7" spawntime="90" />
 	</monster>
 	<monster centerx="691" centery="1029" centerz="7" radius="1">
-		<monster name="terminator" x="0" y="0" z="7" spawntime="-628915200" />
-		<monster name="terminator" x="1" y="1" z="7" spawntime="-628915200" />
+		<monster name="terminator" x="0" y="0" z="7" spawntime="60" />
+		<monster name="terminator" x="1" y="1" z="7" spawntime="60" />
 	</monster>
 	<monster centerx="1215" centery="1029" centerz="7" radius="1">
 		<monster name="Demon" x="0" y="0" z="7" spawntime="90" />
@@ -4641,17 +4652,17 @@
 		<monster name="Plaguesmith" x="-1" y="1" z="7" spawntime="90" />
 	</monster>
 	<monster centerx="780" centery="1030" centerz="7" radius="1">
-		<monster name="Aleister Crowler" x="0" y="0" z="7" spawntime="-628916736" />
-		<monster name="Aleister Crowler" x="1" y="0" z="7" spawntime="-628916736" />
+		<monster name="Knight's Apparition" x="0" y="0" z="7" spawntime="60" />
+		<monster name="Knight's Apparition" x="1" y="0" z="7" spawntime="60" />
 	</monster>
 	<monster centerx="782" centery="1030" centerz="7" radius="1">
-		<monster name="Aleister Crowler" x="0" y="0" z="7" spawntime="60" />
+		<monster name="Knight's Apparition" x="0" y="0" z="7" spawntime="60" />
 	</monster>
 	<monster centerx="807" centery="1030" centerz="7" radius="1">
-		<monster name="Aleister Crowler" x="0" y="0" z="7" spawntime="-628916736" />
-		<monster name="Aleister Crowler" x="1" y="0" z="7" spawntime="-628916736" />
-		<monster name="Aleister Crowler" x="-1" y="1" z="7" spawntime="-628916736" />
-		<monster name="Aleister Crowler" x="0" y="1" z="7" spawntime="-628916736" />
+		<monster name="Knight's Apparition" x="0" y="0" z="7" spawntime="60" />
+		<monster name="Knight's Apparition" x="1" y="0" z="7" spawntime="60" />
+		<monster name="Knight's Apparition" x="-1" y="1" z="7" spawntime="60" />
+		<monster name="Knight's Apparition" x="0" y="1" z="7" spawntime="60" />
 	</monster>
 	<monster centerx="1251" centery="1030" centerz="7" radius="3">
 		<monster name="Grim Reaper" x="1" y="1" z="7" spawntime="90" />
@@ -4669,32 +4680,32 @@
 		<monster name="Nightmare" x="0" y="1" z="7" spawntime="90" />
 	</monster>
 	<monster centerx="807" centery="1032" centerz="7" radius="1">
-		<monster name="Aleister Crowler" x="-1" y="0" z="7" spawntime="-628916736" />
-		<monster name="Aleister Crowler" x="0" y="0" z="7" spawntime="-628916736" />
+		<monster name="Knight's Apparition" x="-1" y="0" z="7" spawntime="60" />
+		<monster name="Knight's Apparition" x="0" y="0" z="7" spawntime="60" />
 	</monster>
 	<monster centerx="1395" centery="1032" centerz="7" radius="3">
 		<monster name="Demon" x="1" y="-2" z="7" spawntime="90" />
 	</monster>
 	<monster centerx="793" centery="1033" centerz="7" radius="1">
-		<monster name="Aleister Crowler" x="0" y="0" z="7" spawntime="60" />
-		<monster name="Aleister Crowler" x="1" y="0" z="7" spawntime="-628916736" />
+		<monster name="Knight's Apparition" x="0" y="0" z="7" spawntime="60" />
+		<monster name="Knight's Apparition" x="1" y="0" z="7" spawntime="60" />
 	</monster>
 	<monster centerx="1087" centery="1034" centerz="7" radius="20">
 		<monster name="Energetic Book" x="-20" y="-7" z="7" spawntime="60" direction="2" />
-		<monster name="Aleister Crowler" x="-17" y="-7" z="7" spawntime="60" direction="2" />
+		<monster name="Knight's Apparition" x="-17" y="-7" z="7" spawntime="60" direction="2" />
 		<monster name="Demon Outcast" x="-14" y="-7" z="7" spawntime="90" direction="2" />
 		<monster name="Usurper Knight" x="-11" y="-7" z="7" spawntime="60" direction="2" />
 		<monster name="Demon" x="-8" y="-7" z="7" spawntime="60" direction="2" />
 		<monster name="Plaguesmith" x="-5" y="-7" z="7" spawntime="90" direction="2" />
 		<monster name="Michael Jackson" x="13" y="-7" z="7" spawntime="3600" direction="2" />
-		<monster name="shyvana" x="-20" y="0" z="7" spawntime="60" />
+		<monster name="Druid's Apparition" x="-20" y="0" z="7" spawntime="60" />
 		<monster name="licantropo" x="-17" y="0" z="7" spawntime="3600" />
 		<monster name="Allukard" x="-14" y="0" z="7" spawntime="60" />
 		<monster name="Glooth Brigand" x="-11" y="0" z="7" spawntime="60" />
 		<monster name="True Frost Flower Asura" x="-8" y="0" z="7" spawntime="60" />
 		<monster name="Falcon Paladin" x="-5" y="0" z="7" spawntime="60" />
 		<monster name="Many Faces" x="13" y="0" z="7" spawntime="60" />
-		<monster name="Tiamat" x="-18" y="4" z="7" spawntime="60" direction="2" />
+		<monster name="Knight's Apparition" x="-18" y="4" z="7" spawntime="60" direction="2" />
 		<monster name="Gazer Spectre" x="-15" y="4" z="7" spawntime="60" direction="2" />
 		<monster name="terminator" x="-12" y="4" z="7" spawntime="60" direction="2" />
 		<monster name="Deathling Spellsinger" x="-9" y="4" z="7" spawntime="60" direction="2" />
@@ -4711,12 +4722,12 @@
 		<monster name="Rotworm" x="6" y="11" z="7" spawntime="90" />
 		<monster name="Kongra" x="9" y="11" z="7" spawntime="90" />
 		<monster name="Fury" x="12" y="11" z="7" spawntime="60" />
-		<monster name="Chaos Draco" x="15" y="11" z="7" spawntime="1416285440" />
+		<monster name="Chaos Draco" x="15" y="11" z="7" spawntime="60" />
 		<monster name="High Elf" x="18" y="11" z="7" spawntime="60" />
 	</monster>
 	<monster centerx="770" centery="1035" centerz="7" radius="1">
-		<monster name="Aleister Crowler" x="0" y="0" z="7" spawntime="60" />
-		<monster name="Aleister Crowler" x="1" y="1" z="7" spawntime="60" />
+		<monster name="Knight's Apparition" x="0" y="0" z="7" spawntime="60" />
+		<monster name="Knight's Apparition" x="1" y="1" z="7" spawntime="60" />
 	</monster>
 	<monster centerx="1214" centery="1035" centerz="7" radius="1">
 		<monster name="Grim Reaper" x="0" y="0" z="7" spawntime="90" />
@@ -4739,7 +4750,7 @@
 		<monster name="Demon Outcast" x="2" y="0" z="7" spawntime="90" />
 	</monster>
 	<monster centerx="771" centery="1037" centerz="7" radius="1">
-		<monster name="Aleister Crowler" x="0" y="0" z="7" spawntime="-628916736" />
+		<monster name="Knight's Apparition" x="0" y="0" z="7" spawntime="60" />
 	</monster>
 	<monster centerx="1209" centery="1037" centerz="7" radius="3">
 		<monster name="Grim Reaper" x="-1" y="3" z="7" spawntime="90" />
@@ -4839,9 +4850,9 @@
 		<monster name="Grim Reaper" x="-2" y="-1" z="7" spawntime="60" />
 	</monster>
 	<monster centerx="760" centery="1045" centerz="7" radius="1">
-		<monster name="Aleister Crowler" x="-1" y="-1" z="7" spawntime="60" />
-		<monster name="Aleister Crowler" x="0" y="-1" z="7" spawntime="-628916736" />
-		<monster name="Aleister Crowler" x="0" y="0" z="7" spawntime="60" />
+		<monster name="Knight's Apparition" x="-1" y="-1" z="7" spawntime="60" />
+		<monster name="Knight's Apparition" x="0" y="-1" z="7" spawntime="60" />
+		<monster name="Knight's Apparition" x="0" y="0" z="7" spawntime="60" />
 	</monster>
 	<monster centerx="1207" centery="1045" centerz="7" radius="1">
 		<monster name="Grim Reaper" x="0" y="0" z="7" spawntime="90" />
@@ -4931,9 +4942,9 @@
 		<monster name="Plaguesmith" x="2" y="1" z="7" spawntime="90" />
 	</monster>
 	<monster centerx="768" centery="1055" centerz="7" radius="1">
-		<monster name="Aleister Crowler" x="-1" y="-1" z="7" spawntime="60" />
-		<monster name="Aleister Crowler" x="-1" y="0" z="7" spawntime="60" />
-		<monster name="Aleister Crowler" x="0" y="0" z="7" spawntime="60" />
+		<monster name="Knight's Apparition" x="-1" y="-1" z="7" spawntime="60" />
+		<monster name="Knight's Apparition" x="-1" y="0" z="7" spawntime="60" />
+		<monster name="Knight's Apparition" x="0" y="0" z="7" spawntime="60" />
 	</monster>
 	<monster centerx="575" centery="1057" centerz="7" radius="1">
 		<monster name="High Elf" x="0" y="0" z="7" spawntime="60" />
@@ -4988,7 +4999,7 @@
 		<monster name="High Elf" x="0" y="0" z="7" spawntime="60" />
 	</monster>
 	<monster centerx="685" centery="1059" centerz="7" radius="1">
-		<monster name="Tiamat" x="0" y="0" z="7" spawntime="60" />
+		<monster name="Knight's Apparition" x="0" y="0" z="7" spawntime="60" />
 	</monster>
 	<monster centerx="564" centery="1060" centerz="7" radius="1">
 		<monster name="High Elf" x="0" y="0" z="7" spawntime="60" />
@@ -5070,9 +5081,9 @@
 		<monster name="Nightmare" x="2" y="1" z="7" spawntime="90" />
 	</monster>
 	<monster centerx="671" centery="1066" centerz="7" radius="1">
-		<monster name="Tiamat" x="0" y="0" z="7" spawntime="60" />
-		<monster name="Tiamat" x="-1" y="1" z="7" spawntime="-628915456" />
-		<monster name="Tiamat" x="0" y="1" z="7" spawntime="-628915456" />
+		<monster name="Knight's Apparition" x="0" y="0" z="7" spawntime="60" />
+		<monster name="Knight's Apparition" x="-1" y="1" z="7" spawntime="60" />
+		<monster name="Knight's Apparition" x="0" y="1" z="7" spawntime="60" />
 	</monster>
 	<monster centerx="1433" centery="1066" centerz="7" radius="2">
 		<monster name="Destroyer" x="1" y="0" z="7" spawntime="90" />
@@ -5081,8 +5092,8 @@
 		<monster name="Plaguesmith" x="-1" y="1" z="7" spawntime="90" />
 	</monster>
 	<monster centerx="670" centery="1068" centerz="7" radius="1">
-		<monster name="Tiamat" x="0" y="0" z="7" spawntime="-628915456" />
-		<monster name="Tiamat" x="0" y="1" z="7" spawntime="-628915456" />
+		<monster name="Knight's Apparition" x="0" y="0" z="7" spawntime="60" />
+		<monster name="Knight's Apparition" x="0" y="1" z="7" spawntime="60" />
 	</monster>
 	<monster centerx="563" centery="1069" centerz="7" radius="1">
 		<monster name="High Elf" x="0" y="0" z="7" spawntime="3600" />
@@ -5113,7 +5124,7 @@
 		<monster name="High Elf" x="0" y="0" z="7" spawntime="3600" />
 	</monster>
 	<monster centerx="668" centery="1071" centerz="7" radius="1">
-		<monster name="Tiamat" x="0" y="0" z="7" spawntime="60" />
+		<monster name="Knight's Apparition" x="0" y="0" z="7" spawntime="60" />
 	</monster>
 	<monster centerx="1469" centery="1071" centerz="7" radius="3">
 		<monster name="Dark Torturer" x="-2" y="1" z="7" spawntime="90" />
@@ -5242,10 +5253,8 @@
 		<monster name="Plaguesmith" x="0" y="0" z="7" spawntime="90" />
 	</monster>
 	<monster centerx="901" centery="1084" centerz="7" radius="1">
-		<monster name="shyvana" x="-1" y="0" z="7" spawntime="60" />
-		<monster name="shyvana" x="0" y="0" z="7" spawntime="60" />
-		<monster name="shyvana" x="-1" y="1" z="7" spawntime="60" />
-		<monster name="shyvana" x="0" y="1" z="7" spawntime="60" />
+		<monster name="Druid's Apparition" x="0" y="0" z="7" spawntime="60" />
+		<monster name="Druid's Apparition" x="0" y="1" z="7" spawntime="60" />
 	</monster>
 	<monster centerx="1433" centery="1085" centerz="7" radius="2">
 		<monster name="Plaguesmith" x="-1" y="1" z="7" spawntime="90" />
@@ -5276,8 +5285,8 @@
 		<monster name="Plaguesmith" x="0" y="0" z="7" spawntime="90" />
 	</monster>
 	<monster centerx="932" centery="1088" centerz="7" radius="1">
-		<monster name="shyvana" x="0" y="0" z="7" spawntime="60" />
-		<monster name="shyvana" x="0" y="1" z="7" spawntime="60" />
+		<monster name="Druid's Apparition" x="0" y="0" z="7" spawntime="60" />
+		<monster name="Druid's Apparition" x="0" y="1" z="7" spawntime="60" />
 	</monster>
 	<monster centerx="1252" centery="1088" centerz="7" radius="1">
 		<monster name="Retching Horror" x="0" y="-1" z="7" spawntime="60" />
@@ -5287,11 +5296,11 @@
 		<monster name="Fury" x="0" y="0" z="7" spawntime="60" />
 	</monster>
 	<monster centerx="701" centery="1089" centerz="7" radius="1">
-		<monster name="Bloodboil" x="0" y="0" z="7" spawntime="60" />
-		<monster name="Bloodboil" x="0" y="1" z="7" spawntime="60" />
+		<monster name="Paladin's Apparition" x="0" y="0" z="7" spawntime="60" />
+		<monster name="Paladin's Apparition" x="0" y="1" z="7" spawntime="60" />
 	</monster>
 	<monster centerx="892" centery="1089" centerz="7" radius="1">
-		<monster name="shyvana" x="0" y="0" z="7" spawntime="60" />
+		<monster name="Druid's Apparition" x="0" y="0" z="7" spawntime="60" />
 	</monster>
 	<monster centerx="1296" centery="1090" centerz="7" radius="1">
 		<monster name="Fury" x="0" y="-1" z="7" spawntime="60" />
@@ -5307,10 +5316,10 @@
 		<monster name="Behemoth" x="1" y="0" z="7" spawntime="90" />
 	</monster>
 	<monster centerx="690" centery="1091" centerz="7" radius="1">
-		<monster name="Bloodboil" x="-1" y="0" z="7" spawntime="60" />
-		<monster name="Bloodboil" x="0" y="0" z="7" spawntime="60" />
-		<monster name="Bloodboil" x="-1" y="1" z="7" spawntime="60" />
-		<monster name="Bloodboil" x="0" y="1" z="7" spawntime="60" />
+		<monster name="Paladin's Apparition" x="-1" y="0" z="7" spawntime="60" />
+		<monster name="Paladin's Apparition" x="0" y="0" z="7" spawntime="60" />
+		<monster name="Paladin's Apparition" x="-1" y="1" z="7" spawntime="60" />
+		<monster name="Paladin's Apparition" x="0" y="1" z="7" spawntime="60" />
 	</monster>
 	<monster centerx="1429" centery="1091" centerz="7" radius="2">
 		<monster name="Plaguesmith" x="0" y="-1" z="7" spawntime="90" />
@@ -5358,7 +5367,7 @@
 		<monster name="Nightmare" x="2" y="3" z="7" spawntime="90" />
 	</monster>
 	<monster centerx="915" centery="1096" centerz="7" radius="1">
-		<monster name="shyvana" x="0" y="0" z="7" spawntime="60" />
+		<monster name="Druid's Apparition" x="0" y="0" z="7" spawntime="60" />
 	</monster>
 	<monster centerx="1276" centery="1096" centerz="7" radius="1">
 		<monster name="Fury" x="-1" y="-1" z="7" spawntime="60" />
@@ -5371,19 +5380,19 @@
 		<monster name="Behemoth" x="0" y="0" z="7" spawntime="90" />
 	</monster>
 	<monster centerx="889" centery="1099" centerz="7" radius="1">
-		<monster name="shyvana" x="0" y="0" z="7" spawntime="60" />
+		<monster name="Druid's Apparition" x="0" y="0" z="7" spawntime="60" />
 	</monster>
 	<monster centerx="901" centery="1099" centerz="7" radius="1">
-		<monster name="shyvana" x="0" y="0" z="7" spawntime="60" />
+		<monster name="Druid's Apparition" x="0" y="0" z="7" spawntime="60" />
 	</monster>
 	<monster centerx="904" centery="1099" centerz="7" radius="1">
-		<monster name="shyvana" x="0" y="0" z="7" spawntime="60" />
+		<monster name="Druid's Apparition" x="0" y="0" z="7" spawntime="60" />
 	</monster>
 	<monster centerx="908" centery="1099" centerz="7" radius="1">
-		<monster name="shyvana" x="0" y="0" z="7" spawntime="60" />
+		<monster name="Druid's Apparition" x="0" y="0" z="7" spawntime="60" />
 	</monster>
 	<monster centerx="920" centery="1099" centerz="7" radius="1">
-		<monster name="shyvana" x="0" y="0" z="7" spawntime="60" />
+		<monster name="Druid's Apparition" x="0" y="0" z="7" spawntime="60" />
 	</monster>
 	<monster centerx="984" centery="1099" centerz="7" radius="3">
 		<monster name="Hellhound" x="3" y="-3" z="7" spawntime="90" />
@@ -5416,14 +5425,14 @@
 		<monster name="Plaguesmith" x="-1" y="1" z="7" spawntime="90" />
 	</monster>
 	<monster centerx="915" centery="1100" centerz="7" radius="1">
-		<monster name="shyvana" x="0" y="0" z="7" spawntime="60" />
+		<monster name="Druid's Apparition" x="0" y="0" z="7" spawntime="60" />
 	</monster>
 	<monster centerx="1504" centery="1100" centerz="7" radius="1">
 		<monster name="Plaguesmith" x="0" y="0" z="7" spawntime="90" />
 	</monster>
 	<monster centerx="933" centery="1101" centerz="7" radius="1">
-		<monster name="shyvana" x="0" y="0" z="7" spawntime="60" />
-		<monster name="shyvana" x="0" y="1" z="7" spawntime="60" />
+		<monster name="Druid's Apparition" x="0" y="0" z="7" spawntime="60" />
+		<monster name="Druid's Apparition" x="0" y="1" z="7" spawntime="60" />
 	</monster>
 	<monster centerx="1260" centery="1101" centerz="7" radius="1">
 		<monster name="Retching Horror" x="0" y="0" z="7" spawntime="60" />
@@ -5433,7 +5442,7 @@
 		<monster name="Plaguesmith" x="-3" y="3" z="7" spawntime="90" />
 	</monster>
 	<monster centerx="909" centery="1102" centerz="7" radius="1">
-		<monster name="shyvana" x="0" y="0" z="7" spawntime="60" />
+		<monster name="Druid's Apparition" x="0" y="0" z="7" spawntime="60" />
 	</monster>
 	<monster centerx="1302" centery="1102" centerz="7" radius="1">
 		<monster name="Fury" x="0" y="0" z="7" spawntime="60" />
@@ -5444,11 +5453,11 @@
 		<monster name="Plaguesmith" x="0" y="3" z="7" spawntime="90" />
 	</monster>
 	<monster centerx="913" centery="1103" centerz="7" radius="1">
-		<monster name="shyvana" x="0" y="0" z="7" spawntime="60" />
-		<monster name="shyvana" x="1" y="0" z="7" spawntime="60" />
+		<monster name="Druid's Apparition" x="0" y="0" z="7" spawntime="60" />
+		<monster name="Druid's Apparition" x="1" y="0" z="7" spawntime="60" />
 	</monster>
 	<monster centerx="933" centery="1103" centerz="7" radius="1">
-		<monster name="shyvana" x="0" y="0" z="7" spawntime="60" />
+		<monster name="Druid's Apparition" x="0" y="0" z="7" spawntime="60" />
 	</monster>
 	<monster centerx="1339" centery="1103" centerz="7" radius="3">
 		<monster name="Destroyer" x="1" y="0" z="7" spawntime="90" />
@@ -5458,11 +5467,11 @@
 		<monster name="Destroyer" x="3" y="2" z="7" spawntime="90" />
 	</monster>
 	<monster centerx="706" centery="1104" centerz="7" radius="1">
-		<monster name="Bloodboil" x="-1" y="0" z="7" spawntime="60" />
-		<monster name="Bloodboil" x="0" y="0" z="7" spawntime="60" />
-		<monster name="Bloodboil" x="-1" y="1" z="7" spawntime="60" />
-		<monster name="Bloodboil" x="0" y="1" z="7" spawntime="60" />
-		<monster name="Bloodboil" x="1" y="1" z="7" spawntime="60" />
+		<monster name="Paladin's Apparition" x="-1" y="0" z="7" spawntime="60" />
+		<monster name="Paladin's Apparition" x="0" y="0" z="7" spawntime="60" />
+		<monster name="Paladin's Apparition" x="-1" y="1" z="7" spawntime="60" />
+		<monster name="Paladin's Apparition" x="0" y="1" z="7" spawntime="60" />
+		<monster name="Paladin's Apparition" x="1" y="1" z="7" spawntime="60" />
 	</monster>
 	<monster centerx="996" centery="1104" centerz="7" radius="5">
 		<monster name="Hellhound" x="-1" y="0" z="7" spawntime="90" />
@@ -5492,7 +5501,7 @@
 		<monster name="Fury" x="0" y="0" z="7" spawntime="60" />
 	</monster>
 	<monster centerx="695" centery="1106" centerz="7" radius="1">
-		<monster name="Tiamat" x="0" y="0" z="7" spawntime="60" />
+		<monster name="Knight's Apparition" x="0" y="0" z="7" spawntime="60" />
 	</monster>
 	<monster centerx="1282" centery="1106" centerz="7" radius="1">
 		<monster name="Retching Horror" x="0" y="0" z="7" spawntime="60" />
@@ -5525,17 +5534,17 @@
 		<monster name="Fury" x="0" y="0" z="7" spawntime="60" />
 	</monster>
 	<monster centerx="714" centery="1112" centerz="7" radius="1">
-		<monster name="Bloodboil" x="0" y="-1" z="7" spawntime="60" />
-		<monster name="Bloodboil" x="1" y="-1" z="7" spawntime="60" />
-		<monster name="Bloodboil" x="0" y="0" z="7" spawntime="60" />
-		<monster name="Bloodboil" x="1" y="0" z="7" spawntime="60" />
+		<monster name="Paladin's Apparition" x="0" y="-1" z="7" spawntime="60" />
+		<monster name="Paladin's Apparition" x="1" y="-1" z="7" spawntime="60" />
+		<monster name="Paladin's Apparition" x="0" y="0" z="7" spawntime="60" />
+		<monster name="Paladin's Apparition" x="1" y="0" z="7" spawntime="60" />
 	</monster>
 	<monster centerx="911" centery="1112" centerz="7" radius="1">
-		<monster name="shyvana" x="0" y="0" z="7" spawntime="60" />
-		<monster name="shyvana" x="1" y="0" z="7" spawntime="60" />
+		<monster name="Druid's Apparition" x="0" y="0" z="7" spawntime="60" />
+		<monster name="Druid's Apparition" x="1" y="0" z="7" spawntime="60" />
 	</monster>
 	<monster centerx="913" centery="1112" centerz="7" radius="1">
-		<monster name="shyvana" x="0" y="0" z="7" spawntime="60" />
+		<monster name="Druid's Apparition" x="0" y="0" z="7" spawntime="60" />
 	</monster>
 	<monster centerx="1302" centery="1112" centerz="7" radius="1">
 		<monster name="Fury" x="0" y="0" z="7" spawntime="60" />
@@ -5544,19 +5553,16 @@
 		<monster name="Lost Soul" x="-1" y="-1" z="7" spawntime="90" />
 	</monster>
 	<monster centerx="707" centery="1113" centerz="7" radius="1">
-		<monster name="Tiamat" x="0" y="0" z="7" spawntime="60" />
+		<monster name="Knight's Apparition" x="0" y="0" z="7" spawntime="60" />
 	</monster>
 	<monster centerx="890" centery="1113" centerz="7" radius="1">
-		<monster name="shyvana" x="0" y="0" z="7" spawntime="60" />
-		<monster name="shyvana" x="1" y="0" z="7" spawntime="60" />
+		<monster name="Druid's Apparition" x="0" y="0" z="7" spawntime="60" />
+		<monster name="Druid's Apparition" x="1" y="0" z="7" spawntime="60" />
 	</monster>
 	<monster centerx="936" centery="1113" centerz="7" radius="1">
-		<monster name="shyvana" x="-1" y="0" z="7" spawntime="60" />
-		<monster name="shyvana" x="0" y="0" z="7" spawntime="60" />
-		<monster name="shyvana" x="1" y="0" z="7" spawntime="60" />
-		<monster name="shyvana" x="-1" y="1" z="7" spawntime="60" />
-		<monster name="shyvana" x="0" y="1" z="7" spawntime="60" />
-		<monster name="shyvana" x="1" y="1" z="7" spawntime="60" />
+		<monster name="Druid's Apparition" x="-1" y="0" z="7" spawntime="60" />
+		<monster name="Druid's Apparition" x="0" y="0" z="7" spawntime="60" />
+		<monster name="Druid's Apparition" x="1" y="0" z="7" spawntime="60" />
 	</monster>
 	<monster centerx="1469" centery="1113" centerz="7" radius="3">
 		<monster name="Demon Outcast" x="0" y="3" z="7" spawntime="90" />
@@ -5581,16 +5587,16 @@
 		<monster name="Lost Soul" x="1" y="0" z="7" spawntime="90" />
 	</monster>
 	<monster centerx="689" centery="1115" centerz="7" radius="1">
-		<monster name="Bloodboil" x="-1" y="0" z="7" spawntime="60" />
-		<monster name="Bloodboil" x="0" y="0" z="7" spawntime="60" />
-		<monster name="Bloodboil" x="-1" y="1" z="7" spawntime="60" />
-		<monster name="Bloodboil" x="0" y="1" z="7" spawntime="60" />
+		<monster name="Paladin's Apparition" x="-1" y="0" z="7" spawntime="60" />
+		<monster name="Paladin's Apparition" x="0" y="0" z="7" spawntime="60" />
+		<monster name="Paladin's Apparition" x="-1" y="1" z="7" spawntime="60" />
+		<monster name="Paladin's Apparition" x="0" y="1" z="7" spawntime="60" />
 	</monster>
 	<monster centerx="905" centery="1116" centerz="7" radius="1">
-		<monster name="shyvana" x="0" y="0" z="7" spawntime="60" />
+		<monster name="Druid's Apparition" x="0" y="0" z="7" spawntime="60" />
 	</monster>
 	<monster centerx="918" centery="1116" centerz="7" radius="1">
-		<monster name="shyvana" x="0" y="0" z="7" spawntime="60" />
+		<monster name="Druid's Apparition" x="0" y="0" z="7" spawntime="60" />
 	</monster>
 	<monster centerx="1369" centery="1116" centerz="7" radius="3">
 		<monster name="Nightmare" x="2" y="-2" z="7" spawntime="90" />
@@ -5609,10 +5615,10 @@
 		<monster name="Nightmare" x="2" y="2" z="7" spawntime="90" />
 	</monster>
 	<monster centerx="926" centery="1121" centerz="7" radius="1">
-		<monster name="shyvana" x="-1" y="0" z="7" spawntime="60" />
-		<monster name="shyvana" x="0" y="0" z="7" spawntime="60" />
-		<monster name="shyvana" x="1" y="0" z="7" spawntime="60" />
-		<monster name="shyvana" x="0" y="1" z="7" spawntime="60" />
+		<monster name="Druid's Apparition" x="-1" y="0" z="7" spawntime="60" />
+		<monster name="Druid's Apparition" x="0" y="0" z="7" spawntime="60" />
+		<monster name="Druid's Apparition" x="1" y="0" z="7" spawntime="60" />
+		<monster name="Druid's Apparition" x="0" y="1" z="7" spawntime="60" />
 	</monster>
 	<monster centerx="1356" centery="1123" centerz="7" radius="4">
 		<monster name="Nightmare" x="4" y="0" z="7" spawntime="90" />
@@ -5628,37 +5634,37 @@
 		<monster name="Hellhound" x="0" y="0" z="7" spawntime="60" />
 	</monster>
 	<monster centerx="905" centery="1126" centerz="7" radius="1">
-		<monster name="shyvana" x="0" y="0" z="7" spawntime="60" />
+		<monster name="Druid's Apparition" x="0" y="0" z="7" spawntime="60" />
 	</monster>
 	<monster centerx="912" centery="1126" centerz="7" radius="1">
-		<monster name="shyvana" x="0" y="0" z="7" spawntime="60" />
-		<monster name="shyvana" x="-1" y="1" z="7" spawntime="60" />
-		<monster name="shyvana" x="0" y="1" z="7" spawntime="60" />
+		<monster name="Druid's Apparition" x="0" y="0" z="7" spawntime="60" />
+		<monster name="Druid's Apparition" x="-1" y="1" z="7" spawntime="60" />
+		<monster name="Druid's Apparition" x="0" y="1" z="7" spawntime="60" />
 	</monster>
 	<monster centerx="918" centery="1126" centerz="7" radius="1">
-		<monster name="shyvana" x="0" y="0" z="7" spawntime="60" />
+		<monster name="Druid's Apparition" x="0" y="0" z="7" spawntime="60" />
 	</monster>
 	<monster centerx="691" centery="1127" centerz="7" radius="1">
-		<monster name="Bloodboil" x="0" y="0" z="7" spawntime="60" />
-		<monster name="Bloodboil" x="0" y="1" z="7" spawntime="60" />
+		<monster name="Paladin's Apparition" x="0" y="0" z="7" spawntime="60" />
+		<monster name="Paladin's Apparition" x="0" y="1" z="7" spawntime="60" />
 	</monster>
 	<monster centerx="893" centery="1127" centerz="7" radius="1">
-		<monster name="shyvana" x="0" y="0" z="7" spawntime="60" />
-		<monster name="shyvana" x="1" y="0" z="7" spawntime="60" />
+		<monster name="Druid's Apparition" x="0" y="0" z="7" spawntime="60" />
+		<monster name="Druid's Apparition" x="1" y="0" z="7" spawntime="60" />
 	</monster>
 	<monster centerx="940" centery="1128" centerz="7" radius="1">
-		<monster name="shyvana" x="0" y="0" z="7" spawntime="60" />
+		<monster name="Druid's Apparition" x="0" y="0" z="7" spawntime="60" />
 	</monster>
 	<monster centerx="1302" centery="1128" centerz="7" radius="1">
 		<monster name="Fury" x="0" y="-1" z="7" spawntime="60" />
 		<monster name="Fury" x="1" y="1" z="7" spawntime="60" />
 	</monster>
 	<monster centerx="937" centery="1130" centerz="7" radius="1">
-		<monster name="shyvana" x="0" y="0" z="7" spawntime="60" />
+		<monster name="Druid's Apparition" x="0" y="0" z="7" spawntime="60" />
 	</monster>
 	<monster centerx="911" centery="1133" centerz="7" radius="1">
-		<monster name="shyvana" x="0" y="0" z="7" spawntime="60" />
-		<monster name="shyvana" x="1" y="0" z="7" spawntime="60" />
+		<monster name="Druid's Apparition" x="0" y="0" z="7" spawntime="60" />
+		<monster name="Druid's Apparition" x="1" y="0" z="7" spawntime="60" />
 	</monster>
 	<monster centerx="1271" centery="1135" centerz="7" radius="1">
 		<monster name="Fury" x="0" y="0" z="7" spawntime="60" />
@@ -6546,16 +6552,16 @@
 		<monster name="Breach Brood" x="0" y="3" z="7" spawntime="60" />
 	</monster>
 	<monster centerx="658" centery="1461" centerz="7" radius="1">
-		<monster name="Chaos Draco" x="0" y="-1" z="7" spawntime="1416285440" />
-		<monster name="Chaos Draco" x="0" y="0" z="7" spawntime="1416285440" />
-		<monster name="Chaos Draco" x="0" y="1" z="7" spawntime="1416285440" />
+		<monster name="Chaos Draco" x="0" y="-1" z="7" spawntime="60" />
+		<monster name="Chaos Draco" x="0" y="0" z="7" spawntime="60" />
+		<monster name="Chaos Draco" x="0" y="1" z="7" spawntime="60" />
 	</monster>
 	<monster centerx="659" centery="1463" centerz="7" radius="1">
-		<monster name="Chaos Draco" x="0" y="0" z="7" spawntime="1416285440" />
-		<monster name="Chaos Draco" x="1" y="0" z="7" spawntime="1416285440" />
+		<monster name="Chaos Draco" x="0" y="0" z="7" spawntime="60" />
+		<monster name="Chaos Draco" x="1" y="0" z="7" spawntime="60" />
 	</monster>
 	<monster centerx="661" centery="1464" centerz="7" radius="1">
-		<monster name="Chaos Draco" x="0" y="0" z="7" spawntime="1416285440" />
+		<monster name="Chaos Draco" x="0" y="0" z="7" spawntime="60" />
 	</monster>
 	<monster centerx="663" centery="1464" centerz="7" radius="1">
 		<monster name="Chaos Draco" x="0" y="0" z="7" spawntime="3600" />
@@ -6596,8 +6602,8 @@
 		<monster name="Dread Intruder" x="2" y="-2" z="7" spawntime="60" />
 	</monster>
 	<monster centerx="603" centery="1469" centerz="7" radius="1">
-		<monster name="Chaos Draco" x="0" y="0" z="7" spawntime="1416285440" />
-		<monster name="Chaos Draco" x="1" y="1" z="7" spawntime="1416285440" />
+		<monster name="Chaos Draco" x="0" y="0" z="7" spawntime="60" />
+		<monster name="Chaos Draco" x="1" y="1" z="7" spawntime="60" />
 	</monster>
 	<monster centerx="605" centery="1470" centerz="7" radius="1">
 		<monster name="Chaos Draco" x="0" y="0" z="7" spawntime="3600" />
@@ -6623,38 +6629,38 @@
 	<monster centerx="619" centery="1473" centerz="7" radius="1">
 		<monster name="Chaos Draco" x="0" y="0" z="7" spawntime="3600" />
 		<monster name="Chaos Draco" x="1" y="0" z="7" spawntime="3600" />
-		<monster name="Chaos Draco" x="-1" y="1" z="7" spawntime="1416285440" />
-		<monster name="Chaos Draco" x="0" y="1" z="7" spawntime="1416285440" />
-		<monster name="Chaos Draco" x="1" y="1" z="7" spawntime="1416285440" />
+		<monster name="Chaos Draco" x="-1" y="1" z="7" spawntime="60" />
+		<monster name="Chaos Draco" x="0" y="1" z="7" spawntime="60" />
+		<monster name="Chaos Draco" x="1" y="1" z="7" spawntime="60" />
 	</monster>
 	<monster centerx="656" centery="1476" centerz="7" radius="1">
-		<monster name="Chaos Draco" x="0" y="0" z="7" spawntime="1416285440" />
-		<monster name="Chaos Draco" x="1" y="0" z="7" spawntime="1416285440" />
-		<monster name="Chaos Draco" x="0" y="1" z="7" spawntime="1416285440" />
-		<monster name="Chaos Draco" x="1" y="1" z="7" spawntime="1416285440" />
+		<monster name="Chaos Draco" x="0" y="0" z="7" spawntime="60" />
+		<monster name="Chaos Draco" x="1" y="0" z="7" spawntime="60" />
+		<monster name="Chaos Draco" x="0" y="1" z="7" spawntime="60" />
+		<monster name="Chaos Draco" x="1" y="1" z="7" spawntime="60" />
 	</monster>
 	<monster centerx="658" centery="1476" centerz="7" radius="1">
 		<monster name="Chaos Draco" x="0" y="0" z="7" spawntime="3600" />
-		<monster name="Chaos Draco" x="1" y="0" z="7" spawntime="1416285440" />
-		<monster name="Chaos Draco" x="0" y="1" z="7" spawntime="1416285440" />
-		<monster name="Chaos Draco" x="1" y="1" z="7" spawntime="1416285440" />
+		<monster name="Chaos Draco" x="1" y="0" z="7" spawntime="60" />
+		<monster name="Chaos Draco" x="0" y="1" z="7" spawntime="60" />
+		<monster name="Chaos Draco" x="1" y="1" z="7" spawntime="60" />
 	</monster>
 	<monster centerx="640" centery="1477" centerz="7" radius="1">
-		<monster name="Chaos Draco" x="-1" y="0" z="7" spawntime="1416285440" />
+		<monster name="Chaos Draco" x="-1" y="0" z="7" spawntime="60" />
 		<monster name="Chaos Draco" x="0" y="0" z="7" spawntime="3600" />
-		<monster name="Chaos Draco" x="1" y="0" z="7" spawntime="1416285440" />
-		<monster name="Chaos Draco" x="-1" y="1" z="7" spawntime="1416285440" />
-		<monster name="Chaos Draco" x="0" y="1" z="7" spawntime="1416285440" />
-		<monster name="Chaos Draco" x="1" y="1" z="7" spawntime="1416285440" />
+		<monster name="Chaos Draco" x="1" y="0" z="7" spawntime="60" />
+		<monster name="Chaos Draco" x="-1" y="1" z="7" spawntime="60" />
+		<monster name="Chaos Draco" x="0" y="1" z="7" spawntime="60" />
+		<monster name="Chaos Draco" x="1" y="1" z="7" spawntime="60" />
 	</monster>
 	<monster centerx="657" centery="1478" centerz="7" radius="1">
-		<monster name="Chaos Draco" x="0" y="0" z="7" spawntime="1416285440" />
+		<monster name="Chaos Draco" x="0" y="0" z="7" spawntime="60" />
 	</monster>
 	<monster centerx="630" centery="1479" centerz="7" radius="1">
-		<monster name="Chaos Draco" x="-1" y="0" z="7" spawntime="1416285440" />
-		<monster name="Chaos Draco" x="0" y="0" z="7" spawntime="1416285440" />
-		<monster name="Chaos Draco" x="1" y="0" z="7" spawntime="1416285440" />
-		<monster name="Chaos Draco" x="-1" y="1" z="7" spawntime="1416285440" />
+		<monster name="Chaos Draco" x="-1" y="0" z="7" spawntime="60" />
+		<monster name="Chaos Draco" x="0" y="0" z="7" spawntime="60" />
+		<monster name="Chaos Draco" x="1" y="0" z="7" spawntime="60" />
+		<monster name="Chaos Draco" x="-1" y="1" z="7" spawntime="60" />
 	</monster>
 	<monster centerx="632" centery="1479" centerz="7" radius="1">
 		<monster name="Chaos Draco" x="0" y="0" z="7" spawntime="3600" />
@@ -6703,7 +6709,7 @@
 		<monster name="Breach Brood" x="0" y="-3" z="7" spawntime="60" />
 	</monster>
 	<monster centerx="628" centery="1480" centerz="7" radius="1">
-		<monster name="Chaos Draco" x="0" y="0" z="7" spawntime="1416285440" />
+		<monster name="Chaos Draco" x="0" y="0" z="7" spawntime="60" />
 	</monster>
 	<monster centerx="996" centery="1486" centerz="7" radius="3">
 		<monster name="Sparkion" x="3" y="0" z="7" spawntime="60" />
