@@ -44,7 +44,7 @@ npcConfig.shop = {
 
 	{ itemName = "lasting exercise axe", clientId = 35286, buy = 8000000, count = 34400 },
 	{ itemName = "lasting exercise bow", clientId = 35288, buy = 8000000, count = 34400 },
-	{ itemName = "lasting exercise club", clientId = 35287, buy = 800000, count = 34400 },
+	{ itemName = "lasting exercise club", clientId = 35287, buy = 8000000, count = 34400 },
 	{ itemName = "lasting exercise sword", clientId = 35285, buy = 8000000, count = 34400 },
 	{ itemName = "lasting exercise rod", clientId = 35289, buy = 8000000, count = 34400 },
 	{ itemName = "lasting exercise wand", clientId = 35290, buy = 8000000, count = 34400 },
