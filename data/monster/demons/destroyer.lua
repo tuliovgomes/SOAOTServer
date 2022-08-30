@@ -3,7 +3,7 @@ local mType = Game.createMonsterType("Destroyer")
 local monster = {}
 
 monster.description = "a destroyer"
-monster.experience = 2500
+monster.experience = 12500
 monster.outfit = {
 	lookType = 236,
 	lookHead = 0,
@@ -108,8 +108,8 @@ monster.loot = {
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -500},
-	{name ="combat", interval = 2000, chance = 15, type = COMBAT_PHYSICALDAMAGE, minDamage = 0, maxDamage = -200, range = 7, shootEffect = CONST_ANI_LARGEROCK, target = false}
+	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -900},
+	{name ="combat", interval = 2000, chance = 15, type = COMBAT_PHYSICALDAMAGE, minDamage = 0, maxDamage = -800, range = 7, shootEffect = CONST_ANI_LARGEROCK, target = false}
 }
 
 monster.defenses = {

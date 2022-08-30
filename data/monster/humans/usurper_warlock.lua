@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("Usurper Warlock")
 local monster = {}
 
 monster.description = "a usurper warlock"
-monster.experience = 7000
+monster.experience = 17000
 monster.outfit = {
 	lookType = 1316,
 	lookHead = 57,
@@ -101,8 +101,8 @@ monster.loot = {
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -250, effect = CONST_ME_DRAWBLOOD},
-	{name ="combat", interval = 4000, chance = 12, type = COMBAT_ICEDAMAGE, minDamage = -200, maxDamage = -450, radius = 4, shootEffect = CONST_ANI_ICE, effect = CONST_ME_ICEATTACK, target = true} -- avalanche
+	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -950, effect = CONST_ME_DRAWBLOOD},
+	{name ="combat", interval = 4000, chance = 12, type = COMBAT_ICEDAMAGE, minDamage = -800, maxDamage = -1450, radius = 4, shootEffect = CONST_ANI_ICE, effect = CONST_ME_ICEATTACK, target = true} -- avalanche
 }
 
 monster.defenses = {

@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("Guardian of Tales")
 local monster = {}
 
 monster.description = "a guardian of tales"
-monster.experience = 9204
+monster.experience = 12204
 monster.outfit = {
 	lookType = 1063,
 	lookHead = 92,
@@ -81,6 +81,8 @@ monster.loot = {
 	{name = "fire axe", chance = 250},
 	{name = "soul orb", chance = 260, maxCount = 5},
 	{name = "spellbook of warding", chance = 250},
+	{name = "voltage armor", chance = 250},
+	{name = "windborn colossus armor", chance = 550},
 	{name = "wand of inferno", chance = 250},
 	{name = "fire sword", chance = 250},
 	{name = "magma coat", chance = 350},
@@ -91,8 +93,8 @@ monster.loot = {
 
 monster.attacks = {
 	{name ="melee", interval = 2000, chance = 100, minDamage = -200, maxDamage = -550},
-	{name ="combat", interval = 2000, chance = 13, type = COMBAT_ENERGYDAMAGE, minDamage = -200, maxDamage = -605, radius = 3, effect = CONST_ME_ENERGYAREA, target = false},
-	{name ="combat", interval = 2000, chance = 10, type = COMBAT_LIFEDRAIN, minDamage = -375, maxDamage = -500, length = 5, spread = 3, effect = CONST_ME_MAGIC_RED, target = false},
+	{name ="combat", interval = 2000, chance = 13, type = COMBAT_ENERGYDAMAGE, minDamage = -200, maxDamage = -905, radius = 3, effect = CONST_ME_ENERGYAREA, target = false},
+	{name ="combat", interval = 2000, chance = 10, type = COMBAT_LIFEDRAIN, minDamage = -375, maxDamage = -800, length = 5, spread = 3, effect = CONST_ME_MAGIC_RED, target = false},
 	{name ="combat", interval = 2000, chance = 12, type = COMBAT_FIREDAMAGE, minDamage = -400, maxDamage = -775, radius = 3, effect = CONST_ME_HITBYFIRE, target = false}
 }
 

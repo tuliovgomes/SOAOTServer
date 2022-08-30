@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("Serpent Spawn")
 local monster = {}
 
 monster.description = "a serpent spawn"
-monster.experience = 3050
+monster.experience = 5050
 monster.outfit = {
 	lookType = 220,
 	lookHead = 0,
@@ -89,18 +89,14 @@ monster.loot = {
 	{name = "warrior helmet", chance = 560},
 	{name = "strange helmet", chance = 670},
 	{name = "crown armor", chance = 510},
-	{id = 4831, chance = 550}, -- old parchment
-	{name = "royal helmet", chance = 140},
+	{name = "royal helmet", chance = 640},
 	{name = "tower shield", chance = 920},
 	{name = "power bolt", chance = 6200},
 	{name = "green mushroom", chance = 18200},
-	{name = "charmer's tiara", chance = 180},
 	{name = "mercenary sword", chance = 2070},
 	{name = "noble axe", chance = 750},
 	{name = "great mana potion", chance = 2000},
-	{name = "swamplair armor", chance = 90},
-	{name = "spellbook of mind control", chance = 90},
-	{name = "snake skin", chance = 14800},
+	{name = "earthborn titan armor", chance = 90},
 	{name = "winged tail", chance = 960}
 }
 

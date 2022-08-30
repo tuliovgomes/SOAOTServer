@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("Deepling Worker")
 local monster = {}
 
 monster.description = "a deepling worker"
-monster.experience = 130
+monster.experience = 1030
 monster.outfit = {
 	lookType = 470,
 	lookHead = 0,
@@ -87,7 +87,7 @@ monster.loot = {
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -80, effect = CONST_ME_DRAWBLOOD}
+	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -800, effect = CONST_ME_DRAWBLOOD}
 }
 
 monster.defenses = {

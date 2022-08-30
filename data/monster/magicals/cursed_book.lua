@@ -89,7 +89,7 @@ monster.loot = {
 	{name = "stone skin amulet", chance = 350},
 	{name = "springsprout rod", chance = 350},
 	{name = "sacred tree amulet", chance = 350},
-	{name = "swamplair armor", chance = 250}
+	{name = "pestilence omega", chance = 250}
 }
 
 monster.attacks = {

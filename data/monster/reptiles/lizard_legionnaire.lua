@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("Lizard Legionnaire")
 local monster = {}
 
 monster.description = "a lizard legionnaire"
-monster.experience = 1100
+monster.experience = 7800
 monster.outfit = {
 	lookType = 338,
 	lookHead = 0,
@@ -92,8 +92,8 @@ monster.loot = {
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -180},
-	{name ="combat", interval = 2000, chance = 40, type = COMBAT_PHYSICALDAMAGE, minDamage = 0, maxDamage = -200, range = 7, shootEffect = CONST_ANI_SPEAR, target = true}
+	{name ="melee", interval = 2000, chance = 100, minDamage = -230, maxDamage = -980},
+	{name ="combat", interval = 2000, chance = 40, type = COMBAT_PHYSICALDAMAGE, minDamage = -200, maxDamage = -700, range = 7, shootEffect = CONST_ANI_SPEAR, target = true}
 }
 
 monster.defenses = {

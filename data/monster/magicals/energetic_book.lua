@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("Energetic Book")
 local monster = {}
 
 monster.description = "an energetic book"
-monster.experience = 12034
+monster.experience = 22034
 monster.outfit = {
 	lookType = 1061,
 	lookHead = 15,
@@ -85,6 +85,7 @@ monster.loot = {
 	{name = "spellweaver's robe", chance = 350},
 	{name = "wand of defiance", chance = 350},
 	{name = "haunted blade", chance = 550},
+	{name = "windborn colossus armor", chance = 550},
 	{id = 822, chance = 930}, -- lightning legs
 }
 

@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("Squid Warden")
 local monster = {}
 
 monster.description = "a squid warden"
-monster.experience = 15300
+monster.experience = 22300
 monster.outfit = {
 	lookType = 1059,
 	lookHead = 9,
@@ -85,6 +85,9 @@ monster.loot = {
 	{name = "glacier mask", chance = 400},
 	{name = "piece of dead brain", chance = 10001, maxCount = 4},
 	{name = "crystal sword", chance = 300},
+	{name = "oceanborn leviathan armor", chance = 300},
+	{name = "voltage armor", chance = 300},
+	{name = "crystalline armor", chance = 300},
 	{name = "glacier robe", chance = 150},
 	{name = "glacier kilt", chance = 150},
 	{name = "slime heart", chance = 10002, maxCount = 4}
@@ -92,10 +95,10 @@ monster.loot = {
 
 monster.attacks = {
 	{name ="melee", interval = 2000, chance = 100, minDamage = -100, maxDamage = -300},
-	{name ="combat", interval = 2000, chance = 15, type = COMBAT_ICEDAMAGE, minDamage = -100, maxDamage = -200, range = 7, shootEffect = CONST_ANI_ICE, target = false},
-	{name ="combat", interval = 2000, chance = 10, type = COMBAT_ICEDAMAGE, minDamage = -200, maxDamage = -680, range = 7, shootEffect = CONST_ANI_SMALLICE, effect = CONST_ME_ICEATTACK, target = false},
-	{name ="combat", interval = 2000, chance = 10, type = COMBAT_ICEDAMAGE, minDamage = -200, maxDamage = -375, length = 3, spread = 2, effect = CONST_ME_ICEATTACK, target = false},
-	{name ="combat", interval = 2000, chance = 12, type = COMBAT_ICEDAMAGE, minDamage = -230, maxDamage = -480, range = 7, radius = 3, shootEffect = CONST_ANI_SMALLICE, effect = CONST_ME_ICETORNADO, target = false}
+	{name ="combat", interval = 2000, chance = 15, type = COMBAT_ICEDAMAGE, minDamage = -100, maxDamage = -600, range = 7, shootEffect = CONST_ANI_ICE, target = false},
+	{name ="combat", interval = 2000, chance = 10, type = COMBAT_ICEDAMAGE, minDamage = -200, maxDamage = -980, range = 7, shootEffect = CONST_ANI_SMALLICE, effect = CONST_ME_ICEATTACK, target = false},
+	{name ="combat", interval = 2000, chance = 10, type = COMBAT_ICEDAMAGE, minDamage = -200, maxDamage = -875, length = 3, spread = 2, effect = CONST_ME_ICEATTACK, target = false},
+	{name ="combat", interval = 2000, chance = 12, type = COMBAT_ICEDAMAGE, minDamage = -230, maxDamage = -580, range = 7, radius = 3, shootEffect = CONST_ANI_SMALLICE, effect = CONST_ME_ICETORNADO, target = false}
 }
 
 monster.defenses = {

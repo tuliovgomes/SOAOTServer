@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("Dark Torturer")
 local monster = {}
 
 monster.description = "a dark torturer"
-monster.experience = 4650
+monster.experience = 14650
 monster.outfit = {
 	lookType = 234,
 	lookHead = 0,
@@ -104,8 +104,8 @@ monster.loot = {
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -500},
-	{name ="combat", interval = 2000, chance = 10, type = COMBAT_PHYSICALDAMAGE, minDamage = 0, maxDamage = -781, range = 7, shootEffect = CONST_ANI_THROWINGKNIFE, target = false},
+	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -1500},
+	{name ="combat", interval = 2000, chance = 10, type = COMBAT_PHYSICALDAMAGE, minDamage = -200, maxDamage = -981, range = 7, shootEffect = CONST_ANI_THROWINGKNIFE, target = false},
 }
 
 monster.defenses = {

@@ -90,21 +90,16 @@ monster.loot = {
 	{name = "ultimate mana potion", chance = 1200, maxCount = 4},
 	{name = "piece of dead brain", chance = 1200, maxCount = 4},
 	{name = "wand of defiance", chance = 800},
+	{name = "magic plate armor", chance = 500},
 	{id = 816, chance = 520}, -- lightning pendant
 	{name = "might ring", chance = 1300},
 	{name = "slime heart", chance = 1200, maxCount = 4},
-	{id = 23544, chance = 560}, -- collar of red plasma
-	{id = 23542, chance = 560}, -- collar of blue plasma
-	{id = 23543, chance = 560}, -- collar of green plasma
-	{id = 23533, chance = 560}, -- ring of red plasma
-	{id = 23529, chance = 560}, -- ring of blue plasma
-	{id = 23531, chance = 560} -- ring of green plasma
 }
 
 monster.attacks = {
 	{name ="melee", interval = 2000, chance = 100, minDamage = -100, maxDamage = -200},
-	{name ="combat", interval = 2000, chance = 15, type = COMBAT_ENERGYDAMAGE, minDamage = -200, maxDamage = -470, range = 7, shootEffect = CONST_ANI_ENERGY, target = false},
-	{name ="combat", interval = 2000, chance = 13, type = COMBAT_ENERGYDAMAGE, minDamage = -200, maxDamage = -505, radius = 3, effect = CONST_ME_ENERGYAREA, target = false}
+	{name ="combat", interval = 2000, chance = 15, type = COMBAT_ENERGYDAMAGE, minDamage = -200, maxDamage = -870, range = 7, shootEffect = CONST_ANI_ENERGY, target = false},
+	{name ="combat", interval = 2000, chance = 13, type = COMBAT_ENERGYDAMAGE, minDamage = -200, maxDamage = -905, radius = 3, effect = CONST_ME_ENERGYAREA, target = false}
 }
 
 monster.defenses = {

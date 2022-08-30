@@ -3,7 +3,7 @@ local monster = {}
 
 monster.name = "Chaos Draco"
 monster.description = "a Chaos Draco"
-monster.experience = 7500
+monster.experience = 8500
 monster.outfit = {
 	lookType = 231,
 	lookHead = 0,
@@ -90,19 +90,15 @@ monster.defenses = {
 }
 
 monster.loot = {
-	{name = "golden mug", chance = 6002},
 	{name = "black pearl", chance = 22780, maxCount = 2},
 	{name = "small sapphire", chance = 28370, maxCount = 2},
 	{name = "gold coin", chance = 35500, maxCount = 100},
-	{name = "gold coin", chance = 55500, maxCount = 98},
-	{name = "platinum coin", chance = 52000, maxCount = 5},
-	{name = "life crystal", chance = 2500},
+	{name = "platinum coin", chance = 52000, maxCount = 15},
 	{name = "war axe", chance = 1290},
 	{name = "golden armor", chance = 860},
 	{name = "knight armor", chance = 5500},
 	{name = "royal helmet", chance = 1720},
 	{name = "power bolt", chance = 15190, maxCount = 15},
-	{name = "hardened bone", chance = 14180},
 	{id = 6299, chance = 1150},
 	{name = "demonic essence", chance = 12460},
 	{name = "assassin star", chance = 26650, maxCount = 5},
@@ -112,7 +108,6 @@ monster.loot = {
 	{name = "great health potion", chance = 21200},
 	{name = "divine plate", chance = 430},
 	{name = "gold ingot", chance = 570},
-	{name = "unholy bone", chance = 33380},
 	{name = "spellweaver's robe", chance = 860}
 }
 

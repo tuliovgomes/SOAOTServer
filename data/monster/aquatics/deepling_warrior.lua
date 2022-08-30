@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("Deepling Warrior")
 local monster = {}
 
 monster.description = "a deepling warrior"
-monster.experience = 1500
+monster.experience = 91500
 monster.outfit = {
 	lookType = 441,
 	lookHead = 0,
@@ -96,8 +96,8 @@ monster.loot = {
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -300, effect = CONST_ME_DRAWBLOOD},
-	{name ="combat", interval = 2000, chance = 20, type = COMBAT_PHYSICALDAMAGE, minDamage = 0, maxDamage = -290, range = 7, shootEffect = CONST_ANI_WHIRLWINDAXE, target = true}
+	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -900, effect = CONST_ME_DRAWBLOOD},
+	{name ="combat", interval = 2000, chance = 20, type = COMBAT_PHYSICALDAMAGE, minDamage = 0, maxDamage = -790, range = 7, shootEffect = CONST_ANI_WHIRLWINDAXE, target = true}
 }
 
 monster.defenses = {

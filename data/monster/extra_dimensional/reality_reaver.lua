@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("Reality Reaver")
 local monster = {}
 
 monster.description = "a reality reaver"
-monster.experience = 2480
+monster.experience = 28480
 monster.outfit = {
 	lookType = 879,
 	lookHead = 0,
@@ -96,6 +96,7 @@ monster.loot = {
 	{id = 23543, chance = 630}, -- collar of green plasma
 	{id = 828, chance = 520}, -- lightning headband
 	{id = 3036, chance = 370}, -- violet gem
+	{id = 8051, chance = 600}, -- voltage armor
 	{id = 23529, chance = 370}, -- ring of blue plasma
 	{id = 23544, chance = 300}, -- collar of red plasma
 	{id = 23531, chance = 220} -- ring of green plasma
@@ -103,9 +104,9 @@ monster.loot = {
 
 monster.attacks = {
 	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -500},
-	{name ="combat", interval = 2000, chance = 20, type = COMBAT_ENERGYDAMAGE, minDamage = -180, maxDamage = -400, range = 5, radius = 5, shootEffect = CONST_ANI_ENERGYBALL, effect = CONST_ME_PURPLEENERGY, target = true},
+	{name ="combat", interval = 2000, chance = 20, type = COMBAT_ENERGYDAMAGE, minDamage = -180, maxDamage = -1400, range = 5, radius = 5, shootEffect = CONST_ANI_ENERGYBALL, effect = CONST_ME_PURPLEENERGY, target = true},
 	-- energy damage
-	{name ="condition", type = CONDITION_ENERGY, interval = 2000, chance = 20, minDamage = -400, maxDamage = -800, radius = 5, effect = CONST_ME_STUN, target = false}
+	{name ="condition", type = CONDITION_ENERGY, interval = 2000, chance = 20, minDamage = -400, maxDamage = -2800, radius = 5, effect = CONST_ME_STUN, target = false}
 }
 
 monster.defenses = {

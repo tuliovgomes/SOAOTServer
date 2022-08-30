@@ -16608,41 +16608,39 @@
 	</item>
 	<item id="8050" article="a" name="crystalline armor">
 		<attribute key="slotType" value="body"/>
-		<attribute key="absorbpercentice" value="3"/>
+		<attribute key="absorbpercentice" value="15"/>
 		<attribute key="armor" value="16"/>
 		<attribute key="weight" value="8450"/>
 	</item>
 	<item id="8051" article="a" name="voltage armor">
 		<attribute key="slotType" value="body"/>
-		<attribute key="absorbpercentpoison" value="-3"/>
-		<attribute key="absorbpercentenergy" value="3"/>
+		<attribute key="absorbpercentenergy" value="15"/>
 		<attribute key="armor" value="13"/>
 		<attribute key="weight" value="8450"/>
 	</item>
-	<item id="8052" article="a" name="swamplair armor">
+	<item id="8052" article="a" name="pestilence omega">
 		<attribute key="slotType" value="body"/>
-		<attribute key="absorbpercentpoison" value="3"/>
-		<attribute key="absorbpercentfire" value="-3"/>
-		<attribute key="armor" value="13"/>
+		<attribute key="absorbpercentpoison" value="15"/>
+		<attribute key="armor" value="18"/>
 		<attribute key="weight" value="8450"/>
 	</item>
 	<item id="8053" article="a" name="fireborn giant armor">
 		<attribute key="slotType" value="body"/>
-		<attribute key="absorbpercentfire" value="5"/>
-		<attribute key="skillsword" value="2"/>
-		<attribute key="armor" value="15"/>
+		<attribute key="absorbpercentfire" value="15"/>
+		<attribute key="skillsword" value="5"/>
+		<attribute key="armor" value="18"/>
 		<attribute key="weight" value="12000"/>
 	</item>
 	<item id="8054" article="an" name="earthborn titan armor">
 		<attribute key="slotType" value="body"/>
-		<attribute key="absorbpercentpoison" value="5"/>
-		<attribute key="skillaxe" value="2"/>
+		<attribute key="absorbpercentpoison" value="15"/>
+		<attribute key="skillaxe" value="5"/>
 		<attribute key="armor" value="15"/>
 		<attribute key="weight" value="12000"/>
 	</item>
 	<item id="8055" article="a" name="windborn colossus armor">
 		<attribute key="slotType" value="body"/>
-		<attribute key="absorbpercentenergy" value="5"/>
+		<attribute key="absorbpercentenergy" value="15"/>
 		<attribute key="skillclub" value="2"/>
 		<attribute key="armor" value="15"/>
 		<attribute key="weight" value="12000"/>
@@ -16656,27 +16654,25 @@
 	</item>
 	<item id="8057" article="a" name="divine plate">
 		<attribute key="slotType" value="body"/>
-		<attribute key="absorbpercentdeath" value="10"/>
-		<attribute key="armor" value="13"/>
+		<attribute key="absorbpercentholy" value="15"/>
+		<attribute key="armor" value="18"/>
 		<attribute key="weight" value="7500"/>
 	</item>
 	<item id="8058" article="a" name="molten plate">
 		<attribute key="slotType" value="body"/>
-		<attribute key="absorbpercentice" value="-7"/>
-		<attribute key="absorbpercentfire" value="7"/>
-		<attribute key="armor" value="13"/>
+		<attribute key="absorbpercentfire" value="15"/>
+		<attribute key="armor" value="18"/>
 		<attribute key="weight" value="7500"/>
 	</item>
 	<item id="8059" article="a" name="frozen plate">
 		<attribute key="slotType" value="body"/>
-		<attribute key="absorbpercentice" value="7"/>
-		<attribute key="absorbpercentenergy" value="-7"/>
-		<attribute key="armor" value="13"/>
+		<attribute key="absorbpercentice" value="15"/>
+		<attribute key="armor" value="18"/>
 		<attribute key="weight" value="7500"/>
 	</item>
 	<item id="8060" article="a" name="master archer's armor">
 		<attribute key="slotType" value="body"/>
-		<attribute key="skilldist" value="3"/>
+		<attribute key="skilldist" value="5"/>
 		<attribute key="armor" value="15"/>
 		<attribute key="weight" value="6900"/>
 		<attribute key="imbuementslot" value="1">

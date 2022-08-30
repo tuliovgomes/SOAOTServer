@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("Breach Brood")
 local monster = {}
 
 monster.description = "a breach brood"
-monster.experience = 1760
+monster.experience = 21760
 monster.outfit = {
 	lookType = 878,
 	lookHead = 0,
@@ -92,15 +92,16 @@ monster.loot = {
 	{id = 16124, chance = 7400, maxCount = 2}, -- blue crystal splinter
 	{id = 16125, chance = 6500}, -- cyan crystal fragment
 	{id = 16119, chance = 4400}, -- blue crystal shard
+	{id = 8051, chance = 700}, -- voltage armor
 	{id = 16121, chance = 4100}, -- green crystal shard
 	{id = 23544, chance = 470}, -- collar of red plasma
 	{id = 23542, chance = 470} -- collar of blue plasma
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -350},
-	{name ="combat", interval = 2000, chance = 25, type = COMBAT_ENERGYDAMAGE, minDamage = -200, maxDamage = -400, range = 6, shootEffect = CONST_ANI_FLASHARROW, effect = CONST_ME_STUN, target = true},
-	{name ="combat", interval = 2000, chance = 20, type = COMBAT_LIFEDRAIN, minDamage = -150, maxDamage = -350, radius = 5, effect = CONST_ME_MAGIC_RED, target = false}
+	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -1350},
+	{name ="combat", interval = 2000, chance = 25, type = COMBAT_ENERGYDAMAGE, minDamage = -200, maxDamage = -900, range = 6, shootEffect = CONST_ANI_FLASHARROW, effect = CONST_ME_STUN, target = true},
+	{name ="combat", interval = 2000, chance = 20, type = COMBAT_LIFEDRAIN, minDamage = -150, maxDamage = -950, radius = 5, effect = CONST_ME_MAGIC_RED, target = false}
 }
 
 monster.defenses = {

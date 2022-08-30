@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("Usurper Knight")
 local monster = {}
 
 monster.description = "a usurper knight"
-monster.experience = 6900
+monster.experience = 16900
 monster.outfit = {
 	lookType = 1316,
 	lookHead = 76,
@@ -98,9 +98,9 @@ monster.loot = {
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -500, effect = CONST_ME_DRAWBLOOD},
-	{name ="combat", interval = 6000, chance = 14, type = COMBAT_DEATHDAMAGE, minDamage = -150, maxDamage = -300, radius = 3, effect = CONST_ME_MORTAREA, target = false},
-	{name ="combat", interval = 6000, chance = 20, type = COMBAT_ICEDAMAGE, minDamage = -150, maxDamage = -400, length = 4, spread = 0, effect = CONST_ME_ICEATTACK, target = false},
+	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -600, effect = CONST_ME_DRAWBLOOD},
+	{name ="combat", interval = 6000, chance = 14, type = COMBAT_DEATHDAMAGE, minDamage = -150, maxDamage = -1300, radius = 3, effect = CONST_ME_MORTAREA, target = false},
+	{name ="combat", interval = 6000, chance = 20, type = COMBAT_ICEDAMAGE, minDamage = -150, maxDamage = -900, length = 4, spread = 0, effect = CONST_ME_ICEATTACK, target = false},
 }
 
 monster.defenses = {

@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("Medusa")
 local monster = {}
 
 monster.description = "a medusa"
-monster.experience = 4050
+monster.experience = 6050
 monster.outfit = {
 	lookType = 330,
 	lookHead = 0,
@@ -84,6 +84,7 @@ monster.loot = {
 	{name = "small emerald", chance = 3770, maxCount = 4},
 	{name = "platinum coin", chance = 74810, maxCount = 6},
 	{name = "knight armor", chance = 1840},
+	{name = "master archer's armor", chance = 1840},
 	{name = "medusa shield", chance = 3040},
 	{name = "great mana potion", chance = 10000, maxCount = 2},
 	{name = "terra mantle", chance = 870},

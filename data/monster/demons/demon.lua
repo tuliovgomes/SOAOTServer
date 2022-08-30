@@ -3,7 +3,7 @@ local mType = Game.createMonsterType("Demon")
 local monster = {}
 
 monster.description = "a demon"
-monster.experience = 6000
+monster.experience = 9000
 monster.outfit = {
 	lookType = 35,
 	lookHead = 0,
@@ -91,7 +91,6 @@ monster.voices = {
 }
 
 monster.loot = {
-	{id = 2848, chance = 1180}, -- purple tome
 	{id = 3031, chance = 60000, maxCount = 100}, -- gold coin
 	{id = 3031, chance = 60000, maxCount = 100}, -- gold coin
 	{id = 3032, chance = 9690, maxCount = 5}, -- small emerald
@@ -99,11 +98,10 @@ monster.loot = {
 	{id = 3030, chance = 7430, maxCount = 5}, -- small ruby
 	{id = 9057, chance = 7470, maxCount = 5}, -- small topaz
 	{id = 3039, chance = 2220}, -- red gem
-	{id = 6499, chance = 14630}, -- demonic essence
+	{id = 6499, chance = 1430}, -- demonic essence
 	{id = 3034, chance = 3430}, -- talon
 	{id = 3035, chance = 90540, maxCount = 8}, -- platinum coin
 	{id = 3055, chance = 680}, -- platinum amulet
-	{id = 3060, chance = 2854}, -- orb
 	{id = 3063, chance = 1050}, -- gold ring
 	{id = 3098, chance = 1990}, -- ring of healing
 	{id = 3281, chance = 1980}, -- giant sword
@@ -114,17 +112,16 @@ monster.loot = {
 	{id = 3387, chance = 740}, -- demon helmet
 	{id = 3388, chance = 740}, -- demon armor
 	{id = 3389, chance = 740}, -- demon legs
+	{id = 8058, chance = 740}, -- molten plate
 	{id = 3731, chance = 19660, maxCount = 20}, -- fire mushroom
-	{id = 7368, chance = 12550, maxCount = 10}, -- assassin star
-	{id = 7382, chance = 70}, -- demonrage sword
+	{id = 7382, chance = 970}, -- demonrage sword
 	{id = 7393, chance = 90}, -- demon trophy
-	{id = 238, chance = 22220, maxCount = 3}, -- great mana potion
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -520},
-	{name ="combat", interval = 2000, chance = 10, type = COMBAT_MANADRAIN, minDamage = 0, maxDamage = -120, range = 7, target = false},
-	{name ="combat", interval = 2000, chance = 20, type = COMBAT_FIREDAMAGE, minDamage = -150, maxDamage = -250, range = 7, radius = 7, shootEffect = CONST_ANI_FIRE, effect = CONST_ME_FIREAREA, target = true},
+	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -620},
+	{name ="combat", interval = 2000, chance = 10, type = COMBAT_MANADRAIN, minDamage = 0, maxDamage = -320, range = 7, target = false},
+	{name ="combat", interval = 2000, chance = 20, type = COMBAT_FIREDAMAGE, minDamage = -150, maxDamage = -550, range = 7, radius = 7, shootEffect = CONST_ANI_FIRE, effect = CONST_ME_FIREAREA, target = true},
 	{name ="firefield", interval = 2000, chance = 10, range = 7, radius = 1, shootEffect = CONST_ANI_FIRE, target = true},
 	{name ="combat", interval = 2000, chance = 10, type = COMBAT_LIFEDRAIN, minDamage = -300, maxDamage = -490, length = 8, spread = 0, effect = CONST_ME_PURPLEENERGY, target = false},
 	{name ="combat", interval = 2000, chance = 10, type = COMBAT_ENERGYDAMAGE, minDamage = -210, maxDamage = -300, range = 1, shootEffect = CONST_ANI_ENERGY, target = false},

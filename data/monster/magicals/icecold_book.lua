@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("Icecold Book")
 local monster = {}
 
 monster.description = "an icecold book"
-monster.experience = 12750
+monster.experience = 22750
 monster.outfit = {
 	lookType = 1061,
 	lookHead = 87,
@@ -89,6 +89,9 @@ monster.loot = {
 	{name = "glacier kilt", chance = 250},
 	{name = "glacier robe", chance = 250},
 	{name = "glacier shoes", chance = 350},
+	{name = "oceanborn leviathan armor", chance = 300},
+	{name = "crystalline armor", chance = 300},
+	{name = "voltage armor", chance = 300},
 	{name = "strange helmet", chance = 1000},
 	{name = "sapphire hammer", chance = 300},
 	{id = 7441, chance = 100000}, -- ice cube
@@ -99,9 +102,9 @@ monster.loot = {
 monster.attacks = {
 	{name ="melee", interval = 2000, chance = 100, minDamage = -100, maxDamage = -200},
 	{name ="combat", interval = 1000, chance = 10, type = COMBAT_ICEDAMAGE, minDamage = -700, maxDamage = -850, range = 7, shootEffect = CONST_ANI_SMALLICE, effect = CONST_ME_ICEATTACK, target = false},
-	{name ="combat", interval = 1000, chance = 10, type = COMBAT_ICEDAMAGE, minDamage = -100, maxDamage = -380, range = 7, shootEffect = CONST_ANI_SMALLICE, effect = CONST_ME_ICEATTACK, target = false},
+	{name ="combat", interval = 1000, chance = 10, type = COMBAT_ICEDAMAGE, minDamage = -500, maxDamage = -980, range = 7, shootEffect = CONST_ANI_SMALLICE, effect = CONST_ME_ICEATTACK, target = false},
 	{name ="combat", interval = 2000, chance = 15, type = COMBAT_ICEDAMAGE, minDamage = -350, maxDamage = -980, length = 5, spread = 3, shootEffect = CONST_ANI_SMALLICE, effect = CONST_ME_ICEATTACK, target = false},
-	{name ="combat", interval = 1000, chance = 12, type = COMBAT_ICEDAMAGE, minDamage = -230, maxDamage = -880, range = 7, radius = 3, shootEffect = CONST_ANI_SMALLICE, effect = CONST_ME_ICETORNADO, target = false}
+	{name ="combat", interval = 1000, chance = 12, type = COMBAT_ICEDAMAGE, minDamage = -430, maxDamage = -1280, range = 7, radius = 3, shootEffect = CONST_ANI_SMALLICE, effect = CONST_ME_ICETORNADO, target = false}
 }
 
 monster.defenses = {

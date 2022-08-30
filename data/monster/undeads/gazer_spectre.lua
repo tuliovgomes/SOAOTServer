@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("Gazer Spectre")
 local monster = {}
 
 monster.description = "a Gazer Spectre"
-monster.experience = 4200
+monster.experience = 18200
 monster.outfit = {
 	lookType = 1122,
 	lookHead = 94,
@@ -99,9 +99,9 @@ monster.loot = {
 
 monster.attacks = {
 	{name ="melee", interval = 2000, chance = 100, minDamage = -250, maxDamage = -480},
-	{name ="combat", interval = 2000, chance = 25, type = COMBAT_FIREDAMAGE, minDamage = -200, maxDamage = -350, range = 7, shootEffect = CONST_ANI_FIRE, target = false},
-	{name ="combat", interval = 2000, chance = 15, type = COMBAT_FIREDAMAGE, minDamage = -200, maxDamage = -350, radius = 3, effect = CONST_ME_FIREATTACK, target = true},
-	{name ="combat", interval = 2000, chance = 15, type = COMBAT_LIFEDRAIN, minDamage = -250, maxDamage = -430, length = 4, spread = 3, effect = CONST_ME_YELLOWENERGY, target = false}
+	{name ="combat", interval = 2000, chance = 25, type = COMBAT_FIREDAMAGE, minDamage = -700, maxDamage = -1350, range = 7, shootEffect = CONST_ANI_FIRE, target = false},
+	{name ="combat", interval = 2000, chance = 15, type = COMBAT_FIREDAMAGE, minDamage = -500, maxDamage = -1350, radius = 3, effect = CONST_ME_FIREATTACK, target = true},
+	{name ="combat", interval = 2000, chance = 15, type = COMBAT_LIFEDRAIN, minDamage = -650, maxDamage = -1430, length = 4, spread = 3, effect = CONST_ME_YELLOWENERGY, target = false}
 }
 
 monster.defenses = {

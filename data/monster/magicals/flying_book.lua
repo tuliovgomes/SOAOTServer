@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("Flying Book")
 local monster = {}
 
 monster.description = "a flying book"
-monster.experience = 200
+monster.experience = 8200
 monster.outfit = {
 	lookType = 1060,
 	lookHead = 0,
@@ -76,8 +76,8 @@ monster.loot = {
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100, minDamage = -100, maxDamage = -200},
-	{name ="combat", interval = 1000, chance = 15, type = COMBAT_ICEDAMAGE, minDamage = -100, maxDamage = -180, range = 7, shootEffect = CONST_ANI_ICE, target = false}
+	{name ="melee", interval = 2000, chance = 100, minDamage = -100, maxDamage = -500},
+	{name ="combat", interval = 1000, chance = 15, type = COMBAT_ICEDAMAGE, minDamage = -100, maxDamage = -680, range = 7, shootEffect = CONST_ANI_ICE, target = false}
 }
 
 monster.defenses = {

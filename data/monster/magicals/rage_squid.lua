@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("Rage Squid")
 local monster = {}
 
 monster.description = "a rage squid"
-monster.experience = 14820
+monster.experience = 18820
 monster.outfit = {
 	lookType = 1059,
 	lookHead = 94,
@@ -95,9 +95,10 @@ monster.loot = {
 	{name = "devil helmet", chance = 6990},
 	{name = "demonrage sword", chance = 400},
 	{id = 7393, chance = 390}, -- demon trophy
-	{name = "giant sword", chance = 250},
-	{name = "demon shield", chance = 250},
-	{name = "magic plate armor", chance = 150},
+	{name = "giant sword", chance = 350},
+	{name = "demon shield", chance = 450},
+	{name = "magic plate armor", chance = 250},
+	{name = "fireborn giant armor", chance = 550},
 	{name = "platinum amulet", chance = 350},
 	{name = "wand of everblazing", chance = 300},
 	{name = "fire axe", chance = 500}
@@ -105,10 +106,10 @@ monster.loot = {
 
 monster.attacks = {
 	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -500},
-	{name ="combat", interval = 1000, chance = 15, type = COMBAT_FIREDAMAGE, minDamage = -200, maxDamage = -280, range = 7, shootEffect = CONST_ANI_FLAMMINGARROW, effect = CONST_ME_HITBYFIRE, target = false},
-	{name ="combat", interval = 2000, chance = 10, type = COMBAT_FIREDAMAGE, minDamage = -200, maxDamage = -380, range = 7, shootEffect = CONST_ANI_FIRE, target = false},
-	{name ="combat", interval = 2000, chance = 10, type = COMBAT_LIFEDRAIN, minDamage = -175, maxDamage = -200, length = 5, spread = 3, effect = CONST_ME_MAGIC_RED, target = false},
-	{name ="combat", interval = 2000, chance = 12, type = COMBAT_FIREDAMAGE, minDamage = -200, maxDamage = -475, radius = 3, effect = CONST_ME_HITBYFIRE, target = false},
+	{name ="combat", interval = 1000, chance = 15, type = COMBAT_FIREDAMAGE, minDamage = -200, maxDamage = -680, range = 7, shootEffect = CONST_ANI_FLAMMINGARROW, effect = CONST_ME_HITBYFIRE, target = false},
+	{name ="combat", interval = 2000, chance = 10, type = COMBAT_FIREDAMAGE, minDamage = -200, maxDamage = -780, range = 7, shootEffect = CONST_ANI_FIRE, target = false},
+	{name ="combat", interval = 2000, chance = 10, type = COMBAT_LIFEDRAIN, minDamage = -175, maxDamage = -500, length = 5, spread = 3, effect = CONST_ME_MAGIC_RED, target = false},
+	{name ="combat", interval = 2000, chance = 12, type = COMBAT_FIREDAMAGE, minDamage = -200, maxDamage = -675, radius = 3, effect = CONST_ME_HITBYFIRE, target = false},
 	{name ="combat", interval = 2000, chance = 10, type = COMBAT_FIREDAMAGE, minDamage = -200, maxDamage = -475, radius = 2, effect = CONST_ME_FIREAREA, target = false}
 }
 

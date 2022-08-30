@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("Behemoth")
 local monster = {}
 
 monster.description = "a behemoth"
-monster.experience = 2500
+monster.experience = 12500
 monster.outfit = {
 	lookType = 55,
 	lookHead = 0,

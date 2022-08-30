@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("True Dawnfire Asura")
 local monster = {}
 
 monster.description = "a true dawnfire asura"
-monster.experience = 7475
+monster.experience = 17475
 monster.outfit = {
 	lookType = 1068,
 	lookHead = 114,
@@ -100,9 +100,9 @@ monster.loot = {
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -269},
-	{name ="combat", interval = 2000, chance = 10, type = COMBAT_MANADRAIN, minDamage = 0, maxDamage = -100, range = 7, target = false},
-	{name ="combat", interval = 2000, chance = 10, type = COMBAT_LIFEDRAIN, minDamage = -50, maxDamage = -200, length = 4, spread = 2, effect = CONST_ME_MAGIC_RED, target = false},
+	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -569},
+	{name ="combat", interval = 2000, chance = 10, type = COMBAT_MANADRAIN, minDamage = 0, maxDamage = -900, range = 7, target = false},
+	{name ="combat", interval = 2000, chance = 10, type = COMBAT_LIFEDRAIN, minDamage = -50, maxDamage = -800, length = 4, spread = 2, effect = CONST_ME_MAGIC_RED, target = false},
 	{name ="combat", interval = 1000, chance = 15, type = COMBAT_FIREDAMAGE, minDamage = 120, maxDamage = 450, length = 1, spread = 0, effect = CONST_ME_HITBYFIRE, target = false},
 	{name ="combat", interval = 1000, chance = 10, type = COMBAT_DEATHDAMAGE, minDamage = 150, maxDamage = 350, radius = 3, effect = CONST_ME_MORTAREA, target = true},
 	{name ="combat", interval = 2000, chance = 10, type = COMBAT_DEATHDAMAGE, minDamage = 100, maxDamage = 300, radius = 4, effect = CONST_ME_BLACKSMOKE, target = false},

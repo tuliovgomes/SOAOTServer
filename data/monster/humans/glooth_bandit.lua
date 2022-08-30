@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("Glooth Bandit")
 local monster = {}
 
 monster.description = "a glooth bandit"
-monster.experience = 2000
+monster.experience = 9000
 monster.outfit = {
 	lookType = 129,
 	lookHead = 115,
@@ -106,8 +106,8 @@ monster.loot = {
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100, skill = 80, attack = 68},
-	{name ="combat", interval = 2000, chance = 50, type = COMBAT_PHYSICALDAMAGE, minDamage = -60, maxDamage = -200, range = 8, shootEffect = CONST_ANI_ARROW, target = false}
+	{name ="melee", interval = 2000, chance = 100, skill = 80, attack = 168},
+	{name ="combat", interval = 2000, chance = 50, type = COMBAT_PHYSICALDAMAGE, minDamage = -60, maxDamage = -800, range = 8, shootEffect = CONST_ANI_ARROW, target = false}
 }
 
 monster.defenses = {

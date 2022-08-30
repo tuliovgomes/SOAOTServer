@@ -79,6 +79,7 @@ monster.loot = {
 	{name = "flash arrow", chance = 10000, maxCount = 5},
 	{id = 822, chance = 930}, -- lightning legs
 	{name = "spellbook of warding", chance = 350},
+	{name = "oceanborn leviathan armor", chance = 350},
 	{name = "ultimate health potion", chance = 10000, maxCount = 5},
 	{name = "ultimate mana potion", chance = 10000, maxCount = 5},
 	{name = "wand of starstorm", chance = 300}
@@ -86,7 +87,7 @@ monster.loot = {
 
 monster.attacks = {
 	{name ="melee", interval = 2000, chance = 100, minDamage = -10, maxDamage = -550},
-	{name ="combat", interval = 1000, chance = 13, type = COMBAT_ENERGYDAMAGE, minDamage = -100, maxDamage = -555, radius = 3, effect = CONST_ME_ENERGYAREA, target = false}
+	{name ="combat", interval = 1000, chance = 13, type = COMBAT_ENERGYDAMAGE, minDamage = -100, maxDamage = -955, radius = 3, effect = CONST_ME_ENERGYAREA, target = false}
 }
 
 monster.defenses = {

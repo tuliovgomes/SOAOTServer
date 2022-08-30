@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("Frost Dragon")
 local monster = {}
 
 monster.description = "a frost dragon"
-monster.experience = 2100
+monster.experience = 4100
 monster.outfit = {
 	lookType = 248,
 	lookHead = 0,
@@ -91,15 +91,14 @@ monster.loot = {
 	{name = "life crystal", chance = 520},
 	{name = "ice rapier", chance = 350},
 	{name = "strange helmet", chance = 450},
-	{name = "dragon scale mail", chance = 380},
+	{name = "dragon scale mail", chance = 980},
 	{name = "royal helmet", chance = 410},
 	{name = "tower shield", chance = 640},
 	{name = "power bolt", chance = 6000, maxCount = 6},
 	{name = "dragon ham", chance = 80370, maxCount = 5},
 	{name = "green mushroom", chance = 12000},
 	{name = "shard", chance = 550},
-	{name = "dragon slayer", chance = 120},
-	{id = 7441, chance = 4000} -- ice cube
+	{name = "dragon slayer", chance = 620},
 }
 
 monster.attacks = {
