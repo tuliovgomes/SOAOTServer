@@ -28,6 +28,7 @@ npcConfig.flags = {
 npcConfig.shop = {
 	{ itemName = "axe of Frerin", clientId = 7434, sell = 130000 },
 	{ itemName = "beastslayer axe", clientId = 3344, sell = 26000 },
+	{ itemName = "glorious axe", clientId = 7454, sell = 16000 },
 	{ itemName = "double axe", clientId = 3275, sell = 1300 },
 	{ itemName = "dragon lance", clientId = 3302, sell = 22000 },
 	{ itemName = "dramborleg", clientId = 7413, sell = 100000 },

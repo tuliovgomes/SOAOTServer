@@ -27,6 +27,8 @@ npcConfig.flags = {
 -- Npc shop
 npcConfig.shop = {
 	{ itemName = "master archer's armor", clientId = 8060, sell = 30000},
+	{ itemName = "focus cape", clientId = 8043, sell = 10000},
+	{ itemName = "heat core", clientId = 21167, sell = 10000},
 	{ itemName = "windborn colossus armor", clientId = 8055, sell = 60000},
 	{ itemName = "oceanborn leviathan armor", clientId = 8056, sell = 60000},
 	{ itemName = "earthborn titan armor", clientId = 8054, sell = 60000},

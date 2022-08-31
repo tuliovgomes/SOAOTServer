@@ -30,6 +30,7 @@ npcConfig.shop = {
 	{ itemName = "magic longsword ", clientId = 3278, sell = 200000},
 	{ itemName = "bright Sword ", clientId = 3295, sell = 6000},
 	{ itemName = "demonrage Sword", clientId = 7382, sell = 50000},
+	{ itemName = "nightmare blade", clientId = 7418, sell = 40000},
 	{ itemName = "assassin dagger", clientId = 7404, sell = 10000},
 	{ itemName = "dragon slayer", clientId = 7402, sell = 10000},
 	{ itemName = "havoc blade", clientId = 7405, sell = 100000},
