@@ -10,8 +10,8 @@ function autobroadcast.onTime(interval, lastExecution)
 		"[SECURITY]: Protect your password. Use it only on our official website.",
 	}
 
-    Game.broadcastMessage(messages[math.random(#messages)], MESSAGE_GAME_HIGHLIGHT)
-    return true
+	Game.broadcastMessage(messages[math.random(#messages)], MESSAGE_GAME_HIGHLIGHT)
+	return true
 end
 
 autobroadcast:interval(600000)
