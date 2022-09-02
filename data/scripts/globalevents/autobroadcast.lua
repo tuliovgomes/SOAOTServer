@@ -16,4 +16,3 @@ end
 
 autobroadcast:interval(600000)
 autobroadcast:register()
-
