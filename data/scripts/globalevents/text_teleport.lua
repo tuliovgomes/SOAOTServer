@@ -10,8 +10,6 @@ local positionsVip = {
 	["NPCS"] = Position(1086, 1025, 7),
 }
 
-
-
 local teleportText = GlobalEvent("Teleport Texts")
 
 function teleportText.onThink(interval, lastExecution)
