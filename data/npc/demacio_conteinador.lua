@@ -26,20 +26,20 @@ npcConfig.flags = {
 
 -- Npc shop
 npcConfig.shop = {
-	{ itemName = "purple backpack", clientId = 2868, sell = 10},
-	{ itemName = "green Backpack", clientId = 2865, sell = 10},
-	{ itemName = "blue backpack", clientId = 2869, sell = 10},
-	{ itemName = "golden backpack", clientId = 2871, sell = 10},
-	{ itemName = "red backpack", clientId = 2867, sell = 10},
-	{ itemName = "grey backpack", clientId = 2870, sell = 10},
-	{ itemName = "beach backpack", clientId = 5949, sell = 20},
-	{ itemName = "camouflage backpack", clientId = 2872, sell = 20},
-	{ itemName = "pirate backpack", clientId = 5926, sell = 20},
-	{ itemName = "fur backpack", clientId = 7342, sell = 20},
-	{ itemName = "backpack of holding", clientId = 3253, sell = 30},
-	{ itemName = "demon backpack", clientId = 9601, sell = 2500},
-	{ itemName = "moon backpack", clientId = 9604, sell = 3000},
-	{ itemName = "crown backpack", clientId = 9605, sell = 2800},
+	{ itemName = "purple backpack", clientId = 2868, buy = 10},
+	{ itemName = "green Backpack", clientId = 2865, buy = 10},
+	{ itemName = "blue backpack", clientId = 2869, buy = 10},
+	{ itemName = "golden backpack", clientId = 2871, buy = 10},
+	{ itemName = "red backpack", clientId = 2867, buy = 10},
+	{ itemName = "grey backpack", clientId = 2870, buy = 10},
+	{ itemName = "beach backpack", clientId = 5949, buy = 20},
+	{ itemName = "camouflage backpack", clientId = 2872, buy = 20},
+	{ itemName = "pirate backpack", clientId = 5926, buy = 20},
+	{ itemName = "fur backpack", clientId = 7342, buy = 20},
+	{ itemName = "backpack of holding", clientId = 3253, buy = 30},
+	{ itemName = "demon backpack", clientId = 9601, buy = 2500},
+	{ itemName = "moon backpack", clientId = 9604, buy = 3000},
+	{ itemName = "crown backpack", clientId = 9605, buy = 2800},
 }
 
 -- On buy npc shop message
