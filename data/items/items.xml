@@ -46602,7 +46602,7 @@
 	</item>
 	<item id="31453" article="a" name="dead scarlett etzel">
 		<attribute key="fluidsource" value="blood"/>
-		<attribute key="duration" value="10"/>
+		<attribute key="duration" value="100"/>
 		<attribute key="decayTo" value="36287"/>
 		<attribute key="containersize" value="32"/>
 	</item>
